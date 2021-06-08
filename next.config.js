@@ -5,8 +5,8 @@ module.exports = {
     env: {    
         'MYSQL_HOST': 'localhost',    
         'MYSQL_PORT': '3306',    
-        'MYSQL_DATABASE': 'omandev_website',    
-        'MYSQL_USER': 'omandev_webadmin',    
-        'MYSQL_PASSWORD': 'I#yTb]s,==d~',  
+        'MYSQL_DATABASE': 'scd_website',    
+        'MYSQL_USER': 'root',    
+        'MYSQL_PASSWORD': 'test',  
     }
 }
