@@ -3,10 +3,10 @@ module.exports = {
         domains: ['img.youtube.com','instagram.fmct2-3.fna.fbcdn.net'],
       },
     env: {    
-        'MYSQL_HOST': '127.0.0.1',    
+        'MYSQL_HOST': 'localhost',    
         'MYSQL_PORT': '3306',    
-        'MYSQL_DATABASE': 'scd_website',    
-        'MYSQL_USER': 'root',    
-        'MYSQL_PASSWORD': 'test',  
+        'MYSQL_DATABASE': 'omandev_website',    
+        'MYSQL_USER': 'omandev_webadmin',    
+        'MYSQL_PASSWORD': 'I#yTb]s,==d~',  
     }
 }
