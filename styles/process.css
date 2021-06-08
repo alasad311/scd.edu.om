@@ -1,0 +1,621 @@
+/* Process */
+.process {
+	text-align: center;
+}
+.firstYearArrow::before {
+
+content: "";
+display: block;
+position: absolute;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+border-bottom: 20px solid #79c419;
+height: 20px;
+width: 20px;
+top: -19px;
+left: 8.3%;
+margin-left: -20px;
+
+}
+.firstYearArrowA::before {
+
+content: "";
+display: block;
+position: absolute;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+border-bottom: 20px solid #79c419;
+height: 20px;
+width: 20px;
+top: -19px;
+right: 8.3%;
+margin-left: -20px;
+
+}
+.secondYearArrow::before {
+
+content: "";
+display: block;
+position: absolute;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+border-bottom: 20px solid #79c419;
+height: 20px;
+width: 20px;
+top: -19px;
+left: 28.3%;
+margin-left: -20px;
+
+}
+.thirdYearArrow::before {
+
+content: "";
+display: block;
+position: absolute;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+border-bottom: 20px solid #79c419;
+height: 20px;
+width: 20px;
+top: -19px;
+left: 48.3%;
+margin-left: -20px;
+
+}
+.fourthYearArrow::before {
+position: absolute;
+content: "";
+display: block;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+border-bottom: 20px solid #79c419;
+height: 20px;
+width: 20px;
+top: -19px;
+left: 68.3%;
+margin-left: -20px;
+
+}
+.fifthYearArrow::before {
+
+content: "";
+display: block;
+position: absolute;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+border-bottom: 20px solid #79c419;
+height: 20px;
+width: 20px;
+top: -19px;
+left: 88.3%;
+margin-left: -20px;
+
+}
+.process .process-step {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    margin-right: 3.3%;
+	position: relative;
+}
+.process .process-step-ara {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    margin-right: 3.3%;
+	position: relative;
+}
+.process .process-step-circle {
+	display: flex;
+	justify-content: center;
+	height: 130px;
+    color:#fff;
+	text-align: center;
+	width: 130px;
+	border: 2px solid #79C419;
+	border-radius: 50%;
+	align-items: center;
+	position: relative;
+	background-color: #79C419;
+	transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.process .process-step-content {
+	padding-top: 20px;
+}
+
+.process .process-step-circle-content {
+	font-weight: bold;
+	font-size: 1.6em;
+	letter-spacing: -1px;
+	transition: all 0.2s ease-in-out;
+    line-height: 29px;
+}
+
+.process .process-step:hover .process-step-circle {
+	background-color: #3c3c3c;
+border: 2px solid #3c3c3c;
+}
+
+.process .process-step:hover .process-step-circle .process-step-circle-content {
+	color: #FFF;
+}
+
+.process .process-step:hover .process-step-circle .process-step-circle-content .icons {
+	color: #FFF !important;
+}
+
+.process.process-shapes .process-step-circle {
+	position: relative;
+	width: auto;
+	height: auto;
+	border: 0;
+	margin-bottom: 19.2px;
+	margin-bottom: 1.2rem;
+}
+
+.process.process-shapes .process-step-circle .process-step-circle-content {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 45px;
+	height: 45px;
+	background-color: #79C419;
+	border-radius: 100%;
+	color: #FFF;
+	z-index: 3;
+}
+
+.process.process-shapes .process-step-circle:before, .process.process-shapes .process-step-circle:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	background-color: #79C419;
+	border-radius: 100%;
+	opacity: 0.6;
+	transform: translate3d(-50%, -50%, 0) scale(1.5);
+	transition: ease transform 1s;
+	z-index: 2;
+}
+
+.process.process-shapes .process-step-circle:after {
+	background-color: #79C419;
+	opacity: 0.3;
+	transform: translate3d(-50%, -50%, 0) scale(2);
+	z-index: 1;
+}
+
+.process.process-shapes.process-shapes-hover-animate .process-step:hover .process-step-circle:before {
+	-webkit-animation-name: processShapesScaleOne;
+	animation-name: processShapesScaleOne;
+	-webkit-animation-delay: 300ms;
+	animation-delay: 300ms;
+}
+
+.process.process-shapes.process-shapes-hover-animate .process-step:hover .process-step-circle:after {
+	-webkit-animation-name: processShapesScaleTwo;
+	animation-name: processShapesScaleTwo;
+}
+
+.process.process-shapes.process-shapes-hover-animate .process-step:hover .process-step-circle:before, .process.process-shapes.process-shapes-hover-animate .process-step:hover .process-step-circle:after {
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+
+.process.process-shapes.process-shapes-always-animate .process-step .process-step-circle:before {
+	-webkit-animation-name: processShapesScaleOne;
+	animation-name: processShapesScaleOne;
+	-webkit-animation-delay: 300ms;
+	animation-delay: 300ms;
+}
+
+.process.process-shapes.process-shapes-always-animate .process-step .process-step-circle:after {
+	-webkit-animation-name: processShapesScaleTwo;
+	animation-name: processShapesScaleTwo;
+}
+
+.process.process-shapes.process-shapes-always-animate .process-step .process-step-circle:before, .process.process-shapes.process-shapes-always-animate .process-step .process-step-circle:after {
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+
+.process.process-shapes.process-shapes-always-animate .process-step .process-step-circle.process-shapes-always-animate-delay:before {
+	-webkit-animation-name: processShapesScaleOne;
+	animation-name: processShapesScaleOne;
+	-webkit-animation-delay: 1000ms;
+	animation-delay: 1000ms;
+}
+
+.process.process-shapes.process-shapes-always-animate .process-step .process-step-circle.process-shapes-always-animate-delay:after {
+	-webkit-animation-name: processShapesScaleTwo;
+	animation-name: processShapesScaleTwo;
+	-webkit-animation-delay: 700ms;
+	animation-delay: 700ms;
+}
+.process.process-shapes.process-shapes-always-animate .process-step-ara .process-step-circle:before {
+	-webkit-animation-name: processShapesScaleOne;
+	animation-name: processShapesScaleOne;
+	-webkit-animation-delay: 300ms;
+	animation-delay: 300ms;
+}
+
+.process.process-shapes.process-shapes-always-animate .process-step-ara .process-step-circle:after {
+	-webkit-animation-name: processShapesScaleTwo;
+	animation-name: processShapesScaleTwo;
+}
+
+.process.process-shapes.process-shapes-always-animate .process-step-ara .process-step-circle:before, .process.process-shapes.process-shapes-always-animate .process-step-ara .process-step-circle:after {
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+
+.process.process-shapes.process-shapes-always-animate .process-step-ara .process-step-circle.process-shapes-always-animate-delay:before {
+	-webkit-animation-name: processShapesScaleOne;
+	animation-name: processShapesScaleOne;
+	-webkit-animation-delay: 1000ms;
+	animation-delay: 1000ms;
+}
+
+.process.process-shapes.process-shapes-always-animate .process-step-ara .process-step-circle.process-shapes-always-animate-delay:after {
+	-webkit-animation-name: processShapesScaleTwo;
+	animation-name: processShapesScaleTwo;
+	-webkit-animation-delay: 700ms;
+	animation-delay: 700ms;
+}
+@-webkit-keyframes processShapesScaleOne {
+	0% {
+		opacity: 0.6;
+		transform: translate3d(-50%, -50%, 0) scale(1.5);
+	}
+
+	25% {
+		opacity: 0;
+		transform: translate3d(-50%, -50%, 0) scale(1.8);
+	}
+
+	50% {
+		opacity: 0;
+		transform: translate3d(-50%, -50%, 0) scale(1);
+	}
+
+	100% {
+		opacity: 0.6;
+		transform: translate3d(-50%, -50%, 0) scale(1.5);
+	}
+}
+
+@keyframes processShapesScaleOne {
+	0% {
+		opacity: 0.6;
+		transform: translate3d(-50%, -50%, 0) scale(1.5);
+	}
+
+	25% {
+		opacity: 0;
+		transform: translate3d(-50%, -50%, 0) scale(1.8);
+	}
+
+	50% {
+		opacity: 0;
+		transform: translate3d(-50%, -50%, 0) scale(1);
+	}
+
+	100% {
+		opacity: 0.6;
+		transform: translate3d(-50%, -50%, 0) scale(1.5);
+	}
+}
+
+@-webkit-keyframes processShapesScaleTwo {
+	0% {
+		opacity: 0.3;
+		transform: translate3d(-50%, -50%, 0) scale(2);
+	}
+
+	25% {
+		opacity: 0;
+		transform: translate3d(-50%, -50%, 0) scale(2.3);
+	}
+
+	50% {
+		opacity: 0;
+		transform: translate3d(-50%, -50%, 0) scale(1);
+	}
+
+	100% {
+		opacity: 0.3;
+		transform: translate3d(-50%, -50%, 0) scale(2);
+	}
+}
+
+@keyframes processShapesScaleTwo {
+	0% {
+		opacity: 0.3;
+		transform: translate3d(-50%, -50%, 0) scale(2);
+	}
+
+	25% {
+		opacity: 0;
+		transform: translate3d(-50%, -50%, 0) scale(2.3);
+	}
+
+	50% {
+		opacity: 0;
+		transform: translate3d(-50%, -50%, 0) scale(1);
+	}
+
+	100% {
+		opacity: 0.3;
+		transform: translate3d(-50%, -50%, 0) scale(2);
+	}
+}
+
+@media (min-width: 992px) {
+	.process .process-step:before {
+		height: 2px;
+		display: block;
+		background-color: #EDEDED;
+		position: absolute;
+		content: '';
+		width: 50%;
+		top: 65px;
+		left: 85%;
+	}
+
+	.process .process-step:last-child:before {
+		display: none;
+	}
+
+	.process.process-shapes .process-step:before {
+		top: 23px;
+	}
+	.process .process-step-ara:before {
+		height: 2px;
+		display: block;
+		background-color: #EDEDED;
+		position: absolute;
+		content: '';
+		width: 50%;
+		top: 65px;
+		right: 85%;
+	}
+	
+	.process .process-step-ara:last-child:before {
+		display: none;
+	}
+	
+	.process.process-shapes .process-step-ara:before {
+		top: 23px;
+	}
+}
+
+.process-vertical {
+	text-align: left;
+}
+
+.process-vertical .process-step {
+	width: 100%;
+	flex-direction: row;
+	justify-content: start;
+	align-items: start;
+	position: relative;
+	padding-bottom: 60px;
+}
+.process-vertical .process-step-ara {
+	width: 100%;
+	flex-direction: row;
+	justify-content: start;
+	align-items: start;
+	position: relative;
+	padding-bottom: 60px;
+}
+.process-vertical .process-step:before {
+	display: none;
+}
+
+.process-vertical .process-step:after {
+	width: 2px;
+	display: block;
+	background-color: #EDEDED;
+	position: absolute;
+	content: '';
+	height: calc(100% - 80px);
+	top: 70px;
+	left: 30px;
+}
+
+.process-vertical .process-step:last-child:after {
+	display: none;
+}
+
+.process-vertical .process-step-circle {
+	height: 60px;
+	width: 60px;
+	margin: 0 15px 0 0;
+	min-height: 60px;
+	min-width: 60px;
+}
+
+.process-vertical .process-step-content {
+	padding-top: 0;
+}
+
+.process-connecting-line {
+	position: relative;
+	text-align: left;
+}
+
+.process-connecting-line .connecting-line {
+	content: '';
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	right: 15px;
+	height: 3px;
+	background: #CCC;
+}
+
+.process-connecting-line .process-step-ara {
+	align-items: flex-start;
+	padding-right: 48px;
+	padding-right: 3rem;
+	padding-left: 48px;
+	padding-left: 3rem;
+}
+
+.process-connecting-line .process-step-ara:before {
+	content: none;
+}
+
+.process-connecting-line .process-step-circle {
+	background: #FFF;
+	width: 50px;
+	height: 50px;
+	border: 3px solid #CCC;
+}
+
+.mobile-box-grey{
+    background-color: #3c3c3c;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    margin-left: 0px;
+    margin-top: 10%;
+    color:#fff !important;
+}
+.mobile-box-text{
+    color:#fff;
+    font-size:15px !important;
+    text-align: left;
+    margin-bottom:0.5rem !important;
+}
+.mobile-box-texta{
+    color:#fff;
+    font-size:15px !important;
+    text-align: right;
+	font-family: 'Almarai' !important;
+    margin-bottom:0.5rem !important;
+}
+.course-green-box{
+    background-color: #79C419;
+    padding-left: 40px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-right: 40px !important;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.firstYearArrowara::before {
+
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #79c419;
+    height: 20px;
+    width: 20px;
+    top: -19px;
+    right: 8.3%;
+    margin-right: 20px;
+    
+    }
+    .firstYearArrowaraA::before {
+    
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #79c419;
+    height: 20px;
+    width: 20px;
+    top: -19px;
+    right: 8.3%;
+    margin-right: 20px;
+    
+    }
+    .secondYearArrowara::before {
+    
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #79c419;
+    height: 20px;
+    width: 20px;
+    top: -19px;
+    right: 28.3%;
+    margin-right: 20px;
+    
+    }
+    .thirdYearArrowara::before {
+    
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #79c419;
+    height: 20px;
+    width: 20px;
+    top: -19px;
+    right: 48.3%;
+    margin-right: 20px;
+    
+    }
+    .fourthYearArrowara::before {
+    position: absolute;
+    content: "";
+    display: block;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #79c419;
+    height: 20px;
+    width: 20px;
+    top: -19px;
+    right: 68.3%;
+    margin-right: 20px;
+    
+    }
+    .fifthYearArrowara::before {
+    
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #79c419;
+    height: 20px;
+    width: 20px;
+    top: -19px;
+    right: 88.3%;
+    margin-right: 20px;
+    
+    }

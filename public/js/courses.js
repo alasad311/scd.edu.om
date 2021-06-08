@@ -1,0 +1,138 @@
+$(".semdata").hide();
+$(".semdata").removeClass("displaynone")
+$("#firstYearTab").css("display","flex");
+$("#firstYear").on('click',function(){
+
+  if($("#secondYearTab").is(":visible"))
+  {
+    $("#secondYearTab").fadeOut("slow",function(){
+      $("#firstYearTab").fadeIn("slow");
+    })
+  }
+  if($("#thirdYearTab").is(":visible"))
+  {
+    $("#thirdYearTab").fadeOut("slow",function(){
+      $("#firstYearTab").fadeIn("slow");
+    })
+  }
+  if($("#fourthYearTab").is(":visible"))
+  {
+    $("#fourthYearTab").fadeOut("slow",function(){
+      $("#firstYearTab").fadeIn("slow");
+    })
+  }
+  if($("#fifthYearTab").is(":visible"))
+  {
+    $("#fifthYearTab").fadeOut("slow",function(){
+      $("#firstYearTab").fadeIn("slow");
+    })
+  }
+})
+$("#secondYear").on('click',function(){
+
+  if($("#firstYearTab").is(":visible"))
+  {
+    $("#firstYearTab").fadeOut("slow",function(){
+      $("#secondYearTab").fadeIn("slow");
+    })
+  }
+  if($("#thirdYearTab").is(":visible"))
+  {
+    $("#thirdYearTab").fadeOut("slow",function(){
+      $("#secondYearTab").fadeIn("slow");
+    })
+  }
+  if($("#fourthYearTab").is(":visible"))
+  {
+    $("#fourthYearTab").fadeOut("slow",function(){
+      $("#secondYearTab").fadeIn("slow");
+    })
+  }
+  if($("#fifthYearTab").is(":visible"))
+  {
+    $("#fifthYearTab").fadeOut("slow",function(){
+      $("#secondYearTab").fadeIn("slow");
+    })
+  }
+})
+$("#thirdYear").on('click',function(){
+
+  if($("#firstYearTab").is(":visible"))
+  {
+    $("#firstYearTab").fadeOut("slow",function(){
+      $("#thirdYearTab").fadeIn("slow");
+    })
+  }
+  if($("#secondYearTab").is(":visible"))
+  {
+    $("#secondYearTab").fadeOut("slow",function(){
+      $("#thirdYearTab").fadeIn("slow");
+    })
+  }
+  if($("#fourthYearTab").is(":visible"))
+  {
+    $("#fourthYearTab").fadeOut("slow",function(){
+      $("#thirdYearTab").fadeIn("slow");
+    })
+  }
+  if($("#fifthYearTab").is(":visible"))
+  {
+    $("#fifthYearTab").fadeOut("slow",function(){
+      $("#thirdYearTab").fadeIn("slow");
+    })
+  }
+})
+$("#fourthYear").on('click',function(){
+
+  if($("#firstYearTab").is(":visible"))
+  {
+    $("#firstYearTab").fadeOut("slow",function(){
+      $("#fourthYearTab").fadeIn("slow");
+    })
+  }
+  if($("#secondYearTab").is(":visible"))
+  {
+    $("#secondYearTab").fadeOut("slow",function(){
+      $("#fourthYearTab").fadeIn("slow");
+    })
+  }
+  if($("#thirdYearTab").is(":visible"))
+  {
+    $("#thirdYearTab").fadeOut("slow",function(){
+      $("#fourthYearTab").fadeIn("slow");
+    })
+  }
+  if($("#fifthYearTab").is(":visible"))
+  {
+    $("#fifthYearTab").fadeOut("slow",function(){
+      $("#fourthYearTab").fadeIn("slow");
+    })
+  }
+})
+$("#fifthYear").on('click',function(){
+
+  if($("#firstYearTab").is(":visible"))
+  {
+    $("#firstYearTab").fadeOut("slow",function(){
+      $("#fifthYearTab").fadeIn("slow");
+    })
+  }
+  if($("#secondYearTab").is(":visible"))
+  {
+    $("#secondYearTab").fadeOut("slow",function(){
+      $("#fifthYearTab").fadeIn("slow");
+    })
+  }
+  if($("#thirdYearTab").is(":visible"))
+  {
+    $("#thirdYearTab").fadeOut("slow",function(){
+      $("#fifthYearTab").fadeIn("slow");
+    })
+  }
+  if($("#fourthYearTab").is(":visible"))
+  {
+    $("#fourthYearTab").fadeOut("slow",function(){
+      $("#fifthYearTab").fadeIn("slow");
+    })
+  }
+})

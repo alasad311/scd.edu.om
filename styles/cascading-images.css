@@ -1,0 +1,42 @@
+
+/* Cascading Images */
+.cascading-images-wrapper {
+	display: inline-block;
+	padding: 12% 0%;
+}
+
+.cascading-images-wrapper .cascading-images {
+	transform: translate3d(0, -20%, 0);
+}
+
+.cascading-images-wrapper .cascading-images img {
+	max-width: 100%;
+}
+html .bg-color-primary, html .bg-primary {
+	background-color: #9CCA43  !important;
+	margin-bottom: 10px;
+}
+html .bg-color-secondary, html .bg-primary {
+	background-color: #f7f7f7   !important;
+}
+.bg-primary_{
+	background-color: #9CCA43    !important;
+	color:#fff;
+	padding:10px;
+}
+.right-0 {
+	right: 0px !important;
+}
+.left-0 {
+	left: 0px !important;
+}
+.bottom-0 {
+	bottom: 0px !important;
+}
+.top-0 {
+	top: 0px !important;
+}
+.fix-background-color{
+	top: 40px;
+	left: 40px;
+}
