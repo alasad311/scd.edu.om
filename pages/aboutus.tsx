@@ -10,8 +10,6 @@ import BodAcademicYearText from '../components/bod-academic'
 import BodsAccordion from '../components/bods'
 import { Controller, SubmitHandler, useForm } from "react-hook-form";
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons'
 export default function AboutusPage() {
     const [isFValid, setFIsValid]=useState(true);
     const [isEValid, setEIsValid]=useState(true);
@@ -585,7 +583,7 @@ export default function AboutusPage() {
                                     rules={{ required: true,pattern: /^[A-Za-z]+$/i }}
                                     render={({ field }) => <input className="form-control" onChange={onChange(errors.FullName,"FullName")}  name="FullName" id="FullName"  type="text"  placeholder="Full name"  {...field} />}
                                     />
-                                    <FontAwesomeIcon icon={faExclamationTriangle} className="error-icon" />
+                                    <i className="error-icon fas fa-exclamation-triangle"></i>
                                     <span className="error-text">{errors.FullName?.type === 'required' && "First name is required"}{errors.FullName?.type === 'pattern' && "only alphabits is accepted"}</span>
                                     
                                 </div>
@@ -600,7 +598,7 @@ export default function AboutusPage() {
                                     rules={{ required: true,pattern:  /^\S+@\S+\.\S+$/}}
                                     render={({ field }) => <input className="form-control" onChange={onChange(errors.emailaddress,"emailaddress")}  name="emailaddress" id="emailaddress"  type="text"  placeholder="Email Address"  {...field} />}
                                     />
-                                    <FontAwesomeIcon icon={faExclamationTriangle} className="error-icon" />
+                                    <i className="error-icon fas fa-exclamation-triangle"></i>
                                     <span className="error-text">{errors.emailaddress?.type === 'required' && "Email Address is required"}{errors.emailaddress?.type === 'pattern' && "Email format incorrect xxx@xxx.com"}</span>
                                     
                                 </div>
@@ -615,7 +613,7 @@ export default function AboutusPage() {
                                     rules={{ required: true,pattern: /^(\+?)([0-9] ?){9,20}$/ }}
                                     render={({ field }) => <input className="form-control" onChange={onChange(errors.PhoneNumber,"PhoneNumber")}  name="PhoneNumber" id="PhoneNumber"  type="text"  placeholder="Phone Number"  {...field} />}
                                     />
-                                    <FontAwesomeIcon icon={faExclamationTriangle} className="error-icon" />
+                                    <i className="error-icon fas fa-exclamation-triangle"></i>
                                     <span className="error-text">{errors.PhoneNumber?.type === 'required' && "Phone Number is required"}{errors.PhoneNumber?.type === 'pattern' && "Phone number format incorrect 0096899xxxxxx"}</span>
                                     
                                 </div>
@@ -632,7 +630,7 @@ export default function AboutusPage() {
 
                                     
                                     />
-                                    <FontAwesomeIcon icon={faExclamationTriangle} className="error-icon" />
+                                    <i className="error-icon fas fa-exclamation-triangle"></i>
                                     <span className="error-text">{errors.Message?.type === 'required' && "Area of Concern is required"}</span>
                                     
                                 </div>
@@ -649,7 +647,7 @@ export default function AboutusPage() {
 
                                     
                                     />
-                                    <FontAwesomeIcon icon={faExclamationTriangle} className="error-icon" />
+                                    <i className="error-icon fas fa-exclamation-triangle"></i>
                                     <span className="error-text">{errors.Message?.type === 'required' && "Message is required"}</span>
                                     
                                 </div>
