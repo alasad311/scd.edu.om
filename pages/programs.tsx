@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 import Helmet from "react-helmet";
 import converter from 'number-to-words'
 
-export default function ProgramPage({majorBA,short,majorMA,majorDetails}) {
+export default function ProgramPa({majorBA,short,majorMA}) {
   var nf = new Intl.NumberFormat();
   const [programDetails, setProgramDetails] = useState<any>(null);
   const [programYerCounter, setProgramYerCounter] = useState<any>(null);
@@ -788,16 +788,16 @@ export default function ProgramPage({majorBA,short,majorMA,majorDetails}) {
 // This function gets called at build time on server-side.
 // It won't be called on client-side, so you can even do
 // direct database queries. See the "Technical details" section.
-export async function getStaticProps() {
+export async function getServerSideProps () {
   // Call an external API endpoint to get posts.
   // You can use any data fetching library
-  const res = await fetch('https://.../api/program-majors-ba')
+  const res = await fetch('http://localhost:3000/api/program-majors-ba')
   const majorBA = await res.json()
 
-  const res2 = await fetch('https://.../api/program-majors-ma')
+  const res2 = await fetch('http://localhost:3000/api/program-majors-ma')
   const majorMA = await res2.json()
 
-  const res3 = await fetch('https://.../api/program-short-courses')
+  const res3 = await fetch('http://localhost:3000/api/program-short-courses')
   const short = await res3.json()
 
   // By returning { props: { posts } }, the Blog component
