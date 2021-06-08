@@ -1,7 +1,5 @@
 import { useOtherapp } from '../../lib/swr-hooks';
 import OtherApp from "./otherapp"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
 export default function Header({active}) {
     const { otherappData } = useOtherapp()
   return (
@@ -82,7 +80,7 @@ export default function Header({active}) {
                                         </nav>
                                     </div>
                                     <button className="navbar-toggler btn header-btn-collapse-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                                        <FontAwesomeIcon icon={faBars}  />
+                                        <i className="fas fa-bars"></i>
                                     </button>
                                 </div>
                             </div>

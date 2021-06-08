@@ -4,8 +4,7 @@ import SessionSelect from "./session"
 import Majors from "./majors"
 import { Controller, SubmitHandler, useForm } from "react-hook-form";
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function SectionMajor() {
     const { session_DT } = sessionDTData()
@@ -97,7 +96,8 @@ export default function SectionMajor() {
                               rules={{ required: true,pattern: /^[A-Za-z]+$/i }}
                               render={({ field }) => <input className="form-control" onChange={onChange(errors.FirstName,"FirstName")}  name="FirstName" id="FirstName"  type="text"  placeholder="First name"  {...field} />}
                             />
-                            <FontAwesomeIcon icon={faExclamationTriangle} className="error-icon" />
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
                             <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span>
                             
                           </div>
@@ -112,7 +112,7 @@ export default function SectionMajor() {
                               rules={{ required: true,pattern: /^[A-Za-z]+$/i }}
                               render={({ field }) => <input className="form-control" onChange={onChange(errors.LastName,"LastName")}  name="LastName" id="LastName"  type="text"  placeholder="Last name"  {...field} />}
                             />
-                            <FontAwesomeIcon icon={faExclamationTriangle} className="error-icon" />
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
                             <span className="error-text">{errors.LastName?.type === 'required' && "Last name is required"}{errors.LastName?.type === 'pattern' && "only alphabits is accepted"}</span>
                             
                           </div>
@@ -127,7 +127,7 @@ export default function SectionMajor() {
                               rules={{ required: true,pattern:  /^\S+@\S+\.\S+$/}}
                               render={({ field }) => <input className="form-control" onChange={onChange(errors.emailaddress,"emailaddress")}  name="emailaddress" id="emailaddress"  type="text"  placeholder="Email Address"  {...field} />}
                             />
-                            <FontAwesomeIcon icon={faExclamationTriangle} className="error-icon" />
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
                             <span className="error-text">{errors.emailaddress?.type === 'required' && "Email Address is required"}{errors.emailaddress?.type === 'pattern' && "Email format incorrect xxx@xxx.com"}</span>
                             
                           </div>
@@ -142,7 +142,7 @@ export default function SectionMajor() {
                               rules={{ required: true,pattern: /^(\+?)([0-9] ?){9,20}$/ }}
                               render={({ field }) => <input className="form-control" onChange={onChange(errors.PhoneNumber,"PhoneNumber")}  name="PhoneNumber" id="PhoneNumber"  type="text"  placeholder="Phone Number"  {...field} />}
                             />
-                            <FontAwesomeIcon icon={faExclamationTriangle} className="error-icon" />
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
                             <span className="error-text">{errors.PhoneNumber?.type === 'required' && "Phone Number is required"}{errors.PhoneNumber?.type === 'pattern' && "Phone number format incorrect 0096899xxxxxx"}</span>
                             
                           </div>
@@ -160,7 +160,7 @@ export default function SectionMajor() {
                                 }
                               
                             />
-                            <FontAwesomeIcon icon={faExclamationTriangle} className="error-icon" />
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
                             <span className="error-text">{errors.sessionDT?.type === 'required' && "Phone Number is required"}</span>
                             
                           </div>
@@ -178,7 +178,7 @@ export default function SectionMajor() {
                                 }
                               
                             />
-                            <FontAwesomeIcon icon={faExclamationTriangle} className="error-icon" />
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
                             <span className="error-text">{errors.sessionDT?.type === 'required' && "Phone Number is required"}</span>
                             
                           </div>

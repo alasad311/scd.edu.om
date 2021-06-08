@@ -1,5 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useSlider } from '../../lib/swr-hooks';
 import Slide from "../sliders/slider"
 export default function SliderCustom() {
@@ -8,10 +7,10 @@ export default function SliderCustom() {
         <div className="showcase">
             <div className="container-fluidS">
                 <div className="side-social-icons hide-md-and-down">
-                    <a target="_blank" href="https://www.facebook.com/SCD.Art.Design" style={{width: "26px"}}><FontAwesomeIcon icon={['fab', 'facebook-square']}  /></a>
-                    <a target="_blank" href="https://www.instagram.com/scd_oman/?hl=en" style={{width: "26px"}}><FontAwesomeIcon icon={['fab', 'instagram']} /> </a>
-                    <a target="_blank" href="https://www.youtube.com/channel/UCA5Ahmkvx3ia4LMM3fs8JdA" style={{width: "26px"}}><FontAwesomeIcon icon={['fab', 'youtube']} /> </a>
-                    <a target="_blank" href="https://twitter.com/scd_oman?lang=en" style={{width: "26px"}}><FontAwesomeIcon icon={['fab', 'twitter']} /> </a>
+                    <a target="_blank" href="https://www.facebook.com/SCD.Art.Design" style={{width: "26px"}}><i className="error-icon fab facebook-square"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/scd_oman/?hl=en" style={{width: "26px"}}><i className="error-icon fas instagram"></i> </a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCA5Ahmkvx3ia4LMM3fs8JdA" style={{width: "26px"}}><i className="error-icon fas youtube"></i> </a>
+                    <a target="_blank" href="https://twitter.com/scd_oman?lang=en" style={{width: "26px"}}><i className="error-icon fas twitter"></i> </a>
                 </div>
                 <div className="scroll-next hide-md-and-down">
                     <div className="chevrons">

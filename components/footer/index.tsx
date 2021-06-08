@@ -1,6 +1,3 @@
-import { faFacebookSquare, faInstagramSquare, faTwitterSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
-import { faArrowUp, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import moment from 'moment'
 import Image from 'next/image'
 import React from 'react'
@@ -44,20 +41,20 @@ export default function Footer() {
               <div className="col-12 col-md-6 col-lg-2" >
                   <h5>CONNECT</h5>
                   <div id="connect-icon-container" className="d-none d-sm-block">
-                      <a href="https://www.facebook.com/SCD.Art.Design" target="_blank"><FontAwesomeIcon icon={faFacebookSquare} className="footer-icon" /></a>
-                      <a href="https://www.instagram.com/scd_oman/?hl=en" target="_blank"><FontAwesomeIcon icon={faInstagramSquare} className="footer-icon" /></a>
-                      <a href="https://www.youtube.com/channel/UCA5Ahmkvx3ia4LMM3fs8JdA" target="_blank"><FontAwesomeIcon icon={faYoutubeSquare} className="footer-icon" /></a>
-                      <a href="https://twitter.com/scd_oman?lang=en" target="_blank"><FontAwesomeIcon icon={faTwitterSquare} className="footer-icon" /></a>
+                      <a href="https://www.facebook.com/SCD.Art.Design" target="_blank"><i className="fab fa-facebook-square footer-icon"></i></a>
+                      <a href="https://www.instagram.com/scd_oman/?hl=en" target="_blank"><i className="fab fa-instagram-square footer-icon"></i></a>
+                      <a href="https://www.youtube.com/channel/UCA5Ahmkvx3ia4LMM3fs8JdA" target="_blank"><i className="fab fa-youtube-square footer-icon"></i></a>
+                      <a href="https://twitter.com/scd_oman?lang=en" target="_blank"><i className="fab fa-twitter-square footer-icon"></i></a>
                   </div>
                   <div className="divider d-none d-sm-block" ></div>
                   <div className="contact-links">
                       <div className="link">
-                        <FontAwesomeIcon icon={faEnvelope} className="footer-icon-links" />
-                          <p>info@scd.edu.om</p>
+                        <i className="fas fa-envelope footer-icon-links"></i>
+                        <p>info@scd.edu.om</p>
                       </div>
                       <div className="link">
-                        <FontAwesomeIcon icon={faPhone} className="footer-icon-links" />
-                          <p>+968 24513 222</p>
+                        <i className="fas fa-phone footer-icon-links"></i>
+                        <p>+968 24513 222</p>
                       </div>
                   </div>
               </div>
@@ -71,7 +68,7 @@ export default function Footer() {
 
           </div>
           <a id="scroll-top" className="d-flex justify-content-center align-items-center">
-            <FontAwesomeIcon icon={faArrowUp} className="scroll-icon" />
+              <i className="fas fa-arrow-up scroll-icon"></i>
           </a>
       </div>
   </footer>
