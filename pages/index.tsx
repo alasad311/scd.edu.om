@@ -10,12 +10,9 @@ import SectionHomeEvents from '../components/section-home-events'
 import SectionNewsletter from '../components/section-newsletter'
 import SectionNewsEvents from '../components/section-news-events'
 import Footer from '../components/footer'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
-import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import Instagram from 'instagram-web-api';
 import moment from 'moment';
+import Instagram from 'instagram-web-api';
+
 export default function Home({posts}) {
 
   return (
@@ -42,17 +39,16 @@ export default function Home({posts}) {
       <Header active="home" />
       <Slider />
       <div className="fixed-right side-form-icons">
-        <a href="tel:0096824513222" target="_blank"><FontAwesomeIcon icon={faPhone} className="icon" /></a>
-        <a href="https://goo.gl/maps/92b7Gy7vTMCAh6H46" target="_blank"><FontAwesomeIcon icon={faMapMarkerAlt} className="icon" /></a>
-        <a href="mailto:info@scd.edu.om" target="_blank"><FontAwesomeIcon icon={faEnvelope} className="icon" /></a>
-        
+        <a href="tel:0096824513222" target="_blank"><i className="fas fa-phone icon" id="open-opening-popup"></i></a>
+        <a href="https://goo.gl/maps/92b7Gy7vTMCAh6H46" target="_blank"> <i className="fas fa-map-marker-alt icon" id="open-location-popup"></i></a>
+        <a href="mailto:info@scd.edu.om" target="_blank"><i className="fas fa-envelope icon" id="open-form-popup"></i></a>
       </div>
       <SectionMajor />
       <SectionZoom />
       <section className="instagram-section section margin-top-0">
         <div className="container">
             <div className="row">
-             {/* {posts.map(({ node }, i) => {
+             {posts.map(({ node }, i) => {
                     return (
                       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3" key={i}>
                         <div className="photo-box mouse-pointer" data-url={"https://www.instagram.com/p/"+node.shortcode}>
@@ -67,7 +63,7 @@ export default function Home({posts}) {
                         </div>
                       </div>
                     );
-                })} */}
+                })}
             </div>
         </div>
       </section>
@@ -79,18 +75,18 @@ export default function Home({posts}) {
     </div>
   )
 }
-// export async function getStaticProps() {
-//       const client = new Instagram({ username: 'alasad.dev', password: '@Mahmud1989' });
-//       await client.login();
+export async function getServerSideProps() {
+      const client = new Instagram({ username: 'alasad.dev', password: '@Mahmud1989' });
+      await client.login();
   
-//       const response = await client.getPhotosByUsername({
-//           username: 'scd_oman',
-//       });
+      const response = await client.getPhotosByUsername({
+          username: 'scd_oman',
+      });
   
       
-//       return {
-//           props: {
-//               posts: response.user.edge_owner_to_timeline_media.edges,
-//           }, // will be passed to the page component as props
-//       };
-//   }
+      return {
+          props: {
+              posts: response.user.edge_owner_to_timeline_media.edges,
+          }, // will be passed to the page component as props
+      };
+  }
