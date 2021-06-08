@@ -45,7 +45,7 @@ export default function Home({posts}) {
       </div>
       <SectionMajor />
       <SectionZoom />
-      <section className="instagram-section section margin-top-0">
+      {/* <section className="instagram-section section margin-top-0">
         <div className="container">
             <div className="row">
              {posts.map(({ node }, i) => {
@@ -66,7 +66,7 @@ export default function Home({posts}) {
                 })}
             </div>
         </div>
-      </section>
+      </section> */}
       <SectionHomeEvents />
       <SectionNewsletter />
       <SectionNewsEvents />
@@ -75,18 +75,18 @@ export default function Home({posts}) {
     </div>
   )
 }
-export async function getServerSideProps() {
-      const client = new Instagram({ username: 'alasad.dev', password: '@Mahmud1989' });
-      await client.login();
+// export async function getServerSideProps() {
+//       const client = new Instagram({ username: 'alasad.dev', password: '@Mahmud1989' });
+//       await client.login();
   
-      const response = await client.getPhotosByUsername({
-          username: 'scd_oman',
-      });
+//       const response = await client.getPhotosByUsername({
+//           username: 'scd_oman',
+//       });
   
       
-      return {
-          props: {
-              posts: response.user.edge_owner_to_timeline_media.edges,
-          }, // will be passed to the page component as props
-      };
-  }
+//       return {
+//           props: {
+//               posts: response.user.edge_owner_to_timeline_media.edges,
+//           }, // will be passed to the page component as props
+//       };
+//   }
