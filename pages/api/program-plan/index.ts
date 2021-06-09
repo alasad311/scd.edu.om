@@ -3,8 +3,6 @@ import { query } from '../../../lib/db'
 
 const handler: NextApiHandler = async (req, res) => {
   const { id } = req.query
-  const { pp_year } = req.query
-  const { pp_sem } = req.query
   try {
     if (!id ) {
       return res.status(400).json({ message: '`id` required' })
