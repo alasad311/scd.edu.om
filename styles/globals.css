@@ -525,7 +525,7 @@ a {
 }
 
 .header-logo-special{
-	align-self:start !important;
+	justify-content: left !important;
 }
 
 #header .header-column {
