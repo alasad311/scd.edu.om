@@ -525,7 +525,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
           <Footer />
           <script src="../../js/jquery/jquery-3.6.0.min.js"></script>
             <script src="../../js/bootstrap/bootstrap.bundle.js"></script>
-            <script type="text/javascript" src="../js/owl.carousel/dist/owl.carousel.min.js"></script>
+            <script type="text/javascript" src="../../js/owl.carousel/dist/owl.carousel.min.js"></script>
             <script src="../../js/spidoche/jquery.spidochetube.min.js"></script>
             <script type="text/javascript" src="../../js/programs.js"></script>
             <script type="text/javascript" src="../../js/courses.js"></script>
@@ -572,7 +572,12 @@ export async function getServerSideProps (context) {
       
       const reqirementreq = await fetch(`http://localhost:3000/api/criteria?id=${majordetailsjsondata[0]['md_id']}`);
       requirement = await reqirementreq.json();
-
+  
+      const feesreq = await fetch(`http://localhost:3000/api/fees?id=${majordetailsjsondata[0]['md_id']}`);
+      fees = await feesreq.json();
+  
+      const finalfeereq = await fetch(`http://localhost:3000/api/totalfees?id=${majordetailsjsondata[0]['md_id']}`);
+      finalfee = await finalfeereq.json();
   
     
     // By returning { props: { posts } }, the Blog component
