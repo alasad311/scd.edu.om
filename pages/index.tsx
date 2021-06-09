@@ -119,15 +119,16 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
       <SectionZoom majors={majordata} session_DT={sessiondata} oM={optionMajor} oS={optionSessionDT} />
       <section className="instagram-section section margin-top-0">
         <div className="container">
-            <div className="row">
-             {posts.map(({ node }, i) => {
+            {posts &&
+              <div className="row">
+              {posts.map(({ node }, i) => {
                     return (
                       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3" key={i}>
                         <div className="photo-box mouse-pointer" data-url={"https://www.instagram.com/p/"+node.shortcode}>
                           <div className="image-wrap">
                               <img src={node.display_url} alt="" />
                               <div style={{display:"inline",paddingRight:"10px"}}><i className="fas fa-heart" style={{paddingRight:"10px",color:"#9CCA43"}} aria-hidden="true"></i>{node.edge_media_preview_like.count}</div>
-                                   <i className="fas fa-comment" style={{paddingRight:"10px",color:"#9CCA43"}} aria-hidden="true"></i>{node.edge_media_to_comment.count}
+                                    <i className="fas fa-comment" style={{paddingRight:"10px",color:"#9CCA43"}} aria-hidden="true"></i>{node.edge_media_to_comment.count}
                           </div>
                           <div className="description">
                             <div className="date">{moment.unix(node.taken_at_timestamp).format("DD-MMM-YYYY hh:mm A")}</div>
@@ -137,6 +138,7 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
                     );
                 })}
             </div>
+            }
         </div>
       </section>
       <SectionHomeEvents events={event} dates={date} />
@@ -156,8 +158,8 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
   )
 }
 export async function getServerSideProps() {
-      const client = new Instagram({ username: 'alasad.dev', password: '@Mahmud1989' });
-      await client.login();
+      // const client = new Instagram({ username: 'alasad.dev', password: '@Mahmud1989' });
+      // await client.login();
 
       const res = await fetch('http://localhost:3000/api/slider/')
       const slider = await res.json()
@@ -181,14 +183,14 @@ export async function getServerSideProps() {
       const mag = await resmag.json()     
       const resnews = await fetch('http://localhost:3000/api/newsevents/')
       const newse = await resnews.json()
-      const response = await client.getPhotosByUsername({
-          username: 'scd_oman',
-      });
+      // const response = await client.getPhotosByUsername({
+      //     username: 'scd_oman',
+      // });
   
       
       return {
           props: {
-              posts: response.user.edge_owner_to_timeline_media.edges,
+              // posts: response.user.edge_owner_to_timeline_media.edges,
               sliders: slider,
               otherapps: otherapp,
               majordata: majors,
