@@ -553,13 +553,13 @@ export async function getServerSideProps (context) {
       const mrequest = await fetch(`http://localhost:3000/api/program-short-details?id=${id}`);
       majordetailsjsondata = await mrequest.json();
 
-      const planyrequest = await fetch(`http://localhost:3000/api/program-plan-year/?id=${majordetailsjsondata[0]['md_id']}`);
+      const planyrequest = await fetch(`http://localhost:3000/api/program-plan-year?id=${majordetailsjsondata[0]['md_id']}`);
       majoryearcounter = await planyrequest.json();
   
-      const plan = await fetch(`http://localhost:3000/api/program-plan/?id=${majordetailsjsondata[0]['md_id']}`);
+      const plan = await fetch(`http://localhost:3000/api/program-plan?id=${majordetailsjsondata[0]['md_id']}`);
       majorplan = await plan.json();
   
-      const courserequest = await fetch(`http://localhost:3000/api/course-short/?id=${majordetailsjsondata[0]['md_id']}`);
+      const courserequest = await fetch(`http://localhost:3000/api/course-short?id=${majordetailsjsondata[0]['md_id']}`);
       coursedec = await courserequest.json();
     // By returning { props: { posts } }, the Blog component
     // will receive `posts` as a prop at build time
