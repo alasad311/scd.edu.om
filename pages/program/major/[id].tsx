@@ -575,9 +575,7 @@ export async function getServerSideProps (context) {
   
       const feesreq = await fetch(`http://localhost:3000/api/fees?id=${majordetailsjsondata[0]['md_id']}`);
       fees = await feesreq.json();
-  
-      const finalfeereq = await fetch(`http://localhost:3000/api/totalfees?id=${majordetailsjsondata[0]['md_id']}`);
-      finalfee = await finalfeereq.json();
+
   
     
     // By returning { props: { posts } }, the Blog component
