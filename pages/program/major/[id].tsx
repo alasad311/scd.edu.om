@@ -584,6 +584,8 @@ export async function getServerSideProps (context) {
       const finalfeereq = await fetch(`http://localhost:3000/api/totalfees?id=${majordetailsjsondata[0]['md_id']}`);
       finalfee = await finalfeereq.json();
   
+      const ress = await fetch('http://localhost:3000/api/otherapps')
+      const otherapp = await ress.json()
     
     // By returning { props: { posts } }, the Blog component
     // will receive `posts` as a prop at build time
@@ -598,7 +600,8 @@ export async function getServerSideProps (context) {
         staff:staff,
         requirement:requirement,
         fees:fees,
-        totalFees: finalfee
+        totalFees: finalfee,
+        otherapps: otherapp
       },
     }
   }

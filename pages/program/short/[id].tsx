@@ -381,6 +381,9 @@ export async function getServerSideProps (context) {
     let fees = null
     let finalfee = null
   
+    const ress = await fetch('http://localhost:3000/api/otherapps')
+    const otherapp = await ress.json()
+
       const mrequest = await fetch(`http://localhost:3000/api/program-short-details?id=${id}`);
       majordetailsjsondata = await mrequest.json();
 
@@ -406,7 +409,8 @@ export async function getServerSideProps (context) {
         staff,
         requirement,
         fees,
-        totalFees: finalfee
+        totalFees: finalfee,
+        otherapps: otherapp
       },
     }
   }
