@@ -558,7 +558,10 @@ export async function getServerSideProps (context) {
       const plan = await fetch(`http://localhost:3000/program-plan/?id=${majordetailsjsondata[0]['md_id']}`);
       majorplan = await plan.json();
   
-      
+      const courserequest = await fetch(`http://localhost:3000/course-description/?id=${majordetailsjsondata[0]['md_id']}`);
+      coursedec = await courserequest.json();
+  
+    
   
     
     // By returning { props: { posts } }, the Blog component
