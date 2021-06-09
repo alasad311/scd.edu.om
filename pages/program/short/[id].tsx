@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../../../components/header'
 import Footer from '../../../components/footer'
 
-export default function programsDetailsPage({otherapp,programDetails,programYerCounter,programPlan,courseDesc}) {
+export default function programsDetailsPage({otherapp,programDetails,programYerCounter,programPlan,courseDesc,artwork,hod,staff,requirement,fees,totalFees}) {
     var nf = new Intl.NumberFormat();
 
     return (
@@ -563,7 +563,13 @@ export async function getServerSideProps (context) {
         programDetails: majordetailsjsondata,
         programYerCounter: majoryearcounter,
         programPlan: majorplan,
-        courseDesc: coursedec
+        courseDesc: coursedec,
+        artwork: artw,
+        hod,
+        staff,
+        requirement,
+        fees,
+        totalFees: finalfee
       },
     }
   }
