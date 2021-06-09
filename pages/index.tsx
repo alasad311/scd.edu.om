@@ -30,7 +30,6 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
         <link rel="stylesheet" type="text/css" href="css/animate/animate.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/instagram/instagram.css"/>
         <link rel="stylesheet" href="js/owl.carousel/dist/assets/owl.carousel.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/test.css"/>
         {'<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>'}
       </Head>
      
@@ -121,7 +120,7 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
       <section className="instagram-section section margin-top-0">
         <div className="container">
             <div className="row">
-             {/* {posts.map(({ node }, i) => {
+             {posts.map(({ node }, i) => {
                     return (
                       <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3" key={i}>
                         <div className="photo-box mouse-pointer" data-url={"https://www.instagram.com/p/"+node.shortcode}>
@@ -136,7 +135,7 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
                         </div>
                       </div>
                     );
-                })} */}
+                })}
             </div>
         </div>
       </section>
@@ -157,8 +156,8 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
   )
 }
 export async function getServerSideProps() {
-      // const client = new Instagram({ username: 'alasad.dev', password: '@Mahmud1989' });
-      // await client.login();
+      const client = new Instagram({ username: 'alasad.dev', password: '@Mahmud1989' });
+      await client.login();
 
       const res = await fetch('http://localhost:3000/api/slider/')
       const slider = await res.json()
@@ -182,14 +181,14 @@ export async function getServerSideProps() {
       const mag = await resmag.json()     
       const resnews = await fetch('http://localhost:3000/api/newsevents/')
       const newse = await resnews.json()
-      // const response = await client.getPhotosByUsername({
-      //     username: 'scd_oman',
-      // });
+      const response = await client.getPhotosByUsername({
+          username: 'scd_oman',
+      });
   
       
       return {
           props: {
-              // posts: response.user.edge_owner_to_timeline_media.edges,
+              posts: response.user.edge_owner_to_timeline_media.edges,
               sliders: slider,
               otherapps: otherapp,
               majordata: majors,

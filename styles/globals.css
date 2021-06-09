@@ -529,7 +529,7 @@ a {
 }
 
 #header .header-column {
-	display: flex;
+	display: block;
 	align-self: stretch;
 	align-items: center;
 	flex-grow: 1;
@@ -545,7 +545,7 @@ a {
 }
 
 #header .header-column .header-row {
-	justify-content: inherit;
+	justify-content: flex-end;
 }
 
 #header .header-column .header-extra-info {

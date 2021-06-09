@@ -3,9 +3,9 @@ import mysql from 'serverless-mysql'
 export const db = mysql({
   config: {
     host: "localhost",
-    database: "omandev_website",
-    user: "omandev_webadmin",
-    password: "I#yTb]s,==d~",
+    database: "scd_website",
+    user: "root",
+    password: "test",
     port: parseInt(process.env.MYSQL_PORT),
   },
 })
