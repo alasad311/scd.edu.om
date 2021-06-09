@@ -558,6 +558,8 @@ export async function getServerSideProps (context) {
       const plan = await fetch(`http://localhost:3000/api/program-plan?id=${majordetailsjsondata[0]['md_id']}`);
       majorplan = await plan.json();
   
+      const courserequest = await fetch(`http://localhost:3000/api/course-description?id=${majordetailsjsondata[0]['md_id']}`);
+      coursedec = await courserequest.json();
 
   
     
