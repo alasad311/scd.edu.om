@@ -12,15 +12,12 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
       {
         case "BA":
           window.location.href = "program/"+id+"?type=major";
-          // fetchData(id,"&major="+id,"major");
           break;
         case "MA":
           window.location.href = "program/"+id+"?type=major";
-          // fetchData(id,"&major="+id,"major");
           break;
         case "SHORT":
           window.location.href = "program/"+id+"?type=short";
-          // fetchData(id,"&short="+id,"short");
           break;
       }
   };
@@ -94,7 +91,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
             <div className="row justify-center">
               {majorBA.map((e) => (
                 <div className="col-12 col-md-6 col-lg-3 padding-0" key={e.id}>
-                  <a href="#" className="program" onClick={() => handleClick(e.id,"MA") } data-major={e.id}   data-targert="">
+                  <a  href={"/program/"+e.id+"?type=major"}  className="program" data-major={e.id} data-targert="">
                     <div className="course-card-style-3">
                       <div className="card">
                         <div className="thumb">
@@ -126,7 +123,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
               <div className="row justify-center">
                 {majorMA.map((e) => (
                   <div className="col-12 col-md-6 col-lg-3 padding-0" key={e.id}>
-                    <a href="#" className="program" onClick={() => handleClick(e.id,"MA") } data-major={e.id}   data-targert="">
+                    <a href={"/program/"+e.id+"?type=major"} className="program" data-major={e.id}   data-targert="">
                       <div className="course-card-style-3">
                         <div className="card">
                           <div className="thumb">
@@ -159,7 +156,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
               <div className="row justify-center">
                 {short.map((e) => (
                   <div className="col-12 col-md-6 col-lg-3 padding-0 " key={e.sc_id}>
-                    <a href="#" className="program"  onClick={() => handleClick(e.sc_id,"SHORT") } data-shortcourse={e.sc_id} data-targert="">
+                    <a  href={"/program/"+e.id+"?type=short"}  className="program" data-shortcourse={e.sc_id} data-targert="">
                       <div className="course-card-style-3">
                         <div className="card">
                           <div className="thumb">
