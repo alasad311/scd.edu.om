@@ -220,11 +220,39 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                   <div className="row mobile-box-grey text-font" id="mfirstYear">
                                     <div className="col-lg-6">
                                       <h5><b>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "الفصل الدراسي 1" : "Semester 1"}</b></h5>
-                                      
+                                      {programPlan &&
+                                        programPlan.map((b) => {
+                                          if(e.pp_year === b.pp_year && b.pp_sem === 1)
+                                            return <div className="row">
+                                                      <div style={{width:"20%"}}>
+                                                          <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_code}</p>
+                                                      </div>
+                                                      <div style={{width:"70%"}}>
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_name}</p>
+                                                      </div>
+                                                      <div style={{width:"10%"}}>
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_credit_hours}</p>
+                                                      </div>
+                                                  </div>
+                                        })}
                                     </div>
                                     <div className="col-lg-6 padding-top-20">
                                       <h5><b>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "الفصل الدراسي 2" : "Semester 2"}</b></h5>
-                                      
+                                      {programPlan &&
+                                        programPlan.map((b) => {
+                                          if(e.pp_year === b.pp_year && b.pp_sem === 2)
+                                            return <div className="row">
+                                                     <div style={{width:"20%"}}>
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_code}</p>
+                                                      </div>
+                                                      <div style={{width:"70%"}}>
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_name}</p>
+                                                      </div>
+                                                      <div style={{width:"10%"}}>
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_credit_hours}</p>
+                                                      </div>
+                                                  </div>
+                                        })}
                                     </div>
                                   </div>
                                 </div>
@@ -243,11 +271,39 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               <div className={e.pp_year=== 1 ? converter.toWordsOrdinal(e.pp_year)+ (programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "YearArrowara row semdata" : "YearArrow row semdata"): converter.toWordsOrdinal(e.pp_year)+ (programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "YearArrowara row semdata displaynone" : "YearArrow row semdata displaynone")} id={converter.toWordsOrdinal(e.pp_year)+"YearTab"}>
                                 <div className="col-lg-6">
                                   <h5><b>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "الفصل الدراسي 1" : "Semester 1"}</b></h5>
-                                  
+                                  {programPlan &&
+                                  programPlan.map((b) => {
+                                    if(e.pp_year === b.pp_year && b.pp_sem === 1)
+                                      return <div className="row">
+                                                <div className="col-lg-2">
+                                                    <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_code}</p>
+                                                </div>
+                                                <div className="col-lg-6">
+                                                  <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_name}</p>
+                                                </div>
+                                                <div className="col-lg-4">
+                                                  <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_credit_hours}</p>
+                                                </div>
+                                            </div>
+                                  })}
                                 </div>
                                 <div className="col-lg-6">
                                       <h5><b>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "الفصل الدراسي 2" : "Semester 2"}</b></h5>
-                                      
+                                      {programPlan &&
+                                        programPlan.map((b) => {
+                                          if(e.pp_year === b.pp_year && b.pp_sem === 2)
+                                            return <div className="row">
+                                                     <div className="col-lg-2">
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_code}</p>
+                                                      </div>
+                                                      <div className="col-lg-6">
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_name}</p>
+                                                      </div>
+                                                      <div className="col-lg-4">
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_credit_hours}</p>
+                                                      </div>
+                                                  </div>
+                                        })}
                                     </div>
                               </div>
                               ))}
@@ -502,26 +558,7 @@ export async function getServerSideProps (context) {
       const plan = await fetch(`http://localhost:3000/api/program-plan?id=${majordetailsjsondata[0]['md_id']}`);
       majorplan = await plan.json();
   
-      const courserequest = await fetch(`http://localhost:3000/api/course-description?id=${majordetailsjsondata[0]['md_id']}`);
-      coursedec = await courserequest.json();
-  
-      const artrequest = await fetch(`http://localhost:3000/api/program-artwork?id=${majordetailsjsondata[0]['md_id']}`);
-      artw = await artrequest.json();
-      
-      const hodreq = await fetch(`http://localhost:3000/api/hod-dpt?id=${id}`);
-      hod = await hodreq.json();
-  
-      const staffreq = await fetch(`http://localhost:3000/api/staff-dpt?id=${id}`);
-      staff = await staffreq.json();
-      
-      const reqirementreq = await fetch(`http://localhost:3000/api/criteria?id=${majordetailsjsondata[0]['md_id']}`);
-      requirement = await reqirementreq.json();
-  
-      const feesreq = await fetch(`http://localhost:3000/api/fees?id=${majordetailsjsondata[0]['md_id']}`);
-      fees = await feesreq.json();
-  
-      const finalfeereq = await fetch(`http://localhost:3000/api/totalfees?id=${majordetailsjsondata[0]['md_id']}`);
-      finalfee = await finalfeereq.json();
+
   
     
     // By returning { props: { posts } }, the Blog component
