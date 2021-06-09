@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../../../components/header'
 import Footer from '../../../components/footer'
 
-export default function programsDetailsPage({otherapp,programDetails,programYerCounter,programPlan,courseDesc,artwork,hod,staff,requirement,fees,totalFees}) {
+export default function programsDetailsPage({otherapp,programDetails,programYerCounter,programPlan,courseDesc}) {
     var nf = new Intl.NumberFormat();
 
     return (
@@ -543,12 +543,7 @@ export async function getServerSideProps (context) {
     let majoryearcounter = null
     let majorplan = null
     let coursedec = null
-    let artw = null
-    let hod = null
-    let staff = null
-    let requirement = null
-    let fees = null
-    let finalfee = null
+
   
       const mrequest = await fetch(`http://localhost:3000/api/program-short-details?id=${id}`);
       majordetailsjsondata = await mrequest.json();
@@ -568,13 +563,7 @@ export async function getServerSideProps (context) {
         programDetails: majordetailsjsondata,
         programYerCounter: majoryearcounter,
         programPlan: majorplan,
-        courseDesc: coursedec,
-        artwork: artw,
-        hod,
-        staff,
-        requirement,
-        fees,
-        totalFees: finalfee
+        courseDesc: coursedec
       },
     }
   }
