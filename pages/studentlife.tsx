@@ -451,10 +451,10 @@ export default function StudentLifePage({otherapps,services}) {
 }
 export async function getServerSideProps() {
 
-  const ress = await fetch('http://localhost:3000/api/otherapps/')
+  const ress = await fetch('http://localhost:3000/api/otherapps')
   const otherapp = await ress.json()
   
-  const resservices = await fetch('http://localhost:3000/api/student-services/')
+  const resservices = await fetch('http://localhost:3000/api/student-services')
   const services = await resservices.json()
   
   return {

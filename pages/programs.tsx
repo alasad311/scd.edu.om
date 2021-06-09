@@ -204,7 +204,7 @@ export async function getServerSideProps () {
   const res3 = await fetch('http://localhost:3000/api/program-short-courses')
   const short = await res3.json()
 
-  const ress = await fetch('http://localhost:3000/api/otherapps/')
+  const ress = await fetch('http://localhost:3000/api/otherapps')
   const otherapp = await ress.json()
   // By returning { props: { posts } }, the Blog component
   // will receive `posts` as a prop at build time

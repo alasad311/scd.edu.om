@@ -220,39 +220,11 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                   <div className="row mobile-box-grey text-font" id="mfirstYear">
                                     <div className="col-lg-6">
                                       <h5><b>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "الفصل الدراسي 1" : "Semester 1"}</b></h5>
-                                      {programPlan &&
-                                        programPlan.map((b) => {
-                                          if(e.pp_year === b.pp_year && b.pp_sem === 1)
-                                            return <div className="row">
-                                                      <div style={{width:"20%"}}>
-                                                          <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_code}</p>
-                                                      </div>
-                                                      <div style={{width:"70%"}}>
-                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_name}</p>
-                                                      </div>
-                                                      <div style={{width:"10%"}}>
-                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_credit_hours}</p>
-                                                      </div>
-                                                  </div>
-                                        })}
+                                      
                                     </div>
                                     <div className="col-lg-6 padding-top-20">
                                       <h5><b>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "الفصل الدراسي 2" : "Semester 2"}</b></h5>
-                                      {programPlan &&
-                                        programPlan.map((b) => {
-                                          if(e.pp_year === b.pp_year && b.pp_sem === 2)
-                                            return <div className="row">
-                                                     <div style={{width:"20%"}}>
-                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_code}</p>
-                                                      </div>
-                                                      <div style={{width:"70%"}}>
-                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_name}</p>
-                                                      </div>
-                                                      <div style={{width:"10%"}}>
-                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_credit_hours}</p>
-                                                      </div>
-                                                  </div>
-                                        })}
+                                      
                                     </div>
                                   </div>
                                 </div>
@@ -271,39 +243,11 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               <div className={e.pp_year=== 1 ? converter.toWordsOrdinal(e.pp_year)+ (programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "YearArrowara row semdata" : "YearArrow row semdata"): converter.toWordsOrdinal(e.pp_year)+ (programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "YearArrowara row semdata displaynone" : "YearArrow row semdata displaynone")} id={converter.toWordsOrdinal(e.pp_year)+"YearTab"}>
                                 <div className="col-lg-6">
                                   <h5><b>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "الفصل الدراسي 1" : "Semester 1"}</b></h5>
-                                  {programPlan &&
-                                  programPlan.map((b) => {
-                                    if(e.pp_year === b.pp_year && b.pp_sem === 1)
-                                      return <div className="row">
-                                                <div className="col-lg-2">
-                                                    <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_code}</p>
-                                                </div>
-                                                <div className="col-lg-6">
-                                                  <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_name}</p>
-                                                </div>
-                                                <div className="col-lg-4">
-                                                  <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_credit_hours}</p>
-                                                </div>
-                                            </div>
-                                  })}
+                                  
                                 </div>
                                 <div className="col-lg-6">
                                       <h5><b>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "الفصل الدراسي 2" : "Semester 2"}</b></h5>
-                                      {programPlan &&
-                                        programPlan.map((b) => {
-                                          if(e.pp_year === b.pp_year && b.pp_sem === 2)
-                                            return <div className="row">
-                                                     <div className="col-lg-2">
-                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_code}</p>
-                                                      </div>
-                                                      <div className="col-lg-6">
-                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_name}</p>
-                                                      </div>
-                                                      <div className="col-lg-4">
-                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_credit_hours}</p>
-                                                      </div>
-                                                  </div>
-                                        })}
+                                      
                                     </div>
                               </div>
                               ))}

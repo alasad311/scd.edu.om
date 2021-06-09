@@ -221,16 +221,16 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
 }
 export async function getServerSideProps() {
 
-  const ress = await fetch('http://localhost:3000/api/otherapps/')
+  const ress = await fetch('http://localhost:3000/api/otherapps')
   const otherapp = await ress.json()
 
-  const respresident = await fetch('http://localhost:3000/api/alumni-president/')
+  const respresident = await fetch('http://localhost:3000/api/alumni-president')
   const president = await respresident.json()
-  const restestimonial = await fetch('http://localhost:3000/api/alumni-testimonial/')
+  const restestimonial = await fetch('http://localhost:3000/api/alumni-testimonial')
   const testimonial = await restestimonial.json()
-  const reslatestevent = await fetch('http://localhost:3000/api/alumni-latest-event/')
+  const reslatestevent = await fetch('http://localhost:3000/api/alumni-latest-event')
   const latestevent = await reslatestevent.json()
-  const ressupcomingevent = await fetch('http://localhost:3000/api/alumni-upcoming-event/')
+  const ressupcomingevent = await fetch('http://localhost:3000/api/alumni-upcoming-event')
   const upcomingevent = await ressupcomingevent.json()
 
   

@@ -673,22 +673,22 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
 }
 export async function getServerSideProps() {
 
-    const ress = await fetch('http://localhost:3000/api/otherapps/')
+    const ress = await fetch('http://localhost:3000/api/otherapps')
     const otherapp = await ress.json()
 
-    const respublication = await fetch('http://localhost:3000/api/publications/')
+    const respublication = await fetch('http://localhost:3000/api/publications')
     const publication = await respublication.json()
 
-    const resacademicyear = await fetch('http://localhost:3000/api/botacademic/')
+    const resacademicyear = await fetch('http://localhost:3000/api/botacademic')
     const botacademicyear = await resacademicyear.json()
     
-    const resbots = await fetch('http://localhost:3000/api/bot/')
+    const resbots = await fetch('http://localhost:3000/api/bot')
     const bots = await resbots.json()
 
-    const resbodacademicyear = await fetch('http://localhost:3000/api/bodacademic/')
+    const resbodacademicyear = await fetch('http://localhost:3000/api/bodacademic')
     const bodacademicyear = await resbodacademicyear.json()
     
-    const resbod = await fetch('http://localhost:3000/api/bod/')
+    const resbod = await fetch('http://localhost:3000/api/bod')
     const bods = await resbod.json()
     
     return {

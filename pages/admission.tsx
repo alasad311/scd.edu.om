@@ -831,11 +831,11 @@ export default function AdmissionPage({otherapps,hod,staff}) {
 }
 export async function getServerSideProps() {
 
-  const ress = await fetch('http://localhost:3000/api/otherapps/')
+  const ress = await fetch('http://localhost:3000/api/otherapps')
   const otherapp = await ress.json()
-  const reshod = await fetch('http://localhost:3000/api/hod-gfp/')
+  const reshod = await fetch('http://localhost:3000/api/hod-gfp')
   const hod = await reshod.json()
-  const resstaff = await fetch('http://localhost:3000/api/staff-gfp/')
+  const resstaff = await fetch('http://localhost:3000/api/staff-gfp')
   const staff = await resstaff.json()
   
   return {
