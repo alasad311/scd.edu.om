@@ -42,37 +42,37 @@ export default function Header({active,otherapp}) {
                                             {active === "aboutus" ? (
                                                 <li ><a className="active current-page-active" href="about">About Us</a></li>
                                             ) : (
-                                                <li ><a href="aboutus">About Us</a></li>
+                                                <li ><a href="/aboutus">About Us</a></li>
                                             )}
                                             {active === "programs" ? (
                                                 <li ><a className="active current-page-active" href="programs">Programs</a></li>
                                             ) : (
-                                                <li ><a href="programs">Programs</a></li>
+                                                <li ><a href="/programs">Programs</a></li>
                                             )}
                                             {active === "admission" ? (
                                                 <li ><a className="active current-page-active" href="admission">Admission</a></li>
                                             ) : (
-                                                <li ><a href="admission">Admission</a></li>
+                                                <li ><a href="/admission">Admission</a></li>
                                             )}
                                             {active === "studentlife" ? (
                                                 <li ><a className="active current-page-active" href="studentlife">Student Life</a></li>
                                             ) : (
-                                                <li ><a href="studentlife">Student Life</a></li>
+                                                <li ><a href="/studentlife">Student Life</a></li>
                                             )}
                                             {active === "alumni" ? (
                                                 <li ><a className="active current-page-active" href="alumni">Alumni</a></li>
                                             ) : (
-                                                <li ><a href="alumni">Alumni</a></li>
+                                                <li ><a href="/alumni">Alumni</a></li>
                                             )}
                                             {active === "exhibition" ? (
                                                 <li ><a className="active current-page-active" href="exhibition">Exhibition</a></li>
                                             ) : (
-                                                <li ><a href="exhibition">Exhibition</a></li>
+                                                <li ><a href="/exhibition">Exhibition</a></li>
                                             )}
                                             {active === "contactus" ? (
                                                 <li ><a className="active current-page-active" href="contactus">Contact Us</a></li> 
                                             ) : (
-                                                <li ><a href="contactus">Contact Us</a></li> 
+                                                <li ><a href="/contactus">Contact Us</a></li> 
                                             )}
                                             </ul>
                                         </nav>

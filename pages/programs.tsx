@@ -6,21 +6,21 @@ import React from 'react';
 
 export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
   
-  const handleClick = (id,string) =>
-  {
-      switch(string)
-      {
-        case "BA":
-          window.location.href = "program/"+id+"?type=major";
-          break;
-        case "MA":
-          window.location.href = "program/"+id+"?type=major";
-          break;
-        case "SHORT":
-          window.location.href = "program/"+id+"?type=short";
-          break;
-      }
-  };
+  // const handleClick = (id,string) =>
+  // {
+  //     switch(string)
+  //     {
+  //       case "BA":
+  //         window.location.href = "program/"+id+"?type=major";
+  //         break;
+  //       case "MA":
+  //         window.location.href = "program/"+id+"?type=major";
+  //         break;
+  //       case "SHORT":
+  //         window.location.href = "program/"+id+"?type=short";
+  //         break;
+  //     }
+  // };
    
 
   return (
@@ -91,7 +91,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
             <div className="row justify-center">
               {majorBA.map((e) => (
                 <div className="col-12 col-md-6 col-lg-3 padding-0" key={e.id}>
-                  <a  href={"/program/"+e.id+"/?type=major"}  className="program" data-major={e.id} data-targert="">
+                  <a  href={"/program/major/"+e.id+"/"}  className="program" data-major={e.id} data-targert="">
                     <div className="course-card-style-3">
                       <div className="card">
                         <div className="thumb">
@@ -123,7 +123,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
               <div className="row justify-center">
                 {majorMA.map((e) => (
                   <div className="col-12 col-md-6 col-lg-3 padding-0" key={e.id}>
-                    <a href={"/program/"+e.id+"/?type=major"} className="program" data-major={e.id}   data-targert="">
+                    <a href={"/program/major/"+e.id+"/"} className="program" data-major={e.id}   data-targert="">
                       <div className="course-card-style-3">
                         <div className="card">
                           <div className="thumb">
@@ -156,7 +156,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
               <div className="row justify-center">
                 {short.map((e) => (
                   <div className="col-12 col-md-6 col-lg-3 padding-0 " key={e.sc_id}>
-                    <a  href={"/program/"+e.id+"/?type=short"}  className="program" data-shortcourse={e.sc_id} data-targert="">
+                    <a  href={"/program/short/"+e.id+"/"}  className="program" data-shortcourse={e.sc_id} data-targert="">
                       <div className="course-card-style-3">
                         <div className="card">
                           <div className="thumb">

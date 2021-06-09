@@ -1,8 +1,8 @@
 import converter from 'number-to-words'
 import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Header from '../../components/header'
-import Footer from '../../components/footer'
+import Header from '../../../components/header'
+import Footer from '../../../components/footer'
 
 export default function programsDetailsPage({otherapp,programDetails,programYerCounter,programPlan,courseDesc,artwork,hod,staff,requirement,fees,totalFees}) {
     var nf = new Intl.NumberFormat();
@@ -16,8 +16,8 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
             <meta name="author" content="Scientific College of Design" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="assets/logo/n_fav_icon.png" />
-            <link rel="stylesheet" href="js/owl.carousel/dist/assets/owl.carousel.min.css" />
-            <link rel="stylesheet" href="css/spidoche/Spidoche.minimal.css"></link>
+            <link rel="stylesheet" href="../../js/owl.carousel/dist/assets/owl.carousel.min.css" />
+            <link rel="stylesheet" href="../../css/spidoche/Spidoche.minimal.css"></link>
           </Head>
           <Header active="programs" otherapp={otherapp} />
           <section className="section margin-bottom-0">
@@ -181,7 +181,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <h3 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "grey-box-title arabic-font" : "grey-box-title"}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "اهداف  البرنامج " : "Program Objectives"}</h3>
                                 }
                               </div>
-                              <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_objective']}}></p>
+                              <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_objective']}}></div>
                             </span>
                             } 
                               {programDetails[0]['md_outcome'] &&
@@ -189,7 +189,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               <div className="internal-heading padding-top-20">
                                 <h1 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "arabic-font" : ""}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "مخرجات البرنامج  " : "Program Learning Outcomes"}</h1>
                               </div>
-                              <p  className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_outcome']}}></p>
+                              <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_outcome']}}></div>
                             </span>
                             }
                             {programDetails[0]['md_career'] &&
@@ -197,7 +197,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               <div className="internal-heading padding-top-20">
                                 <h1 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "arabic-font" : ""}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "فرص العمل   " : "Career Opportunities"}</h1>
                               </div>
-                              <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_career']}}></p>
+                              <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_career']}}></div>
                             </span>
                             } 
                           </div>
@@ -523,14 +523,14 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
           </section>
           
           <Footer />
-          <script src="../js/jquery/jquery-3.6.0.min.js"></script>
-            <script src="../js/bootstrap/bootstrap.bundle.js"></script>
+          <script src="../../js/jquery/jquery-3.6.0.min.js"></script>
+            <script src="../../js/bootstrap/bootstrap.bundle.js"></script>
             <script type="text/javascript" src="../js/owl.carousel/dist/owl.carousel.min.js"></script>
-            <script src="../js/spidoche/jquery.spidochetube.min.js"></script>
-            <script type="text/javascript" src="../js/programs.js"></script>
-            <script type="text/javascript" src="../js/courses.js"></script>
-            <script type="text/javascript" src="../js/artwork.js"></script>
-            <script type="text/javascript" src="../js/studnetVideo.js"></script>
+            <script src="../../js/spidoche/jquery.spidochetube.min.js"></script>
+            <script type="text/javascript" src="../../js/programs.js"></script>
+            <script type="text/javascript" src="../../js/courses.js"></script>
+            <script type="text/javascript" src="../../js/artwork.js"></script>
+            <script type="text/javascript" src="../../js/studnetVideo.js"></script>
         </div>
       )
     }
@@ -539,7 +539,6 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
 // direct database queries. See the "Technical details" section.
 export async function getServerSideProps (context) {
     const { id } = context.query;
-    const { type } = context.query;
     let majordetailsjsondata = null
     let majoryearcounter = null
     let majorplan = null
@@ -550,8 +549,6 @@ export async function getServerSideProps (context) {
     let requirement = null
     let fees = null
     let finalfee = null
-    if(type === "major")
-    {
       const program = "&major="+id;
       const mrequest = await fetch('http://localhost:3000/api/program-major-details?id='+id+program);
       majordetailsjsondata = await mrequest.json();
@@ -584,23 +581,6 @@ export async function getServerSideProps (context) {
       finalfee = await finalfeereq.json();
   
     
-    }
-    else
-    {
-      const program = "&short="+id;
-      const mrequest = await fetch('http://localhost:3000/api/program-major-details?id='+id+program);
-      majordetailsjsondata = await mrequest.json();
-
-      const planyrequest = await fetch('http://localhost:3000/api/program-plan-year?id='+majordetailsjsondata[0]['md_id']);
-      majoryearcounter = await planyrequest.json();
-  
-      const plan = await fetch('http://localhost:3000/api/program-plan?id='+majordetailsjsondata[0]['md_id']);
-      majorplan = await plan.json();
-  
-      const courserequest = await fetch('http://localhost:3000/api/course-short?id='+majordetailsjsondata[0]['md_id']);
-      coursedec = await courserequest.json();
-     
-    }
     // By returning { props: { posts } }, the Blog component
     // will receive `posts` as a prop at build time
     return {
