@@ -31,3 +31,5 @@ yarn-error.log*
 
 # vercel
 .vercel
+lib/db.ts
+lib/db.ts
