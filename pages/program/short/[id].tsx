@@ -315,6 +315,8 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                           <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-heading padding-top-20 arabic-font" : "internal-heading padding-top-20"}>
                             <h1>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "تفاصيل المواد " : "Course Details"}</h1>
                           </div>
+                          <div className="col-lg-12">
+                          <div className="row">
                           {courseDesc &&
                             <div className="accordion accordion-wrapper" id="accordionPrimary">
                               <div className="row">
@@ -339,6 +341,8 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               </div>
                             </div>
                           }
+                            </div>
+                            </div>
                         </div>
                       </div>
                       }
