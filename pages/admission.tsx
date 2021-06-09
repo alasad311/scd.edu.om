@@ -1,13 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import Helmet from "react-helmet";
 import React from 'react';
 import HodGFPDiv from '../components/hod-gfp'
 import StaffGFPDiv from '../components/staff-gfp'
-export default function AdmissionPage() {
+export default function AdmissionPage({otherapps,hod,staff}) {
     
   return (
     <div>
@@ -18,13 +16,8 @@ export default function AdmissionPage() {
         <meta name="author" content="Scientific College of Design" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="assets/logo/n_fav_icon.png" />
-        <script src="js/jquery/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap/bootstrap.bundle.js"></script>
       </Head>
-      <Helmet>
-      <script type="text/javascript" src="/js/admission.js"></script>
-      </Helmet>
-      <Header active="admission" />
+      <Header active="admission" otherapp={otherapps}/>
       <section className="section-internal margin-bottom-0">
         <div className="container-fluid">
           <div className="row">
@@ -576,8 +569,8 @@ export default function AdmissionPage() {
                 <div className="internal-heading padding-top-20">
                   <h1>Head of English Department</h1>
                 </div>
-                <HodGFPDiv />
-                <StaffGFPDiv />
+                <HodGFPDiv hodGFP={hod} />
+                <StaffGFPDiv staffGFP={staff} />
               </div>
               {/* END */}
               {/* START */}
@@ -626,7 +619,7 @@ export default function AdmissionPage() {
                       </form>
                     </div>
                     <div className="col-12 col-md-6 content">
-                      <Image src="/assets/content/bookatour.jpg" width={600} height={600} className="img-fluid" />
+                      <img src="/assets/content/bookatour.jpg" width={600} height={600} className="img-fluid" />
                     </div>
                   </div>
                 </div>
@@ -830,6 +823,26 @@ export default function AdmissionPage() {
         </div>
       </section>
       <Footer />
+      <script src="js/jquery/jquery-3.6.0.min.js"></script>
+      <script src="js/bootstrap/bootstrap.bundle.js"></script>
+      <script type="text/javascript" src="/js/admission.js"></script>
     </div>
   )
+}
+export async function getServerSideProps() {
+
+  const ress = await fetch('http://localhost:3000/api/otherapps/')
+  const otherapp = await ress.json()
+  const reshod = await fetch('http://localhost:3000/api/hod-gfp/')
+  const hod = await reshod.json()
+  const resstaff = await fetch('http://localhost:3000/api/staff-gfp/')
+  const staff = await resstaff.json()
+  
+  return {
+      props: {
+          otherapps: otherapp,
+          hod:hod,
+          staff:staff            
+      },
+  };
 }

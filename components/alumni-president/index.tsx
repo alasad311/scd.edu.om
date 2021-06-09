@@ -1,7 +1,5 @@
-import { alumnipresidentData } from '../../lib/swr-hooks';
 import Preisdent from "./president"
-export default function AlumniPresident() {
-    const { presidentData } = alumnipresidentData()
+export default function AlumniPresident({presidentData}) {
   return (
     <Preisdent data={presidentData}/>
   )

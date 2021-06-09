@@ -1,7 +1,5 @@
-import { alumniTestimonialData } from '../../lib/swr-hooks';
 import AlumniTestimonial from "./testimonial"
-export default function AlumniEvent() {
-    const { testimonialdata } = alumniTestimonialData()
+export default function AlumniEvent({testimonialdata}) {
   return (
     <AlumniTestimonial data={testimonialdata}/>
   )

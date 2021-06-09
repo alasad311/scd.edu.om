@@ -1,7 +1,5 @@
-import { hodGFPData } from '../../lib/swr-hooks';
 import HodGFP from "./gfphod"
-export default function HodGFPDiv() {
-    const { hodGFP } = hodGFPData()
+export default function HodGFPDiv({hodGFP}) {
   return (   
       <HodGFP data={hodGFP} />
   )

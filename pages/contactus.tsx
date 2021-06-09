@@ -1,13 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import Helmet from "react-helmet";
 import { SubmitHandler, useForm } from "react-hook-form";
 import React, { useState } from 'react';
 import AdmissionOffice from '../components/admission-office'
-export default function ContactusPage() {
+export default function ContactusPage({otherapps,adminoffice}) {
     const [isFValid, setFIsValid]=useState(true);
     const [isEValid, setEIsValid]=useState(true);
     const [isPValid, setPIsValid]=useState(true);
@@ -75,13 +73,8 @@ export default function ContactusPage() {
         <meta name="author" content="Scientific College of Design" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="assets/logo/n_fav_icon.png" />
-        <script src="js/jquery/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap/bootstrap.bundle.js"></script>
       </Head>
-      <Helmet>
-      <script type="text/javascript" src="/js/contactus.js"></script>
-      </Helmet>
-      <Header active="contactus" />
+      <Header active="contactus" otherapp={otherapps} />
       <section className="section-internal margin-bottom-0">
         <div className="container-fluid">
           <div className="row">
@@ -172,12 +165,12 @@ export default function ContactusPage() {
               </div>
             </div>
             <div className="tab-pane tab-pane-navigation" id="administrationoffice">
-              <AdmissionOffice />
+              <AdmissionOffice admissionData={adminoffice} />
             </div>
             <div className="tab-pane tab-pane-navigation" id="admissionregistration">
               <div className='row padding-bottom-20'>
                 <div className="col-lg-12">
-                  <Image src="/assets/content/admission-1.jpg" className="img-fluid" width={1600} height={564} />
+                  <img src="/assets/content/admission-1.jpg" className="img-fluid" width={1600} height={564} />
                 </div>
               </div>
               <div className="row">
@@ -321,7 +314,7 @@ export default function ContactusPage() {
                     </form>
                   </div>
                   <div className="col-12 col-md-6 content">
-                      <Image width={600} height={600} src="/assets/content/bookatour.jpg"className="img-fluid" />
+                      <img width={600} height={600} src="/assets/content/bookatour.jpg"className="img-fluid" />
                   </div>
                  </div>
                 </div>
@@ -331,6 +324,24 @@ export default function ContactusPage() {
         </div>
       </section>
       <Footer />
+      <script src="js/jquery/jquery-3.6.0.min.js"></script>
+      <script src="js/bootstrap/bootstrap.bundle.js"></script>
+      <script type="text/javascript" src="/js/contactus.js"></script>
     </div>
   )
+}
+export async function getServerSideProps() {
+
+  const ress = await fetch('http://localhost:3000/api/otherapps/')
+  const otherapp = await ress.json()
+
+  const resoffice = await fetch('http://localhost:3000/api/admission-office/')
+  const adminoffice = await resoffice.json()
+
+  return {
+      props: {
+          otherapps: otherapp,
+          adminoffice: adminoffice
+      },
+  };
 }

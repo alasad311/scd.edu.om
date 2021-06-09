@@ -1,7 +1,5 @@
-import { bodAcademicData } from '../../lib/swr-hooks';
 import AcademicYear from "./academicyear"
-export default function BodAcademicYearText() {
-    const { academicyear } = bodAcademicData()
+export default function BodAcademicYearText({academicyear}) {
   return (
     <AcademicYear data={academicyear}/>
   )

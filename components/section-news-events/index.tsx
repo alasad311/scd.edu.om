@@ -1,9 +1,6 @@
-import Head from 'next/head';
 import React from 'react';
-import { newseventsData } from '../../lib/swr-hooks';
 import NewsEvents from "./newsevents"
-export default function SectionNewsEvents() {
-    const { news } = newseventsData()
+export default function SectionNewsEvents({news}) {
   return (
     <section className="events-section section">
         <div className="container">

@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
@@ -8,8 +7,7 @@ import AlumniPresident from '../components/alumni-president'
 import AlumniTestimonial from '../components/alumni-testimonial'
 import AlumniLatestEvent from '../components/alumni-latest-event'
 import AlumniUpcomingEventDiv from '../components/alumni-upcoming-event'
-export default function AlumniPage() {
-    
+export default function AlumniPage({otherapps,president,testimonial,latestevent,upcomingevent}) {
   return (
     <div>
       <Head>
@@ -21,12 +19,8 @@ export default function AlumniPage() {
         <link rel="icon" href="assets/logo/n_fav_icon.png" />
         <link rel="stylesheet" type="text/css" href="css/animate/animate.min.css"/>
         <link rel="stylesheet" href="js/owl.carousel/dist/assets/owl.carousel.min.css" />
-        <script src="js/jquery/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap/bootstrap.bundle.js"></script>
-        <script type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"></script>
-        <script src="js/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
       </Head>
-      <Header active="alumni" />
+      <Header active="alumni" otherapp={otherapps} />
       <section className="section-internal margin-bottom-0">
         <div className="container-fluid">
           <div className="row">
@@ -56,7 +50,7 @@ export default function AlumniPage() {
               <div className="tab-pane tab-pane-navigation active" id="alumniclub">
                 <div className="row">
                   <div className="col-lg-12">
-                    <Image src="/assets/content/alumniH1.jpg" width={1600} height={800} className="img-fluid"/>
+                    <img src="/assets/content/alumniH1.jpg" width={1600} height={800} className="img-fluid"/>
                     <div className="internal-heading padding-top-20">
                       <h1>Alumni Club</h1>
                     </div>
@@ -88,7 +82,7 @@ export default function AlumniPage() {
                     <div className="internal-heading padding-top-20">
                       <h1>Alumni Club President</h1>
                     </div>
-                    <AlumniPresident />
+                    <AlumniPresident presidentData={president} />
                   </div>
                 </div>
               </div>
@@ -96,7 +90,7 @@ export default function AlumniPage() {
               {/* Start */}
               <div className="tab-pane tab-pane-navigation" id="alumniopportunity">
                 <p className="internal-content-text">SCD alumni are granted various opportunities; The Alumni office holds yearly events such as SCD career fair. This event allows local and international companies to recruit hardworking talented students and alumni for jobs, internships, and freelance opportunities. As SCD alumni, you are offered an open invitation for SCD event and exhibitions. We are proud to exhibit SCD graduate students work in our gallery and in order to ensure their academic excellence SCD offers advising and coaching session by our Faculty members to guide graduates in their professional life.</p>
-                <Image src="/assets/content/alumniopp.jpg" className="img-fluid padding-bottom-20 maring-top-20" width={1600} height={659} />
+                <img src="/assets/content/alumniopp.jpg" className="img-fluid padding-bottom-20 maring-top-20" width={1600} height={659} />
                 <div className="row featured-boxes-full featured-boxes-full-scale">
                   <div className="col-lg-3 featured-box-full featured-box-full-primary">
                     <i className="far fa-building"></i>
@@ -123,7 +117,7 @@ export default function AlumniPage() {
               {/* END */}
               {/* Start */}
               <div className="tab-pane tab-pane-navigation" id="awordfromscdalumni">
-                <Image src="/assets/alumni/alumniH2.jpg" className="img-fluid" width={1600} height={800} />
+                <img src="/assets/alumni/alumniH2.jpg" className="img-fluid" width={1600} height={800} />
                 <div className="row text-center">
                   <div className="col">
                     <h2 className="word-rotator slide font-weight-bold text-8 mb-2 padding-top-50">
@@ -135,7 +129,7 @@ export default function AlumniPage() {
                 </div>
                 <div className="row graduate-testimonial">
                   <div className='col-lg-12'>
-                    <AlumniTestimonial />
+                    <AlumniTestimonial testimonialdata={testimonial} />
                   </div>
                 </div>
               </div>
@@ -143,7 +137,7 @@ export default function AlumniPage() {
               {/* Start */}
               <div className="tab-pane tab-pane-navigation" id="upcomingevent">
                 <div className="row">
-                  <AlumniLatestEvent />
+                  <AlumniLatestEvent eventsdata={latestevent} />
                   <div className="col-lg-6" style={{backgroundColor:"#fff"}} >
                     <h2>Upcoming Events</h2>
                     <div className="event-date-slide slick-initialized slick-slider slick-dotted" role="toolbar">
@@ -151,7 +145,7 @@ export default function AlumniPage() {
                         <div className="slick-track" role="listbox">
                           <div className="row slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true">
                             <div className="col-md-12">
-                              <AlumniUpcomingEventDiv />
+                              <AlumniUpcomingEventDiv eventsdata={upcomingevent} />
                             </div>
                           </div>
                         </div>
@@ -170,7 +164,7 @@ export default function AlumniPage() {
                 <div className="row">
                   <div className="col-lg-3 fluid-col-lg-3 col-mb-3" >
                     <div className="fluid-col">
-                      <Image src="/assets/employees/haitham.jpg" className="img-fluid" width={350} height={350} />
+                      <img src="/assets/employees/haitham.jpg" className="img-fluid" width={350} height={350} />
                     </div>
                   </div>
                   <div className="col-lg-9">
@@ -216,6 +210,39 @@ export default function AlumniPage() {
         </div>
       </section>
       <Footer />
+      <script src="js/jquery/jquery-3.6.0.min.js"></script>
+      <script src="js/bootstrap/bootstrap.bundle.js"></script>
+      <script type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"></script>
+      <script src="js/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+      <script type="text/javascript" src="/js/alumni.js"></script>
+
     </div>
   )
+}
+export async function getServerSideProps() {
+
+  const ress = await fetch('http://localhost:3000/api/otherapps/')
+  const otherapp = await ress.json()
+
+  const respresident = await fetch('http://localhost:3000/api/alumni-president/')
+  const president = await respresident.json()
+  const restestimonial = await fetch('http://localhost:3000/api/alumni-testimonial/')
+  const testimonial = await restestimonial.json()
+  const reslatestevent = await fetch('http://localhost:3000/api/alumni-latest-event/')
+  const latestevent = await reslatestevent.json()
+  const ressupcomingevent = await fetch('http://localhost:3000/api/alumni-upcoming-event/')
+  const upcomingevent = await ressupcomingevent.json()
+
+  
+  return {
+      props: {
+          otherapps: otherapp,
+          president:president,
+          testimonial:testimonial,
+          latestevent:latestevent,
+          upcomingevent:upcomingevent
+
+
+      },
+  };
 }

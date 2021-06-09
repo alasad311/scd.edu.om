@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
@@ -10,7 +9,7 @@ import BodAcademicYearText from '../components/bod-academic'
 import BodsAccordion from '../components/bods'
 import { Controller, SubmitHandler, useForm } from "react-hook-form";
 import React, { useState } from 'react';
-export default function AboutusPage() {
+export default function AboutusPage({otherapps,publication,botacademic,bots,bodacademic,bods}) {
     const [isFValid, setFIsValid]=useState(true);
     const [isEValid, setEIsValid]=useState(true);
     const [isPValid, setPIsValid]=useState(true);
@@ -81,14 +80,8 @@ export default function AboutusPage() {
         <link rel="stylesheet" type="text/css" href="css/animate/animate.min.css"/>
         <link rel="stylesheet" href="js/owl.carousel/dist/assets/owl.carousel.min.css" />
         <link rel="stylesheet" href="/js/zurb-twentytwenty/css/twentytwenty.css" />
-        <script src="js/jquery/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap/bootstrap.bundle.js"></script>
-        <script src="js/zurb-twentytwenty/js/jquery.event.move.js"></script>
-        <script src="js/zurb-twentytwenty/js/jquery.twentytwenty.js"></script>
-        <script type="text/javascript" src="/js/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-        <script type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"></script>
       </Head>
-      <Header active="aboutus" />
+      <Header active="aboutus" otherapp={otherapps}/>
       <section className="section-internal margin-bottom-0">
         <div className="container-fluid">
           <div className="row">
@@ -238,13 +231,13 @@ export default function AboutusPage() {
                     </div>
                 </div>
                 <div className='col-sm-9  col-lg-6  col-md-12 mx-auto py-lg-4 my-lg-4 d-none d-lg-block d-xl-block' >
-                    <Image width={865} height={576} src="/assets/content/MOU.jpg"className="img-fluid" />
+                    <img width={865} height={576} src="/assets/content/MOU.jpg"className="img-fluid" />
                 </div>
                 
             </div>
             <div className="row">
                 <div className='col-sm-9 col-lg-6   col-md-12 col-lg-6   mx-auto d-none d-lg-block d-xl-block'>
-                    <Image width={800} height={534} src="/assets/content/colbkImage.jpg"className="img-fluid" />
+                    <img width={800} height={534} src="/assets/content/colbkImage.jpg"className="img-fluid" />
                 </div>
                 <div className="col-md-12 col-lg-6   py-lg-4 my-lg-4 mb-4">
                     <div className="internal-heading remove-left-padding">
@@ -291,11 +284,11 @@ export default function AboutusPage() {
                         <h1>Faculty Publications & Exhibitions </h1>
                     </div>
                     <div className="row">
-                        <PublicationOwl />
+                        <PublicationOwl publication={publication} />
                     </div>
                 </div>
                 <div className='col-sm-9 col-lg-6   col-md-12 mx-auto py-lg-4 my-lg-4 d-none d-lg-block d-xl-block'>
-                    <Image width={700} height={300} src="/assets/content/publication.png" className="img-fluid" />
+                    <img width={700} height={300} src="/assets/content/publication.png" className="img-fluid" />
                 </div>
             </div>
         </div>
@@ -303,7 +296,7 @@ export default function AboutusPage() {
                 <div className="internal-heading">
                     <h1>Our Accreditation Story</h1>
                 </div>
-                <Image width={1600} height={800} src="/assets/content/accreditationnew.jpg" className="img-fluid" />
+                <img width={1600} height={800} src="/assets/content/accreditationnew.jpg" className="img-fluid" />
                 <p className="internal-content-text">The Scientific College of Designstarted its journey for institutional accreditation in 2009 with a Quality Audit which generated a report of commendations, affirmations, and recommendations.  The report was a roadmap for development of procedures, plans, policies, bylaws as well as improvements of management and governance.  Testing the level of improvements, SCD volunteered for a pilot study of Institutional Standards Assessment in 2016.  Again the Institutional Standards Assessment report paved the way for further developments and quality enhancement.  SCD applied for Institutional Standards Assessment during the following academic year and managed to meet all criteria except two.  Policies were initiated and procedures were improved to meet those criteria. The Oman Academic Accreditation Authority granted SCD accreditation status declaring thatScientific College of Design meets all applicable institutional standard in July 2019</p>
                 <div className="row">
                     <div className="col-lg-6">
@@ -324,12 +317,12 @@ export default function AboutusPage() {
                         </ul>
                     </div>
                     <div className='col-lg-6'>
-                        <Image width={932} height={1280} src="/assets/content/cert.jpg" className="img-fluid certificate-image-border" />
+                        <img width={932} height={1280} src="/assets/content/cert.jpg" className="img-fluid certificate-image-border" />
                     </div>
                 </div>
             </div>
             <div className="tab-pane tab-pane-navigation" id="Mission">
-                <Image src="/assets/content/mission&vision.jpg" width={1600} height={564} className="img-fluid" />
+                <img src="/assets/content/mission&vision.jpg" width={1600} height={564} className="img-fluid" />
                 <div className="featured-boxes featured-boxes-style-8">
                     <div className="row">
                         <div className="col-lg-6">
@@ -486,7 +479,7 @@ export default function AboutusPage() {
                         <div className="row">
                             <div className="col-xl-4 fluid-col-xl-4 col-mb-4" >
                                 <div className="fluid-col padding-bottom-20">
-                                    <Image src="/assets/content/mona.png" className="img-fluid" width={1100} height={1200} />
+                                    <img src="/assets/content/mona.png" className="img-fluid" width={1100} height={1200} />
                                 </div>
                             </div>
                             <div className="col-xl-8">
@@ -523,7 +516,7 @@ export default function AboutusPage() {
                         <div className="row">
                             <div className="col-lg-4 fluid-col-lg-4 col-mb-4" >
                                 <div className="fluid-col">
-                                    <Image src="/assets/content/adham.png" className="img-fluid padding-bottom-20" width={1100} height={1200} />
+                                    <img src="/assets/content/adham.png" className="img-fluid padding-bottom-20" width={1100} height={1200} />
                                 </div>
                             </div>
                             <div className="col-lg-8">
@@ -536,21 +529,21 @@ export default function AboutusPage() {
                         </div>
                     </div>
                 </section>
-                <h5 className="padding-top-20">Board of Trustees <BotAcademicYearText /></h5>
+                <h5 className="padding-top-20">Board of Trustees <BotAcademicYearText academicyear={botacademic} /></h5>
                 <hr />
-                <BotsAccordion />
+                <BotsAccordion bots={bots} />
                 <div className="internal-heading">
                     <h1>Board of Directors</h1>
                 </div>
                 <div className="row">
                     <div className="col-lg-4">
-                        <Image src="/assets/content/Dr.Mohammed.jpg" className="img-fluid padding-bottom-20" width={1100} height={1200} />
+                        <img src="/assets/content/Dr.Mohammed.jpg" className="img-fluid padding-bottom-20" width={1100} height={1200} />
                         <p className="text-font padding-bottom-20">Dr. Moahmmed Adel <br /> Chairman </p>
                     </div>
                     <div className="col-lg-2">
                     </div>
                     <div className="col-lg-4">
-                        <Image src="/assets/content/MissThuriya.jpg" className="img-fluid padding-bottom-20" width={1100} height={1200} />
+                        <img src="/assets/content/MissThuriya.jpg" className="img-fluid padding-bottom-20" width={1100} height={1200} />
                         <br />
                         <p className="text-font padding-bottom-20">Mrs Thuraiya Salah El Deen <br /> Deputy Chairman </p>
                     </div>
@@ -558,9 +551,9 @@ export default function AboutusPage() {
                     <div className="col-lg-2">
                     </div>
                 </div>
-                <h5 >Others Board of Directors <BodAcademicYearText /></h5>
+                <h5 >Others Board of Directors <BodAcademicYearText academicyear={bodacademic} /></h5>
                 <hr />
-                <BodsAccordion />
+                <BodsAccordion bods={bods} />
             </div>
             <div className="tab-pane tab-pane-navigation"  id="joinus">
                 
@@ -658,7 +651,7 @@ export default function AboutusPage() {
                         </form>
                       </div>
                       <div className="col-lg-6 col-md-12 content">
-                          <Image src="/assets/content/workatSCD.jpg" className="img-fluid" width={600} height={600} />
+                          <img src="/assets/content/workatSCD.jpg" className="img-fluid" width={600} height={600} />
                     </div>
                     </div>
                   </div>
@@ -668,6 +661,45 @@ export default function AboutusPage() {
         </div>
       </section>
       <Footer />
+        <script src="js/jquery/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap/bootstrap.bundle.js"></script>
+        <script src="js/zurb-twentytwenty/js/jquery.event.move.js"></script>
+        <script src="js/zurb-twentytwenty/js/jquery.twentytwenty.js"></script>
+        <script type="text/javascript" src="/js/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+        <script type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"></script>
+        <script src="js/aboutus.js"></script>
     </div>
   )
+}
+export async function getServerSideProps() {
+
+    const ress = await fetch('http://localhost:3000/api/otherapps/')
+    const otherapp = await ress.json()
+
+    const respublication = await fetch('http://localhost:3000/api/publications/')
+    const publication = await respublication.json()
+
+    const resacademicyear = await fetch('http://localhost:3000/api/botacademic/')
+    const botacademicyear = await resacademicyear.json()
+    
+    const resbots = await fetch('http://localhost:3000/api/bot/')
+    const bots = await resbots.json()
+
+    const resbodacademicyear = await fetch('http://localhost:3000/api/bodacademic/')
+    const bodacademicyear = await resbodacademicyear.json()
+    
+    const resbod = await fetch('http://localhost:3000/api/bod/')
+    const bods = await resbod.json()
+    
+    return {
+        props: {
+            otherapps: otherapp,
+            publication:publication,
+            botacademic: botacademicyear,
+            bots:bots,
+            bodacademic:bodacademicyear,
+            bods:bods
+
+        },
+    };
 }

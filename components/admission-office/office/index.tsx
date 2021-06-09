@@ -1,5 +1,3 @@
-import Link from 'next/link'
-import Image from 'next/image'
 function Office({ data }) {
   
   if (data) {
@@ -10,7 +8,7 @@ function Office({ data }) {
             <span className="thumb-info thumb-info-hide-wrapper-bg mb-4">
               <span className="thumb-info-wrapper">
                 <a href={"mailto:"+e.ao_email}>
-                  <Image width={350} height={350} src={"/assets/employees/"+e.ao_image} className="img-fluid" alt={e.ao_name} />
+                  <img width={350} height={350} src={"/assets/employees/"+e.ao_image} className="img-fluid" alt={e.ao_name} />
                   <span className="thumb-info-action-icon">
                       <i className="fas fa-envelope"></i>
                   </span>

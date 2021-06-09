@@ -1,12 +1,11 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Helmet from "react-helmet";
 import { SubmitHandler, useForm } from "react-hook-form";
 import React, { useState } from 'react';
-export default function ExhibitionPage() {
+export default function ExhibitionPage({otherapps}) {
     const [isFValid, setFIsValid]=useState(true);
     const [isEValid, setEIsValid]=useState(true);
     const [isPValid, setPIsValid]=useState(true);
@@ -76,14 +75,8 @@ export default function ExhibitionPage() {
         <link rel="icon" href="assets/logo/n_fav_icon.png" />
         <link rel="stylesheet" type="text/css" href="css/animate/animate.min.css"/>
         <link rel="stylesheet" href="js/owl.carousel/dist/assets/owl.carousel.min.css" />
-        <script src="js/jquery/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap/bootstrap.bundle.js"></script>
-        <script type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"></script>
       </Head>
-      <Helmet>
-        <script type="text/javascript" src="/js/exhibition.js"></script>
-      </Helmet>
-      <Header active="exhibition" />
+      <Header active="exhibition" otherapp={otherapps} />
       <section className="section-internal margin-bottom-0">
         <div className="container-fluid">
           <div className="row">
@@ -106,7 +99,7 @@ export default function ExhibitionPage() {
               <div className="tab-pane tab-pane-navigation active" id="scdgallery">
                 <div className="row">
                   <div className='col-lg-12'>
-                    <Image src="/assets/content/exhibtion.jpg" width={1600} height={400} className="img-fluid" alt="content" />
+                    <img src="/assets/content/exhibtion.jpg" width={1600} height={400} className="img-fluid" alt="content" />
                   </div>
                 </div>
                 <div className="row padding-top-30">
@@ -719,6 +712,22 @@ export default function ExhibitionPage() {
         </div>
       </section>
       <Footer />
+      <script src="js/jquery/jquery-3.6.0.min.js"></script>
+      <script src="js/bootstrap/bootstrap.bundle.js"></script>
+      <script type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"></script>
+      <script type="text/javascript" src="/js/exhibition.js"></script>
     </div>
   )
+}
+export async function getServerSideProps() {
+
+  const ress = await fetch('http://localhost:3000/api/otherapps/')
+  const otherapp = await ress.json()
+
+  
+  return {
+      props: {
+          otherapps: otherapp            
+      },
+  };
 }

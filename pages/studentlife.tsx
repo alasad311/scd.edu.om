@@ -1,12 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import React  from 'react';
-import Helmet from "react-helmet";
 import StudentServices from '../components/student-services'
-export default function StudentLifePage() {
+export default function StudentLifePage({otherapps,services}) {
     
   return (
     <div>
@@ -20,16 +18,9 @@ export default function StudentLifePage() {
         <link rel="stylesheet" type="text/css" href="css/animate/animate.min.css"/>
         <link rel="stylesheet" href="js/owl.carousel/dist/assets/owl.carousel.min.css" />
         <link rel="stylesheet" href="css/spidoche/Spidoche.minimal.css"></link>
-        <script src="js/jquery/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap/bootstrap.bundle.js"></script>
-        <script type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"></script>
-        <script src="js/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-        <script src="js/spidoche/jquery.spidochetube.min.js"></script>
+        
       </Head>
-      <Helmet>
-        <script type="text/javascript" src="/js/studentlife.js"></script>
-      </Helmet>
-      <Header active="studentlife" />
+      <Header active="studentlife" otherapp={otherapps} />
       <section className="section-internal margin-bottom-0">
         <div className="container-fluid">
           <div className="row">
@@ -74,7 +65,7 @@ export default function StudentLifePage() {
                 <div className="internal-heading margin-bottom-30">
                     <h1>International Student Life</h1>
                 </div>
-                <Image src="/assets/content/internationalstudents.jpg" width={1600} height={613} className="img-fluid" alt="" />
+                <img src="/assets/content/internationalstudents.jpg" width={1600} height={613} className="img-fluid" alt="" />
                 <p className="internal-content-text">
                     The Scientific College of Design has 21 nationalities of the student community, 7% of the total number of enrolled students, majority of them finished their secondary school in the Sultanate of Oman where their families have working visa, since 2020 the college is working to attract International students, especially after it was announced by Oman Academic Accreditation Authority OAAA that SCD became accredited institution in 2019, and consequently the college received formal recognition in Jordan, Egypt and India, and the college contacted all Gulf Countries to get their recognition.
                 </p>
@@ -123,8 +114,8 @@ export default function StudentLifePage() {
                 <div className="internal-heading margin-bottom-30">
                     <h1>Student Services</h1>
                 </div>
-                <Image src="/assets/content/services.jpg" width={1600} height={613} className="img-fluid" alt="" />
-                <StudentServices />
+                <img src="/assets/content/services.jpg" width={1600} height={613} className="img-fluid" alt="" />
+                <StudentServices servicesdata={services} />
                 
               </div>
               {/* End */}
@@ -133,7 +124,7 @@ export default function StudentLifePage() {
                 <div className="internal-heading margin-bottom-30">
                     <h1>Health & Wellness</h1>
                 </div>
-                <Image src="/assets/content/wellness.jpg" width={1600} height={613} className="img-fluid" alt="" />
+                <img src="/assets/content/wellness.jpg" width={1600} height={613} className="img-fluid" alt="" />
                 <p className="internal-content-text grey-box margin-top-20">The Scientific College of Design takes meticulous care of the students mental health. We organize educational talks about dealing with work stress, anxiety, addictions and many more. The Scientific College of Design grant students access to a educational mental health platform. SCD students can now share their thoughts and receive feedback from licensed professionals.                        </p>
 
                 <div className="internal-heading padding-top-20">
@@ -146,9 +137,9 @@ export default function StudentLifePage() {
                     </div>
                     <div className="col-lg-3">
                         <a href="https://apps.apple.com/gb/app/talkcampus/id1458337209?mt=8">
-                          <Image src="/assets/icons/app store.webp" className="img-fluid" width={300} height={88} /></a><br />
+                          <img src="/assets/icons/app store.webp" className="img-fluid" width={300} height={88} /></a><br />
                         <a href="https://play.google.com/store/apps/details?id=com.bearpty.talkcampus&hl=en_GB">
-                          <Image src="/assets/icons/google play btn.webp" className="img-fluid" width={300} height={88} /></a>
+                          <img src="/assets/icons/google play btn.webp" className="img-fluid" width={300} height={88} /></a>
                     </div>
                 </div>
                 <div className="internal-heading padding-top-20">
@@ -166,7 +157,7 @@ export default function StudentLifePage() {
               {/* END */}
               {/* Start */}
               <div className="tab-pane tab-pane-navigation" id="safety">
-                <Image src="/assets/content/safety.jpg" className="img-fluid" width={1600} height={613} />
+                <img src="/assets/content/safety.jpg" className="img-fluid" width={1600} height={613} />
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="internal-heading padding-top-20">
@@ -314,7 +305,7 @@ export default function StudentLifePage() {
                       <h1>Housing</h1>
                     </div>
                     <div className="col-lg-12">
-                      <Image src="/assets/content/housing.jpg" className="img-fluid" width={1600} height={613} />
+                      <img src="/assets/content/housing.jpg" className="img-fluid" width={1600} height={613} />
                     </div>
                     <ul className="margin-left-30 padding-top-20 accreditation">
                       <li>A comfortable and well lit environment for students to read and do their assignments.</li>
@@ -342,7 +333,7 @@ export default function StudentLifePage() {
                       <h1>Dining</h1>
                     </div>
                       <div className="col-lg-12">
-                        <Image src="/assets/content/dining.jpg" className="img-fluid" width={1600} height={1066} />
+                        <img src="/assets/content/dining.jpg" className="img-fluid" width={1600} height={1066} />
 
                         <p className="internal-content-text padding-top-20">Food is fuel for the mind. The Restaurant nourishes and stimulates the intellect of hundreds of students at SCD. Our restaurant is dedicated to providing a variety of quality fresh foods and exceptional service in a friendly environment. Our restaurant offers a wide variety of wheat & gluten-free, low-fat, and more to accommodate various food preferences and allergies. Fresh foods are brought in from local and regional producers to develop healthy and delicious menu items. The Restaurant is constantly improving its menu and facility. The culinary chefs are mindful about purchasing fruits, vegetables, dairy, and meat products from Omani Organic Farms and other local producers.</p>
                         <p className="internal-content-text">The College Restaurant offers a blend of Gulf & Middle Eastern courses, prepared with fresh ingredients and served in generous portions. The restaurant offers full breakfast, lunch, and dinner menu, available any time. The restaurant staff is friendly and customer service oriented. Students & staff can also indulge into a delicious choice of ice-cream and other treats all day long. Occasional specials include authentic dishes prepared and served by an expert Chef from Jordan specialized in Middle Eastern & Arabian Gulf recipes. The gourmet specialties include Manssaf (a famous Jordanian dish), Scallops, Stuffed Vegetables, Steaks, Mixed BBQ Grill and other famous Omani gourmets like: Thareed, Harees and Shewah.</p>
@@ -373,7 +364,7 @@ export default function StudentLifePage() {
                         </div>
                         <div className="row">
                           <div className="col-lg-12">
-                            <Image src="/assets/studentservices/1.jpg" height={350} width={520} className="img-fluid" />
+                            <img src="/assets/studentservices/1.jpg" height={350} width={520} className="img-fluid" />
                           </div>
                         </div>
                       </div>
@@ -393,7 +384,7 @@ export default function StudentLifePage() {
                         </div>
                         <div className="row">
                           <div className="col-lg-12">
-                            <Image src="/assets/studentservices/4.jpg" height={350} width={520} className="img-fluid" />
+                            <img src="/assets/studentservices/4.jpg" height={350} width={520} className="img-fluid" />
                           </div>
                         </div>
                       </div>
@@ -415,7 +406,7 @@ export default function StudentLifePage() {
                         </div>
                         <div className="row">
                           <div className="col-lg-12">
-                            <Image src="/assets/studentservices/2.jpg" height={350} width={520} className="img-fluid" />
+                            <img src="/assets/studentservices/2.jpg" height={350} width={520} className="img-fluid" />
                           </div>
                         </div>
                       </div>
@@ -435,7 +426,7 @@ export default function StudentLifePage() {
                         </div>
                         <div className="row">
                           <div className="col-lg-12">
-                            <Image src="/assets/studentservices/3.jpg" height={350} width={520} className="img-fluid" />
+                            <img src="/assets/studentservices/3.jpg" height={350} width={520} className="img-fluid" />
                           </div>
                         </div>
                       </div>
@@ -449,6 +440,27 @@ export default function StudentLifePage() {
         </div>
       </section>
       <Footer />
+      <script src="js/jquery/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap/bootstrap.bundle.js"></script>
+        <script type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"></script>
+        <script src="js/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+        <script src="js/spidoche/jquery.spidochetube.min.js"></script>
+        <script type="text/javascript" src="/js/studentlife.js"></script>
     </div>
   )
+}
+export async function getServerSideProps() {
+
+  const ress = await fetch('http://localhost:3000/api/otherapps/')
+  const otherapp = await ress.json()
+  
+  const resservices = await fetch('http://localhost:3000/api/student-services/')
+  const services = await resservices.json()
+  
+  return {
+      props: {
+          otherapps: otherapp,
+          services:services          
+      },
+  };
 }

@@ -1,7 +1,5 @@
-import { admissionofficeData } from '../../lib/swr-hooks';
 import Office from "./office"
-export default function AdmissionOffice() {
-    const { admissionData } = admissionofficeData()
+export default function AdmissionOffice({admissionData}) {
   return (   
       <Office data={admissionData} />
   )

@@ -6,7 +6,7 @@ function HodGFP({ data }) {
       <div className="row">
         <div className="col-lg-4 fluid-col-lg-4 col-mb-4" >
             <div className="fluid-col">
-                <Image src={"/assets/employees/"+data[0]['staff_image']} width={400} height={400} className="img-fluid cardImg padding-bottom-20" />
+                <img src={"/assets/employees/"+data[0]['staff_image']} width={400} height={400} className="img-fluid cardImg padding-bottom-20" />
             </div>
         </div>
           <div className="col-lg-8">

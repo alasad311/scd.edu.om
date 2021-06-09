@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 function Preisdent({ data }) {
   
   if (data) {
@@ -7,7 +5,7 @@ function Preisdent({ data }) {
       <div className="row">
         <div className="col-lg-4 fluid-col-lg-4 col-mb-4" >
           <div className="fluid-col">
-            <Image src={"/assets/alumni/"+data[0]['ap_image']} width={400} height={400} className="img-fluid padding-bottom-20" />
+            <img src={"/assets/alumni/"+data[0]['ap_image']} width={400} height={400} className="img-fluid padding-bottom-20" />
           </div>
         </div>
         <div className="col-lg-8">

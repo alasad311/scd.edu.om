@@ -1,9 +1,6 @@
-import { eventsData,importantDatesData} from '../../lib/swr-hooks';
 import Events from "./events"
 import ImportantDates from "./important-dates"
-export default function SectionHomeEvents() {
-    const { events } = eventsData()
-    const { dates } = importantDatesData()
+export default function SectionHomeEvents({events,dates}) {
   return (
     <section className="event">
         <div className="container">

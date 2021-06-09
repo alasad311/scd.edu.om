@@ -27,7 +27,6 @@ $(".undergraduate").on('click',function(){
     });
   })
   $(".program").on('click',function(){
-    var step2Id = $(".programs").not(":hidden").prop("id");
     var majorid = ($(this).attr("data-major")) ? $(this).attr("data-major") : null;
     var shortid = $(this).attr("data-shortcourse");
 
@@ -39,10 +38,6 @@ $(".undergraduate").on('click',function(){
     {
         $("#selectOption").val(shortid); 
     }
-
-    $("#"+step2Id).fadeOut("slow",function(){
-      $("#final-step").fadeIn();
-    });
   })
 
 

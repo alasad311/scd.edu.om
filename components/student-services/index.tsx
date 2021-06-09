@@ -1,7 +1,5 @@
-import { studentservicesData } from '../../lib/swr-hooks';
 import Services from "./services"
-export default function StudentServices() {
-    const { servicesdata } = studentservicesData()
+export default function StudentServices({servicesdata}) {
   return (   
       <Services data={servicesdata} />
   )

@@ -1,7 +1,5 @@
-import { useOtherapp } from '../../lib/swr-hooks';
 import OtherApp from "./otherapp"
-export default function Header({active}) {
-    const { otherappData } = useOtherapp()
+export default function Header({active,otherapp}) {
   return (
     <header id="header" className="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
             <div className="header-body border-top-0">
@@ -11,7 +9,7 @@ export default function Header({active}) {
                             <div className="header-column justify-content-start">
                                 <div className="header-row">
                                     <nav className="header-nav-top">
-                                        <OtherApp data={otherappData}  />
+                                        <OtherApp data={otherapp}  />
                                     </nav>
                                 </div>
                             </div>

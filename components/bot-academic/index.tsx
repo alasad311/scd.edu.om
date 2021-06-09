@@ -1,7 +1,5 @@
-import { botAcademicData } from '../../lib/swr-hooks';
 import AcademicYear from "./academicyear"
-export default function BotAcademicYearText() {
-    const { academicyear } = botAcademicData()
+export default function BotAcademicYearText({academicyear}) {
   return (
     <AcademicYear data={academicyear}/>
   )

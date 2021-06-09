@@ -6,9 +6,6 @@ function AlumniTestimonial({ data }) {
   if (data) {
     return (
       <div className="owl-carousel owl-theme stage-margin stage-margin-lg nav-dark nav-style-3 mb-0" > 
-          <Helmet>
-            <script type="text/javascript" src="/js/alumni.js"></script>
-          </Helmet>
         {data.map((e) => (
           <div className="testimonial testimonial-style-2 mb-0" key={e.at_id}>
             <blockquote>

@@ -1,17 +1,14 @@
-import Image from "next/image"
-import { sessionDTData,majorsData } from '../../lib/swr-hooks';
-import SessionSelect from "./session"
-import Majors from "./majors"
 import { Controller, SubmitHandler, useForm } from "react-hook-form";
 import React, { useState } from 'react';
+import Select from 'react-select'
+import moment from "moment";
 
 
-export default function SectionMajor() {
-    const { session_DT } = sessionDTData()
-    const { majors } = majorsData()
+export default function SectionMajor({ majors,session_DT,oM,oS }) {
     enum sessionDateTime {
       session_DT
     }
+     
     enum majorList {
       majors
     }
@@ -80,12 +77,12 @@ export default function SectionMajor() {
             <div className="row d-flex align-items-center">
                 <div className="col-lg-6 content">
                     <h2 className="margin-bottom-20">Book a Zoom Session</h2>
-                    <Image src="/assets/zoom-session.jpg" width={578} height={350} />
+                    <img src="/assets/zoom-session.jpg" width={578} height={350} className="img-fluid" />
                     <p className="text-font sliver-box-zoom-session"> Would you like to know more about SCD ? We are here to assist you and answer all your questions. Book a session and our team will clarify and introduce you to SCD majors, student life and admission procedure. You are one step closer from starting a creative career . </p>
                 </div>
                 <div className="col-lg-6 content bookZoomBox">
                   <h3 className="margin-bottom-20">Join Us</h3>
-                  <form onSubmit={handleSubmit(onSubmit)}>
+                  {/* <form onSubmit={handleSubmit(onSubmit)}> */}
                     <div className="row">
                       <div className="col-12 col-md-6 col-lg-5">
                         <div className="form-style">
@@ -156,7 +153,7 @@ export default function SectionMajor() {
                               control={control}
                             
                               render={({ field }) =>
-                                  <Majors data={majors} fields={field} />
+                              <Select className="basic-single" classNamePrefix="select" placeholder="Select Major" isClearable={true} isSearchable={true} name="sessionDT" options={oM} {...field}/>
                                 }
                               
                             />
@@ -174,7 +171,7 @@ export default function SectionMajor() {
                               control={control}
                             
                               render={({ field }) =>
-                                  <SessionSelect data={session_DT} fields={field} />
+                                <Select className="basic-single" classNamePrefix="select" placeholder="Select Session" isClearable={true} isSearchable={true} name="sessionDT" options={oS} {...field}/>
                                 }
                               
                             />
@@ -186,7 +183,7 @@ export default function SectionMajor() {
                       </div>
                     </div>
                     <button type="submit" className="main-btn book-session-btn">Book</button>
-                  </form>
+                  {/* </form> */}
               </div>
               </div>
           </div>

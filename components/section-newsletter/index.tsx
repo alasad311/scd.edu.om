@@ -1,7 +1,5 @@
-import { newsletterData } from '../../lib/swr-hooks';
 import Newsletter from "./newsletter"
-export default function SectionNewsletter() {
-    const { links } = newsletterData()
+export default function SectionNewsletter({links}) {
   return (
       <section className="newsletter-section section">
         <div className="container">

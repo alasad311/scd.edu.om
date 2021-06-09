@@ -1,7 +1,5 @@
-import { majorsData } from '../../lib/swr-hooks';
 import Majors from "./majors"
-export default function SectionMajor() {
-    const { majors } = majorsData()
+export default function SectionMajor({majors}) {
   return (
       <section className="majors section margin-top-0">
           <div className="container">
