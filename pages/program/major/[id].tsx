@@ -555,9 +555,29 @@ export async function getServerSideProps (context) {
       const planyrequest = await fetch(`http://localhost:3000/api/program-plan-year/?id=${majordetailsjsondata[0]['md_id']}`);
       majoryearcounter = await planyrequest.json();
   
-      const plan = await fetch(`http://localhost:3000/program-plan/?id=${majordetailsjsondata[0]['md_id']}`);
+      const plan = await fetch(`http://localhost:3000/api/program-plan/?id=${majordetailsjsondata[0]['md_id']}`);
       majorplan = await plan.json();
-
+  
+      const courserequest = await fetch(`http://localhost:3000/api/course-description/?id=${majordetailsjsondata[0]['md_id']}`);
+      coursedec = await courserequest.json();
+  
+      const artrequest = await fetch(`http://localhost:3000/api/program-artwork/?id=${majordetailsjsondata[0]['md_id']}`);
+      artw = await artrequest.json();
+      
+      const hodreq = await fetch(`http://localhost:3000/api/hod-dpt/?id=${id}`);
+      hod = await hodreq.json();
+  
+      const staffreq = await fetch(`http://localhost:3000/api/staff-dpt/?id=${id}`);
+      staff = await staffreq.json();
+      
+      const reqirementreq = await fetch(`http://localhost:3000/api/criteria/?id=${majordetailsjsondata[0]['md_id']}`);
+      requirement = await reqirementreq.json();
+  
+      const feesreq = await fetch(`http://localhost:3000/api/fees/?id=${majordetailsjsondata[0]['md_id']}`);
+      fees = await feesreq.json();
+  
+      const finalfeereq = await fetch(`http://localhost:3000/api/totalfees/?id=${majordetailsjsondata[0]['md_id']}`);
+      finalfee = await finalfeereq.json();
   
     
     // By returning { props: { posts } }, the Blog component
