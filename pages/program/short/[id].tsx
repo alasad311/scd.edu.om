@@ -538,7 +538,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
 // It won't be called on client-side, so you can even do
 // direct database queries. See the "Technical details" section.
 export async function getServerSideProps (context) {
-    const { id } = context.query;
+  const { id } = context.query.id;
     let majordetailsjsondata = null
     let majoryearcounter = null
     let majorplan = null
@@ -550,8 +550,7 @@ export async function getServerSideProps (context) {
     let fees = null
     let finalfee = null
   
-      const program = "&short="+id;
-      const mrequest = await fetch('http://localhost:3000/api/program-major-details?id='+id+program);
+      const mrequest = await fetch('http://localhost:3000/api/program-major-details?id='+id+"&short="+id);
       majordetailsjsondata = await mrequest.json();
 
       const planyrequest = await fetch('http://localhost:3000/api/program-plan-year?id='+majordetailsjsondata[0]['md_id']);
