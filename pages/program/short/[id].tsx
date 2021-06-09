@@ -543,7 +543,12 @@ export async function getServerSideProps (context) {
     let majoryearcounter = null
     let majorplan = null
     let coursedec = null
-
+    let artw = null
+    let hod = null
+    let staff = null
+    let requirement = null
+    let fees = null
+    let finalfee = null
   
       const mrequest = await fetch(`http://localhost:3000/api/program-short-details?id=${id}`);
       majordetailsjsondata = await mrequest.json();
