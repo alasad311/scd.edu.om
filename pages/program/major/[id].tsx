@@ -418,7 +418,12 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <div className="col-lg-12">
                                   <div className="card border-0 border-radius-0 bg-color-primary">
                                       <div className="card-body" style={{height:"110px"}} >
-                                          <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"}><h1 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-title mb-1 text-4 font-weight-bold text-light arabic-font padding-right-10" : "card-title mb-1 text-4 font-weight-bold text-light padding-right-10"}>{e.rq_num}</h1>{e.rq_description}</p>
+                                          <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"}>
+                                            <h1 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-title mb-1 text-4 font-weight-bold text-light arabic-font padding-right-10" : "card-title mb-1 text-4 font-weight-bold text-light padding-right-10"}>
+                                              {e.rq_num}
+                                            </h1>
+                                              {e.rq_description}
+                                          </p>
                                       </div>
                                   </div>
                               </div>
@@ -575,7 +580,9 @@ export async function getServerSideProps (context) {
   
       const feesreq = await fetch(`http://localhost:3000/api/fees?id=${majordetailsjsondata[0]['md_id']}`);
       fees = await feesreq.json();
-
+  
+      const finalfeereq = await fetch(`http://localhost:3000/api/totalfees?id=${majordetailsjsondata[0]['md_id']}`);
+      finalfee = await finalfeereq.json();
   
     
     // By returning { props: { posts } }, the Blog component

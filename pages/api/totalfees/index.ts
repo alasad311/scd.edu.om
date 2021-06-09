@@ -12,7 +12,7 @@ const handler: NextApiHandler = async (req, res) => {
       return res.status(400).json({ message: '`id` must be a number' })
     }
     const results = await query(`
-    SELECT (SUM(REGEXP_REPLACE(program_fees.pf_fees, '[^0-9]', '')) + SUM(REGEXP_REPLACE(program_fees.pf_otherfees, '[^0-9]', ''))) AS TOTAL
+    SELECT (SUM(uf_only_digits(program_fees.pf_fees)) + SUM(uf_only_digits(program_fees.pf_otherfees))) AS TOTAL
     FROM program_fees
 		WHERE md_id = ?
   `,id)
