@@ -12,9 +12,9 @@
     border-top: 5px solid #79c419;
     border-bottom: 5px solid #79c419;
 }
-.cardImg{
+/* .cardImg{
     filter:grayscale(100%);
-}
+} */
 
 .cardlink{
     width: 100%;

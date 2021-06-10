@@ -4,7 +4,7 @@ function Office({ data }) {
     return (
       <div className="row">
         {data.map((e) => (
-          <div className="col-12 col-sm-6 col-lg-3" key={e.id}>
+          <div className="col-12 col-sm-6 col-lg-4 col-xl-4 col-xxl-3" key={e.id}>
             <span className="thumb-info thumb-info-hide-wrapper-bg mb-4">
               <span className="thumb-info-wrapper">
                 <a href={"mailto:"+e.ao_email}>

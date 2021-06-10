@@ -107,7 +107,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               {programDetails[0]['md_duration'] &&
                                 <div className="col-lg-2">
                                   <div className="card border-0 border-radius-0 bg-color-primary">
-                                    <div className="card-body" style={{height:"115px"}}>
+                                    <div className="card-body" style={{height:"95px"}}>
                                       <h4  className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-title mb-1 text-4 font-weight-bold text-light arabic-font" : "card-title mb-1 text-4 font-weight-bold text-light"}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "مدة اﻟﺒﺮﻧﺎﻣﺞ " : "Duration"}</h4>
                                       <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"}>{programDetails[0]['md_duration']}</p>
                                     </div>
@@ -117,7 +117,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               {programDetails[0]['md_moi'] &&
                                 <div className="col-lg-3">
                                   <div className="card border-0 border-radius-0 bg-color-primary">
-                                    <div className="card-body" style={{height:"115px"}}>
+                                    <div className="card-body" style={{height:"95px"}}>
                                       <h4 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-title mb-1 text-4 font-weight-bold text-light arabic-font" : "card-title mb-1 text-4 font-weight-bold text-light"}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "ﻟﻐﺔ اﻟﺪراﺳﺔ " : "Medium of instruction"}</h4>
                                       <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"}>{programDetails[0]['md_moi']}</p>
                                     </div>
@@ -127,7 +127,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               {programDetails[0]['md_degree'] &&
                                 <div className="col-lg-3">
                                   <div className="card border-0 border-radius-0 bg-color-primary">
-                                    <div className="card-body" style={{height:"115px"}}>
+                                    <div className="card-body" style={{height:"95px"}}>
                                       <h4 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-title mb-1 text-4 font-weight-bold text-light arabic-font" : "card-title mb-1 text-4 font-weight-bold text-light"}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? " ﺟﻬﺔ ﻣﻨﺢ اﻟﺪرﺟﺔ " : "Degree awarding body"}</h4>
                                       <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"}>{programDetails[0]['md_degree']}</p>
                                     </div>
@@ -137,7 +137,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                {programDetails[0]['major_level'] &&
                                 <div className="col-lg-4">
                                   <div className="card border-0 border-radius-0 bg-color-primary">
-                                    <div className="card-body" style={{height:"115px"}}>
+                                    <div className="card-body" style={{height:"95px"}}>
                                       <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"} dangerouslySetInnerHTML={{__html:programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "ﻣﻌﺘﻤﺪة ﻣﻦ اﻟﻬﻴﺌﺔ اﻟﻌﻤﺎﻧﻴﺔ ﻟﻼﻋﺘﻤﺎد اﻻﻛﺎدﻳﻤﻲ " : 'Institutionally Accredited by <a class="font-size-18" href="http://www.oaaa.gov.om/ar/Default.aspx">OAAA</a> & Overseen by the <a  class="font-size-18" href="https://www.moheri.gov.om">MOHERI</a> in the Sultanate of Oman'}}>
                                         </p>
                                     </div>

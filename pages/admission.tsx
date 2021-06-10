@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 import React from 'react';
 import HodGFPDiv from '../components/hod-gfp'
 import StaffGFPDiv from '../components/staff-gfp'
-export default function AdmissionPage({otherapps,hod,staff}) {
+export default function AdmissionPage({otherapps,majordata,hod,staff}) {
     
   return (
     <div>
@@ -180,7 +180,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                   <div className="row justify-center">
                     <div className="col-lg-3">
                       <div className="featured-box featured-box-primary featured-box-effect-2">
-                        <div className="box-content box-content-border-bottom fix-box-height">
+                        <div className="box-content box-content-border-bottom fix-box-height-admission">
                           <i className="icon-featured fas fa-file-image"></i>
                           <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">1</strong> A high School degree.</h4>
                           <p className="mb-2 mt-2 text-2">A certified copy of the original General Education certificate </p>
@@ -189,7 +189,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                     </div>
                     <div className="col-lg-3">
                       <div className="featured-box featured-box-primary featured-box-effect-2">
-                        <div className="box-content box-content-border-bottom fix-box-height">
+                        <div className="box-content box-content-border-bottom fix-box-height-admission">
                           <i className="icon-featured far fa-id-card"></i>
                           <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">2</strong> Bachelor degree</h4>
                           <p className="mb-2 mt-2 text-2">Consists of an Original Certificate, Graduation Notification &amp; Full Transcript). </p>
@@ -198,7 +198,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                     </div>
                     <div className="col-lg-3">
                       <div className="featured-box featured-box-primary featured-box-effect-2">
-                        <div className="box-content box-content-border-bottom fix-box-height">
+                        <div className="box-content box-content-border-bottom fix-box-height-admission">
                             <i className="icon-featured fas fa-portrait"></i>
                             <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">3</strong> Personal Image</h4>
                             <p className="mb-2 mt-2 text-2">A personal image with a clear white background </p>
@@ -209,7 +209,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                   <div className="row justify-center">
                     <div className="col-lg-3">
                       <div className="featured-box featured-box-primary featured-box-effect-2">
-                        <div className="box-content box-content-border-bottom fix-box-height">
+                        <div className="box-content box-content-border-bottom fix-box-height-admission">
                           <i className="icon-featured far fa-id-card"></i>
                           <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">4</strong> Identification Documents </h4>
                           <p className="mb-2 mt-2 text-2">A photocopy of the identity card from both sides.</p>
@@ -218,7 +218,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                     </div>
                     <div className="col-lg-3">
                       <div className="featured-box featured-box-primary featured-box-effect-2">
-                        <div className="box-content box-content-border-bottom fix-box-height">
+                        <div className="box-content box-content-border-bottom fix-box-height-admission">
                           <i className="icon-featured fas fa-portrait"></i>
                           <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">5</strong> Passport Image </h4>
                           <p className="mb-2 mt-2 text-2">A copy of the passport image htmlFor non Omanis.</p>
@@ -227,7 +227,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                     </div>
                     <div className="col-lg-3">
                       <div className="featured-box featured-box-primary featured-box-effect-2">
-                        <div className="box-content box-content-border-bottom fix-box-height">
+                        <div className="box-content box-content-border-bottom fix-box-height-admission">
                           <i className="icon-featured fas fa-receipt"></i>
                           <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">6</strong> Curriculum Vitae </h4>
                           <p className="mb-2 mt-2 text-2">An updated version of the curriculum vitae  .</p>
@@ -264,7 +264,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                     <div className="row" >
                         <div className="col-lg-3">
                             <div className="featured-box featured-box-primary featured-box-effect-2">
-                                <div className="box-content box-content-border-bottom fix-box-height">
+                                <div className="box-content box-content-border-bottom fix-box-height-admission">
                                     <i className="icon-featured fas fa-graduation-cap"></i>
                                     <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">1</strong> School Certificate</h4>
                                     <p className="mb-2 mt-2 text-2">A certified copy of the General Education certificate or its equivalent.</p>
@@ -273,7 +273,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                         </div>
                         <div className="col-lg-3">
                             <div className="featured-box featured-box-primary featured-box-effect-2">
-                                <div className="box-content box-content-border-bottom fix-box-height">
+                                <div className="box-content box-content-border-bottom fix-box-height-admission">
                                     <i className="icon-featured fas fa-id-card"></i>
                                     <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">2</strong> Identification Documents</h4>
                                     <p className="mb-2 mt-2 text-2"> A photocopy of the identity card from both sides</p>
@@ -282,7 +282,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                         </div>
                         <div className="col-lg-3">
                             <div className="featured-box featured-box-primary featured-box-effect-2">
-                                <div className="box-content box-content-border-bottom fix-box-height">
+                                <div className="box-content box-content-border-bottom fix-box-height-admission">
                                     <i className="icon-featured fas fa-portrait"></i>
                                     <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">3</strong> Personal Image</h4>
                                     <p className="mb-2 mt-2 text-2">A personal image with a clear background( passport standard)</p>
@@ -291,7 +291,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                         </div>
                         <div className="col-lg-3">
                             <div className="featured-box featured-box-primary featured-box-effect-2">
-                                <div className="box-content box-content-border-bottom fix-box-height">
+                                <div className="box-content box-content-border-bottom fix-box-height-admission">
                                     <i className="icon-featured fas fa-bars"></i>
                                     <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">4</strong> Admission Fee</h4>
                                     <p className="mb-2 mt-2 text-2"> A non-refundable application fee of 25 Omani Rials.</p>
@@ -325,7 +325,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
 
                           <div className="col-lg-3">
                               <div className="featured-box featured-box-primary featured-box-effect-2">
-                                  <div className="box-content box-content-border-bottom fix-box-height">
+                                  <div className="box-content box-content-border-bottom fix-box-height-admission">
                                       <i className="icon-featured fas fa-certificate"></i>
                                       <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">1</strong> School Certificate</h4>
                                       <p className="mb-2 mt-2 text-2">A certified copy of the original General Education certificate or its equivalence from the Omani Higher Education.</p>
@@ -334,7 +334,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                           </div>
                           <div className="col-lg-3">
                               <div className="featured-box featured-box-primary featured-box-effect-2">
-                                  <div className="box-content box-content-border-bottom fix-box-height">
+                                  <div className="box-content box-content-border-bottom fix-box-height-admission">
                                       <i className="icon-featured fas fa-passport"></i>
                                       <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">2</strong> Passport Image</h4>
                                       <p className="mb-2 mt-2 text-2">A clear copy of the passport image.</p>
@@ -343,7 +343,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                           </div>
                           <div className="col-lg-3">
                               <div className="featured-box featured-box-primary featured-box-effect-2">
-                                  <div className="box-content box-content-border-bottom fix-box-height">
+                                  <div className="box-content box-content-border-bottom fix-box-height-admission">
                                       <i className="icon-featured fas fa-id-card"></i>
                                       <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">3</strong> Image of residency card</h4>
                                       <p className="mb-2 mt-2 text-2">A photocopy of the residency card from both sides.</p>
@@ -352,9 +352,9 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                           </div>
                           <div className="col-lg-3">
                               <div className="featured-box featured-box-primary featured-box-effect-2">
-                                  <div className="box-content box-content-border-bottom fix-box-height">
+                                  <div className="box-content box-content-border-bottom fix-box-height-admission">
                                       <i className="icon-featured fas fa-portrait"></i>
-                                      <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold"></strong> Personal Image</h4>
+                                      <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">4</strong> Personal Image</h4>
                                       <p className="mb-2 mt-2 text-2">A personal image with a clear background (passport standard).</p>
                                   </div>
                               </div>
@@ -387,7 +387,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                       <div className="row">
                           <div className="col-lg-3">
                               <div className="featured-box featured-box-primary featured-box-effect-2">
-                                  <div className="box-content box-content-border-bottom fix-box-height">
+                                  <div className="box-content box-content-border-bottom fix-box-height-admission">
                                       <i className="icon-featured fas fa-certificate"></i>
                                       <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">1</strong> A high School degree</h4>
                                       <p className="mb-2 mt-2 text-2"> A certified copy of the General Education certificate or its equivalent</p>
@@ -396,7 +396,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                           </div>
                           <div className="col-lg-3">
                               <div className="featured-box featured-box-primary featured-box-effect-2">
-                                  <div className="box-content box-content-border-bottom fix-box-height">
+                                  <div className="box-content box-content-border-bottom fix-box-height-admission">
                                       <i className="icon-featured fas fa-id-card"></i>
                                       <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">2</strong> Identification Documents</h4>
                                       <p className="mb-2 mt-2 text-2">A photocopy of the identity card from both sides.</p>
@@ -405,7 +405,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                           </div>
                           <div className="col-lg-3">
                               <div className="featured-box featured-box-primary featured-box-effect-2">
-                                  <div className="box-content box-content-border-bottom fix-box-height">
+                                  <div className="box-content box-content-border-bottom fix-box-height-admission">
                                       <i className="icon-featured fas fa-portrait"></i>
                                       <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">3</strong> Personal Image</h4>
                                       <p className="mb-2 mt-2 text-2">A personal image with a clear background (passport standard).</p>
@@ -414,7 +414,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                           </div>
                           <div className="col-lg-3">
                               <div className="featured-box featured-box-primary featured-box-effect-2">
-                                  <div className="box-content box-content-border-bottom fix-box-height">
+                                  <div className="box-content box-content-border-bottom fix-box-height-admission">
                                       <i className="icon-featured fas fa-check-circle"></i>
                                       <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">4</strong> GFP  certificate</h4>
                                       <p className="mb-2 mt-2 text-2">To submit a prove htmlFor completion of the general foundation program </p>
@@ -479,10 +479,10 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                       <div className="row" >
                           <div className="col-lg-3">
                               <div className="card flip-cards text-center rounded-0">
-                                  <div className="flip-front p-5">
-                                      <div className="flip-content my-4">
+                                  <div className="flip-front p-3">
+                                      <div className="flip-content my-4 fix-flip-card-height-2">
                                           <strong className="font-weight-extra-bold text-color-dark line-height-1 text-13 mb-3 d-inline-block">01</strong>
-                                          <h4 className="font-weight-bold text-color-primary text-4"> Start Application</h4>
+                                          <h4 className="font-weight-bold text-color-primary text-4"> Start Application </h4>
                                           
                                       </div>
                                   </div>
@@ -491,10 +491,10 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                           </div>
                           <div className="col-lg-3">
                               <div className="card flip-cards text-center rounded-0">
-                                  <div className="flip-front p-5">
-                                      <div className="flip-content my-4">
+                                  <div className="flip-front p-3">
+                                      <div className="flip-content my-4 fix-flip-card-height">
                                           <strong className="font-weight-extra-bold text-color-dark line-height-1 text-13 mb-3 d-inline-block">02</strong>
-                                          <h4 className="font-weight-bold text-color-primary text-4">Fill The Form</h4>
+                                          <h4 className="font-weight-bold text-color-primary text-4">Fill the Form </h4>
                                       </div>
                                   </div>
                                  
@@ -502,7 +502,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                           </div>
                           <div className="col-lg-3">
                               <div className="card flip-cards text-center rounded-0">
-                                  <div className="flip-front p-5">
+                                  <div className="flip-front p-3">
                                       <div className="flip-content my-4">
                                           <strong className="font-weight-extra-bold text-color-dark line-height-1 text-13 mb-3 d-inline-block">03</strong>
                                           <h4 className="font-weight-bold text-color-primary text-4">Upload Documents</h4>
@@ -513,7 +513,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                           </div>
                           <div className="col-lg-3">
                               <div className="card flip-cards text-center rounded-0">
-                                  <div className="flip-front p-5">
+                                  <div className="flip-front p-3">
                                       <div className="flip-content my-4">
                                           <strong className="font-weight-extra-bold text-color-dark line-height-1 text-13 mb-3 d-inline-block">04</strong>
                                           <h4 className="font-weight-bold text-color-primary text-4">Submit Application</h4>
@@ -524,7 +524,7 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                           </div>
                       </div>
                       <br /><br />
-                      <div className="row" >
+                      <div className="row justify-center" >
                           <div className="col-lg-10">
                               <section className="call-to-action call-to-action-default mb-5" >
                                   <div className="col-sm-9 col-lg-9">
@@ -544,13 +544,13 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                       <div className="row justify-center" >
                         <div className="col-lg-3 col-md-12 contact-us-circle admission-circles" data-target="programs">
                           <div className="circle">
-                            <span><i className="fas  fa-phone-volume" ></i></span>
+                            <span><i className="fas  fa-search" ></i></span>
                           </div>
                           <h5 className="circle-title padding-top-20">Borwse Programs</h5>
                         </div>
                         <div className="col-lg-3 col-md-12 contact-us-circle admission-circles" data-target="booktour">
                           <div className="circle">
-                            <span><i className="fas  fa-phone-volume" ></i></span>
+                            <span><i className="fas  fa-building" ></i></span>
                           </div>
                           <h5 className="circle-title padding-top-20">Book a Tour</h5>
                         </div>
@@ -583,40 +583,67 @@ export default function AdmissionPage({otherapps,hod,staff}) {
                         <p className="internal-content-text padding-bottom-20 remove-top-padding">Get a real life experience of SCD student life. We offer you a guided tour around SCD campus and faculties. Visit our state of art labs, various studios, theater, student lounge, outdoor sitting area along with answering all your inquires about the suspected major to enroll in.
                       </p>
                       </div>
+              {/* <form onSubmit={handleSubmit(onSubmit)}> */}
+                    <div className="row">
+                      <div className="col-12 col-md-6 col-lg-5">
+                        <div className="form-style">
+                        {/* ${isFValid? 'valid' : 'invalid'} */}
+                          <div className={`form-group required`}>
+                            <input className="form-control"   name="FirstName" id="FirstName"  type="text"  placeholder="First name" />
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-12 col-md-6 col-lg-5">
+                        <div className="form-style">
+                          {/* ${isFValid? 'valid' : 'invalid'} */}
+                          <div className={`form-group required`}>
+                            <input className="form-control"   name="LastName" id="LastName"  type="text"  placeholder="Last name" />
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-12 col-md-6 col-lg-5">
+                        <div className="form-style">
+                          {/* ${isFValid? 'valid' : 'invalid'} */}
+                          <div className={`form-group required`}>
+                            <input className="form-control"   name="phone" id="phone"  type="text"  placeholder="Phone Number" />
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-12 col-md-6 col-lg-5">
+                        <div className="form-style">
+                           {/* ${isFValid? 'valid' : 'invalid'} */}
+                           <div className={`form-group required`}>
+                            <select className="form-control" name="majors">
+                                <option value="">Select Major</option>
+                                  {majordata.map((node) => {
+                                    return <option value={node.id}>{node.major_name}</option>
+                                  })}
+                              </select>
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
+                          </div>
 
-                      <form action="#" className="form-style-2">
-                          <div className="row">
-                              <div className="col-lg-6">
-                                  <div className="form-group required">
-                                      <label htmlFor="f_name">Full name</label>
-                                      <input type="text" id="f_name" className="form-control" name="f_name" placeholder="" />
-                                    </div>
-                              </div>
-                              <div className="col-lg-6">
-                                  <div className="form-group required">
-                                      <label htmlFor="email_address">Suspected Major</label>
-                                      <select className="form-control">
-                                          <option>Major 1</option>
-                                          <option>Major 1</option>
-                                          <option>Major 1</option>
-                                          <option>Major 1</option>
-                                      </select>
-                                    </div>
-                              </div>
-                          </div>
-                          <div className="row">
-                              <div className="col-lg-6">
-                                  <div className="form-group required">
-                                      <label htmlFor="l_name">Phone Number</label>
-                                      <input type="text" id="l_name" className="form-control" name="l_name" placeholder="" />
-                                    </div>
-                              </div>
-                              
-                          </div>
-                          
-                        
-                          <button type="submit" className="main-btn book-session-btn">Book</button>
-                      </form>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <button type="submit" className="main-btn book-session-btn">Book</button>
+                  {/* </form> */}
+                      
                     </div>
                     <div className="col-12 col-md-6 content">
                       <img src="/assets/content/bookatour.jpg" width={600} height={600} className="img-fluid" />
@@ -837,11 +864,14 @@ export async function getServerSideProps() {
   const hod = await reshod.json()
   const resstaff = await fetch('http://localhost:3000/api/staff-gfp')
   const staff = await resstaff.json()
+  const resmajor = await fetch('http://localhost:3000/api/major')
+  const majors = await resmajor.json()    
   
   return {
       props: {
           otherapps: otherapp,
           hod:hod,
+          majordata: majors,
           staff:staff            
       },
   };

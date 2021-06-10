@@ -2,7 +2,6 @@ import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
-import Helmet from "react-helmet";
 import { SubmitHandler, useForm } from "react-hook-form";
 import React, { useState } from 'react';
 export default function ExhibitionPage({otherapps}) {
@@ -140,7 +139,8 @@ export default function ExhibitionPage({otherapps}) {
                     <div className="row">
                       <div className="col-lg-12 ">
                         <div className="exhibition-header-box">
-                          <h3 className="artist">Mohammed Abedalkarim Alzadjali</h3>
+                          <h3 className="title"><i className="fas fa-caret-right"></i> Mohammed Alzadjali</h3>
+                          <h3 className="artist"></h3>
                         </div>
                       </div>
                     </div>
@@ -175,7 +175,8 @@ export default function ExhibitionPage({otherapps}) {
                     <div className="row padding-top-15">
                       <div className="col-lg-12 ">
                         <div className="exhibition-header-box">
-                          <h3 className="artist">Ashraf Mahmood</h3>
+                          <h3 className="title"><i className="fas fa-caret-right"></i> Ashraf Mahmood</h3>
+                          <h3 className="artist"></h3>
                         </div>
                       </div>
                     </div>
@@ -220,20 +221,21 @@ export default function ExhibitionPage({otherapps}) {
                         <h2 className="exhibition-main-title">Upcoming Exhibitions</h2>
                       </div>
                     </div>
-                    <div className="row">
-                      <div className="col-lg-6">
-                        <div className="row exhibition-background margin-bottom-20 margin-top-20">
-                          <div className="col-lg-4 col-4 col-sm-4 col-md-4 col-sx-4">
-                            <div className="event_date">
-                              <div className="event-date-wrap">
-                                <p>TBA</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="col-lg-8 col-8 col-sm-8 col-md-8 col-sx-8 exhibition-description">
-                            <h3>Dr Taher Helmi Exhibition</h3>
+                    <div className="row exhibition-background margin-bottom-20">
+                      <div className="col-lg-3 col-4 col-sm-4 col-md-4 col-sx-4">
+                        <div className="event_date">
+                          <div className="event-date-wrap">
+                            <p>TBA</p>
                           </div>
                         </div>
+                      </div>
+                      <div className="col-lg-9 col-8 col-sm-8 col-md-8 col-sx-8 exhibition-description">
+                        <h3>Dr Taher Helmi Exhibition</h3>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-lg-6">
+                        
                         <div className="thumb-gallery-detail owl-carousel owl-theme manual nav-inside nav-style-1 nav-dark mb-3">
                           <div>
                             <img src="assets/exhibition/upmain.jpg" className="img-fluid" alt=" " />
@@ -335,7 +337,7 @@ export default function ExhibitionPage({otherapps}) {
                           </div>
                         </div>
                       </div>
-                      <div className="col-lg-4 ">
+                      <div className="col-lg-6 ">
                         <h5 className="exhibition-side-titles">Book Your Calendar</h5>
                         <div className="row padding-left-10 padding-right-15">
                           <div className="col-lg-4 col-md-4 col-xs-4 col-sm-4 col-4 fix-box-padding">
@@ -384,8 +386,8 @@ export default function ExhibitionPage({otherapps}) {
                             </div>
                           </div>
                         </div>
-                        <h5 className="exhibition-side-titles padding-top-20">Visit Our Exhibition</h5>
-                        <iframe style={{border:0}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9076207575854!2d58.28190301481938!3d23.571761084677693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8e00b4573ba82b%3A0xcfe4a6226e6acc42!2sScientific%20College%20of%20Design!5e0!3m2!1sen!2som!4v1614510341293!5m2!1sen!2som" width="100%" height="187"  loading="lazy"></iframe>
+                        {/* <h5 className="exhibition-side-titles padding-top-20">Visit Our Exhibition</h5>
+                        <iframe style={{border:0}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9076207575854!2d58.28190301481938!3d23.571761084677693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8e00b4573ba82b%3A0xcfe4a6226e6acc42!2sScientific%20College%20of%20Design!5e0!3m2!1sen!2som!4v1614510341293!5m2!1sen!2som" width="100%" height="187"  loading="lazy"></iframe> */}
                       </div>
                     </div>
                     <div className="row padding-top-20">
@@ -414,26 +416,6 @@ export default function ExhibitionPage({otherapps}) {
                                 </div>
                               </div>
                               <img src="assets/exhibition/2.jpg" className="img-fluid" alt="Presentation" />
-                            </div>
-                            <div>
-                              <div className="row">
-                                <div className="col-lg-12 ">
-                                  <div className="exhibition-header-box">
-                                    <h3 className="title"><i className="fas fa-caret-right"></i> Malameh Exhibition</h3>
-                                  </div>
-                                </div>
-                              </div>
-                              <img src="assets/exhibition/3.jpg" className="img-fluid" alt="Presentation" />
-                            </div>
-                            <div>
-                              <div className="row">
-                                <div className="col-lg-12 ">
-                                  <div className="exhibition-header-box">
-                                    <h3 className="title"><i className="fas fa-caret-right"></i> Malameh Exhibition</h3>
-                                  </div>
-                                </div>
-                              </div>
-                              <img src="assets/exhibition/5.jpg" className="img-fluid" alt="Presentation" />
                             </div>
                             <div>
                               <div className="row">
@@ -582,17 +564,6 @@ export default function ExhibitionPage({otherapps}) {
                             <div>
                               <span className="d-block cur-pointer">
                                 <img alt="Presentation" src="assets/exhibition/2.jpg" className="img-fluid" />
-                              </span>
-                            </div>
-                            <div>
-                              <span className="d-block cur-pointer">
-                                <img alt="Presentation" src="assets/exhibition/3.jpg" className="img-fluid" />
-                              </span>
-                            </div>
-                            
-                            <div>
-                              <span className="d-block cur-pointer">
-                                <img alt="Presentation" src="assets/exhibition/5.jpg" className="img-fluid" />
                               </span>
                             </div>
                             <div>

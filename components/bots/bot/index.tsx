@@ -17,7 +17,7 @@ function Bot({ data }) {
                 </div>
                 {e.bot_description && 
                 <div id={"according-content-"+e.bot_id} className="collapse" aria-labelledby={"collapsePrimaryHeadingOne-"+e.bot_id} data-bs-parent="#accordionPrimary">
-                  <div className="card-body">
+                  <div className="card-body" style={{height:"100%"}}>
                       <p className="mb-0">{e.bot_description}</p>
                   </div>
                 </div>

@@ -14,6 +14,7 @@
 	margin: 0;
   }
   .footer-section .footer-content {
+	justify-content: center;
 	padding: 4rem 0;
 	padding-right: 60px;
   padding-left: 60px;
@@ -34,6 +35,9 @@
   }
   .footer-section .footer-content li {
 	margin: 0.5rem 0;
+  }
+  .footer-section .footer-content ul{
+	padding-left: 0;
   }
   .footer-section .footer-content .contact-links .social-icons {
 	margin: 1.4rem auto;
@@ -101,7 +105,7 @@
   }
   .footer-section .copyright #scroll-top i {
 	display: block;
-	color: var(--white);
+	color: #fff;
   }
   .footer-section .copyright #scroll-top:hover {
 	background-color: #777777
@@ -121,9 +125,10 @@
 	margin-bottom: 0.5rem;
 }
 .footer-icon{
-    font-size: 34px;
+    font-size: 2.4em;
     color: #9CCA43;
     margin-right: 10px;
+	padding-bottom:20px;
 }
 .footer-icon-links{
     width: 25px;

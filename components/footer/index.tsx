@@ -7,9 +7,8 @@ export default function Footer() {
       <div className="container-fluid">
           <div className="divider"></div>
           <div className="row footer-content">
-              <div className="col-12 col-md-6 col-lg-1"></div>
               <div className="col-12 col-md-6 col-lg-2" >
-                  <Image width={150} height={150} className="brand-logo" src="/assets/logo/Logo-Center.png" alt="SCD Logo" />
+                  <img width={150} height={150} className="brand-logo" src="/assets/logo/Logo-Center.png" alt="SCD Logo" />
               </div>
               <div className="col-12 col-md-6 col-lg-2">
                   <h5>LEARN</h5>

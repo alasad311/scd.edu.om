@@ -64,7 +64,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                       </div>
                       <div className="col-lg-4">
                         <div className="counter counter-primary">
-                          <strong>5000+</strong>
+                          <strong>3000+</strong>
                           <label>Total Graduates</label>
                         </div>
                       </div> 
@@ -120,7 +120,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                 <img src="/assets/alumni/alumniH2.jpg" className="img-fluid" width={1600} height={800} />
                 <div className="row text-center">
                   <div className="col">
-                    <h2 className="word-rotator slide font-weight-bold text-8 mb-2 padding-top-50">
+                    <h2 className="word-rotator slide font-weight-bold text-8 mb-2 padding-top-50 padding-bottom-50">
                       <span>SCD specializes in preparing students for a </span>
                       <span className="rotate2 word-rotator-words bg-primary_">creative,innovative,successful</span>
                       <span> Life</span>
@@ -170,8 +170,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                   <div className="col-lg-9">
                     <div className="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
                       <blockquote >
-                        <p className="mb-0"><b>Congratulation, and welcome to SCD Alumni Club</b>
-                            Receiving your SCD certificate is your ticket to enter the SCD Alumni Club, more than 2650+ graduated from SCD and 
+                        <p className="mb-0"><b>Congratulation, and welcome to SCD Alumni Club</b> your SCD certificate is your ticket to enter the SCD Alumni Club, more than 2650+ graduated from SCD and 
                             we are happy to be InTouch with you all, and we want all of you to be connected with us. 
                             The Alumni club offers you to build your network, hear about the achievement accomplished done by your fellow alumni’s and of 
                             course to have FUN too, Alumni bond is enjoyable, and it helps you to successed and connect with us.

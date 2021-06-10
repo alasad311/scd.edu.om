@@ -155,7 +155,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
               </div>
               <div className="row justify-center">
                 {short.map((e) => (
-                  <div className="col-12 col-md-6 col-lg-3 padding-0 " key={e.sc_id}>
+                  <div className="col-12 col-md-6 col-lg-4 padding-0 " key={e.sc_id}>
                     <a  href={"/program/short/"+e.sc_id+"/"}  className="program" data-shortcourse={e.sc_id} data-targert="">
                       <div className="course-card-style-3">
                         <div className="card">

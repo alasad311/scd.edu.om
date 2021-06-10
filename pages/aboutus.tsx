@@ -118,7 +118,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                     <h1>Our Story</h1>
                 </div>
                 <div id='beforeafter' className="d-none d-lg-block d-xl-block">
-                    <img src="/assets/content/AboutSCDb&w.jpg" className="img-fluid" />
+                    <img src="/assets/content/AboutSCDbw.jpg" className="img-fluid" />
                     <img src="/assets/content/AboutSCD.jpg" className="img-fluid" />
                 </div>
                 <p className="internal-content-text">The Scientific College of Design is a private art and design institution of higher learning located in Muscat, Sultanate of Oman. Established by a Ministerial Decree and regulated by the Ministry of Higher Education, the college officially instigated its academic programs and services in October 2004. The college is governed by a board of trustees, guided by the Directorate General of Private Universities and Colleges. The Scientific College of Design is established upon the firm belief in and strong advocacy of the role of the arts as an integral part of our social consciousness, as an agent of progressive change, and as a powerful catalyst in molding the thoughts and actions of our national and global communities.</p>
@@ -167,7 +167,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                         <div id="coloredBarBehindCascadingImagesPopup" className="dialog dialog-lg zoom-anim-dialog mfp-hide mfp-close-out px-3">
                         </div>
                     </div>
-                    <div className="col-md-12 col-sm-12 col-sx-12  col-lg-6 py-lg-4 my-lg-4 mb-4 order-1 order-md-2">
+                    <div className="col-md-12 col-sm-12 col-sx-12  col-lg-5 py-lg-4 my-lg-4 mb-4 order-1 order-md-2">
                         <div className="pr-3 pl-md-5 pb-3 pb-sm-0 py-lg-5 my-lg-4 border-left-light border-sm-none">
                             <div className="internal-heading remove-left-padding">
                                 <h1>Hub for art and design</h1>
@@ -191,9 +191,9 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                         <div id="coloredBarBehindCascadingImagesPopup" className="dialog dialog-lg zoom-anim-dialog mfp-hide mfp-close-out px-3">
                         </div>
                     </div>
-                    <div className="col-md-12  col-lg-6  py-lg-4 my-lg-4 mb-4 order-1 order-md-2">
+                    <div className="col-md-12  col-lg-5  py-lg-4 my-lg-4 mb-4 order-1 order-md-2">
                         <div className="pr-3 pl-md-5 pb-3 pb-sm-0 py-lg-5 my-lg-4 border-left-light border-sm-none">
-                        <div className="internal-heading remove-left-padding">
+                        <div className="internal-heading remove-left-padding" style={{width:"100% !important"}}>
                             <h1>Award Winning Faculty Members </h1>
                         </div>
                             <p className="mb-2 internal-content-text remove-top-padding" >SCD is recognized for its distinguished specialized institution by its research and artistic output of its constituents.  Faculty participated in conferences in the United Stated, Japan, Italy, Switzerland, Germany, Egypt, United Arab Emirates, and Jordan. </p>
@@ -202,8 +202,8 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                 </div>
                 <div className="row aboutus-section-with-background" >
                 <div className="col-md-12  col-lg-6  py-lg-5 my-lg-5 mb-5" >
-                    <div className="internal-heading remove-left-padding">
-                        <h1>National & International Engagements </h1>
+                    <div className="internal-heading remove-left-padding" style={{width:"100% !important"}}>
+                        <h1 >National & International Engagements </h1>
                     </div>
                     <div className="row">
                         <div className="col-lg-5 col-sx-12 col-md-12 aboutus-section-ul-with-background" >
@@ -280,7 +280,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
             <div className="row">
                 
                 <div className="col-md-12  col-lg-6  py-lg-4 my-lg-4 mb-4">
-                    <div className="internal-heading remove-left-padding">
+                    <div className="internal-heading remove-left-padding" style={{width:"100% !important"}}>
                         <h1>Faculty Publications & Exhibitions </h1>
                     </div>
                     <div className="row">
@@ -304,7 +304,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                             <h1 className="green-box">Scientific College of Design meets all applicable institutional standard</h1>
                         </div>
                         <p>The Scientific College of Design received the “Institutional Accreditation” certificate from the Oman Academic Accreditation Authority in July 2019 for a period of five years, as SCD met all accreditation requirements of 8 standards and almost 70 criteria, all higher education institutions HEIs in the Sultanate of Oman are subject to the process of institutional and program accreditation, which is compulsory to measure the quality of education and to compare with the accreditation standards and the extent to which they are met. This applies in all countries of the world.</p>
-                        <div className="internal-heading-size remove-left-padding">
+                        <div className="internal-heading-size remove-left-padding" style={{width:"100%"}}>
                             <h1>SCD Accreditation benefits for stakeholders:</h1>
                         </div>
                         <ul className="margin-left-20 accreditation">

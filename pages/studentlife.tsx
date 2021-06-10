@@ -72,7 +72,7 @@ export default function StudentLifePage({otherapps,services}) {
                 <div className="row">
                   <div className="col-lg-3">
                     <div className="featured-box featured-box-primary featured-box-effect-2">
-                      <div className="box-content box-content-border-bottom fix-box-height">
+                      <div className="box-content box-content-border-bottom fix-box-height-3">
                         <i className="icon-featured fas fa-graduation-cap"></i>
                         <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">1</strong> School Certificate</h4>
                         <p className="mb-2 mt-2 text-2">Students are required to Contact formal authorities to do the equivalency needed for the high secondary school certificate to equal the Omani grade 12 certificate</p>
@@ -81,7 +81,7 @@ export default function StudentLifePage({otherapps,services}) {
                   </div>
                   <div className="col-lg-3">
                     <div className="featured-box featured-box-primary featured-box-effect-2">
-                      <div className="box-content box-content-border-bottom fix-box-height">
+                      <div className="box-content box-content-border-bottom fix-box-height-3">
                         <i className="icon-featured fas fa-id-card"></i>
                         <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">2</strong> Admission & Registration</h4>
                         <p className="mb-2 mt-2 text-2"> complete the admission and registration procedures, to start <a href="https://apply.scd.edu.om">click here</a></p>
@@ -90,7 +90,7 @@ export default function StudentLifePage({otherapps,services}) {
                   </div>
                   <div className="col-lg-3">
                     <div className="featured-box featured-box-primary featured-box-effect-2">
-                      <div className="box-content box-content-border-bottom fix-box-height">
+                      <div className="box-content box-content-border-bottom fix-box-height-3">
                         <i className="icon-featured fas fa-portrait"></i>
                         <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">3</strong> Student Visa & Health Insurance</h4>
                         <p className="mb-2 mt-2 text-2">For student visa & health insurance application and requirement please contact our <a href="contactus#administrationoffice">public relation unit</a> </p>
@@ -99,7 +99,7 @@ export default function StudentLifePage({otherapps,services}) {
                   </div>
                   <div className="col-lg-3">
                     <div className="featured-box featured-box-primary featured-box-effect-2">
-                      <div className="box-content box-content-border-bottom fix-box-height">
+                      <div className="box-content box-content-border-bottom fix-box-height-3">
                         <i className="icon-featured fas fa-bars"></i>
                         <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">4</strong> Transportation</h4>
                         <p className="mb-2 mt-2 text-2"> upon student arrival, SCD offers a transportation from the airport to the campus following within orientation program and a campus tour.</p>
@@ -187,7 +187,7 @@ export default function StudentLifePage({otherapps,services}) {
                   <div className="row">
                     <div className="col-lg-4">
                       <div className="featured-box featured-box-primary green-background" >
-                        <div className="box-content p-5 fix-box-height-2">
+                        <div className="box-content p-4 fix-box-height-2">
                           <div className="row">
                             <div className="col">
                               <h2 className="font-weight-bold text-color-white font-20" >Health and Safety during trips</h2>
@@ -202,7 +202,7 @@ export default function StudentLifePage({otherapps,services}) {
                     </div>
                     <div className="col-lg-4">
                       <div className="featured-box featured-box-primary green-background">
-                        <div className="box-content p-5 fix-box-height-2">
+                        <div className="box-content p-4 fix-box-height-2">
                           <div className="row">
                             <div className="col">
                               <h2 className="font-weight-bold text-color-white font-20 ">Risk Assessment</h2>
@@ -217,7 +217,7 @@ export default function StudentLifePage({otherapps,services}) {
                     </div>
                     <div className="col-lg-4">
                       <div className="featured-box featured-box-primary green-background">
-                        <div className="box-content p-5 fix-box-height-2">
+                        <div className="box-content p-4 fix-box-height-2">
                           <div className="row">
                             <div className="col">
                               <h2 className="font-weight-bold text-color-white font-20">Evacuation drill</h2>
@@ -236,7 +236,7 @@ export default function StudentLifePage({otherapps,services}) {
                   <div className="row">
                     <div className="col-lg-4">
                       <div className="featured-box featured-box-primary green-background">
-                        <div className="box-content p-5 fix-box-height-2">
+                        <div className="box-content p-4 fix-box-height-2">
                           <div className="row">
                               <div className="col">
                                 <h2 className="font-weight-bold text-color-white font-20">Smoking</h2>
@@ -251,7 +251,7 @@ export default function StudentLifePage({otherapps,services}) {
                       </div>
                       <div className="col-lg-4">
                         <div className="featured-box featured-box-primary green-background">
-                          <div className="box-content p-5 fix-box-height-2">
+                          <div className="box-content p-4 fix-box-height-2">
                             <div className="row">
                               <div className="col">
                                 <h2 className="font-weight-bold text-color-white font-20">Crises Management</h2>
@@ -266,7 +266,7 @@ export default function StudentLifePage({otherapps,services}) {
                       </div>
                       <div className="col-lg-4">
                         <div className="featured-box featured-box-primary green-background">
-                          <div className="box-content p-5 fix-box-height-2">
+                          <div className="box-content p-4 fix-box-height-2">
                             <div className="row">
                               <div className="col">
                                 <h2 className="font-weight-bold text-color-white font-20">Record Keeping</h2>

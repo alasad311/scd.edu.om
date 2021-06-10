@@ -346,8 +346,8 @@
 }
 
 .featured-boxes-modern-style-2 .featured-box .box-content h2 {
-	color: #212529;
-	font-weight: 700;
+	color: #3c3c3c;
+	font-weight: normal  !important;
 	font-size: 19.2px;
 	font-size: 1.2rem;
 	line-height: 1.3;
@@ -625,7 +625,7 @@ html .featured-boxes-full-scale > .featured-box-full-primary:nth-child(6) {
 /* Full Width */
 .featured-boxes-full .featured-box-full {
 	text-align: center;
-	padding: 55px;
+	padding: 15px;
 }
 
 .featured-boxes-full .featured-box-full [class*="fa-"], .featured-boxes-full .featured-box-full .icons, .featured-boxes-full .featured-box-full h1, .featured-boxes-full .featured-box-full h2, .featured-boxes-full .featured-box-full h3, .featured-boxes-full .featured-box-full h4, .featured-boxes-full .featured-box-full h5, .featured-boxes-full .featured-box-full h6, .featured-boxes-full .featured-box-full p, .featured-boxes-full .featured-box-full a {

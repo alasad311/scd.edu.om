@@ -5,65 +5,8 @@ import Footer from '../components/footer'
 import { SubmitHandler, useForm } from "react-hook-form";
 import React, { useState } from 'react';
 import AdmissionOffice from '../components/admission-office'
-export default function ContactusPage({otherapps,adminoffice}) {
-    const [isFValid, setFIsValid]=useState(true);
-    const [isEValid, setEIsValid]=useState(true);
-    const [isPValid, setPIsValid]=useState(true);
-    const [isMValid, setMIsValid]=useState(true);
-    const [isAValid, setAIsValid]=useState(true);
-
-    interface IFormInput {
-      FullName: string;
-      LastName: string;
-      emailaddress: string;
-      PhoneNumber: string;
-      Message: string;
-      AreaofConcern: string;
-    }
-    function onChange(isVisible,inputName) {
-      if(isVisible && inputName === "FullName")
-      {
-        setFIsValid(false)
-      }
-      else if(!isVisible && inputName === "FullName")
-      {
-        setFIsValid(true)
-      }
-      if(isVisible && inputName === "emailaddress")
-      {
-        setEIsValid(false)
-      }
-      else if(!isVisible && inputName === "emailaddress")
-      {
-        setEIsValid(true)
-      }
-      if(isVisible && inputName === "PhoneNumber")
-      {
-        setPIsValid(false)
-      }
-      else if(!isVisible && inputName === "PhoneNumber")
-      {
-        setPIsValid(true)
-      }
-      if(isVisible && inputName === "Message")
-      {
-        setMIsValid(false)
-      }
-      else if(!isVisible && inputName === "Message")
-      {
-        setMIsValid(true)
-      }
-      if(isVisible && inputName === "AreaofConcern")
-      {
-        setAIsValid(false)
-      }
-      else if(!isVisible && inputName === "AreaofConcern")
-      {
-        setAIsValid(true)
-      }
-    }
-    const { handleSubmit, control, reset,formState: { errors } } = useForm<IFormInput>();
-    const onSubmit: SubmitHandler<IFormInput>  = data => console.log(data);
+export default function ContactusPage({otherapps,adminoffice,dept}) {
+   
   return (
     <div>
       <Head>
@@ -101,33 +44,28 @@ export default function ContactusPage({otherapps,adminoffice}) {
             <div className="tab-pane tab-pane-navigation active" id="generalcontact">
               <iframe className="padding-bottom-20" style={{border:"none"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9076207575836!2d58.28190301572748!3d23.57176108467775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8e00b4573ba82b%3A0xcfe4a6226e6acc42!2sScientific%20College%20of%20Design!5e0!3m2!1sen!2som!4v1613378243584!5m2!1sen!2som" width="100%" height="400"   aria-hidden="false" ></iframe>
               <div className="row padding-bottom-20">
-                <div className="col-lg-3 col-md-12 padding-bottom-10 order-md-1 order-sm-1 order-lg-1 p-1 order-1 order-xs-1">
+                <div className="col-lg-4 col-md-12 padding-bottom-10">
                     <div className="circle">
                         <span><i className="fas fa-map-marker-alt" ></i></span> 
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-12 padding-bottom-10 order-md-3 order-sm-3 order-lg-2 p-1 order-3 order-xs-3 ">
+                <div className="col-lg-4 col-md-12 padding-bottom-10">
                     <div className="circle">
                         <span><i className="fas fa-phone-alt"></i></span> 
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-12 padding-bottom-10 order-md-5 order-sm-5 order-lg-3 p-1 order-5 order-xs-5 ">
+                <div className="col-lg-4 col-md-12 padding-bottom-10">
                     <div className="circle">
                         <span><i className="fas fa-envelope"></i></span> 
                     </div>
-                </div>
-                <div className="col-lg-3 col-md-12 padding-bottom-10 order-md-7 order-sm-7 order-lg-4 p-1 order-7 order-xs-7 ">
-                    <div className="circle">
-                        <span><i className="fas fa-hashtag"></i></span> 
-                    </div>
-                </div>                    
-                <div className="col-lg-3 order-md-2 order-sm-2 order-xs-2 order-lg-5 p-1 order-2">
+                </div>                 
+                <div className="col-lg-4 p-1">
                     <p className="green-box-contactus">
                         Scientific College of Design Airport 
                         Heights – Matar Street, P.O. BOX: 1656, P.C. 114 
                         Matrah Sultanate of Oman</p>
                 </div>
-                <div className="col-lg-3 order-md-4 order-sm-4 order-xs-4 order-xs-4 order-lg-6 p-1 order-4">
+                <div className="col-lg-4 p-1">
                     <p className="green-box-contactus">
                         Contact us through the following numbers:<br />
                         <a href="tel:0096824513251"> +968 24513 251 - </a>
@@ -136,31 +74,11 @@ export default function ContactusPage({otherapps,adminoffice}) {
                         <a href="tel:0096896707755"> +968 9670 7755</a><br />
                     </p>
                 </div>
-                <div className="col-lg-3 order-md-6 order-sm-6 order-xs-6 order-lg-7 order-6 p-1">
+                <div className="col-lg-4 p-1">
                     <p className="green-box-contactus">
                         Email us on: <br />
                         <a href="mailto:info@scd.edu.om">info@scd.edu.om</a>
                     </p>
-                </div>
-                <div className="col-lg-3 order-md-8 order-sm-8 order-xs-8 order-lg-8 p-1 order-8">
-                  <div className='green-box-contactus'>
-                    <div className="row padding-left-10" >
-                        <div className="col-6 col-lg-6 col-md-6 col-sm-6 p-1">
-                            <a className="social-media-contactus" href="http://www.instagram.com"><i className="fab fa-instagram"></i> Instagram </a>
-                        </div>
-                        <div className="col-6 col-lg-6 col-md-6 col-sm-6 p-1">
-                            <a className="social-media-contactus" href="http://www.twitter.com"><i className="fab fa-twitter"></i> Twitter </a>
-                        </div>
-                    </div>
-                    <div className="row padding-top-20 padding-left-10">
-                        <div className="col-6 col-lg-6 col-md-6 col-sm-6 p-1">
-                            <a className="social-media-contactus" href="http://www.facebook.com"><i className="fab fa-facebook-square"></i>Facebook</a>
-                        </div>
-                        <div className="col-6 col-lg-6 col-md-6 col-sm-6 p-1">
-                            <a className="social-media-contactus" href="http://www.youtube.com"><i className="fab fa-youtube"></i> Youtube </a>
-                        </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -268,50 +186,90 @@ export default function ContactusPage({otherapps,adminoffice}) {
                     <div className="text">
                       <h2>Contact Inquriy</h2>
                     </div>
-                    <form action="#" className="form-style-2">
-                      <div className="row">
-                        <div className="col-lg-6">
-                          <div className="form-group required">
-                            <label htmlFor="f_name">Full name</label>
-                            <input type="text" id="f_name" className="form-control" name="f_name" placeholder="" />
-                          </div>
-                        </div>
-                        <div className="col-lg-6">
-                          <div className="form-group required">
-                            <label htmlFor="email_address">Department</label>
-                            <select className="form-control">
-                              <option>Dpt 1</option>
-                              <option>Dpt 1</option>
-                              <option>Dpt 1</option>
-                              <option>Dpt 1</option>
-                            </select>
+                    {/* <form onSubmit={handleSubmit(onSubmit)}> */}
+                    <div className="row">
+                      <div className="col-12 col-md-6 col-lg-6">
+                        <div className="form-style">
+                        {/* ${isFValid? 'valid' : 'invalid'} */}
+                          <div className={`form-group required`}>
+                            <input className="form-control"   name="FirstName" id="FirstName"  type="text"  placeholder="First name" />
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
                           </div>
                         </div>
                       </div>
-                      <div className="row">
-                        <div className="col-lg-6">
-                          <div className="form-group required">
-                            <label htmlFor="l_name">Phone Number</label>
-                            <input type="text" id="l_name" className="form-control" name="l_name" placeholder="" />
-                          </div>
-                        </div>
-                        <div className="col-lg-6">
-                          <div className="form-group required">
-                            <label htmlFor="l_name">Email</label>
-                            <input type="text" id="l_name" className="form-control" name="l_name" placeholder="" />
-                          </div>
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-lg-12">
-                          <div className="form-group required">
-                            <label htmlFor="l_name">Message</label>
-                            <textarea className="form-control"></textarea>
+                      <div className="col-12 col-md-6 col-lg-6">
+                        <div className="form-style">
+                          {/* ${isFValid? 'valid' : 'invalid'} */}
+                          <div className={`form-group required`}>
+                            <input className="form-control"   name="LastName" id="LastName"  type="text"  placeholder="Last name" />
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
                           </div>
                         </div>
                       </div>
-                      <button className="main-btn book-session-btn">Send</button>
-                    </form>
+                      <div className="col-12 col-md-6 col-lg-6">
+                        <div className="form-style">
+                           {/* ${isFValid? 'valid' : 'invalid'} */}
+                           <div className={`form-group required`}>
+                            <select className="form-control" name="dept">
+                                <option value="">Select Department</option>
+                                  {dept.map((node) => {
+                                    return <option value={node.ad_id}>{node.ad_name}</option>
+                                  })}
+                              </select>
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
+                          </div>
+
+                        </div>
+                      </div>
+                      <div className="col-12 col-md-6 col-lg-6">
+                        <div className="form-style">
+                          {/* ${isFValid? 'valid' : 'invalid'} */}
+                          <div className={`form-group required`}>
+                            <input className="form-control"   name="phone" id="phone"  type="text"  placeholder="Phone Number" />
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-12 col-md-6 col-lg-6">
+                        <div className="form-style">
+                          {/* ${isFValid? 'valid' : 'invalid'} */}
+                          <div className={`form-group required`}>
+                            <input className="form-control"   name="email" id="email"  type="text"  placeholder="Email Address" />
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-12 col-md-12 col-lg-12">
+                        <div className="form-style">
+                          {/* ${isFValid? 'valid' : 'invalid'} */}
+                          <div className={`form-group required`}>
+                            <textarea className="form-control" name="Message" id="Message"   placeholder="Message" />
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <button type="submit" className="main-btn book-session-btn">Send</button>
+                  {/* </form> */}
                   </div>
                   <div className="col-12 col-md-6 content">
                       <img width={600} height={600} src="/assets/content/bookatour.jpg"className="img-fluid" />
@@ -338,10 +296,14 @@ export async function getServerSideProps() {
   const resoffice = await fetch('http://localhost:3000/api/admission-office')
   const adminoffice = await resoffice.json()
 
+  const resdept = await fetch('http://localhost:3000/api/dept')
+  const dept = await resdept.json()
+
   return {
       props: {
           otherapps: otherapp,
-          adminoffice: adminoffice
+          adminoffice: adminoffice,
+          dept:dept
       },
   };
 }

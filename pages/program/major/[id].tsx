@@ -107,7 +107,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               {programDetails[0]['md_duration'] &&
                                 <div className="col-lg-2">
                                   <div className="card border-0 border-radius-0 bg-color-primary">
-                                    <div className="card-body" style={{height:"115px"}}>
+                                    <div className="card-body" style={{height:"95px"}}>
                                       <h4  className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-title mb-1 text-4 font-weight-bold text-light arabic-font" : "card-title mb-1 text-4 font-weight-bold text-light"}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "مدة اﻟﺒﺮﻧﺎﻣﺞ " : "Duration"}</h4>
                                       <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"}>{programDetails[0]['md_duration']}</p>
                                     </div>
@@ -117,7 +117,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               {programDetails[0]['md_moi'] &&
                                 <div className="col-lg-3">
                                   <div className="card border-0 border-radius-0 bg-color-primary">
-                                    <div className="card-body" style={{height:"115px"}}>
+                                    <div className="card-body" style={{height:"95px"}}>
                                       <h4 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-title mb-1 text-4 font-weight-bold text-light arabic-font" : "card-title mb-1 text-4 font-weight-bold text-light"}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "ﻟﻐﺔ اﻟﺪراﺳﺔ " : "Medium of instruction"}</h4>
                                       <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"}>{programDetails[0]['md_moi']}</p>
                                     </div>
@@ -127,7 +127,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               {programDetails[0]['md_degree'] &&
                                 <div className="col-lg-3">
                                   <div className="card border-0 border-radius-0 bg-color-primary">
-                                    <div className="card-body" style={{height:"115px"}}>
+                                    <div className="card-body" style={{height:"95px"}}>
                                       <h4 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-title mb-1 text-4 font-weight-bold text-light arabic-font" : "card-title mb-1 text-4 font-weight-bold text-light"}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? " ﺟﻬﺔ ﻣﻨﺢ اﻟﺪرﺟﺔ " : "Degree awarding body"}</h4>
                                       <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"}>{programDetails[0]['md_degree']}</p>
                                     </div>
@@ -137,7 +137,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                {programDetails[0]['major_level'] &&
                                 <div className="col-lg-4">
                                   <div className="card border-0 border-radius-0 bg-color-primary">
-                                    <div className="card-body" style={{height:"115px"}}>
+                                    <div className="card-body" style={{height:"95px"}}>
                                       <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"} dangerouslySetInnerHTML={{__html:programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "ﻣﻌﺘﻤﺪة ﻣﻦ اﻟﻬﻴﺌﺔ اﻟﻌﻤﺎﻧﻴﺔ ﻟﻼﻋﺘﻤﺎد اﻻﻛﺎدﻳﻤﻲ " : 'Institutionally Accredited by <a class="font-size-18" href="http://www.oaaa.gov.om/ar/Default.aspx">OAAA</a> & Overseen by the <a  class="font-size-18" href="https://www.moheri.gov.om">MOHERI</a> in the Sultanate of Oman'}}>
                                         </p>
                                     </div>
@@ -275,13 +275,13 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                   programPlan.map((b) => {
                                     if(e.pp_year === b.pp_year && b.pp_sem === 1)
                                       return <div className="row">
-                                                <div className="col-lg-2">
+                                                <div className="col-lg-3">
                                                     <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_code}</p>
                                                 </div>
-                                                <div className="col-lg-6">
+                                                <div className="col-lg-7">
                                                   <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_name}</p>
                                                 </div>
-                                                <div className="col-lg-4">
+                                                <div className="col-lg-2">
                                                   <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_credit_hours}</p>
                                                 </div>
                                             </div>
@@ -293,13 +293,13 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                         programPlan.map((b) => {
                                           if(e.pp_year === b.pp_year && b.pp_sem === 2)
                                             return <div className="row">
-                                                     <div className="col-lg-2">
+                                                     <div className="col-lg-3">
                                                         <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_code}</p>
                                                       </div>
-                                                      <div className="col-lg-6">
+                                                      <div className="col-lg-7">
                                                         <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_name}</p>
                                                       </div>
-                                                      <div className="col-lg-4">
+                                                      <div className="col-lg-2">
                                                         <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_credit_hours}</p>
                                                       </div>
                                                   </div>
@@ -345,8 +345,8 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                       <div className="tab-pane tab-pane-navigation" id="studentartwork">
                         <div className="row">
                         {artwork &&
-                          <div className="col-lg-12">
-                            <div className="owl-carousel">
+                          <div className="col-lg-12 padding-bottom-50">
+                            <div className="owl-carousel" style={{height:'500px'}}>
                               {
                                 artwork.map((b) => {
                                   return <div >
@@ -417,9 +417,9 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                              {requirement.map((e) => (
                                 <div className="col-lg-12">
                                   <div className="card border-0 border-radius-0 bg-color-primary">
-                                      <div className="card-body" style={{height:"110px"}} >
-                                          <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"}>
-                                            <h1 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-title mb-1 text-4 font-weight-bold text-light arabic-font padding-right-10" : "card-title mb-1 text-4 font-weight-bold text-light padding-right-10"}>
+                                      <div className="card-body card-body-issue" style={{height:"110px"}} >
+                                          <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "text-light font-size-18 arabic-font" : "text-light font-size-18"}>
+                                            <h1 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mb-1 text-4 font-weight-bold text-light arabic-font padding-right-10" : "mb-1 text-4 font-weight-bold text-light padding-right-10"} style={{display:"inline"}}>
                                               {e.rq_num}
                                             </h1>
                                               {e.rq_description}

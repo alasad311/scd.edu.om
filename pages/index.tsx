@@ -2,7 +2,6 @@ import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../components/header'
 import SectionMajor from '../components/section-major'
-import SectionZoom from '../components/section-zoom'
 import SectionHomeEvents from '../components/section-home-events'
 import SectionNewsletter from '../components/section-newsletter'
 import SectionNewsEvents from '../components/section-news-events'
@@ -11,11 +10,6 @@ import moment from 'moment';
 import Instagram from 'instagram-web-api';
 
 export default function Home({posts,sliders,otherapps,majordata,sessiondata,date,event,mag,newse}) {
-  const optionMajor = Object.keys(majordata).map(key => (
-    { value: majordata[key]['id'] , label: majordata[key]['major_name']}))
-  const optionSessionDT = Object.keys(sessiondata).map(key => (
-    { value: sessiondata[key]['id'] , label: "Date: "+moment(sessiondata[key]['zs_date']).format('DD-MMM-YYYY')+" From: "+ 
-    moment(sessiondata[key]['zs_f_time']).format('hh:mm A')+" To: "+moment(sessiondata[key]['zs_t_time']).format('hh:mm A')}))
   return (
     
     <div>
@@ -116,7 +110,107 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
         <a href="mailto:info@scd.edu.om" target="_blank"><i className="fas fa-envelope icon" id="open-form-popup"></i></a>
       </div>
       <SectionMajor majors={majordata} />
-      <SectionZoom majors={majordata} session_DT={sessiondata} oM={optionMajor} oS={optionSessionDT} />
+      <section className="book-session-section section padding-top-50 padding-bottom-50" id="book-session">
+        <div className="container">
+            <div className="row d-flex align-items-center">
+                <div className="col-lg-6 content">
+                    <h2 className="margin-bottom-20">Book a Zoom Session</h2>
+                    <img src="/assets/zoom-session.jpg" width={578} height={350} className="img-fluid" />
+                    <p className="text-font sliver-box-zoom-session"> Would you like to know more about SCD ? We are here to assist you and answer all your questions. Book a session and our team will clarify and introduce you to SCD majors, student life and admission procedure. You are one step closer from starting a creative career . </p>
+                </div>
+                <div className="col-lg-6 content bookZoomBox">
+                  <h3 className="margin-bottom-20">Join Us</h3>
+                  {/* <form onSubmit={handleSubmit(onSubmit)}> */}
+                    <div className="row">
+                      <div className="col-12 col-md-6 col-lg-5">
+                        <div className="form-style">
+                        {/* ${isFValid? 'valid' : 'invalid'} */}
+                          <div className={`form-group required`}>
+                            <input className="form-control"   name="FirstName" id="FirstName"  type="text"  placeholder="First name" />
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-12 col-md-6 col-lg-5">
+                        <div className="form-style">
+                          {/* ${isFValid? 'valid' : 'invalid'} */}
+                          <div className={`form-group required`}>
+                            <input className="form-control"   name="LastName" id="LastName"  type="text"  placeholder="Last name" />
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-12 col-md-6 col-lg-5">
+                        <div className="form-style">
+                          {/* ${isFValid? 'valid' : 'invalid'} */}
+                          <div className={`form-group required`}>
+                            <input className="form-control"   name="email" id="email"  type="text"  placeholder="Email Address" />
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-12 col-md-6 col-lg-5">
+                        <div className="form-style">
+                          {/* ${isFValid? 'valid' : 'invalid'} */}
+                          <div className={`form-group required`}>
+                            <input className="form-control"   name="phone" id="phone"  type="text"  placeholder="Phone Number" />
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-12 col-md-6 col-lg-5">
+                        <div className="form-style">
+                           {/* ${isFValid? 'valid' : 'invalid'} */}
+                           <div className={`form-group required`}>
+                            <select className="form-control" name="majors">
+                                <option value="">Select Major</option>
+                                  {majordata.map((node) => {
+                                    return <option value={node.id}>{node.major_name}</option>
+                                  })}
+                              </select>
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                            
+                          </div>
+
+                        </div>
+                      </div>
+                      <div className="col-12 col-md-6 col-lg-5">
+                        <div className="form-style">
+                           {/* ${isFValid? 'valid' : 'invalid'} */}
+                           <div className={`form-group required`}>
+                            <select className="form-control" name="sessiondt">
+                                <option value="">Select Session</option>
+                                  {sessiondata.map((node) => {
+                                    return <option value={node.id}>{moment(node.zs_date).format('DD-MMM-YYYY')+" From: "+ moment(node.zs_f_time).format('hh:mm A')+" To: "+moment(node.zs_t_time).format('hh:mm A')}</option>
+                                  })}
+                              </select>
+                            
+                            <i className="error-icon fas fa-exclamation-triangle"></i>
+                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button type="submit" className="main-btn book-session-btn">Book</button>
+                  {/* </form> */}
+              </div>
+              </div>
+          </div>
+      </section>
       <section className="instagram-section section margin-top-0">
         <div className="container">
             {posts &&
@@ -180,7 +274,8 @@ export async function getServerSideProps() {
       const dates = await resdates.json()
 
       const resmag = await fetch('http://localhost:3000/api/newsletter')
-      const mag = await resmag.json()     
+      const mag = await resmag.json()    
+       
       const resnews = await fetch('http://localhost:3000/api/newsevents')
       const newse = await resnews.json()
       // const response = await client.getPhotosByUsername({

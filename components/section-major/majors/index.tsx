@@ -7,7 +7,7 @@ function Majors({ data }) {
       <div className="row">
          {data.map((e) => (
            <div className="col-6 col-md-6 col-lg-3 padding-0"  key={e.id}>
-              <a href="programs">
+              <a href={`program/major/${e.id}`}>
                   <div className="major-card">
                       <div className="card">
                           <div className="thumb">
