@@ -10,7 +10,7 @@
 	padding: 0;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5{
 	font-weight: normal !important;
 }
 body{
@@ -5205,7 +5205,7 @@ html.side-header-overlay-full-screen.ie #header .header-nav-main nav > ul > li.d
 }
 .major-card .card .card-img-overlay .card-body h6 {
   margin-bottom: 2px;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 700;
   font-family: 'Quicksand', sans-serif;
   color:  #555555;
