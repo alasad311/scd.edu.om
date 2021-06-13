@@ -6061,6 +6061,13 @@ html.side-header-overlay-full-screen.ie #header .header-nav-main nav > ul > li.d
 	margin-left: 18px;
 	color:#777;
 }
+.program-ul-ar li{
+	font-family: 'Almarai' !important;
+	list-style-type: disclosure-closed;
+	font-size: 16px !important;
+	margin-left: 18px;
+	color:#777;
+}
 .card-text{
 	font-family: 'Raleway', sans-serif;
 }
@@ -6258,3 +6265,14 @@ html.side-header-overlay-full-screen.ie #header .header-nav-main nav > ul > li.d
 .call-to-action-content h3{
 	font-weight: normal !important;
 }
+
+.dropdown-menu.show{
+	display:contents !important;
+}
+.owl-carousel a{
+	color:#545454 !important;
+}
+.owl-carousel a:hover{
+	color:#9cca43 !important;
+}
+

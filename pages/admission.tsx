@@ -83,7 +83,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                       <td>20</td>
                     </tr>
                     <tr>
-                      <td>Social Security with coordination of Ministry if Higher Education, Research, and Innovation</td>
+                      <td>Social Security with coordination of Ministry of Higher Education, Research, and Innovation</td>
                       <td>50-100</td>
                     </tr>
                     <tr>

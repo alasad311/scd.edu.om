@@ -18,13 +18,13 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
         <meta name="description" content="The hub of art and design in the Sultanate of Oman. We inspire our students&#039; imagination and we encourage them to express their perceptions and sprinkle their talents in all their endeavors. We specialize in teaching Interior Design, Architecture Design, Fashion and Graphic Design." />
         <meta name="keywords" content="" />
         <meta name="author" content="Scientific College of Design" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no" />
         <link rel="icon" href="assets/logo/n_fav_icon.png" />
         <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="css/animate/animate.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/instagram/instagram.css"/>
         <link rel="stylesheet" href="js/owl.carousel/dist/assets/owl.carousel.min.css" />
-        {'<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>'}
+        
       </Head>
      
       
@@ -248,6 +248,7 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
       <script src="js/custom.js"></script>
       <script src="js/toggler.js"></script>
       <script src="js/scroll.js"></script>
+      {'<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>'}
     </div>
   )
 }

@@ -11,7 +11,7 @@ function Majors({ data }) {
                   <div className="major-card">
                       <div className="card">
                           <div className="thumb">
-                              <img className="card-img-top img-fluid" src={"/assets/majors/"+e.major_image} width={250} height={250} alt={e.major_name} />
+                              <img className="card-img-top img-fluid" src={"/assets/majors/"+e.major_image} width={"250px"} height={"250px"} alt={e.major_name} />
                           </div>
                           <div className="card-img-overlay">
                               <div className="card-body">

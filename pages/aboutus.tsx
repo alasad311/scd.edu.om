@@ -216,7 +216,6 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                                 <li>Higher College of Technology</li>
                                 <li>Mazoon College</li>
                                 <li>Kuwait Institution</li>
-                                <li>Mansoura University</li>
                             </ul>
                         </div>
                         <div className="col-lg-5 col-sx-12 col-md-12 aboutus-section-ul-without-background" >
@@ -270,6 +269,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                                 <li>Oman Arab Bank</li>
                                 <li>Oman International Art Fair</li>
                                 <li>Kempinski hotel Muscat</li>
+                                <li>Mansoura University - International</li>
                             </ul>
                         </div>
                     </div>
@@ -552,7 +552,8 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                     <div className="col-lg-2">
                     </div>
                 </div>
-               
+                <h5 >Board of Directors <BodAcademicYearText academicyear={bodacademic} /></h5>
+                <hr />
                 <BodsAccordion bods={bods} />
             </div>
             <div className="tab-pane tab-pane-navigation"  id="joinus">

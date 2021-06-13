@@ -1,4 +1,5 @@
 import OtherApp from "./otherapp"
+import OtherAppMobile from "./otherappmobile"
 export default function Header({active,otherapp}) {
   return (
     <header id="header" className="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
@@ -74,7 +75,15 @@ export default function Header({active,otherapp}) {
                                             ) : (
                                                 <li ><a href="/contactus">Contact Us</a></li> 
                                             )}
-                                            </ul>
+                                            {/* <li className="dropdown-submenu d-lg-none d-xl-none d-xxl-none d-md-none" >
+                                                <a href="#" className="dropdown-item">E-Services</a>
+                                                <OtherAppMobile data={otherapp}  />
+                                            </li> */}
+                                            <li className="dropdown d-lg-none d-xl-none d-xxl-none d-md-none">
+                                                <a className="dropdown-item dropdown-toggle" href="#">E-Services</a>
+                                                <OtherAppMobile data={otherapp}  />
+                                            </li>
+                                        </ul>
                                         </nav>
                                     </div>
                                     <button className="navbar-toggler btn header-btn-collapse-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">

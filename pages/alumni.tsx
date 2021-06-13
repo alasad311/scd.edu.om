@@ -172,7 +172,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                       <blockquote >
                         <p className="mb-0"><b>Congratulation, and welcome to SCD Alumni Club</b> your SCD certificate is your ticket to enter the SCD Alumni Club, more than 2650+ graduated from SCD and 
                             we are happy to be in touch with you all, and we want all of you to be connected with us. 
-                            The Alumni club offers you to build your network, Know the achievement accomplished done by your fellow alumni’s and of 
+                            The Alumni club offers you to build your network, know the achievement accomplished done by your fellow alumni’s and of 
                             course to have FUN too, Alumni bond is enjoyable, and it helps you to successed and connect with us.
                             </p>
                       </blockquote>

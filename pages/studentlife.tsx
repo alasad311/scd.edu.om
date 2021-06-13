@@ -67,7 +67,7 @@ export default function StudentLifePage({otherapps,services}) {
                 </div>
                 <img src="/assets/content/internationalstudents.jpg" width={1600} height={613} className="img-fluid" alt="" />
                 <p className="internal-content-text">
-                    The Scientific College of Design has 21 nationalities of the student community, 7% of the total number of enrolled students, majority of them finished their secondary school in the Sultanate of Oman where their families have working visa, since 2020 the college is working to attract International students, especially after it was announced by Oman Academic Accreditation Authority OAAA that SCD became accredited institution in 2019, and consequently the college received formal recognition in Jordan, Egypt and India, and the college contacted all Gulf Countries to get their recognition.
+                International students enrolled at the Scientific College of Design represent 7% of the student body.  Twenty one nationalities are represented where the majority belongs to expatriate families living in Oman.  The Scientific College of Design has formal recognition in several countries such as Jordan, Egypt, India as well as other Regional Countries.  The college supports international students in academic and governmental issues such as acquiring student visas, transportation, and housing (females).            
                 </p>
                 <div className="row">
                   <div className="col-lg-3">

@@ -154,7 +154,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                   {programDetails[0]['major_level'] &&
                                   <h3 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "grey-box-title arabic-font" : "grey-box-title"}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "مهمة البرنامج " : "Program Mission"}</h3>
                                   }
-                                  <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>{programDetails[0]['md_mission']}</p>
+                                  <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>{programDetails[0]['md_mission']}</p>
                                 </div>
                               </div>
                             } 
@@ -168,7 +168,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <h3 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "grey-box-title arabic-font" : "grey-box-title"}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "وصف  البرنامج " : "Program Description"}</h3>
                                 }
                               </div>
-                              <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>{programDetails[0]['md_description']}</p>
+                              <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>{programDetails[0]['md_description']}</p>
                             </span>
                             } 
                             {programDetails[0]['md_objective'] &&
@@ -181,7 +181,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <h3 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "grey-box-title arabic-font" : "grey-box-title"}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "اهداف  البرنامج " : "Program Objectives"}</h3>
                                 }
                               </div>
-                              <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_objective']}}></div>
+                              <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_objective']}}></div>
                             </span>
                             } 
                               {programDetails[0]['md_outcome'] &&
@@ -189,7 +189,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               <div className="internal-heading padding-top-20">
                                 <h1 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "arabic-font" : ""}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "مخرجات البرنامج  " : "Program Learning Outcomes"}</h1>
                               </div>
-                              <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_outcome']}}></div>
+                              <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_outcome']}}></div>
                             </span>
                             }
                             {programDetails[0]['md_career'] &&
@@ -197,7 +197,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               <div className="internal-heading padding-top-20">
                                 <h1 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "arabic-font" : ""}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "فرص العمل   " : "Career Opportunities"}</h1>
                               </div>
-                              <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_career']}}></div>
+                              <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_career']}}></div>
                             </span>
                             } 
                           </div>

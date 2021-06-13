@@ -6,7 +6,7 @@ function Publications({ data }) {
         
         {data.map((e) => (
           <div className="items owl-carousel-padding" key={e.id}>
-              <h5>{e.publication_title}</h5>
+             <a href={e.publication_link} target="_blank"> <h5>{e.publication_title}</h5></a>
           </div>
         ))}
       </div>
