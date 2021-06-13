@@ -243,7 +243,7 @@ export default function StudentLifePage({otherapps,services}) {
                                 <div className="divider divider-small divider-small-center  ">
                                   <hr className="border-white" />
                                 </div>
-                                <p className="safety-internal-content">SCD desires to offer students and employees a clean and pleasant environment for study and work. Since smoking endangers health and safety, smoking is illegitimate in any area of SCD campus. </p>
+                                <p className="safety-internal-content">SCD desires to offer students and employees a clean and pleasant environment for study and work. Since smoking endangers health and safety, smoking is prohibited in any area of SCD campus. </p>
                               </div>
                             </div>
                           </div>

@@ -11,7 +11,7 @@ function Preisdent({ data }) {
         <div className="col-lg-8">
           <div className="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
             <blockquote>
-              <p className="mb-0 internal-content-text" >Hello and welcome to all SCD graduates to Alumni Club, we are here to meet and bring back the memories between us and the college. I am pleased to communicate with you all and to know all your news, lets activate the club and share all our news and experience to make it more exciting for all of us.
+              <p className="mb-0 internal-content-text" >Hello and welcome to SCD graduates to Alumni Club, we are here to meet and bring back the memories between us and the college. I am pleased to communicate with you all and to know all your news, lets activate the club and share all our news and experience to make it more exciting for all of us.
                   </p>
             </blockquote>
             <div className="testimonial-author padding-top-20">

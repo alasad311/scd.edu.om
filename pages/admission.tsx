@@ -83,11 +83,11 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                       <td>20</td>
                     </tr>
                     <tr>
-                      <td>Social Security with coordination of Ministry of Higher Education</td>
+                      <td>Social Security with coordination of Ministry if Higher Education, Research, and Innovation</td>
                       <td>50-100</td>
                     </tr>
                     <tr>
-                      <td>Tuition fee payment in advance htmlFor entire year</td>
+                      <td>Tuition fee payment in advance for entire year</td>
                       <td>5</td>
                     </tr>
                     <tr>
@@ -100,9 +100,9 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                     <h1 className="col-lg-12 admssion-grey-box">Procedure</h1>
                 </div>
                 <ul>
-                    <li>Complete the appropriate information on the Financial Aid Request form explaining the reasons in detail and submit in person to the Deputy Dean htmlFor Student Affairs. </li>
-                    <li>Deputy Dean htmlFor Student Affairs is responsible to forward the form with all relevant documents to the Dean who in turn discusses with the Board of Directors according to the dedicated annual budget.</li>
-                    <li>Finally, after getting consent from Board of Directors, the Dean is responsible htmlFor conveying the decision taken, to the Deputy Dean htmlFor Student Affairs to inform student/parent/guardian. </li>
+                    <li>Complete the appropriate information on the Financial Aid Request form explaining the reasons in detail and submit in person to the Deputy Dean for Student Affairs. </li>
+                    <li>Deputy Dean for Student Affairs is responsible to forward the form with all relevant documents to the Dean who in turn discusses with the Board of Directors according to the dedicated annual budget.</li>
+                    <li>Finally, after getting consent from Board of Directors, the Dean is responsible for conveying the decision taken, to the Deputy Dean for Student Affairs to inform student/parent/guardian. </li>
                     <li>Decisions taken are final; no appeals will be entertained by the college. </li>
                 </ul>
                 <object data='assets/files/Financial Aid Policy.pdf#toolbar=1' style={{height:"75vh"}} type='application/pdf' width='100%' ></object>
@@ -111,7 +111,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                 </div>
                 <ul>
                     <li>Financial Aid will be provided only to those students who have submitted the set of documents as mentioned in Financial Aid request Form</li>
-                    <li>If a student takes more than the total number of required credits htmlFor completion of program, the student is accountable htmlFor payment of extra credits taken.</li>
+                    <li>If a student takes more than the total number of required credits for completion of program, the student is accountable for payment of extra credits taken.</li>
                     <li>Scholarship/tuition fee discount offered is not transferable.</li>
                     <li>Scholarship doesn’t cover any repeated courses or withdrawal.</li>
                     <li>Scholarship doesn’t cover any extra fee such as registration fee, educational material, graduation fee and hostel fee.</li>
@@ -173,7 +173,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                   <section className="call-to-action call-to-action-default mb-5">
                     <div className="col-sm-12 col-lg-12">
                       <div className="call-to-action-content">
-                        <p className="mb-0 internal-content-text">Postgraduate applicants obtained a bachelor degree in any relevant artistic field and are searching htmlFor an academically qualified degree htmlFor them to pursue an advanced career path. Search No More! SCD offers you additional practical skills, contextual knowledge, and research work.</p>
+                        <p className="mb-0 internal-content-text">Postgraduate applicants obtained a bachelor degree in any relevant artistic field and are searching for an academically qualified degree for them to pursue an advanced career path. Search No More! SCD offers you additional practical skills, contextual knowledge, and research work.</p>
                       </div>
                     </div>
                   </section>
@@ -221,7 +221,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                         <div className="box-content box-content-border-bottom fix-box-height-admission">
                           <i className="icon-featured fas fa-portrait"></i>
                           <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">5</strong> Passport Image </h4>
-                          <p className="mb-2 mt-2 text-2">A copy of the passport image htmlFor non Omanis.</p>
+                          <p className="mb-2 mt-2 text-2">A copy of the passport image for non Omanis.</p>
                         </div>
                       </div>
                     </div>
@@ -254,7 +254,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                     <section className="call-to-action call-to-action-default mb-5">
                         <div className="col-sm-12 col-lg-12">
                             <div className="call-to-action-content">
-                                <p className="mb-0 internal-content-text">Are looking htmlFor a creative career? Are wishing to obtain skills and academic knowledge on how to create effective and professional artwork? Then this is your place. 
+                                <p className="mb-0 internal-content-text">Are looking for a creative career? Are wishing to obtain skills and academic knowledge on how to create effective and professional artwork? Then this is your place. 
                                     We believe that art and design is a skill to be learned and developed. Therefore we build our academic program to develop and encourage creative thinking, imagination, research and most importantly overcoming challenges while being equipped with problem solving technique.
                                     </p>
                             </div>
@@ -315,7 +315,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                       <section className="call-to-action call-to-action-default mb-5" >
                           <div className="col-sm-12 col-lg-12">
                               <div className="call-to-action-content">
-                                  <p className="mb-0 internal-content-text" >International students from the MENA region as well as Europe attend SCD to learn art and design majors. We are proud to offer a diverse community htmlFor emerging artists and designers to pursue their passion. In case of student request htmlFor a visa, processing fee and labor card expenses are incurred by the family/guardian.
+                                  <p className="mb-0 internal-content-text" >International students from the MENA region as well as Europe attend SCD to learn art and design majors. We are proud to offer a diverse community for emerging artists and designers to pursue their passion. In case of student request for a visa, processing fee and labor card expenses are incurred by the family/guardian.
                                       </p>
                               </div>
                           </div>
@@ -417,7 +417,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                                   <div className="box-content box-content-border-bottom fix-box-height-admission">
                                       <i className="icon-featured fas fa-check-circle"></i>
                                       <h4 className="font-weight-normal text-5 mt-3"><strong className="font-weight-extra-bold">4</strong> GFP  certificate</h4>
-                                      <p className="mb-2 mt-2 text-2">To submit a prove htmlFor completion of the general foundation program </p>
+                                      <p className="mb-2 mt-2 text-2">To submit a prove for completion of the general foundation program </p>
                                   </div>
                               </div>
                           </div>

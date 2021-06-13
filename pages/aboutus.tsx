@@ -170,9 +170,9 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                     <div className="col-md-12 col-sm-12 col-sx-12  col-lg-5 py-lg-4 my-lg-4 mb-4 order-1 order-md-2">
                         <div className="pr-3 pl-md-5 pb-3 pb-sm-0 py-lg-5 my-lg-4 border-left-light border-sm-none">
                             <div className="internal-heading remove-left-padding">
-                                <h1>Hub for art and design</h1>
+                                <h1>Art & Design Hub</h1>
                             </div>
-                            <p className="mb-2 internal-content-text remove-top-padding" >A unique “HUB” has been formed gradually over the years by national and international engagements to create a unique platform among its students, academicians, and practitioners. The Scientific College of Design has always opened its doors for experiential learning opportunities such as specialized workshops and exhibitions.</p>
+                            <p className="mb-2 internal-content-text remove-top-padding" >A unique “HUB” has been formed gradually over the years with national and international engagements to create a unique platform among its students, academicians, and practitioners. The Scientific College of Design has always opened its doors for experiential learning opportunities such as specialized workshops and exhibitions.</p>
                         </div>
                     </div>
                 </div>
@@ -216,6 +216,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                                 <li>Higher College of Technology</li>
                                 <li>Mazoon College</li>
                                 <li>Kuwait Institution</li>
+                                <li>Mansoura University</li>
                             </ul>
                         </div>
                         <div className="col-lg-5 col-sx-12 col-md-12 aboutus-section-ul-without-background" >
@@ -297,7 +298,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                     <h1>Our Accreditation Story</h1>
                 </div>
                 <img width={1600} height={800} src="/assets/content/accreditationnew.jpg" className="img-fluid" />
-                <p className="internal-content-text">The Scientific College of Designstarted its journey for institutional accreditation in 2009 with a Quality Audit which generated a report of commendations, affirmations, and recommendations.  The report was a roadmap for development of procedures, plans, policies, bylaws as well as improvements of management and governance.  Testing the level of improvements, SCD volunteered for a pilot study of Institutional Standards Assessment in 2016.  Again the Institutional Standards Assessment report paved the way for further developments and quality enhancement.  SCD applied for Institutional Standards Assessment during the following academic year and managed to meet all criteria except two.  Policies were initiated and procedures were improved to meet those criteria. The Oman Academic Accreditation Authority granted SCD accreditation status declaring thatScientific College of Design meets all applicable institutional standard in July 2019</p>
+                <p className="internal-content-text">The Scientific College of Design started its journey for institutional accreditation in 2009 with a Quality Audit which generated a report of commendations, affirmations, and recommendations.  The report was a roadmap for development of procedures, plans, policies, bylaws as well as improvements of management and governance.  Testing the level of improvements, SCD volunteered for a pilot study of Institutional Standards Assessment in 2016.  Again the Institutional Standards Assessment report paved the way for further developments and quality enhancement.  SCD applied for Institutional Standards Assessment during the following academic year and managed to meet all criteria except two.  Policies were initiated and procedures were improved to meet those criteria. The Oman Academic Accreditation Authority granted SCD accreditation status declaring thatScientific College of Design meets all applicable institutional standard in July 2019</p>
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="padding-top-20 padding-bottom-20">
@@ -506,9 +507,9 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                     </div>
                 </div>
 
-                <p className="internal-content-text padding-bottom-20">The Scientific College of Design is led by His Highness Sayyid Dr. Adam Bin Turki Al Said and eight practitioners and academicians to guarantee professional and diverse governance.  The Board endorses long term strategic and annual operational plans as well as approves all SCD policies and operational budget.  Board members advance the development of SCD through effective leadership and strategic decision making and active involvement in events.  The Board generates an annual report.</p>
+                <p className="internal-content-text padding-bottom-20">The Scientific College of Design is formed from eight practitioners and academicians to guarantee professional and diverse governance.  The Board endorses long term strategic and annual operational plans as well as approves all SCD policies and operational budget.  Board members advance the development of SCD through effective leadership and strategic decision making and active oversight. The Board generates its annual report reflecting its activities and progress.</p>
                 <div className="internal-heading">
-                    <h1>Board of Trustees Head</h1>
+                    <h1>Board of Trustees Chairman</h1>
                 </div>
 
                 <section className="section-height-3 border-0 mb-0">
@@ -521,7 +522,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                             </div>
                             <div className="col-lg-8">
                                 
-                                    <p className="bot-content-text remove-top-padding">The Scientific College of Design is led by His Highness Sayyid Dr. Adam Bin Turki Al Said and eight practitioners and academicians to guarantee professional and diverse governance.  The Board endorses long term strategic and annual operational plans as well as approves all SCD policies and operational budget.  Board members advance the development of SCD through effective leadership and strategic decision making and active involvement in events.  The Board generates an annual report.</p>
+                                    <p className="bot-content-text remove-top-padding">The Scientific College of Design has made substantial progress in achieving academic excellence. The strength of SCD’s academic and professional offering has placed the college in a unique position as the only specialized art & design institute in Oman. This strength also allows the college to create opportunities for various stakeholders from students, artists, and organizations. We look forward to the college expanding its offering of an in-depth art & design knowledge and practice in Oman and regionally.</p>
     
                                     <p className="bot-content-text bot-name-text remove-top-padding">HH. Sayyid Dr. Adham Al Said, <br />Board of Trustees Head</p>
                             </div>
@@ -551,8 +552,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                     <div className="col-lg-2">
                     </div>
                 </div>
-                <h5 >Others Board of Directors <BodAcademicYearText academicyear={bodacademic} /></h5>
-                <hr />
+               
                 <BodsAccordion bods={bods} />
             </div>
             <div className="tab-pane tab-pane-navigation"  id="joinus">

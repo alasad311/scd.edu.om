@@ -54,7 +54,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                     <div className="internal-heading padding-top-20">
                       <h1>Alumni Club</h1>
                     </div>
-                    <p className="internal-content-text">The Scientific College of Design believes that the education experience does not end by our students obtaining their degree. We are dedicated to maintain a stable connection with our alumni and supporting them even after their graduation ceremony. SCD ensure a strong communication stream is build with all graduates by holding annual activities, events and workshop. These events are initiated to provide SCDians with lifelong learning experience as well as to ensure success in their career path.   </p>
+                    <p className="internal-content-text">The Scientific College of Design believes that education does not end with our students obtaining their degree. We are dedicated to maintain a stable connection with our alumni and supporting them even after their graduation ceremony. SCD ensure a strong communication stream is build with all graduates by holding annual activities, events and workshop. These events are initiated to provide SCDians with lifelong learning experience as well as to ensure success in their career path.   </p>
                     <div className="row counters with-borders ">
                       <div className="col-lg-4">
                         <div className="counter counter-primary">
@@ -89,7 +89,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
               {/* END */}
               {/* Start */}
               <div className="tab-pane tab-pane-navigation" id="alumniopportunity">
-                <p className="internal-content-text">SCD alumni are granted various opportunities; The Alumni office holds yearly events such as SCD career fair. This event allows local and international companies to recruit hardworking talented students and alumni for jobs, internships, and freelance opportunities. As SCD alumni, you are offered an open invitation for SCD event and exhibitions. We are proud to exhibit SCD graduate students work in our gallery and in order to ensure their academic excellence SCD offers advising and coaching session by our Faculty members to guide graduates in their professional life.</p>
+                <p className="internal-content-text">SCD alumni are granted various opportunities; The Alumni office holds annual events such as SCD Career Fair. This event allows local and international companies to recruit hardworking talented students and alumni for jobs, internships, and freelance opportunities. As SCD alumni, you are offered an open invitation for SCD event and exhibitions. We are proud to exhibit SCD graduate students work in our gallery and in order to ensure their academic excellence SCD offers advising and coaching session by our Faculty members to guide graduates in their professional life.</p>
                 <img src="/assets/content/alumniopp.jpg" className="img-fluid padding-bottom-20 maring-top-20" width={1600} height={659} />
                 <div className="row featured-boxes-full featured-boxes-full-scale">
                   <div className="col-lg-3 featured-box-full featured-box-full-primary">
@@ -100,7 +100,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                   <div className="col-lg-3 featured-box-full featured-box-full-primary">
                     <i className="fas fa-business-time"></i>
                     <h4>Advising & Coaching</h4>
-                    <p className="font-weight-light">The Scientific College of Design allow all alumni access to receive professional feedback from SCD Faculty members.</p>
+                    <p className="font-weight-light">The SCD faculty offers professional feedback to alumni</p>
                   </div>
                   <div className="col-lg-3 featured-box-full featured-box-full-primary">
                     <i className="far fa-calendar-alt"></i>
@@ -171,8 +171,8 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                     <div className="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
                       <blockquote >
                         <p className="mb-0"><b>Congratulation, and welcome to SCD Alumni Club</b> your SCD certificate is your ticket to enter the SCD Alumni Club, more than 2650+ graduated from SCD and 
-                            we are happy to be InTouch with you all, and we want all of you to be connected with us. 
-                            The Alumni club offers you to build your network, hear about the achievement accomplished done by your fellow alumni’s and of 
+                            we are happy to be in touch with you all, and we want all of you to be connected with us. 
+                            The Alumni club offers you to build your network, Know the achievement accomplished done by your fellow alumni’s and of 
                             course to have FUN too, Alumni bond is enjoyable, and it helps you to successed and connect with us.
                             </p>
                       </blockquote>
