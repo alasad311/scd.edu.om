@@ -9,6 +9,7 @@ export default function SectionNewsletter({links}) {
                     <p>Explore SCD latest magazine ! Mosaic Magazine. You can now view quick tutorials from SCD award winning faculty, articles and interviews from Local and international artist. In addition to a full gallery with SCD students artwork. Finally, Don’t miss the chance to participate in an art competition and show the world your skills and creativity.</p>
                 </div>
                 <Newsletter data={links} />
+                
             </div>
         </div>
         </section>
