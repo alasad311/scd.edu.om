@@ -95,7 +95,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
                     <div className="course-card-style-3">
                       <div className="card">
                         <div className="thumb">
-                        <img className="card-img-top" src={"/assets/majors/"+e.major_image} width="250px" height="250px" alt={e.major_name} />
+                        <img className="card-img-top" src={"/assets/majors/"+e.major_image} style={{width:"250px"}} alt={e.major_name} />
                         </div>
                         <div className="card-img-overlay">
                           <div className="card-body">
@@ -127,7 +127,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
                       <div className="course-card-style-3">
                         <div className="card">
                           <div className="thumb">
-                          <img className="card-img-top" src={"/assets/majors/"+e.major_image} width="250px" height="250px" alt={e.major_name} />
+                          <img className="card-img-top" src={"/assets/majors/"+e.major_image} style={{width:"250px"}} alt={e.major_name} />
                           </div>
                           <div className="card-img-overlay">
                             <div className="card-body">
@@ -160,7 +160,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
                       <div className="course-card-style-3">
                         <div className="card">
                           <div className="thumb">
-                          <img className="card-img-top" src={"/assets/majors/"+e.sc_image} width="300px" height="300px" alt={e.sc_name} />
+                          <img className="card-img-top" src={"/assets/majors/"+e.sc_image} style={{width:"300px"}} alt={e.sc_name} />
                           </div>
                           <div className="card-img-overlay">
                             <div className="card-body">
