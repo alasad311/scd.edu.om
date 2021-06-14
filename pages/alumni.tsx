@@ -40,7 +40,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                     <a className="nav-link" href="#upcomingevent" data-bs-toggle="tab">Upcoming Events</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#almnioffice"  data-bs-toggle="tab">Almni Office</a>
+                    <a className="nav-link" href="#almnioffice"  data-bs-toggle="tab">Alumni Office</a>
                   </li>
                 </ul>
               </div>

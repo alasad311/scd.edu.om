@@ -19,7 +19,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
             <link rel="stylesheet" href="../../js/owl.carousel/dist/assets/owl.carousel.min.css" />
             <link rel="stylesheet" href="../../css/spidoche/Spidoche.minimal.css"></link>
           </Head>
-          <Header active="programs" otherapp={otherapp} />
+          <Header active="programsinternal" otherapp={otherapp} />
           <section className="section margin-bottom-0">
             <div className="container-fluid">
               <div id="final-step">

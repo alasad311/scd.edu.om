@@ -675,7 +675,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                       <td><i className="fas fa-check"></i></td>
                       <td style={{color:"#3c3c3c"}}>-</td>
                       <td style={{color:"#3c3c3c"}}>-</td>
-                      <td>650 OMR</td>
+                      <td>675 OMR</td>
                     </tr>
                     <tr>
                       <td><b>GFP Level 2</b></td>
@@ -693,7 +693,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                     </tr>
                     <tr>
                       <td colSpan={4} style={{textAlign:"right"}}>Grand Total</td>
-                      <td>2,550 OMR</td>
+                      <td>2,575 OMR</td>
                     </tr>
                   </tbody>
                 </table>
