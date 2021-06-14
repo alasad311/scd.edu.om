@@ -8,7 +8,7 @@ function Office({ data }) {
             <span className="thumb-info thumb-info-hide-wrapper-bg mb-4">
               <span className="thumb-info-wrapper">
                 <a href={"mailto:"+e.ao_email}>
-                  <img width={350} height={350} src={"/assets/employees/"+e.ao_image} className="img-fluid" alt={e.ao_name} />
+                  <img width="350px" height="350px" src={"/assets/employees/"+e.ao_image} className="img-fluid" alt={e.ao_name} />
                   <span className="thumb-info-action-icon">
                       <i className="fas fa-envelope"></i>
                   </span>

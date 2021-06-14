@@ -480,7 +480,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                         <div className="row">
                             <div className="col-xl-4 fluid-col-xl-4 col-mb-4" >
                                 <div className="fluid-col padding-bottom-20">
-                                    <img src="/assets/content/mona.png" className="img-fluid" width={1100} height={1200} />
+                                    <img src="/assets/content/mona-final.jpg" className="img-fluid" width={1100} height={1200} />
                                 </div>
                             </div>
                             <div className="col-xl-8">
@@ -524,7 +524,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                                 
                                     <p className="bot-content-text remove-top-padding">The Scientific College of Design has made substantial progress in achieving academic excellence. The strength of SCD’s academic and professional offering has placed the college in a unique position as the only specialized art & design institute in Oman. This strength also allows the college to create opportunities for various stakeholders from students, artists, and organizations. We look forward to the college expanding its offering of an in-depth art & design knowledge and practice in Oman and regionally.</p>
     
-                                    <p className="bot-content-text bot-name-text remove-top-padding">HH. Sayyid Dr. Adham Al Said, <br />Board of Trustees Head</p>
+                                    <p className="bot-content-text bot-name-text remove-top-padding">HH. Sayyid Dr. Adham Al Said, <br />Board of Trustees Chairman</p>
                             </div>
                             
                         </div>
