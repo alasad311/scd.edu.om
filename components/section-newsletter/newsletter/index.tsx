@@ -12,7 +12,10 @@ function Newsletter({ data }) {
       
     )
   } else {
-    return null
+    return (
+      <div className="col-12 col-md-3 d-flex justify-content-md-center btn">
+           <Link  href="#" ><a target="_blank" className="main-btn download-btn book-session-btn">Coming Soon</a></Link>
+      </div>)
   }
 }
 
