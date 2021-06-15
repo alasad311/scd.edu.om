@@ -5,6 +5,7 @@ const {
   parse
 } = require("url");
 const next = require("next");
+const hostname = '127.0.0.1';
 
 const port = process.env.PORT || 3000;
 
@@ -25,7 +26,7 @@ app
       } = parsedUrl;
       handle(req, res, parsedUrl);
       console.log("pathname", pathname);
-    }).listen(port, (err) => {
+    }).listen(port, hostname, (err) => {
       if (err) throw err;
       console.log(`> Ready on http://localhost:${port}`);
     });
@@ -34,3 +35,4 @@ app
     console.error(ex.stack);
     process.exit(1);
   });
+ 
