@@ -252,33 +252,31 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
     </div>
   )
 }
-export async function getServerSideProps(context) {
+export async function getServerSideProps() {
       // const client = new Instagram({ username: 'alasad.dev', password: '@Mahmud1989' });
       // await client.login();
-      const { req, query, resss, asPath, pathname } = context;
-      let host = req.headers.host 
-      const res = await fetch(host+':3000/api/slider')
+      const res = await fetch('https://oman-dev.com/api/slider')
       const slider = await res.json()
 
-      const ress = await fetch(host+':3000/api//otherapps')
+      const ress = await fetch('https://oman-dev.com/api/otherapps')
       const otherapp = await ress.json()     
       
-      const resmajor = await fetch(host+':3000/api//major')
+      const resmajor = await fetch('https://oman-dev.com/api/major')
       const majors = await resmajor.json()    
 
-      const ressession = await fetch(host+':3000/api//sessiondt')
+      const ressession = await fetch('https://oman-dev.com/api/sessiondt')
       const sessiondt = await ressession.json()
 
-      const resevents = await fetch(host+':3000/api//events')
+      const resevents = await fetch('https://oman-dev.com/api/events')
       const events = await resevents.json()    
 
-      const resdates = await fetch(host+':3000/api//importantdates')
+      const resdates = await fetch('https://oman-dev.com/api/importantdates')
       const dates = await resdates.json()
 
-      const resmag = await fetch(host+':3000/api//newsletter')
+      const resmag = await fetch('https://oman-dev.com/api/newsletter')
       const mag = await resmag.json()    
        
-      const resnews = await fetch(host+':3000/api//newsevents')
+      const resnews = await fetch('https://oman-dev.com/api/newsevents')
       const newse = await resnews.json()
       // const response = await client.getPhotosByUsername({
       //     username: 'scd_oman',
