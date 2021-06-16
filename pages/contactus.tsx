@@ -290,13 +290,13 @@ export default function ContactusPage({otherapps,adminoffice,dept}) {
 }
 export async function getServerSideProps() {
 
-  const ress = await fetch('http://localhost:3000/api/otherapps')
+  const ress = await fetch('https://scd.edu.om/api/otherapps')
   const otherapp = await ress.json()
 
-  const resoffice = await fetch('http://localhost:3000/api/admission-office')
+  const resoffice = await fetch('https://scd.edu.om/api/admission-office')
   const adminoffice = await resoffice.json()
 
-  const resdept = await fetch('http://localhost:3000/api/dept')
+  const resdept = await fetch('https://scd.edu.om/api/dept')
   const dept = await resdept.json()
 
   return {

@@ -381,19 +381,19 @@ export async function getServerSideProps (context) {
     let fees = null
     let finalfee = null
   
-    const ress = await fetch('http://localhost:3000/api/otherapps')
+    const ress = await fetch('https://scd.edu.om/api/otherapps')
     const otherapp = await ress.json()
 
-      const mrequest = await fetch(`http://localhost:3000/api/program-short-details?id=${id}`);
+      const mrequest = await fetch(`https://scd.edu.om/api/program-short-details?id=${id}`);
       majordetailsjsondata = await mrequest.json();
 
-      const planyrequest = await fetch(`http://localhost:3000/api/program-plan-year?id=${majordetailsjsondata[0]['md_id']}`);
+      const planyrequest = await fetch(`https://scd.edu.om/api/program-plan-year?id=${majordetailsjsondata[0]['md_id']}`);
       majoryearcounter = await planyrequest.json();
   
-      const plan = await fetch(`http://localhost:3000/api/program-plan?id=${majordetailsjsondata[0]['md_id']}`);
+      const plan = await fetch(`https://scd.edu.om/api/program-plan?id=${majordetailsjsondata[0]['md_id']}`);
       majorplan = await plan.json();
 
-      const courserequest = await fetch(`http://localhost:3000/api/short-description?id=${majordetailsjsondata[0]['md_id']}`);
+      const courserequest = await fetch(`https://scd.edu.om/api/short-description?id=${majordetailsjsondata[0]['md_id']}`);
       coursedec = await courserequest.json();
 
     // By returning { props: { posts } }, the Blog component

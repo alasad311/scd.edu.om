@@ -255,28 +255,28 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
 export async function getServerSideProps() {
       // const client = new Instagram({ username: 'alasad.dev', password: '@Mahmud1989' });
       // await client.login();
-      const res = await fetch('https://oman-dev.com/api/slider')
+      const res = await fetch('https://scd.edu.om/api/slider')
       const slider = await res.json()
 
-      const ress = await fetch('https://oman-dev.com/api/otherapps')
+      const ress = await fetch('https://scd.edu.om/api/otherapps')
       const otherapp = await ress.json()     
       
-      const resmajor = await fetch('https://oman-dev.com/api/major')
+      const resmajor = await fetch('https://scd.edu.om/api/major')
       const majors = await resmajor.json()    
 
-      const ressession = await fetch('https://oman-dev.com/api/sessiondt')
+      const ressession = await fetch('https://scd.edu.om/api/sessiondt')
       const sessiondt = await ressession.json()
 
-      const resevents = await fetch('https://oman-dev.com/api/events')
+      const resevents = await fetch('https://scd.edu.om/api/events')
       const events = await resevents.json()    
 
-      const resdates = await fetch('https://oman-dev.com/api/importantdates')
+      const resdates = await fetch('https://scd.edu.om/api/importantdates')
       const dates = await resdates.json()
 
-      const resmag = await fetch('https://oman-dev.com/api/newsletter')
+      const resmag = await fetch('https://scd.edu.om/api/newsletter')
       const mag = await resmag.json()    
        
-      const resnews = await fetch('https://oman-dev.com/api/newsevents')
+      const resnews = await fetch('https://scd.edu.om/api/newsevents')
       const newse = await resnews.json()
       // const response = await client.getPhotosByUsername({
       //     username: 'scd_oman',

@@ -858,13 +858,13 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
 }
 export async function getServerSideProps() {
 
-  const ress = await fetch('http://localhost:3000/api/otherapps')
+  const ress = await fetch('https://scd.edu.om/api/otherapps')
   const otherapp = await ress.json()
-  const reshod = await fetch('http://localhost:3000/api/hod-gfp')
+  const reshod = await fetch('https://scd.edu.om/api/hod-gfp')
   const hod = await reshod.json()
-  const resstaff = await fetch('http://localhost:3000/api/staff-gfp')
+  const resstaff = await fetch('https://scd.edu.om/api/staff-gfp')
   const staff = await resstaff.json()
-  const resmajor = await fetch('http://localhost:3000/api/major')
+  const resmajor = await fetch('https://scd.edu.om/api/major')
   const majors = await resmajor.json()    
   
   return {

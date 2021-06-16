@@ -195,16 +195,16 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
 export async function getServerSideProps () {
   // Call an external API endpoint to get posts.
   // You can use any data fetching library
-  const res = await fetch('http://localhost:3000/api/program-majors-ba')
+  const res = await fetch('https://scd.edu.om/api/program-majors-ba')
   const majorBA = await res.json()
 
-  const res2 = await fetch('http://localhost:3000/api/program-majors-ma')
+  const res2 = await fetch('https://scd.edu.om/api/program-majors-ma')
   const majorMA = await res2.json()
 
-  const res3 = await fetch('http://localhost:3000/api/program-short-courses')
+  const res3 = await fetch('https://scd.edu.om/api/program-short-courses')
   const short = await res3.json()
 
-  const ress = await fetch('http://localhost:3000/api/otherapps')
+  const ress = await fetch('https://scd.edu.om/api/otherapps')
   const otherapp = await ress.json()
   // By returning { props: { posts } }, the Blog component
   // will receive `posts` as a prop at build time
