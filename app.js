@@ -1,38 +1,22 @@
-const {
-  createServer
-} = require("http");
-const {
-  parse
-} = require("url");
-const next = require("next");
-const hostname = '127.0.0.1';
+const { createServer } = require('http')
+const { parse } = require('url')
+const next = require('next')
 
-const port = process.env.PORT || 3000;
+const port = parseInt(process.env.PORT || '3000', 10)
+const dev = process.env.NODE_ENV !== 'production'
+const app = next({ dev })
+const handle = app.getRequestHandler()
 
-// Create the Express-Next App
-const app = next({
-  dev:false
-});
-const handle = app.getRequestHandler();
+app.prepare().then(() => {
+  createServer((req, res) => {
+    const parsedUrl = parse(req.url, true)
+        handle(req, res, parsedUrl)
+  }).listen(port)
 
-app
-  .prepare()
-  .then(() => {
-    createServer((req, res) => {
-      const parsedUrl = parse(req.url, true);
-      const {
-        pathname,
-        query
-      } = parsedUrl;
-      handle(req, res, parsedUrl);
-      console.log("pathname", pathname);
-    }).listen(port, hostname, (err) => {
-      if (err) throw err;
-      console.log(`> Ready on http://localhost:${port}`);
-    });
-  })
-  .catch((ex) => {
-    console.error(ex.stack);
-    process.exit(1);
-  });
- 
+  // tslint:disable-next-line:no-console
+  console.log(
+    `> Server listening at http://localhost:${port} as ${
+      dev ? 'development' : process.env.NODE_ENV
+    }`
+  )
+})
