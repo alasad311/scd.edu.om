@@ -115,7 +115,7 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
             <div className="row d-flex align-items-center">
                 <div className="col-lg-6 content">
                     <h2 className="margin-bottom-20">Book a Zoom Session</h2>
-                    <img src="/assets/zoom-session.jpg" width={578} height={350} className="img-fluid" />
+                    <img src="/assets/zoom-session.jpg" className="img-fluid" />
                     <p className="text-font sliver-box-zoom-session"> Would you like to know more about SCD ? We are here to assist you and answer all your questions. Book a session and our team will clarify and introduce you to SCD majors, student life and admission procedure. You are one step closer from starting a creative career . </p>
                 </div>
                 <div className="col-lg-6 content bookZoomBox">
