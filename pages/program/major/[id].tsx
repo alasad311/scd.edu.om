@@ -390,7 +390,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                         <div className="col-md-6 col-lg-3" key={e.staff_id}>
                           <div className="staff-member my-md-3 my-lg-3 my-sm-0">
                             <div className="cards text-center">
-                              <img src={`/assets/employees/`+e.staff_image} className="cardImg img-fluid m-auto pt-4" />
+                              <img src={`/assets/employees/`+e.staff_image} width="150px" className="cardImg img-fluid m-auto pt-4" />
                               <div className="cardz-body">
                                 <h5 className="teacher mb-0">{e.staff_name}</h5>
                                 <span>{e.staff_title}</span>
