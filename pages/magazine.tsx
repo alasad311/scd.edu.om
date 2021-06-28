@@ -34,7 +34,7 @@ export default function magazine ({props}){
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="assets/logo/n_fav_icon.png" />
       </Head>
-          {!ua.isMobile || !ua.isTablet &&
+          {!ua.isMobile && !ua.isTablet &&
             <object data={"assets/files/"+router.query['keyword']+"#zoom=110&toolbar=0&statusbar=0&navpanes=0&scrollbar=0"} style={{height:"90vh",border:"none",overflow:"hidden", display:"block", margin:"0 auto"}} type='application/pdf' width='100%' ></object>
           }
     </div>
