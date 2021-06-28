@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react';
 import { useRouter } from 'next/router'
 import { useUserAgent } from 'next-useragent'
-import { useLayoutEffect } from 'react';
 export default function magazine ({props}){
   const router = useRouter()
   let ua;
@@ -12,16 +11,8 @@ export default function magazine ({props}){
   } else {
     ua = useUserAgent(window.navigator.userAgent)
   }
-  useLayoutEffect(() => {
-    if(ua.isMobile || ua.isTablet)
-    {
-      router.push("assets/files/m"+router.query['keyword'])
-    }
-   
-   
-    
-  })
 
+  
  
   
   return (
@@ -42,9 +33,24 @@ export default function magazine ({props}){
 }
 
 export function getServerSideProps(context) {
+  let ua;
+  let props = context.req.headers['user-agent'];
+
+  if (props) {
+    ua = useUserAgent(props)
+  } else {
+    ua = useUserAgent(window.navigator.userAgent)
+  }
+  if(ua.isMobile || ua.isTablet)
+  {
+    context.res.writeHead(302, { Location: "assets/files/m"+context.query.keyword });
+    context.res.end();
+  }
+
+
   return {
     props: {
-      props: context.req.headers['user-agent']
+      props: props
     }
   }
 }
