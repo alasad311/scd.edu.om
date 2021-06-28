@@ -2,7 +2,6 @@ import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react';
 import { useRouter } from 'next/router'
-import redirect from 'nextjs-redirect'
 import { useUserAgent } from 'next-useragent'
 import { useEffect } from 'react';
 export default props => {
