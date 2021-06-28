@@ -293,7 +293,7 @@ export async function getServerSideProps() {
               event: events,
               date: dates,
               mag:mag,
-              newse:newse    
+              newse:newse
           }, // will be passed to the page component as props
       };
   }

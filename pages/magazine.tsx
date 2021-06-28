@@ -15,7 +15,7 @@ export default function magazine ({props}){
   useEffect(() => {
     if(ua.isMobile || ua.isTablet)
     {
-      router.push("assets/files/m"+router.query['keyword'])
+      window.location.href  = "assets/files/m"+router.query['keyword'];
     }
    
    

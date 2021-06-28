@@ -18,4 +18,3 @@ function Newsletter({ data }) {
 }
 
 export default Newsletter
-
