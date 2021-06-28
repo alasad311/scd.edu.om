@@ -6248,6 +6248,11 @@ html.side-header-overlay-full-screen.ie #header .header-nav-main nav > ul > li.d
 		height: 450px;
 	}
 }
+
+.footer-fix{
+	padding-bottom: 30px !important;
+}
+
 .card-body-issue{
 	color: #f8f9fa !important;
 	font-size: 18px !important;

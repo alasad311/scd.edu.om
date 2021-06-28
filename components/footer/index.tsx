@@ -53,7 +53,7 @@ export default function Footer() {
                       </div>
                       <div className="link">
                         <i className="fas fa-phone footer-icon-links"></i>
-                        <p>+968 24513 222</p>
+                        <p>+968 24513251, <br />+968 24513252,<br />+968 24513233,<br />+968 96707755</p>
                       </div>
                   </div>
               </div>
