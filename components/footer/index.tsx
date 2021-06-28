@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer-section">
       <div className="container-fluid">
           <div className="divider"></div>
-          <div className="row footer-content">
+          <div className="row footer-content footer-fix">
               <div className="col-12 col-md-6 col-lg-2" >
                   <img width={150} height={150} className="brand-logo" src="/assets/logo/Logo-Center.png" alt="SCD Logo" />
               </div>

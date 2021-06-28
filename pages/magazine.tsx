@@ -43,7 +43,7 @@ export function getServerSideProps(context) {
   }
   if(ua.isMobile || ua.isTablet)
   {
-    context.res.writeHead(302, { Location: "assets/files/m"+context.query.keyword });
+    context.res.writeHead(302, { Location: "assets/files/"+context.query.keyword });
     context.res.end();
   }
 
