@@ -13,7 +13,7 @@ export default props => {
     ua = useUserAgent(window.navigator.userAgent)
   }
   useEffect(() => {
-    if(ua.isMobile)
+    if(ua.isMobile || ua.isTablet)
     {
       router.push("assets/files/m"+router.query['keyword'])
     }
