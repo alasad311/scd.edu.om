@@ -2,15 +2,22 @@ import Head from 'next/head'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react';
 import { useRouter } from 'next/router'
+import redirect from 'nextjs-redirect'
 import { useUserAgent } from 'next-useragent'
 export default props => {
-    const router = useRouter()
+  const router = useRouter()
   let ua;
   if (props.uaString) {
     ua = useUserAgent(props.uaString)
   } else {
     ua = useUserAgent(window.navigator.userAgent)
   }
+
+  if(ua.isMobile)
+  {
+    redirect("assets/files/m"+router.query['keyword'])
+  }
+  
   return (
     <div>
       <Head>
@@ -21,11 +28,7 @@ export default props => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="assets/logo/n_fav_icon.png" />
       </Head>
-      { ua.isMobile ? (
-        <object data={"assets/files/m"+router.query['keyword']+"#zoom=Fit&toolbar=0&statusbar=0&navpanes=0&scrollbar=0"} style={{height:"90vh",border:"none",overflow:"hidden", display:"block", margin:"0 auto"}} type='application/pdf' width='100%' ></object>
-        ) : (
           <object data={"assets/files/"+router.query['keyword']+"#zoom=110&toolbar=0&statusbar=0&navpanes=0&scrollbar=0"} style={{height:"90vh",border:"none",overflow:"hidden", display:"block", margin:"0 auto"}} type='application/pdf' width='100%' ></object>
-          ) }
     </div>
   )
 }
