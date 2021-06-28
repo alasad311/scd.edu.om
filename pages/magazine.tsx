@@ -17,6 +17,10 @@ export default props => {
     {
       router.push("assets/files/m"+router.query['keyword'])
     }
+    else
+    {
+      router.push("assets/files/"+router.query['keyword'])
+    }
    
     
   })
