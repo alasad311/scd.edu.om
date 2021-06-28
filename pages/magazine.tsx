@@ -4,6 +4,7 @@ import React from 'react';
 import { useRouter } from 'next/router'
 import redirect from 'nextjs-redirect'
 import { useUserAgent } from 'next-useragent'
+import { useEffect } from 'react';
 export default props => {
   const router = useRouter()
   let ua;
@@ -12,11 +13,16 @@ export default props => {
   } else {
     ua = useUserAgent(window.navigator.userAgent)
   }
+  useEffect(() => {
+    if(ua.isMobile)
+    {
+      router.push("assets/files/m"+router.query['keyword'])
+    }
+   
+    
+  })
 
-  if(ua.isMobile)
-  {
-    redirect("assets/files/m"+router.query['keyword'])
-  }
+ 
   
   return (
     <div>
