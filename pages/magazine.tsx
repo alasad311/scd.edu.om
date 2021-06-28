@@ -4,11 +4,11 @@ import React from 'react';
 import { useRouter } from 'next/router'
 import { useUserAgent } from 'next-useragent'
 import { useEffect } from 'react';
-export default props => {
+export default function magazine ({props}){
   const router = useRouter()
   let ua;
-  if (props.uaString) {
-    ua = useUserAgent(props.uaString)
+  if (props) {
+    ua = useUserAgent(props)
   } else {
     ua = useUserAgent(window.navigator.userAgent)
   }
@@ -17,10 +17,7 @@ export default props => {
     {
       router.push("assets/files/m"+router.query['keyword'])
     }
-    else
-    {
-      router.push("assets/files/"+router.query['keyword'])
-    }
+   
    
     
   })
@@ -41,10 +38,11 @@ export default props => {
     </div>
   )
 }
+
 export function getServerSideProps(context) {
   return {
     props: {
-      uaString: context.req.headers['user-agent']
+      props: context.req.headers['user-agent']
     }
   }
 }
