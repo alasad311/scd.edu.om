@@ -40,7 +40,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                     <a className="nav-link" href="#financialaid" data-bs-toggle="tab">Financial Aid</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/assets/download/student_manual.pdf" data-bs-toggle="tab">Student Manual</a>
+                    <a className="nav-link" href="#"  id="btn_manual" data-bs-toggle="tab"> Student Manual</a>
                   </li>
                 </ul>
               </div>

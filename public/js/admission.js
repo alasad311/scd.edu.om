@@ -55,3 +55,7 @@ if(window.location.hash){
     console.log(window.location.hash)
     $('.nav-item a[href="' + window.location.hash + '"]').tab("show")
 }
+
+$("#btn_manual").on("click",function(){
+    window.open('/assets/download/student_manual.pdf', '_blank');
+})
