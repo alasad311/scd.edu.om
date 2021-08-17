@@ -61,15 +61,15 @@ export default function aptitude() {
                 </div>
                 
               </div>
-              <div className="ur-caption hidden-md hidden-sm hidden-xs" style={{width:"50%;",marginLeft:"22px",textAlign:"justify"}}>
+              <div className="ur-caption hidden-md hidden-sm hidden-xs" style={{width:"50%",marginLeft:"22px",textAlign:"justify"}}>
                   <h4 className="ur-title">الغرض من اختبار القدرات</h4>
                   <p className="ur-location">يجب على الطلاب الذين يتقدمون للدراسة في الكلية العلمية للتصميم إجراء اختبار القدرات في مهارات الرسم وعلى الرغم من أن اختبار القدرات ليس اختبار "ناجح" أو "راسب"، إلا أنه يُستخدم كمؤشر للكفاءة الحالية للطالب في مهارات الرسم. حيث أنها تساعد في تحديد ما إذا كان الطالب لديه القدرات الفنية الأساسية للانضمام إلى برنامج الفنون الجميلة.</p>
                 </div>
               <div className="ur-detail-btn">
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fas fa-globe-asia mrg-l-5"></i>موقع الكلية </a><br />
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fab fa-facebook-square mrg-l-5"></i>فيسبوك</a><br />
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fab fa-instagram-square mrg-l-5"></i>انستغرام</a><br />
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fab fa-youtube-square mrg-l-5"></i>Youtube</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fas fa-globe-asia mrg-l-5"></i>موقع الكلية </a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fab fa-facebook-square mrg-l-5"></i>فيسبوك</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fab fa-instagram-square mrg-l-5"></i>انستغرام</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fab fa-youtube-square mrg-l-5"></i>Youtube</a><br />
               </div>
             </div>
           </div>

@@ -61,15 +61,15 @@ export default function aptitude() {
                 </div>
                 
               </div>
-              <div className="ur-caption hidden-md hidden-sm hidden-xs" style={{width:"50%;",marginRight:"22px",textAlign:"justify"}}>
+              <div className="ur-caption hidden-md hidden-sm hidden-xs" style={{width:"50%",marginRight:"22px",textAlign:"justify"}}>
                   <h4 className="ur-title">Purpose of Placement Test</h4>
                   <p className="ur-location">Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. Although placement tests are not “Pass” or “Fail” tests, they are used as indicators of a student’s current competence of English Language, Math and Computing. They help in placing students into appropriate levels in the General Foundation Program as per the given criteria.  </p>
                 </div>
               <div className="ur-detail-btn">
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fas fa-globe-asia mrg-r-5"></i>College Website</a><br />
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fab fa-facebook-square mrg-r-5"></i>Facebook</a><br />
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fab fa-instagram-square mrg-r-5"></i>Instagram</a><br />
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fab fa-youtube-square mrg-r-5"></i>Youtube</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fas fa-globe-asia mrg-r-5"></i>College Website</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fab fa-facebook-square mrg-r-5"></i>Facebook</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fab fa-instagram-square mrg-r-5"></i>Instagram</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fab fa-youtube-square mrg-r-5"></i>Youtube</a><br />
               </div>
             </div>
           </div>

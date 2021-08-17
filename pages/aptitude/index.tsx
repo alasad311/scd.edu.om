@@ -61,15 +61,15 @@ export default function aptitude() {
                 </div>
                 
               </div>
-              <div className="ur-caption hidden-md hidden-sm hidden-xs" style={{width:"50%;",marginRight:"22px",textAlign:"justify"}}>
+              <div className="ur-caption hidden-md hidden-sm hidden-xs" style={{width:"50%",marginRight:"22px",textAlign:"justify"}}>
                   <h4 className="ur-title">Purpose of Aptitude Test</h4>
                   <p className="ur-location">Students who apply to study in Scientific College of Design should take an aptitude test in drawing skills. Although the aptitude test is not “Pass” or “Fail” test, it is used as an indicator of a student’s current competence in drawing skills. They help in deciding whether a student has basic artistic abilities to join the fine arts program. </p>
                 </div>
               <div className="ur-detail-btn">
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fas fa-globe-asia mrg-r-5"></i>College Website</a><br />
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fab fa-facebook-square mrg-r-5"></i>Facebook</a><br />
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fab fa-instagram-square mrg-r-5"></i>Instagram</a><br />
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fab fa-youtube-square mrg-r-5"></i>Youtube</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fas fa-globe-asia mrg-r-5"></i>College Website</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fab fa-facebook-square mrg-r-5"></i>Facebook</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fab fa-instagram-square mrg-r-5"></i>Instagram</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fab fa-youtube-square mrg-r-5"></i>Youtube</a><br />
               </div>
             </div>
           </div>

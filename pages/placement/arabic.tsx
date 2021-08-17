@@ -61,15 +61,15 @@ export default function aptitude() {
                 </div>
                 
               </div>
-              <div className="ur-caption hidden-md hidden-sm hidden-xs" style={{width:"50%;",marginLeft:"22px",textAlign:"justify"}}>
+              <div className="ur-caption hidden-md hidden-sm hidden-xs" style={{width:"50%",marginLeft:"22px",textAlign:"justify"}}>
                   <h4 className="ur-title">الهدف من امتحان تحديد المستوى</h4>
                   <p className="ur-location">يتعين على جميع الطلبة الراغبين بالالتحاق بالكلية العلمية للتصميم ان يتقدموا لامتحان تحديد مستوى لمواد اللغة الانجليزية والرياضيات والحاسوب. وعلى الرغم من أن امتحانات تحديد المستوى لا تؤخذ على أساس النجاح والرسوب ، إلا أنها تعتبر مؤشرا على مدى اتقان الطالب لكل من اللغة الانجليزية والرياضيات والحاسوب. وبناء على نتائجهم في امتحان المستوى يتم تصنيف الطلبة في المستوى المناسب وفقا للمعايير المرفقة في البرنامج التأسيسي العام .</p>
                 </div>
               <div className="ur-detail-btn">
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fas fa-globe-asia mrg-l-5"></i>موقع الكلية </a><br />
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fab fa-facebook-square mrg-l-5"></i>فيسبوك</a><br />
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fab fa-instagram-square mrg-l-5"></i>انستغرام</a><br />
-                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px;"}}><i className="fab fa-youtube-square mrg-l-5"></i>Youtube</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fas fa-globe-asia mrg-l-5"></i>موقع الكلية </a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fab fa-facebook-square mrg-l-5"></i>فيسبوك</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fab fa-instagram-square mrg-l-5"></i>انستغرام</a><br />
+                <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fab fa-youtube-square mrg-l-5"></i>Youtube</a><br />
               </div>
             </div>
           </div>
