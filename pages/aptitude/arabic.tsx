@@ -54,7 +54,7 @@ export default function aptitude() {
                 </div>
                 <div className="ur-caption">
                   <h4 className="ur-title">اختبار القدرات</h4>
-                  <p className="ur-location"><i className="fas fa-user-graduate mrg-l-5"></i>العام الأكاديمي 2020-2021</p>
+                  <p className="ur-location"><i className="fas fa-user-graduate mrg-l-5"></i>العام الأكاديمي 2021-2022</p>
                   <p className="ur-location"><i className="fas fa-building mrg-l-5"></i>قسم الفنون الجميلة </p>
                   <p className="ur-location"><i className="ti-location-pin mrg-l-5"></i>مرتفعات المطار – شارع المطار</p>
                   <span className="ur-designation"><i className="ti-home mrg-l-5"></i>الكلية العلمية للتصميم </span>
@@ -91,7 +91,7 @@ export default function aptitude() {
 								<ul className="detail-list arabic-list" style={{marginLeft:"12px"}}>
 									<li>يتم إجراء اختبار القدرات في الكلية العلمية للتصميم، لذلك يجب علي الطلاب التواجد في الكلية قبل 15 دقيقة من بدء الاختبار لاستلام الخامات والأدوات المستخدمة في الاختبار، ومعرفة تعليمات الاختبار من مكتب القبول.</li>
 									<li>بعد التسجيل في اختبار القدرات، يجب على المرشحين التجمع في مسرح الكلية في الطابق الأول والانتظار حتى يبدأ الاختبار في الاستوديو الخاص.</li>
-									<li>يجب على الطلاب إحضار بطاقات الهوية الخاصة بهم للسماح لهم بإجراء اختبار .</li>
+									<li> يجب على الطلاب إحضار بطاقات الهوية الخاصة بهم للسماح لهم بإجراء اختبار القدرات.</li>
 									<li>سيتم إعلان نتائج اختبار القدرات من قبل مكتب القبول في غضون أسبوع على أبعد تقدير.</li>
 								</ul>
 							</div>
@@ -124,7 +124,7 @@ export default function aptitude() {
 
               <div className="row-bottom">
 								<h2 className="detail-title" style={{fontSize:"18px !important"}}>النقاط والمعايير</h2>
-                <h5>السؤال الأول - السؤال التعبيري الأول - الموضوع التعبيري</h5>
+                <h5>السؤال الأول -  الموضوع التعبيري</h5>
 								<table className="table table-striped table-responsive">
                   <tbody>
                     <tr>
@@ -176,7 +176,7 @@ export default function aptitude() {
                   </tr>
                   <tr>
                     <td>الوصف</td>
-                    <td style={{verticalAlign:"baseline"}}>يحيصور الطالب مقياسًا دقيقًا ونسبًا ذات صلة في جميع أنحاء المشهد </td>
+                    <td style={{verticalAlign:"baseline"}}>يصور الطالب مقياسًا دقيقًا ونسبًا ذات صلة في جميع أنحاء المشهد </td>
                     <td style={{verticalAlign:"baseline"}}> يوضح عمل الطالب مستوى عاليًا من التفاصيل ، مقدمًا بطريقة مرتبة ونظيفة.</td>
                     <td style={{verticalAlign:"baseline"}}>  يقر الطالب وينفذ استخدام الضوء والظل لتحديد الأشياء بصريًا ، وخلق الوهم بالبعد الثالث ، والتركيز على عمق المجال.   </td>
                     <td style={{verticalAlign:"baseline"}}>يحقق الطالب ترتيبًا متوازنًا بصريًا للعناصر التي تشكل التكوين داخل الحدود المحددة للصفحة. </td>
@@ -186,7 +186,7 @@ export default function aptitude() {
 							</div>
 							
 						</div>
-						<div className="col-lg-4 col-md-4 col-md-push-8">
+						<div className="col-lg-4 col-md-4 col-md-pull-8">
 							<div className="full-sidebar-wrap">															
 								<div className="sidebar-widgets">
 								

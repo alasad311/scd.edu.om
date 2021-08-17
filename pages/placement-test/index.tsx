@@ -54,7 +54,7 @@ export default function aptitude() {
                 </div>
                 <div className="ur-caption">
                   <h4 className="ur-title">Placement Testing</h4>
-                  <p className="ur-location"><i className="fas fa-user-graduate mrg-r-5"></i>Academic Year 2020-2021</p>
+                  <p className="ur-location"><i className="fas fa-user-graduate mrg-r-5"></i>Academic Year 2021-2022</p>
                   <p className="ur-location"><i className="fas fa-building mrg-r-5"></i>English Language, Basic Sciences and Humanities Department</p>
                   <p className="ur-location"><i className="ti-location-pin mrg-r-5"></i>Airport Heights – Matar Street</p>
                   <span className="ur-designation"><i className="ti-home mrg-r-5"></i>Scientific College of Design</span>
