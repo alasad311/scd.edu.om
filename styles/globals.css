@@ -3593,10 +3593,10 @@ html.sticky-header-enabled.sticky-header-active #header .header-logo-sticky-chan
 
 	#header .header-nav-main nav > ul li a.dropdown-toggle .fa-chevron-down {
 		position: absolute;
-		top: 0;
+		top: 10px;
 		right: 0;
 		width: 30px;
-		height: 100%;
+		height: 50%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -6280,4 +6280,9 @@ html.side-header-overlay-full-screen.ie #header .header-nav-main nav > ul > li.d
 .owl-carousel a:hover{
 	color:#9cca43 !important;
 }
-
+.nav-link[data-elink = applynow]
+{
+	background-color:#9CCA43 !important;
+	color:#fff  !important;
+	font-size: 14px !important;
+}
