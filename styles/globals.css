@@ -6280,7 +6280,7 @@ html.side-header-overlay-full-screen.ie #header .header-nav-main nav > ul > li.d
 .owl-carousel a:hover{
 	color:#9cca43 !important;
 }
-.nav-link[data-elink = applynow]
+.nav-link[data-elink = 'apply now']
 {
 	background-color:#9CCA43 !important;
 	color:#fff  !important;
