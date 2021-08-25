@@ -5,7 +5,7 @@ function OtherApp({ data }) {
       <ul className="nav nav-pills">
          {data.map((e) => (
             <li key={e.id} style={{alignSelf:"center",marginTop:"20px"}} className="nav-item nav-item-anim-icon d-none d-md-block nav-item-left-border">
-                <a className="nav-link" href={e.link} data-elink={e.name.toLowerCase().replaceAll(/\s/g,'')}> {e.name}</a>
+                <a className="nav-link" href={e.link} data-elink={e.name.toLowerCase()}> {e.name}</a>
             </li>
             ))}
       </ul>
