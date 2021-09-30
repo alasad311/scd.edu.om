@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
@@ -662,13 +663,13 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
         </div>
       </section>
       <Footer />
-        <script src="js/jquery/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap/bootstrap.bundle.js"></script>
-        <script src="js/zurb-twentytwenty/js/jquery.event.move.js"></script>
-        <script src="js/zurb-twentytwenty/js/jquery.twentytwenty.js"></script>
-        <script type="text/javascript" src="/js/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-        <script type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"></script>
-        <script src="js/aboutus.js"></script>
+        <Script strategy="beforeInteractive" src="js/jquery/jquery-3.6.0.min.js"/>
+        <Script strategy="lazyOnload" src="js/bootstrap/bootstrap.bundle.js"/>
+        <Script strategy="lazyOnload" src="js/zurb-twentytwenty/js/jquery.event.move.js"/>
+        <Script strategy="lazyOnload" src="js/zurb-twentytwenty/js/jquery.twentytwenty.js"/>
+        <Script strategy="lazyOnload" type="text/javascript" src="/js/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"/>
+        <Script strategy="lazyOnload" type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"/>
+        <Script strategy="lazyOnload" src="js/aboutus.js"/>
     </div>
   )
 }

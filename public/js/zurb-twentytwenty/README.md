@@ -3,9 +3,9 @@
 Include the javascript and css files.
 
 ```html
-<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
-<script src="js/jquery.event.move.js" type="text/javascript"></script>
-<script src="js/jquery.twentytwenty.js" type="text/javascript"></script>
+<Script strategy="lazyOnload" src="js/jquery-3.2.1.min.js" type="text/javascript"/>
+<Script strategy="lazyOnload" src="js/jquery.event.move.js" type="text/javascript"/>
+<Script strategy="lazyOnload" src="js/jquery.twentytwenty.js" type="text/javascript"/>
 <link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen" />
 ``` 
 You might need to change the paths to match your setup.

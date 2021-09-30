@@ -33,8 +33,8 @@
 		<input type="range" min="-100" max="100" step="1" id="updater" />
 	</div>
 
-	<script src="../bower_components/requirejs/require.js"></script>
-	<script>
+	<Script strategy="lazyOnload" src="../bower_components/requirejs/require.js"/>
+	<Script strategy="lazyOnload">
 		require.config({
 			paths: {
 				'jquery': 'https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery',

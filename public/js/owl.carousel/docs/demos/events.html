@@ -23,8 +23,8 @@
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <Script strategy="lazyOnload" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"/>
+      <Script strategy="lazyOnload" src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"/>
     <![endif]-->
 
     <!-- Favicons -->
@@ -35,8 +35,8 @@
     <!-- Yeah i know js should not be in header. Its required for demos.-->
 
     <!-- javascript -->
-    <script src="../assets/vendors/jquery.min.js"></script>
-    <script src="../assets/owlcarousel/owl.carousel.js"></script>
+    <Script strategy="lazyOnload" src="../assets/vendors/jquery.min.js"/>
+    <Script strategy="lazyOnload" src="../assets/owlcarousel/owl.carousel.js"/>
   </head>
   <body>
 
@@ -140,7 +140,7 @@
           <h3 id="overview">Overview</h3>
           <p>Notice that <code>initialize.owl.carousel</code> and <code>initialized.owl.carousel</code> events must be attached before Owl Carousel initialization. This is required only for those two.</p>
           <p><code>changed.owl.carousel</code> event is attached to the main Owl Carousel animation method so that every carousel move triggers this callback.</p>
-          <script>
+          <Script strategy="lazyOnload">
             jQuery(document).ready(function($) {
               var owl = $('.owl-carousel');
               owl.on('initialize.owl.carousel initialized.owl.carousel ' +
@@ -201,7 +201,7 @@
     </footer>
 
     <!-- vendors -->
-    <script src="../assets/vendors/highlight.js"></script>
-    <script src="../assets/js/app.js"></script>
+    <Script strategy="lazyOnload" src="../assets/vendors/highlight.js"/>
+    <Script strategy="lazyOnload" src="../assets/js/app.js"/>
   </body>
 </html>

@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../components/header'
 import SectionMajor from '../components/section-major'
@@ -240,15 +241,15 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
       <SectionNewsEvents news={newse} />
       
       <Footer />
-      <script src="js/jquery/jquery-3.6.0.min.js"></script>
-      <script src="js/slick/slick.js"></script>
-      
-      <script src="js/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-      <script src="js/bootstrap/bootstrap.bundle.js"></script>       
-      <script src="js/custom.js"></script>
-      <script src="js/toggler.js"></script>
-      <script src="js/scroll.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossOrigin="anonymous" referrerPolicy="no-referrer"></script>
+      <Script src="js/jquery/jquery-3.6.0.min.js" strategy="beforeInteractive"/>
+      <Script src="js/slick/slick.min.js" strategy="lazyOnload"/>
+      <Script src="js/custom.js" strategy="lazyOnload"/>
+      <Script src="js/simple-text-rotator/jquery.simple-text-rotator.min.js" strategy="lazyOnload"/>
+      <Script src="js/bootstrap/bootstrap.bundle.js" strategy="lazyOnload"/>       
+      <Script src="js/toggler.js" strategy="lazyOnload"/>
+      <Script src="js/scroll.js" strategy="lazyOnload"/>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossOrigin="anonymous" referrerPolicy="no-referrer" strategy="lazyOnload"/>
+
     </div>
   )
 }

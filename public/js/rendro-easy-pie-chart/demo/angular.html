@@ -26,9 +26,9 @@
 		<input type="range" min="-100" max="100" step="1" ng-model="anotherPercent" />
 	</div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.js"></script>
-	<script src="../dist/angular.easypiechart.min.js"></script>
-	<script>
+	<Script strategy="lazyOnload" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.js"/>
+	<Script strategy="lazyOnload" src="../dist/angular.easypiechart.min.js"/>
+	<Script strategy="lazyOnload">
 		var app = angular.module('app', ['easypiechart']);
 		app.controller('chartCtrl', ['$scope', function ($scope) {
 			$scope.percent = 65;

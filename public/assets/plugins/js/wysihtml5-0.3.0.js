@@ -3925,7 +3925,7 @@ wysihtml5.browser = (function() {
  *
  * @example
  *    <div id="text-container">Please click here: www.google.com</div>
- *    <script>wysihtml5.dom.autoLink(document.getElementById("text-container"));</script>
+ *    <Script strategy="lazyOnload">wysihtml5.dom.autoLink(document.getElementById("text-container"));</script>
  */
 (function(wysihtml5) {
   var /**
@@ -4118,7 +4118,7 @@ wysihtml5.dom.contains = (function() {
  *      <div>50 Cent</div>
  *    </span>
  *
- *    <script>
+ *    <Script strategy="lazyOnload">
  *      wysihtml5.dom.convertToList(document.getElementById("pseudo-list"), "ul");
  *    </script>
  *
@@ -4703,7 +4703,7 @@ wysihtml5.dom.observe = function(element, eventNames, handler) {
  * @return {Element|String} Depends on the elementOrHtml parameter. When html then the sanitized html as string elsewise the element.
  *
  * @example
- *    var userHTML = '<div id="foo" onclick="alert(1);"><p><font color="red">foo</font><script>alert(1);</script></p></div>';
+ *    var userHTML = '<div id="foo" onclick="alert(1);"><p><font color="red">foo</font><Script strategy="lazyOnload">alert(1);</script></p></div>';
  *    wysihtml5.dom.parse(userHTML, {
  *      tags {
  *        p:      "div",      // Rename p tags to div tags
@@ -5169,7 +5169,7 @@ wysihtml5.dom.removeEmptyTextNodes = function(node) {
  *      <li>50 Cent</li>
  *    </ul>
  *
- *    <script>
+ *    <Script strategy="lazyOnload">
  *      wysihtml5.dom.renameElement(document.getElementById("list"), "ol");
  *    </script>
  *
@@ -5197,7 +5197,7 @@ wysihtml5.dom.renameElement = function(element, newNodeName) {
  *    <div id="foo">
  *      <span>hello</span>
  *    </div>
- *    <script>
+ *    <Script strategy="lazyOnload">
  *      // Remove #foo and replace with it's children
  *      wysihtml5.dom.replaceWithChildNodes(document.getElementById("foo"));
  *    </script>
@@ -5232,7 +5232,7 @@ wysihtml5.dom.replaceWithChildNodes = function(node) {
  *      <li>50 Cent</li>
  *    </ul>
  *
- *    <script>
+ *    <Script strategy="lazyOnload">
  *      wysihtml5.dom.resolveList(document.getElementById("list"));
  *    </script>
  *
@@ -8788,7 +8788,7 @@ wysihtml5.views.Textarea = wysihtml5.views.View.extend(
  *      </label>
  *    </div>
  *
- *    <script>
+ *    <Script strategy="lazyOnload">
  *      var dialog = new wysihtml5.toolbar.Dialog(
  *        document.querySelector("[data-wysihtml5-command='insertImage']"),
  *        document.querySelector("[data-wysihtml5-dialog='insertImage']")
@@ -9059,7 +9059,7 @@ wysihtml5.views.Textarea = wysihtml5.views.View.extend(
  *      <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1">insert h1</a>
  *    </div>
  *
- *    <script>
+ *    <Script strategy="lazyOnload">
  *      var toolbar = new wysihtml5.toolbar.Toolbar(editor, document.getElementById("toolbar"));
  *    </script>
  */

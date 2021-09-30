@@ -70,8 +70,8 @@ owl.on('mousewheel', '.owl-stage', function (e) {
 
 {{/markdown }} 
 
-<script src="{{assets}}/vendors/jquery.mousewheel.min.js"></script>
-<script>
+<Script strategy="lazyOnload" src="{{assets}}/vendors/jquery.mousewheel.min.js"/>
+<Script strategy="lazyOnload">
 $(document).ready(function(){
 	var owl = $('.owl-carousel');
 

@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from '../components/header'
 import Footer from '../components/footer'
@@ -209,11 +210,11 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
         </div>
       </section>
       <Footer />
-      <script src="js/jquery/jquery-3.6.0.min.js"></script>
-      <script src="js/bootstrap/bootstrap.bundle.js"></script>
-      <script type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"></script>
-      <script src="js/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-      <script type="text/javascript" src="/js/alumni.js"></script>
+      <Script strategy="beforeInteractive" src="js/jquery/jquery-3.6.0.min.js"/>
+      <Script strategy="lazyOnload" src="js/bootstrap/bootstrap.bundle.js"/>
+      <Script strategy="lazyOnload" type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"/>
+      <Script strategy="lazyOnload" src="js/simple-text-rotator/jquery.simple-text-rotator.min.js"/>
+      <Script strategy="lazyOnload" type="text/javascript" src="/js/alumni.js"/>
 
     </div>
   )
