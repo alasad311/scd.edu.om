@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Script from 'next/script'
 import React  from 'react';
 
 export default function aptitude() {
@@ -35,8 +34,8 @@ export default function aptitude() {
                 <li></li>
               </ul>
               <ul className="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                <li><a href="/placement" className="signin">English</a></li>
-                <li className="left-br"><a href="placement/arabic" className="signin">عربى</a></li>
+                <li><a href="/placement-test" className="signin">English</a></li>
+                <li className="left-br"><a href="placement-test/arabic" className="signin">عربى</a></li>
               </ul>
             </div>
           </div>   
@@ -271,21 +270,21 @@ export default function aptitude() {
 				</div>
 			</section>
       </div>
-      <Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/jquery.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/viewportchecker.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/bootstrap.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/bootsnav.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/select2.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/wysihtml5-0.3.0.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/bootstrap-wysihtml5.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/datedropper.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/dropzone.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/loader.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/owl.carousel.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/slick.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/gmap3.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/jquery.easy-autocomplete.min.js"/>
-      <Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/counterup.min.js"/>
+      <script type="text/javascript" src="/assets/plugins/js/jquery.min.js"></script>
+			<script type="text/javascript" src="/assets/plugins/js/viewportchecker.js"></script>
+			<script type="text/javascript" src="/assets/plugins/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="/assets/plugins/js/bootsnav.js"></script>
+			<script type="text/javascript" src="/assets/plugins/js/select2.min.js"></script>
+			<script type="text/javascript" src="/assets/plugins/js/wysihtml5-0.3.0.js"></script>
+			<script type="text/javascript" src="/assets/plugins/js/bootstrap-wysihtml5.js"></script>
+			<script type="text/javascript" src="/assets/plugins/js/datedropper.min.js"></script>
+			<script type="text/javascript" src="/assets/plugins/js/dropzone.js"></script>
+			<script type="text/javascript" src="/assets/plugins/js/loader.js"></script>
+			<script type="text/javascript" src="/assets/plugins/js/owl.carousel.min.js"></script>
+			<script type="text/javascript" src="/assets/plugins/js/slick.min.js"></script>
+			<script type="text/javascript" src="/assets/plugins/js/gmap3.min.js"></script>
+			<script type="text/javascript" src="/assets/plugins/js/jquery.easy-autocomplete.min.js"></script>
+      <script type="text/javascript" src="/assets/plugins/js/counterup.min.js"></script>
     </div>
   )
 }
