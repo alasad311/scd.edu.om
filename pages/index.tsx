@@ -243,12 +243,12 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
       <Footer />
       <Script src="js/jquery/jquery-3.6.0.min.js" strategy="beforeInteractive"/>
       <Script src="js/slick/slick.min.js" strategy="lazyOnload"/>
-      <Script src="js/custom.js" strategy="lazyOnload"/>
       <Script src="js/simple-text-rotator/jquery.simple-text-rotator.min.js" strategy="lazyOnload"/>
       <Script src="js/bootstrap/bootstrap.bundle.js" strategy="lazyOnload"/>       
       <Script src="js/toggler.js" strategy="lazyOnload"/>
       <Script src="js/scroll.js" strategy="lazyOnload"/>
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossOrigin="anonymous" referrerPolicy="no-referrer" strategy="lazyOnload"/>
+      <Script src="js/custom.js" strategy="lazyOnload"/>
 
     </div>
   )
