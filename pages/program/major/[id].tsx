@@ -410,17 +410,130 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                           <p className='internal-content-text program-ul remove-top-padding'>Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. Although placement tests are not “Pass” or “Fail” tests, they are used as indicators of a student’s current competence of English Language, Math and Computing. They help in placing students into appropriate levels in the General Foundation Program.</p>
                           <div className="internal-heading padding-top-20">
                             <h1>Test Administration</h1>
-                            <div className='internal-content-text program-ul remove-top-padding'>
+                          </div>
+                          <div className='internal-content-text program-ul remove-top-padding'>
                               <ol>
                                 <li>Placement Tests at SCD are conducted online, so students should be available in the college 15 minutes prior to the commencement of the test to collect their Placement Test entry tickets, pass words, and the test instructions from the Admission Office.</li>
                                 <li>Students should bring their Identity Cards to be allowed to take the placement test.</li>
                                 <li>The results of the placement test are announced by the Admission Office within two working days at the latest.</li>
                               </ol>
-                            </div>
                           </div>
                           <div className="internal-heading padding-top-20">
                             <h1>Composition of the Placement Tests</h1>
                           </div>
+                          <table className='table table-striped'>
+                            <tbody>
+                              <tr>
+                                <th>
+                                <p><strong>Component</strong></p>
+                                </th>
+                                <th>
+                                <p><strong>Questions</strong></p>
+                                </th>
+                                <th>
+                                <p><strong>Mark</strong></p>
+                                </th>
+                                <th>
+                                <p><strong>Duration</strong></p>
+                                </th>
+                              </tr>
+                              <tr>
+                                <td>
+                                <p><strong>A. </strong><strong>English Language</strong></p>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                                <td>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                <p><strong>Listening</strong></p>
+                                </td>
+                                <td>
+                                <p>50</p>
+                                </td>
+                                <td>
+                                <p>100</p>
+                                </td>
+                                <td>
+                                <p>30 minutes</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                <p><strong>Reading</strong></p>
+                                </td>
+                                <td>
+                                <p>50</p>
+                                </td>
+                                <td>
+                                <p>100</p>
+                                </td>
+                                <td>
+                                <p>55 minutes</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                <p><strong>Grammar</strong></p>
+                                </td>
+                                <td>
+                                <p>70</p>
+                                </td>
+                                <td>
+                                <p>70</p>
+                                </td>
+                                <td>
+                                <p>35 minutes</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                <p><strong>Writing</strong></p>
+                                </td>
+                                <td>
+                                <p>31</p>
+                                </td>
+                                <td>
+                                <p>100</p>
+                                </td>
+                                <td>
+                                <p>[Objective/20 minutes + Essay writing/40 minutes]=60 minutes</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                <p><strong>B. </strong><strong>Math</strong></p>
+                                </td>
+                                <td>
+                                <p>25</p>
+                                </td>
+                                <td>
+                                <p>100</p>
+                                </td>
+                                <td>
+                                <p>30 minutes</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                <p><strong>C. </strong><strong>Computing</strong></p>
+                                </td>
+                                <td>
+                                <p>50</p>
+                                </td>
+                                <td>
+                                <p>100</p>
+                                </td>
+                                <td>
+                                <p>30 minutes</p>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
                       </div>
                     }
                     {programDetails &&
