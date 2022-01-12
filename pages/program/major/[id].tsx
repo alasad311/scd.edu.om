@@ -207,6 +207,36 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               </div>
                               <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_career']}}></div>
                             </span>
+                            }
+                            {programDetails[0]['major_name'] === "General Foundation Program" &&
+                            <span>
+                              <div className="internal-heading padding-top-20">
+                                <h1>Exit Exam</h1>
+                              </div>
+                              <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>
+                              An exit exam is conducted for all GFP3 students by the end of each and every semester. This is to make sure that the GFP requirements and academic standards are successfully met.
+                                </p>
+                            </span>
+                            } 
+                            {programDetails[0]['major_name'] === "General Foundation Program" &&
+                            <span>
+                              <div className="internal-heading padding-top-20">
+                                <h1>Certificates of Attainment</h1>
+                              </div>
+                              <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>
+                              A GFP student is not eligible to get a certificate of GFP completion ‘certificates of attainment’ unless he/she fulfills ALL GFP requirements; that is, passing all GFP courses including Math and IT. REMEDIAL CLASSES
+                                </p>
+                            </span>
+                            } 
+                            {programDetails[0]['major_name'] === "General Foundation Program" &&
+                            <span>
+                              <div className="internal-heading padding-top-20">
+                                <h1>Clubs and Extracurricular Activities at GFP</h1>
+                              </div>
+                              <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>
+                              This club in provides a good opportunity for students to use English language in a friendly and comfortable setting. It gives participants the chance to take part in many extracurricular activities at their own convenience and choice. 
+                                </p>
+                            </span>
                             } 
                           </div>
                         </div>
