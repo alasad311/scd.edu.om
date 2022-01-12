@@ -37,11 +37,9 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                             <li className="nav-item">
                                 <a className="nav-link" href="#courseplan" data-bs-toggle="tab">Course Plan</a>
                             </li>
-                            {programDetails[0]['major_name'] != "General Foundation Program" &&
-                              <li  className="nav-item displaynon">
+                            <li  className="nav-item displaynon">
                                   <a className="nav-link" href="#studentartwork" data-bs-toggle="tab">Student artwork</a>
-                              </li>
-                            }
+                            </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#deptFaculty" data-bs-toggle="tab">Department Faculty</a>
                             </li>
@@ -64,21 +62,28 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                             <li className="nav-item">
                                 <a className="nav-link" href="#courseplan" data-bs-toggle="tab">Course Plan</a>
                             </li>
+                            {programDetails[0]['major_name'] != "General Foundation Program" &&
                             <li  className="nav-item d-none d-lg-block d-xl-block">
                                 <a className="nav-link" href="#studentartwork" data-bs-toggle="tab">Student artwork</a>
-                            </li>
+                            </li> }
+                            {programDetails[0]['major_name'] != "General Foundation Program" &&
                             <li className="nav-item">
                                 <a className="nav-link" href="#studentaction" data-bs-toggle="tab">Students In Action</a>
-                            </li>
+                            </li>}
+                            {programDetails[0]['major_name'] === "General Foundation Program" &&
+                            <li className="nav-item">
+                                <a className="nav-link" href="#placementtest" data-bs-toggle="tab">Placement Test</a>
+                            </li>}
                             <li className="nav-item">
                                 <a className="nav-link" href="#deptFaculty" data-bs-toggle="tab">Department Faculty</a>
                             </li>
                             <li className={programDetails[0]['id'] === 23 ||  programDetails[0]['id'] === 18 ? "nav-item displaynon" : "nav-item"}>
                                 <a className="nav-link" href="#requirements" data-bs-toggle="tab">Requirement</a>
                             </li>
+                            {programDetails[0]['major_name'] != "General Foundation Program" &&
                             <li className={programDetails[0]['id'] === 18 ? "nav-item displaynon" : "nav-item"}>
                                 <a className="nav-link" href="#fees" data-bs-toggle="tab">Fees</a>
-                            </li>
+                            </li>}
                             <li className="nav-item">
                                 <a className="nav-link" href="https://www.apply.scd.edu.om" >Apply</a>
                             </li>
