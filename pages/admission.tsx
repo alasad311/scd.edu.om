@@ -29,7 +29,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                     <a className="nav-link active" href="#applytoscd" data-bs-toggle="tab">Apply to SCD</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/program/major/28" data-bs-toggle="tab">General Foundation Program</a>
+                    <a className="nav-link" href="/program/major/28">General Foundation Program</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#admissionfees" data-bs-toggle="tab">Admission Fees</a>
