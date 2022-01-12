@@ -425,21 +425,21 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                             <tbody>
                               <tr>
                                 <th>
-                                <p><strong>Component</strong></p>
+                                <strong>Component</strong>
                                 </th>
                                 <th>
-                                <p><strong>Questions</strong></p>
+                                <strong>Questions</strong>
                                 </th>
                                 <th>
-                                <p><strong>Mark</strong></p>
+                                <strong>Mark</strong>
                                 </th>
                                 <th>
-                                <p><strong>Duration</strong></p>
+                                <strong>Duration</strong>
                                 </th>
                               </tr>
                               <tr>
                                 <td>
-                                <p><strong>A. </strong><strong>English Language</strong></p>
+                                <strong>A. </strong><strong>English Language</strong>
                                 </td>
                                 <td>
                                 </td>
@@ -450,86 +450,86 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               </tr>
                               <tr>
                                 <td>
-                                <p><strong>Listening</strong></p>
+                                <strong>Listening</strong>
                                 </td>
                                 <td>
-                                <p>50</p>
+                                50
                                 </td>
                                 <td>
-                                <p>100</p>
+                                100
                                 </td>
                                 <td>
-                                <p>30 minutes</p>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                <p><strong>Reading</strong></p>
-                                </td>
-                                <td>
-                                <p>50</p>
-                                </td>
-                                <td>
-                                <p>100</p>
-                                </td>
-                                <td>
-                                <p>55 minutes</p>
+                                30 minutes
                                 </td>
                               </tr>
                               <tr>
                                 <td>
-                                <p><strong>Grammar</strong></p>
+                                <strong>Reading</strong>
                                 </td>
                                 <td>
-                                <p>70</p>
+                                50
                                 </td>
                                 <td>
-                                <p>70</p>
+                                100
                                 </td>
                                 <td>
-                                <p>35 minutes</p>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                <p><strong>Writing</strong></p>
-                                </td>
-                                <td>
-                                <p>31</p>
-                                </td>
-                                <td>
-                                <p>100</p>
-                                </td>
-                                <td>
-                                <p>[Objective/20 minutes + Essay writing/40 minutes]=60 minutes</p>
+                                55 minutes
                                 </td>
                               </tr>
                               <tr>
                                 <td>
-                                <p><strong>B. </strong><strong>Math</strong></p>
+                                <strong>Grammar</strong>
                                 </td>
                                 <td>
-                                <p>25</p>
+                                70
                                 </td>
                                 <td>
-                                <p>100</p>
+                                70
                                 </td>
                                 <td>
-                                <p>30 minutes</p>
+                                35 minutes
                                 </td>
                               </tr>
                               <tr>
                                 <td>
-                                <p><strong>C. </strong><strong>Computing</strong></p>
+                                <strong>Writing</strong>
                                 </td>
                                 <td>
-                                <p>50</p>
+                                31
                                 </td>
                                 <td>
-                                <p>100</p>
+                                100
                                 </td>
                                 <td>
-                                <p>30 minutes</p>
+                                [Objective/20 minutes + Essay writing/40 minutes]=60 minutes
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                <strong>B. </strong><strong>Math</strong>
+                                </td>
+                                <td>
+                                25
+                                </td>
+                                <td>
+                                100
+                                </td>
+                                <td>
+                                30 minutes
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                <strong>C. </strong><strong>Computing</strong>
+                                </td>
+                                <td>
+                                50
+                                </td>
+                                <td>
+                                100
+                                </td>
+                                <td>
+                                30 minutes
                                 </td>
                               </tr>
                             </tbody>
