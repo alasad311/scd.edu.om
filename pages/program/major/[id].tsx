@@ -146,7 +146,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <div className="col-lg-4">
                                   <div className="card border-0 border-radius-0 bg-color-primary">
                                     <div className="card-body" style={{height:"95px"}}>
-                                      <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"} dangerouslySetInnerHTML={{__html:programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "ﻣﻌﺘﻤﺪة ﻣﻦ اﻟﻬﻴﺌﺔ اﻟﻌﻤﺎﻧﻴﺔ ﻟﻼﻋﺘﻤﺎد اﻻﻛﺎدﻳﻤﻲ " : 'Institutionally Accredited by <a class="font-size-18" href="http://www.oaaa.gov.om/ar/Default.aspx">OAAA</a> & Overseen by the <a  class="font-size-18" href="https://www.moheri.gov.om">MOHERI</a> in the Sultanate of Oman'}}>
+                                      <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"} dangerouslySetInnerHTML={{__html:programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "ﻣﻌﺘﻤﺪة ﻣﻦ اﻟﻬﻴﺌﺔ اﻟﻌﻤﺎﻧﻴﺔ ﻟﻼﻋﺘﻤﺎد اﻻﻛﺎدﻳﻤﻲ " : 'Institutionally Accredited by <a class="font-size-18" href="http://www.oaaa.gov.om/ar/Default.aspx">OAAAQA</a> & Overseen by the <a  class="font-size-18" href="https://www.moheri.gov.om">MOHERI</a> in the Sultanate of Oman'}}>
                                         </p>
                                     </div>
                                   </div>
@@ -224,7 +224,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <h1>Certificates of Attainment</h1>
                               </div>
                               <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>
-                              A GFP student is not eligible to get a certificate of GFP completion ‘certificates of attainment’ unless he/she fulfills ALL GFP requirements; that is, passing all GFP courses including Math and IT. REMEDIAL CLASSES
+                              A GFP student is not eligible to get a certificate of GFP completion ‘certificates of attainment’ unless he/she fulfills all GFP requirements; that is, passing all GFP courses including Math and IT.
                                 </p>
                             </span>
                             } 
