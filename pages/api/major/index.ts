@@ -4,7 +4,7 @@ import { query } from '../../../lib/db'
 const handler: NextApiHandler = async (_, res) => {
   try {
     const results = await query(`
-      SELECT * FROM majors ORDER BY major_name
+      SELECT * FROM majors WHERE majors.id != 28 ORDER BY major_name
   `)
 
     return res.json(results)
