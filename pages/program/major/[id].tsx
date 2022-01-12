@@ -407,7 +407,20 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                           <div className="internal-heading padding-top-20">
                             <h1>Purpose of Placement Test</h1>
                           </div>
-                          <p>Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. Although placement tests are not “Pass” or “Fail” tests, they are used as indicators of a student’s current competence of English Language, Math and Computing. They help in placing students into appropriate levels in the General Foundation Program.</p>
+                          <p className='internal-content-text program-ul remove-top-padding'>Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. Although placement tests are not “Pass” or “Fail” tests, they are used as indicators of a student’s current competence of English Language, Math and Computing. They help in placing students into appropriate levels in the General Foundation Program.</p>
+                          <div className="internal-heading padding-top-20">
+                            <h1>Test Administration</h1>
+                            <div className='internal-content-text program-ul remove-top-padding'>
+                              <ol>
+                                <li>Placement Tests at SCD are conducted online, so students should be available in the college 15 minutes prior to the commencement of the test to collect their Placement Test entry tickets, pass words, and the test instructions from the Admission Office.</li>
+                                <li>Students should bring their Identity Cards to be allowed to take the placement test.</li>
+                                <li>The results of the placement test are announced by the Admission Office within two working days at the latest.</li>
+                              </ol>
+                            </div>
+                          </div>
+                          <div className="internal-heading padding-top-20">
+                            <h1>Composition of the Placement Tests</h1>
+                          </div>
                       </div>
                     }
                     {programDetails &&
