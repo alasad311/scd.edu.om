@@ -37,9 +37,11 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                             <li className="nav-item">
                                 <a className="nav-link" href="#courseplan" data-bs-toggle="tab">Course Plan</a>
                             </li>
-                            <li  className="nav-item displaynon">
-                                <a className="nav-link" href="#studentartwork" data-bs-toggle="tab">Student artwork</a>
-                            </li>
+                            {programDetails[0]['major_name'] != "General Foundation Program" &&
+                              <li  className="nav-item displaynon">
+                                  <a className="nav-link" href="#studentartwork" data-bs-toggle="tab">Student artwork</a>
+                              </li>
+                            }
                             <li className="nav-item">
                                 <a className="nav-link" href="#deptFaculty" data-bs-toggle="tab">Department Faculty</a>
                             </li>
