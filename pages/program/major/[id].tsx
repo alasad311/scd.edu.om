@@ -402,6 +402,14 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                     <div className="tab-pane tab-pane-navigation" id="studentaction">
                       <div id="youtube"></div> 
                     </div>
+                    {programDetails[0]['major_name'] === "General Foundation Program" &&
+                      <div  className=" tab-pane tab-pane-navigation" id="placementtest">
+                          <div className="internal-heading padding-top-20">
+                            <h1>Purpose of Placement Test</h1>
+                          </div>
+                          <p>Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. Although placement tests are not “Pass” or “Fail” tests, they are used as indicators of a student’s current competence of English Language, Math and Computing. They help in placing students into appropriate levels in the General Foundation Program.</p>
+                      </div>
+                    }
                     {programDetails &&
                     <div  className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "tab-pane tab-pane-navigation directionrtl" : " tab-pane tab-pane-navigation"} id="deptFaculty">
                     {hod &&
