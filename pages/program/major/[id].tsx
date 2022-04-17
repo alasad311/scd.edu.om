@@ -160,7 +160,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                   <h3 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "grey-box-title arabic-font" : "grey-box-title"}>Training Unit Mission</h3>
                                   }
                                   {programDetails[0]['major_level'] &&
-                                  <h3 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "grey-box-title arabic-font" : "grey-box-title"}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "مهمة البرنامج " : "Program Mission"}</h3>
+                                  <h3 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "grey-box-title arabic-font" : "grey-box-title"}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "رسالة البرنامج " : "Program Mission"}</h3>
                                   }
                                   <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>{programDetails[0]['md_mission']}</p>
                                 </div>
