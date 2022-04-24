@@ -5,7 +5,7 @@ export const db = mysql({
     host: "localhost",
     database: "scdeduom_website",
     user: "scdeduom_webad",
-    password: "~!xiNt3W^Ity",
+    password: "4]c3F3HEuuG@",
     port: parseInt(process.env.MYSQL_PORT),
   },
 })
