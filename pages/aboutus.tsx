@@ -102,7 +102,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                       <a className="nav-link" href="#Mission" data-bs-toggle="tab">Mission & Vision</a>
                   </li>
                   <li className="nav-item">
-                      <a className="nav-link" href="#Gradute" data-bs-toggle="tab">Gradute Attributes</a>
+                      <a className="nav-link" href="#Gradute" data-bs-toggle="tab">Gradutes Attributes</a>
                   </li>
                   <li className="nav-item">
                       <a className="nav-link" href="#Governance" data-bs-toggle="tab">Governance</a>
@@ -415,7 +415,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
             </div>
             <div className="tab-pane tab-pane-navigation" id="Gradute"  >
                 <div className="internal-heading">
-                    <h1>Gradute Attributes</h1>
+                    <h1>Gradutes Attributes</h1>
                 </div>
                 <div className="featured-boxes featured-boxes-flat">
                     <div className="row">
@@ -470,7 +470,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                         </div>
                     </div>
                 </div>
-                <p className="internal-content-text remove-top-padding">Scientific College of Design, graduates attributes’ domains consist of academic excellence,professionalism, lifelong learning, and ethical responsibility. Therefore, it was critical to setacademic programs which explore a diverse philosophies, techniques, and materials forstudents to investigate the creation of art and design in their respective fields. Faculty areexperienced artists and designers dedicated to provide students with a positive experimentalplatform to analyze design alternatives. As academic excellence is a domain of SCD graduateattributes and an integral part of our mission, it continues to be a main strategy in ouroperational plans. Scientific College of Design uses a holistic approach to academic excellencethrough its academic programs, extracurricular activities, community based projects coursework, workshops, etc.</p>
+                <p className="internal-content-text remove-top-padding">Scientific College of Design, graduate attributes’ domains consist of academic excellence,professionalism, lifelong learning, and ethical responsibility. Therefore, it was critical to setacademic programs which explore a diverse philosophies, techniques, and materials forstudents to investigate the creation of art and design in their respective fields. Faculty areexperienced artists and designers dedicated to provide students with a positive experimentalplatform to analyze design alternatives. As academic excellence is a domain of SCD graduateattributes and an integral part of our mission, it continues to be a main strategy in ouroperational plans. Scientific College of Design uses a holistic approach to academic excellencethrough its academic programs, extracurricular activities, community based projects coursework, workshops, etc.</p>
             </div>
             <div className="tab-pane tab-pane-navigation" id="Governance">
                 <div className="internal-heading">
