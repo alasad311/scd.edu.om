@@ -102,7 +102,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                       <a className="nav-link" href="#Mission" data-bs-toggle="tab">Mission & Vision</a>
                   </li>
                   <li className="nav-item">
-                      <a className="nav-link" href="#Gradute" data-bs-toggle="tab">Gradutes Attributes</a>
+                      <a className="nav-link" href="#Gradute" data-bs-toggle="tab">Gradute Attributes</a>
                   </li>
                   <li className="nav-item">
                       <a className="nav-link" href="#Governance" data-bs-toggle="tab">Governance</a>
@@ -415,7 +415,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
             </div>
             <div className="tab-pane tab-pane-navigation" id="Gradute"  >
                 <div className="internal-heading">
-                    <h1>Gradutes Attributes</h1>
+                    <h1>Gradute Attributes</h1>
                 </div>
                 <div className="featured-boxes featured-boxes-flat">
                     <div className="row">
