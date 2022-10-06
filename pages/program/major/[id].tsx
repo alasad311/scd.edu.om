@@ -292,26 +292,6 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                                   </div>
                                         })}
                                     </div>
-                                    {programDetails[0]['id'] === 28 &&
-                                    <div className="col-lg-6 padding-top-20">
-                                      <h5><b>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "الفصل الدراسي 3" : "Semester 3"}</b></h5>
-                                      {programPlan &&
-                                        programPlan.map((b) => {
-                                          if(e.pp_year === b.pp_year && b.pp_sem === 3)
-                                            return <div className="row">
-                                                     <div style={{width:"20%"}}>
-                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_code}</p>
-                                                      </div>
-                                                      <div style={{width:"70%"}}>
-                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_name}</p>
-                                                      </div>
-                                                      <div style={{width:"10%"}}>
-                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_credit_hours}</p>
-                                                      </div>
-                                                  </div>
-                                        })}
-                                    </div>
-                                    }
                                   </div>
                                 </div>
                               </div>
@@ -363,6 +343,26 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                                   </div>
                                         })}
                                     </div>
+                                    {programDetails[0]['id'] === 28 &&
+                                    <div className="col-lg-6 padding-top-20">
+                                      <h5><b>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "الفصل الدراسي 3" : "Semester 3"}</b></h5>
+                                      {programPlan &&
+                                        programPlan.map((b) => {
+                                          if(e.pp_year === b.pp_year && b.pp_sem === 3)
+                                            return <div className="row">
+                                                     <div style={{width:"20%"}}>
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_code}</p>
+                                                      </div>
+                                                      <div style={{width:"70%"}}>
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_name}</p>
+                                                      </div>
+                                                      <div style={{width:"10%"}}>
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_credit_hours}</p>
+                                                      </div>
+                                                  </div>
+                                        })}
+                                    </div>
+                                    }
                               </div>
                               ))}
                           </div>
@@ -427,13 +427,13 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                           <div className="internal-heading padding-top-20">
                             <h1>Purpose of Placement Test</h1>
                           </div>
-                          <p className='internal-content-text program-ul remove-top-padding'>Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. Although placement tests are not “Pass” or “Fail” tests, they are used as indicators of a student’s current competence of English Language, Math and Computing. They help in placing students into appropriate levels in the General Foundation Program.</p>
+                          <p className='internal-content-text program-ul remove-top-padding'>Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. They and are used as indicators of a student’s current competence of English Language, Math and Computing. They help in placing students into appropriate levels in the General Foundation Program.</p>
                           <div className="internal-heading padding-top-20">
                             <h1>Test Administration</h1>
                           </div>
                           <div className='internal-content-text program-ul remove-top-padding'>
                               <ol>
-                                <li>Placement Tests at SCD are conducted online, so students should be available in the college 15 minutes prior to the commencement of the test to collect their Placement Test entry tickets, pass words, and the test instructions from the Admission Office.</li>
+                                <li>Placement Tests at SCD are conducted on campus, so students should be available in the college 15 minutes prior to the commencement of the test to collect their Placement Test entry tickets, pass words, and the test instructions from the Admission Office.</li>
                                 <li>Students should bring their Identity Cards to be allowed to take the placement test.</li>
                                 <li>The results of the placement test are announced by the Admission Office within two working days at the latest.</li>
                               </ol>
