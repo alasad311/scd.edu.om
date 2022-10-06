@@ -224,17 +224,17 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <h1>Certificates of Attainment</h1>
                               </div>
                               <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>
-                              A GFP student is not eligible to get a certificate of GFP completion ‘certificates of attainment’ unless he/she fulfills all GFP requirements; that is, passing all GFP courses including Math and IT.
+                              A GFP student is not eligible to get a certificate of GFP completion unless he/she fulfills all GFP requirements; that is, passing all GFP courses including Math and IT.
                                 </p>
                             </span>
                             } 
                             {programDetails[0]['major_name'] === "General Foundation Program" &&
                             <span>
                               <div className="internal-heading padding-top-20">
-                                <h1>Clubs and Extracurricular Activities at GFP</h1>
+                                <h1>GFP Club</h1>
                               </div>
                               <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>
-                              This club in provides a good opportunity for students to use English language in a friendly and comfortable setting. It gives participants the chance to take part in many extracurricular activities at their own convenience and choice. 
+                              This club provides a good opportunity for students to use English language in a friendly and comfortable setting outside their classroom. It gives participants the opportunity to take part in many co/extra-curricular activities at their own convenience and choice.
                                 </p>
                             </span>
                             } 
@@ -292,6 +292,26 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                                   </div>
                                         })}
                                     </div>
+                                    {programDetails[0]['id'] === 28 &&
+                                    <div className="col-lg-6 padding-top-20">
+                                      <h5><b>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "الفصل الدراسي 3" : "Semester 3"}</b></h5>
+                                      {programPlan &&
+                                        programPlan.map((b) => {
+                                          if(e.pp_year === b.pp_year && b.pp_sem === 3)
+                                            return <div className="row">
+                                                     <div style={{width:"20%"}}>
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_code}</p>
+                                                      </div>
+                                                      <div style={{width:"70%"}}>
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_course_name}</p>
+                                                      </div>
+                                                      <div style={{width:"10%"}}>
+                                                        <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "mobile-box-texta arabic-font" : "mobile-box-text text-font"}>{b.pp_credit_hours}</p>
+                                                      </div>
+                                                  </div>
+                                        })}
+                                    </div>
+                                    }
                                   </div>
                                 </div>
                               </div>
