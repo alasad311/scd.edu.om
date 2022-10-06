@@ -427,7 +427,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                           <div className="internal-heading padding-top-20">
                             <h1>Purpose of Placement Test</h1>
                           </div>
-                          <p className='internal-content-text program-ul remove-top-padding'>Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. They and are used as indicators of a student’s current competence of English Language, Math and Computing. They help in placing students into appropriate levels in the General Foundation Program.</p>
+                          <p className='internal-content-text program-ul remove-top-padding'>Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. They and are used as indicators of a student’s current competence of English Language, Math and Computing. They  and help in placing students into appropriate levels in the General Foundation Program.</p>
                           <div className="internal-heading padding-top-20">
                             <h1>Test Administration</h1>
                           </div>
