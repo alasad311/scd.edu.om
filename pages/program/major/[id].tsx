@@ -371,7 +371,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                         }
                         <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "row directionrtl" : "row"}>
                           <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-heading padding-top-20 arabic-font" : "internal-heading padding-top-20"}>
-                            {programDetails[0]['id'] !== 17 &&
+                            {programDetails[0]['id'] !== 28 &&
                               <h1>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "تفاصيل المواد " : "Course Details"}</h1>
                             }
                           </div>
