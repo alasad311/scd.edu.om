@@ -371,7 +371,9 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                         }
                         <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "row directionrtl" : "row"}>
                           <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-heading padding-top-20 arabic-font" : "internal-heading padding-top-20"}>
-                            <h1>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "تفاصيل المواد " : "Course Details"}</h1>
+                            {programDetails[0]['id'] != 28 &&
+                              <h1>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "تفاصيل المواد " : "Course Details"}</h1>
+                            }
                           </div>
                           {courseDesc &&
                             <div className="accordion accordion-wrapper" id="accordionPrimary">
@@ -427,7 +429,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                           <div className="internal-heading padding-top-20">
                             <h1>Purpose of Placement Test</h1>
                           </div>
-                          <p className='internal-content-text program-ul remove-top-padding'>Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. They and are used as indicators of a student’s current competence of English Language, Math and Computing. They  and help in placing students into appropriate levels in the General Foundation Program.</p>
+                          <p className='internal-content-text program-ul remove-top-padding'>Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. They are used as indicators of a student’s current competence of English Language, Math and Computing and help in placing students into appropriate levels in the General Foundation Program.</p>
                           <div className="internal-heading padding-top-20">
                             <h1>Test Administration</h1>
                           </div>
