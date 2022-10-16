@@ -1,6 +1,6 @@
 $(function() {
     $("#beforeafter").twentytwenty();
-    $('.circular-bar-chart').easyPieChart({ 'size': 250, 'barColor': '#9CCA43', 'lineWidth': 30, 'scaleColor': false, 'lineCap': 'butt' });
+
     $(".h5-clickable").on("click", function() {
         console.log($(this).next(".nl").hasClass("display-none"))
         if ($(this).next("ul").hasClass("display-none")) {
@@ -10,6 +10,7 @@ $(function() {
         }
     })
     jQuery(function($) {
+        $('.circular-bar-chart').easyPieChart({ 'size': 250, 'barColor': '#9CCA43', 'lineWidth': 30, 'scaleColor': false, 'lineCap': 'butt' });
         $('.owl-carousel').owlCarousel({
             items: 1,
             loop: true,
