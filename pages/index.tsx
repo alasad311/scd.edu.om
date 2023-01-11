@@ -25,7 +25,7 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
         <link rel="stylesheet" type="text/css" href="css/animate/animate.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/instagram/instagram.css"/>
         <link rel="stylesheet" href="js/owl.carousel/dist/assets/owl.carousel.min.css" />
-        
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
       </Head>
      
       
@@ -103,6 +103,14 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
         </div>
         <div className="Acc-main-content animated fadeInLeft delay-3s ">
             <h3 className="margin-bottom-30 title" style={{fontSize: "40px"}}>We are <span className="rotate"> Accredited</span>.</h3>
+        </div>
+      </div>
+      
+      <div className="floating-div sticky">
+        <img src="assets/logo/Academy.PNG" className="img-fluid" />
+        <p className="VTA-Text">للمزيد من المعلومات والتسجيل</p>
+        <div>
+          <a href='https://apply.academy.scd.edu.om/home.php' target="_blank" className='nav-link'>اضغط هنا</a>
         </div>
       </div>
       <div className="fixed-right side-form-icons">
