@@ -1,30 +1,30 @@
 /*===================================
           Slider
 =====================================*/
-var topPosition = $('.floating-div').offset().top - 10;
-var floatingDivHeight = $('.floating-div').outerHeight();
-var footerFromTop = $('.footer-section').offset().top;
-var absPosition = footerFromTop - floatingDivHeight - 20;
-var win = $(window);
-var floatingDiv = $('.floating-div');
-floatingDiv.addClass('padding-top-150');
+// var topPosition = $('.floating-div').offset().top - 10;
+// var floatingDivHeight = $('.floating-div').outerHeight();
+// var footerFromTop = $('.footer-section').offset().top;
+// var absPosition = footerFromTop - floatingDivHeight - 20;
+// var win = $(window);
+// var floatingDiv = $('.floating-div');
+// floatingDiv.addClass('padding-top-150');
 
-win.scroll(function() {
-    if (window.matchMedia('(min-width: 768px)').matches) {
-        if ((win.scrollTop() > topPosition) && (win.scrollTop() < absPosition)) {
-            floatingDiv.addClass('sticky');
-            floatingDiv.removeClass('padding-top-150');
-        } else if ((win.scrollTop() > topPosition) && (win.scrollTop() > absPosition)) {
-            floatingDiv.addClass('padding-top-150');
+// win.scroll(function() {
+//     if (window.matchMedia('(min-width: 768px)').matches) {
+//         if ((win.scrollTop() > topPosition) && (win.scrollTop() < absPosition)) {
+//             floatingDiv.addClass('sticky');
+//             floatingDiv.removeClass('padding-top-150');
+//         } else if ((win.scrollTop() > topPosition) && (win.scrollTop() > absPosition)) {
+//             floatingDiv.addClass('padding-top-150');
 
-        } else if (win.scrollTop() <= topPosition) {
-            floatingDiv.addClass('padding-top-150');
-        }
-    } else {
-        floatingDiv.addClass('hide');
+//         } else if (win.scrollTop() <= topPosition) {
+//             floatingDiv.addClass('padding-top-150');
+//         }
+//     } else {
+//         floatingDiv.addClass('hide');
 
-    }
-});
+//     }
+// });
 if ($(".showcase").length > 0) {
     $(".showcase .slider-wrapper").slick({
         dots: false,
