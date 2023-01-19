@@ -106,13 +106,13 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
         </div>
       </div>
       
-      {/* <a href='https://apply.academy.scd.edu.om/home.php' target="_blank" className='nav-link'><div className="floating-div sticky">
+      <a href='https://apply.academy.scd.edu.om/home.php' target="_blank" className='nav-link'><div className="floating-div sticky">
         <img src="assets/logo/Academy.PNG" className="img-fluid" />
         <p className="VTA-Text">للمزيد من المعلومات والتسجيل</p>
         <p className="VTA-Text">اضغط هنا</p>
         <div>
         </div>
-      </div></a> */}
+      </div></a> 
       <div className="fixed-right side-form-icons">
         <a href="tel:0096824513222" target="_blank"><i className="fas fa-phone icon" id="open-opening-popup"></i></a>
         <a href="https://goo.gl/maps/92b7Gy7vTMCAh6H46" target="_blank"> <i className="fas fa-map-marker-alt icon" id="open-location-popup"></i></a>
