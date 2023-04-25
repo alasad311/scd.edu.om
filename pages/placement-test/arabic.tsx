@@ -62,8 +62,8 @@ export default function aptitude() {
                 
               </div>
               <div className="ur-caption hidden-md hidden-sm hidden-xs" style={{width:"50%",marginLeft:"22px",textAlign:"justify"}}>
-                  <h4 className="ur-title">الهدف من امتحان تحديد المستوى</h4>
-                  <p className="ur-location">يتعين على جميع الطلبة الراغبين بالالتحاق بالكلية العلمية للتصميم ان يتقدموا لامتحان تحديد مستوى لمواد اللغة الانجليزية والرياضيات والحاسوب. وعلى الرغم من أن امتحانات تحديد المستوى لا تؤخذ على أساس النجاح والرسوب ، إلا أنها تعتبر مؤشرا على مدى اتقان الطالب لكل من اللغة الانجليزية والرياضيات والحاسوب. وبناء على نتائجهم في امتحان المستوى يتم تصنيف الطلبة في المستوى المناسب وفقا للمعايير المرفقة في البرنامج التأسيسي العام .</p>
+                  <h4 className="ur-title">مقدمة</h4>
+                  <p className="ur-location">يتعين على جميع الطلبة الراغبين بالالتحاق بالكلية العلمية للتصميم ان يتقدموا لامتحان تحديد مستوى لمواد اللغة الانجليزية والرياضيات والحاسوب. وبناء على نتائجهم في امتحان المستوى يتم تصنيف الطلبة في المستوى المناسب وفقا للمعايير المرفقة في البرنامج التأسيسي العام. يجب أن تؤخذ هذه الاختبارات على محمل الجد لأنها تهدف إلى وضع الطلاب في المستوى المناسب لتحقيق أقصى قدر من النجاح للطلبة. </p>
                 </div>
               <div className="ur-detail-btn">
                 <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fas fa-globe-asia mrg-l-5"></i>موقع الكلية </a><br />
@@ -82,17 +82,16 @@ export default function aptitude() {
 						<div className="col-lg-8 col-md-8 col-md-push-4">
 							
 							<div className="row-bottom hidden-lg hidden-xl hidden-xxl">
-								<h2 className="detail-title " style={{fontSize:"18px !important"}}>الهدف من امتحان تحديد المستوى</h2>
-								<p>يتعين على جميع الطلبة الراغبين بالالتحاق بالكلية العلمية للتصميم ان يتقدموا لامتحان تحديد مستوى لمواد اللغة الانجليزية والرياضيات والحاسوب. وعلى الرغم من أن امتحانات تحديد المستوى لا تؤخذ على أساس النجاح والرسوب ، إلا أنها تعتبر مؤشرا على مدى اتقان الطالب لكل من اللغة الانجليزية والرياضيات والحاسوب. وبناء على نتائجهم في امتحان المستوى يتم تصنيف الطلبة في المستوى المناسب وفقا للمعايير المرفقة في البرنامج التأسيسي العام .</p>
+								<h2 className="detail-title " style={{fontSize:"18px !important"}}>مقدمة</h2>
+								<p>يتعين على جميع الطلبة الراغبين بالالتحاق بالكلية العلمية للتصميم ان يتقدموا لامتحان تحديد مستوى لمواد اللغة الانجليزية والرياضيات والحاسوب. وبناء على نتائجهم في امتحان المستوى يتم تصنيف الطلبة في المستوى المناسب وفقا للمعايير المرفقة في البرنامج التأسيسي العام. يجب أن تؤخذ هذه الاختبارات على محمل الجد لأنها تهدف إلى وضع الطلاب في المستوى المناسب لتحقيق أقصى قدر من النجاح للطلبة. </p>
 							</div>
 							
 							<div className="row-bottom">
 								<h2 className="detail-title" style={{fontSize:"18px !important"}}>الاجراءات الادارية وتعليمات امتحان تحديد المستوى</h2>
 								<ul className="detail-list arabic-list" style={{marginLeft:"12px"}}>
-									<li>يتم إجراء امتحان تحديد المستوى عبر الانترنت (Online) داخل مختبرات الحرم الجامعي وعليه يتوجب على الطلبة المتقدمين للامتحان التواجد قبل بدء الامتحان ب 15 دقيقة ليتسنى لهم استلام بطاقة دخول الامتحان ، والأرقام السرية الخاصة بهم ، وكذلك تلقي التعليمات الخاصة بالامتحان من قبل قسم القبول والتسجيل.</li>
-									<li>بعد الانتهاء من عملية التسجيل لامتحان تحديد المستوى يتوجه الطلبة المتقدمين إلى مكان التجمع (حسب التعليمات الصادرة من قبل قسم القبول والتسجيل) لحين بدء الامتحان في المختبرات المخصصة.</li>
-									<li>يجب على الطلبة احضار بطاقاتهم الشخصية ليسمح لهم الدخول إلى قاعة الامتحان .</li>
-									<li>4.	يتم الإعلان عن نتيجة الامتحان من قبل مكتب القبول والتسجيل في مدة أقصاها أسبوع  من تاريخ أخذ الامتحان.</li>
+									<li>يتوجب على الطلبة المتقدمين للامتحان التواجد قبل بدء الامتحان ب 15 دقيقة ليتسنى لهم استلام بطاقة دخول الامتحان، والأرقام السرية الخاصة بهم، وكذلك تلقي التعليمات الخاصة بالامتحان من قبل قسم القبول والتسجيل.</li>
+                  <li>يجب على الطلبة احضار بطاقاتهم الشخصية ليسمح لهم الدخول إلى قاعة الامتحان.</li>
+                  <li>امتحانات المستوى محوسبة ويتم تقديمها داخل مختبرات الحاسوب في الكلية.</li>
 								</ul>
 							</div>
 							
@@ -107,45 +106,51 @@ export default function aptitude() {
                       <td><b>المدة</b></td>
                     </tr>
                   </tbody>
-                  <tr>
-                    <td style={{textAlign:"center",backgroundColor:"#ccc"}} colSpan={4}><b>1.	اللغة الانجليزية </b></td>
-                  </tr>
-                  <tr>
-                    <td>الاستماع</td>
-                    <td>50</td>
-                    <td>100</td>
-                    <td>30 دقيقة</td>
-                  </tr>
-                  <tr>
-                    <td>القراءة والاستيعاب</td>
-                    <td>50</td>
-                    <td>100</td>
-                    <td>55 دقيقة</td>
-                  </tr>
-                  <tr>
-                    <td>القواعد</td>
-                    <td>70</td>
-                    <td>70</td>
-                    <td>35 دقيقة</td>
-                  </tr>
-                  <tr>
-                    <td>الكتابة والتعبير </td>
-                    <td>50</td>
-                    <td>100</td>
-                    <td>أسئلة موضوعية (20 دقيقة <br /> سؤال مقالي 40 دقيقة)</td>
-                  </tr>
-                  <tr>
-                    <td style={{backgroundColor:"#ccc"}}><b>2.	الرياضيات</b> </td>
-                    <td>25</td>
-                    <td>50</td>
-                    <td>30 دقيقة</td>
-                  </tr>
-                  <tr>
-                    <td style={{backgroundColor:"#ccc"}}><b>3.	الحاسوب</b> </td>
-                    <td>50</td>
-                    <td>50</td>
-                    <td>30 دقيقة</td>
-                  </tr>
+                  <tbody>
+                    <tr>
+                      <td style={{textAlign:"center",backgroundColor:"#ccc"}} colSpan={4}><b>1.	اللغة الانجليزية </b></td>
+                    </tr>
+                    <tr>
+                      <td>استخدام اللغة الانجليزية</td>
+                      <td>36</td>
+                      <td>45</td>
+                      <td rowSpan={2}>30 دقيقة</td>
+                    </tr>
+                    <tr>
+                      <td>الاستماع</td>
+                      <td>12</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>القراءة والاستيعاب</td>
+                      <td>12</td>
+                      <td>15</td>
+                    </tr>
+                    <tr>
+                      <td>الكتابة </td>
+                      <td>1</td>
+                      <td>25</td>
+                      <td>30 دقيقة</td>
+                    </tr>
+                    <tr>
+                      <td>المجموع </td>
+                      <td>61</td>
+                      <td>100</td>
+                      <td>60 دقيقة</td>
+                    </tr>
+                    <tr>
+                      <td style={{backgroundColor:"#ccc"}}><b>2.	الرياضيات</b> </td>
+                      <td>25</td>
+                      <td>100</td>
+                      <td>30 دقيقة</td>
+                    </tr>
+                    <tr>
+                      <td style={{backgroundColor:"#ccc"}}><b>3.	الحاسوب</b> </td>
+                      <td>50</td>
+                      <td>100</td>
+                      <td>30 دقيقة</td>
+                    </tr>
+                  </tbody>
                 </table>
 							</div>
 
@@ -154,47 +159,49 @@ export default function aptitude() {
 								<table className="table table-striped">
                   <tbody>
                     <tr>
-                      <td colSpan={2} style={{textAlign:"center"}}><b>العلامة</b></td>
-                      <td colSpan={2} style={{textAlign:"center"}}><b>المستوى</b></td>
+                      <td colSpan={3} style={{textAlign:"center"}}><b>English</b></td>
+                      <td colSpan={2} style={{textAlign:"center"}}><b>الرياضيات والحاسوب</b></td>
                     </tr>
                   </tbody>
-                  <tr>
-                    <td style={{backgroundColor:"#CCC"}}><b>1.	اللغة الانجليزية</b></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>0-35</td>
-                    <td>GFP 1</td>
-                  </tr>
-                  <tr>
-                    <td>36-49</td>
-                    <td>GFP 2</td>
-                  </tr>
-                  <tr>
-                    <td>50-59</td>
-                    <td>GFP 3</td>
-                  </tr>
-                  <tr>
-                    <td>60 فما فوق</td>
-                    <td>يعفى من مكونات البرنامج التأسيسي (لمادة اللغة الانجليزية فقط)</td>
-                  </tr>
-                  <tr>
-                    <td style={{backgroundColor:"#CCC"}}><b>2.	الرياضيات والحاسوب</b></td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <td>0-60</td>
-                    <td>GFP 2  (رياضيات 1 وحاسوب 1)</td>
-                  </tr>
-                  <tr>
-                    <td>61-79</td>
-                    <td>GFP3 (رياضيات 2 وحاسوب 2)</td>
-                  </tr>
-                  <tr>
-                    <td>80 فما فوق</td>
-                    <td>يعفى من مكونات البرنامج التأسيسي (رياضيات وحاسوب فقط)</td>
-                  </tr>
+                  <tbody>
+                    <tr>
+                      <td><b>العلامة</b></td>
+                      <td><b>المستوى</b></td>
+                      <td><b>CEFR Level</b></td>
+                      <td><b>العلامة </b></td>
+                      <td><b>المستوى</b></td>
+                    </tr>
+                    <tr>
+                      <td>0-20</td>
+                      <td>GFP 1</td>
+                      <td>A1</td>
+                      <td>0-60</td>
+                      <td>GFP02</td>
+                    </tr>
+                    <tr>
+                      <td>21-40</td>
+                      <td>GFP 2</td>
+                      <td>A2</td>
+                      <td>61-79</td>
+                      <td>GFP03</td>
+                    </tr>
+                    <tr>
+                      <td>41-66</td>
+                      <td>GFP 3</td>
+                      <td>B1</td>
+                      <td>80 فما فوق</td>
+                      <td>يعفى من الرياضيات او الحاسوب في البرنامج التأسيسي العام</td>
+                    </tr>
+                    <tr>
+                      <td>67 فما فوق بشرط الا تقل درجة كل مهارة عن 60%</td>
+                      <td>يعفى من اللغة الإنجليزية في البرنامج التأسيسي العام</td>
+                    </tr>
+                  </tbody>
                 </table>
+							</div>
+              <div className="row-bottom">
+								<h2 className="detail-title" style={{fontSize:"18px !important"}}>اعلان النتائج</h2>
+								<p>يتم اعلان نتائج امتحان المستوى من قبل قسم القبول والتسجيل خلال فترة أسبوع من تاريخ تقديم الامتحان.</p>
 							</div>
 							
 						</div>
@@ -248,11 +255,11 @@ export default function aptitude() {
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="mailto:Shams@scd.edu.om">Shams @scd.edu.om</a></div>
                         <div className="col-lg-4 col-md-4 col-xs-4">أ. شمسة الريامية</div>
                       </div>
-                      <div className="row">
+                      {/* <div className="row">
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="tel:+96824513252">24513252</a></div>
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="mailto:b.allamki@scd.edu.om">b.allamki @scd.edu.om</a></div>
                         <div className="col-lg-4 col-md-4 col-xs-4">أ. باسل اللمكي</div>
-                      </div>
+                      </div> */}
                       <div className="row">
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="tel:+96896707755">96707755</a></div>
                         <div className="col-lg-4 col-md-4 col-xs-4">-</div>

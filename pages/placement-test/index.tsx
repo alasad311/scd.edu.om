@@ -62,8 +62,8 @@ export default function aptitude() {
                 
               </div>
               <div className="ur-caption hidden-md hidden-sm hidden-xs" style={{width:"50%",marginRight:"22px",textAlign:"justify"}}>
-                  <h4 className="ur-title">Purpose of Placement Test</h4>
-                  <p className="ur-location">Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. Although placement tests are not “Pass” or “Fail” tests, they are used as indicators of a student’s current competence of English Language, Math and Computing. They help in placing students into appropriate levels in the General Foundation Program as per the given criteria.  </p>
+                  <h4 className="ur-title">Introduction</h4>
+                  <p className="ur-location">The Scientific College of Design (SCD) administers the multi-level Placement Test to all students enrolling in SCD to measure overall knowledge in English, math, and computing. The placement test results assign students to the appropriate level. These tests should be taken seriously as it ensures that students are placed in the right level to maximize student success.</p>
                 </div>
               <div className="ur-detail-btn">
                 <a href="https://www.scd.edu.om" className="btn  mrg-bot-10 full-width" style={{fontSize:"14px"}}><i className="fas fa-globe-asia mrg-r-5"></i>College Website</a><br />
@@ -82,17 +82,16 @@ export default function aptitude() {
 						<div className="col-lg-8 col-md-8">
 							
 							<div className="row-bottom hidden-lg hidden-xl hidden-xxl">
-								<h2 className="detail-title " style={{fontSize:"18px !important"}}> Purpose of Placement Test</h2>
-								<p>Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. Although placement tests are not “Pass” or “Fail” tests, they are used as indicators of a student’s current competence of English Language, Math and Computing. They help in placing students into appropriate levels in the General Foundation Program as per the given criteria. </p>
+								<h2 className="detail-title " style={{fontSize:"18px !important"}}>Introduction</h2>
+								<p>The Scientific College of Design (SCD) administers the multi-level Placement Test to all students enrolling in SCD to measure overall knowledge in English, math, and computing. The placement test results assign students to the appropriate level. These tests should be taken seriously as it ensures that students are placed in the right level to maximize student success.</p>
 							</div>
 							
 							<div className="row-bottom">
 								<h2 className="detail-title" style={{fontSize:"18px !important"}}>Test Administration Procedures and Instructions</h2>
 								<ul className="detail-list" style={{marginLeft:"12px"}}>
-									<li>Placement Tests at SCD are conducted online (but in campus labs), so students should be available in the college 15 minutes prior to the commencement of the test to collect their Placement Test entry tickets, pass words, and the test instructions from the Admission Office</li>
-									<li>After registration for the placement test, candidates should assemble in the place specified by the Registration Department on campus till the test starts in the special labs.</li>
-									<li>Students should bring their Identity Cards to be allowed to take the placement test.</li>
-									<li>The results of the placement test will be announced by the Admission Office within a week after taking the test.</li>
+                  <li>Students should be available in the college 15 minutes prior to the commencement of the test to collect their Placement Test entry requirements from the Admission and Registration department.</li>
+                  <li>Students should bring their national Identity Cards to be allowed to take the placement test.</li>
+                  <li>Placement Tests are delivered on campus as computer-based test with the exception of the writing component which is paper-based. </li>
 								</ul>
 							</div>
 							
@@ -102,90 +101,110 @@ export default function aptitude() {
                   <tbody>
                     <tr>
                       <td><b>Skill</b></td>
-                      <td><b>Questions</b></td>
+                      <td><b>Total Questions</b></td>
                       <td><b>Mark</b></td>
                       <td><b>Duration</b></td>
                     </tr>
                   </tbody>
-                  <tr>
-                    <td style={{textAlign:"center",backgroundColor:"#ccc"}} colSpan={4}><b>A.	English Language </b></td>
-                  </tr>
-                  <tr>
-                    <td>Listening</td>
-                    <td>50</td>
-                    <td>100</td>
-                    <td>30 minutes</td>
-                  </tr>
-                  <tr>
-                    <td>Reading</td>
-                    <td>50</td>
-                    <td>100</td>
-                    <td>55 minutes</td>
-                  </tr>
-                  <tr>
-                    <td>Grammar</td>
-                    <td>70</td>
-                    <td>70</td>
-                    <td>35 minutes</td>
-                  </tr>
-                  <tr>
-                    <td>Writing </td>
-                    <td>50</td>
-                    <td>100</td>
-                    <td>Objective questions: 20 minutes <br />Essay writing:40 minutes</td>
-                  </tr>
-                  <tr>
-                    <td style={{backgroundColor:"#ccc"}}><b>B.	Math</b> </td>
-                    <td>25</td>
-                    <td>50</td>
-                    <td>30 minutes</td>
-                  </tr>
-                  <tr>
-                    <td style={{backgroundColor:"#ccc"}}><b>C.	Computing</b> </td>
-                    <td>50</td>
-                    <td>50</td>
-                    <td>30 minutes</td>
-                  </tr>
+                  <tbody>
+                    <tr>
+                      <td style={{textAlign:"center",backgroundColor:"#ccc"}} colSpan={4}><b>English</b></td>
+                    </tr>
+                    <tr>
+                      <td>Use of English</td>
+                      <td>36</td>
+                      <td>45 marks</td>
+                      <td rowSpan={2}>30 minutes</td>
+                    </tr>
+                    <tr>
+                      <td>Listening</td>
+                      <td>12</td>
+                      <td>15 marks</td>
+                    </tr>
+                    <tr>
+                      <td>Reading</td>
+                      <td>12</td>
+                      <td>15 marks</td>
+                    </tr>
+                    <tr>
+                      <td>Writing </td>
+                      <td>1</td>
+                      <td>25 marks</td>
+                      <td>30 minutes</td>
+                    </tr>
+                    <tr>
+                      <td style={{backgroundColor:"#ccc"}}><b>English Language</b> </td>
+                      <td>61</td>
+                      <td>100 marks</td>
+                      <td>60 minutes</td>
+                    </tr>
+                    <tr>
+                      <td style={{backgroundColor:"#ccc"}}><b>Math</b> </td>
+                      <td>25</td>
+                      <td>100 marks</td>
+                      <td>30 minutes</td>
+                    </tr>
+                    <tr>
+                      <td style={{backgroundColor:"#ccc"}}><b>Computing</b> </td>
+                      <td>50</td>
+                      <td>100 marks</td>
+                      <td>30 minutes</td>
+                    </tr>
+                  </tbody>
                 </table>
 							</div>
 
               <div className="row-bottom">
-								<h2 className="detail-title" style={{fontSize:"18px !important"}}>Scoring and Placement Criteria</h2>
+								<h2 className="detail-title" style={{fontSize:"18px !important"}}>Scoring</h2>
 								<table className="table table-striped">
                   <tbody>
                     <tr>
-                      <td colSpan={2} style={{textAlign:"center"}}><b>ENGLISH</b></td>
-                      <td colSpan={2} style={{textAlign:"center"}}><b>MATH & COMPUTING</b></td>
+                      <td colSpan={3} style={{textAlign:"center"}}><b>English</b></td>
+                      <td colSpan={2} style={{textAlign:"center"}}><b>Math and Computing</b></td>
+                    </tr>
+                    <tr>
+                      <td>Level</td>
+                      <td>Score</td>
+                      <td>CEFR<sup>*</sup> Level</td>
+                      <td>Level</td>
+                      <td>Score</td>
+                    </tr>
+                    <tr>
+                      <td>GFP01</td>
+                      <td>0-20</td>
+                      <td>A1</td>
+                      <td>GFP02</td>
+                      <td>0-60</td>
+                    </tr>
+                    <tr>
+                      <td>GFP02</td>
+                      <td>21-40</td>
+                      <td>A2</td>
+                      <td>GFP03</td>
+                      <td>61 - 79</td>
+                    </tr>
+                    <tr>
+                      <td>GFP03</td>
+                      <td>41-66</td>
+                      <td>B1</td>
+                      <td>Exempted</td>
+                      <td>80 and above</td>
+                    </tr>
+                    <tr>
+                      <td>Exempted</td>
+                      <td>Total score must be 67% or higher with a minimum score of 60% in each component.</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
                     </tr>
                   </tbody>
-                  <tr>
-                    <td>0-35</td>
-                    <td>GFP001</td>
-                    <td>0-60</td>
-                    <td>GFP002 (Math I) & (Comp. I)</td>
-                  </tr>
-                  <tr>
-                    <td>36-49</td>
-                    <td>GFP002</td>
-                    <td>61-79</td>
-                    <td>GFP003 (Math II) & (Comp. II)</td>
-                  </tr>
-                  <tr>
-                    <td>50-59</td>
-                    <td>GFP003</td>
-                    <td>80 and above</td>
-                    <td>Exempted from both Math and Comp. at GFP</td>
-                  </tr>
-                  <tr>
-                    <td>60 and above</td>
-                    <td>Exempted from GFP English components</td>
-                    <td></td>
-                    <td></td>
-                  </tr>
                 </table>
-                
+                <p><sup>*</sup>Common European Framework of Reference for Languages </p>
 							</div>
-							
+							<div className="row-bottom">
+								<h2 className="detail-title" style={{fontSize:"18px !important"}}>Results</h2>
+                <p>The results of the placement test will be announced by the Admission and Registration department within a week after taking the test.</p>
+              </div>
 						</div>
 						
 						<div className="col-lg-4 col-md-4">
@@ -235,12 +254,12 @@ export default function aptitude() {
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="tel:+96824513233">24513233</a></div>
 
                       </div>
-                      <div className="row">
+                      {/* <div className="row">
                         <div className="col-lg-4 col-md-4 col-xs-4">Mr. Basil Al-Lamki</div>
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="mailto:b.allamki@scd.edu.om">b.allamki @scd.edu.om</a></div>
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="tel:+96824513252">24513252</a></div>
 
-                      </div>
+                      </div> */}
                       <div className="row">
                         <div className="col-lg-4 col-md-4 col-xs-4">Admission and registration mobile </div>
                         <div className="col-lg-4 col-md-4 col-xs-4">-</div>
