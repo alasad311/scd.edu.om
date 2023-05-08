@@ -10,9 +10,9 @@ export default function aptitude() {
         <meta name="keywords" content="" />
         <meta name="author" content="Scientific College of Design" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <link rel="icon" href="assets/logo/n_fav_icon.png" />
-        <link rel="stylesheet" href="assets/plugins/css/plugins.css" />
-        <link href="css/style.css" rel="stylesheet" />
+        <link rel="icon" href="/assets/logo/n_fav_icon.png" />
+        <link rel="stylesheet" href="/assets/plugins/css/plugins.css" />
+        <link href="/css/style.css" rel="stylesheet" />
       </Head>
       
       <div className="wrapper"> 
@@ -34,13 +34,13 @@ export default function aptitude() {
                 <li></li>
               </ul>
               <ul className="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                <li><a href="/placement-test" className="signin">English</a></li>
-                <li className="left-br"><a href="placement-test/arabic" className="signin">عربى</a></li>
+                <li><a href="/placement-test/oldenglish" className="signin">English</a></li>
+                <li className="left-br"><a href="/placement-test/oldarabic" className="signin">عربى</a></li>
               </ul>
             </div>
           </div>   
         </nav>
-        <section className="inner-header-title" style={{backgroundImage:"url(assets/content/programs.jpg)"}}>
+        <section className="inner-header-title" style={{backgroundImage:"url(/assets/content/programs.jpg)"}}>
           <div className="container">
           </div>
         </section>
@@ -50,7 +50,7 @@ export default function aptitude() {
             <div className="ur-detail-wrap top-lay">
               <div className="ur-detail-box">
                 <div className="ur-thumb">
-                  <img src="assets/placement/placement.png" className="img-responsive" alt="" />
+                  <img src="/assets/placement/placement.png" className="img-responsive" alt="" />
                 </div>
                 <div className="ur-caption">
                   <h4 className="ur-title">Placement Testing</h4>
