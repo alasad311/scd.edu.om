@@ -140,8 +140,8 @@ export default function ExhibitionPage({otherapps}) {
                     <div className="row">
                       <div className="col-lg-12 ">
                         <div className="exhibition-header-box">
-                          <h3 className="title"><i className="fas fa-caret-right"></i> Mohammed Alzadjali</h3>
-                          <h3 className="artist"></h3>
+                          <h3 className="title"><i className="fas fa-caret-right"></i> Participation of Ms.Sarra Mrabti and Dr. Amal Ezzat, Fine Arts Faculty at the exhibition “Creative Deconstruction”</h3>
+                          <h3 className="artist">At Bait Alzubair.Gallery, Muscat, Oman on the 14th of June 2022 </h3>
                         </div>
                       </div>
                     </div>
@@ -149,24 +149,24 @@ export default function ExhibitionPage({otherapps}) {
                       <div className="col-lg-12">
                         <div className="thumb-gallery-wrapper">
                           <div className="thumb-gallery-detail owl-carousel owl-theme manual nav-inside nav-style-1 nav-dark mb-3">
-                            <div><img src="assets/exhibition/MohammedAbedalkarimAlzadjali.jpeg" className="img-fluid" alt=" " /></div>
-                            <div><img src="assets/exhibition/mohammed3.jpeg" className="img-fluid" alt=" " /></div>
-                            <div><img src="assets/exhibition/mohammed1.jpeg" className="img-fluid" alt=" " /></div>
+                            <div><img src="assets/exhibition/81.jpg" className="img-fluid" alt=" " /></div>
+                            <div><img src="assets/exhibition/82.jpg" className="img-fluid" alt=" " /></div>
+                            <div><img src="assets/exhibition/83.jpg" className="img-fluid" alt=" " /></div>
                           </div>
                           <div className="thumb-gallery-thumbs owl-carousel owl-theme manual thumb-gallery-thumbs">
                             <div>
                               <span className="d-block cur-pointer">
-                                <img alt=" " src="assets/exhibition/MohammedAbedalkarimAlzadjali.jpeg" className="img-fluid" />
+                                <img alt=" " src="assets/exhibition/81.jpg" className="img-fluid" />
                               </span>
                             </div>
                             <div>
                               <span className="d-block cur-pointer">
-                                <img alt=" " src="assets/exhibition/mohammed3.jpeg" className="img-fluid" />
+                                <img alt=" " src="assets/exhibition/82.jpg" className="img-fluid" />
                               </span>
                             </div>
                             <div>
                               <span className="d-block cur-pointer">
-                                <img alt=" " src="assets/exhibition/mohammed1.jpeg" className="img-fluid" />
+                                <img alt=" " src="assets/exhibition/83.jpg" className="img-fluid" />
                               </span>
                             </div>
                           </div>
@@ -176,8 +176,8 @@ export default function ExhibitionPage({otherapps}) {
                     <div className="row padding-top-15">
                       <div className="col-lg-12 ">
                         <div className="exhibition-header-box">
-                          <h3 className="title"><i className="fas fa-caret-right"></i> Ashraf Mahmood</h3>
-                          <h3 className="artist"></h3>
+                          <h3 className="title"><i className="fas fa-caret-right"></i>Co-organization and participation of Fine Arts Faculty members with their artwork in an Art Exhibition titled “IDF Oman Interior Design Expo” organized  </h3>
+                          <h3 className="artist">At The Convention &Exhibition Centre, Muscat, Oman from 8th to 25th May 2022. </h3>
                         </div>
                       </div>
                     </div>
@@ -186,29 +186,13 @@ export default function ExhibitionPage({otherapps}) {
                         <div className="thumb-gallery-wrapper">
                           <div className="thumb-gallery-detail owl-carousel owl-theme manual nav-inside nav-style-1 nav-dark mb-3">
                             <div>
-                              <img src="assets/exhibition/AshrafMahmood.jpeg" className="img-fluid" alt=" " />
-                            </div>
-                            <div>
-                              <img src="assets/exhibition/ashraf2.jpeg" className="img-fluid" alt=" " />
-                            </div>
-                            <div>
-                              <img src="assets/exhibition/ashraf1.jpeg" className="img-fluid" alt=" " />
+                              <img src="assets/exhibition/71.jpg" className="img-fluid" alt=" " />
                             </div>
                           </div>
                           <div className="thumb-gallery-thumbs owl-carousel owl-theme manual thumb-gallery-thumbs">
                             <div>
                               <span className="d-block cur-pointer">
-                                <img alt=" " src="assets/exhibition/AshrafMahmood.jpeg" className="img-fluid" />
-                              </span>
-                            </div>
-                            <div>
-                              <span className="d-block cur-pointer">
-                                <img alt=" " src="assets/exhibition/ashraf2.jpeg" className="img-fluid" />
-                              </span>
-                            </div>
-                            <div>
-                              <span className="d-block cur-pointer">
-                                <img alt=" " src="assets/exhibition/ashraf1.jpeg" className="img-fluid" />
+                                <img alt=" " src="assets/exhibition/71.jpg" className="img-fluid" />
                               </span>
                             </div>
                           </div>
@@ -217,7 +201,7 @@ export default function ExhibitionPage({otherapps}) {
                     </div>
                   </div>
                   <div className="col-lg-6 ">
-                    <div className="row">
+                    {/* <div className="row">
                       <div className="col-lg-12">
                         <h2 className="exhibition-main-title">Upcoming Exhibitions</h2>
                       </div>
@@ -233,8 +217,8 @@ export default function ExhibitionPage({otherapps}) {
                       <div className="col-lg-9 col-8 col-sm-8 col-md-8 col-sx-8 exhibition-description">
                         <h3>Dr Taher Helmi Exhibition</h3>
                       </div>
-                    </div>
-                    <div className="row">
+                    </div> */}
+                    {/* <div className="row">
                       <div className="col-lg-6">
                         
                         <div className="thumb-gallery-detail owl-carousel owl-theme manual nav-inside nav-style-1 nav-dark mb-3">
@@ -387,15 +371,103 @@ export default function ExhibitionPage({otherapps}) {
                             </div>
                           </div>
                         </div>
-                        {/* <h5 className="exhibition-side-titles padding-top-20">Visit Our Exhibition</h5>
-                        <iframe style={{border:0}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9076207575854!2d58.28190301481938!3d23.571761084677693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8e00b4573ba82b%3A0xcfe4a6226e6acc42!2sScientific%20College%20of%20Design!5e0!3m2!1sen!2som!4v1614510341293!5m2!1sen!2som" width="100%" height="187"  loading="lazy"></iframe> */}
+                        <h5 className="exhibition-side-titles padding-top-20">Visit Our Exhibition</h5>
+                        <iframe style={{border:0}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9076207575854!2d58.28190301481938!3d23.571761084677693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e8e00b4573ba82b%3A0xcfe4a6226e6acc42!2sScientific%20College%20of%20Design!5e0!3m2!1sen!2som!4v1614510341293!5m2!1sen!2som" width="100%" height="187"  loading="lazy"></iframe>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="row padding-top-20">
                       <div className="col-lg-10">
                         <h2 className="exhibition-main-title">Exhibitions Highlights</h2>
                         <div className="thumb-gallery-wrapper">
                           <div className="thumb-gallery-detail owl-carousel owl-theme manual nav-inside nav-style-1 nav-dark mb-3">
+                            <div>
+                              <div className="row">
+                                <div className="col-lg-12 ">
+                                  <div className="exhibition-header-box">
+                                    <h3 className="title"><i className="fas fa-caret-right"></i>“The Strokes” organized by Indian embassy Muscat</h3>
+                                    <h3 className="artist">Organization and participation of Dr.C. Jawahar, Fine Arts Faculty from 8th to 20th September 2019 </h3>
+                                  </div>
+                                </div>
+                              </div>
+                              <img src="assets/exhibition/11.jpg" className="img-fluid" alt="Presentation" />
+                            </div>
+                            <div>
+                              <div className="row">
+                                <div className="col-lg-12 ">
+                                  <div className="exhibition-header-box">
+                                    <h3 className="title"><i className="fas fa-caret-right"></i>” I See Music” at Matti Sirvio Art Galleria with a mosaic artwork </h3>
+                                    <h3 className="artist">Participation of Dr. Amal Ezzat, Fine Arts Faculty from 9th to 27th  October 2021</h3>
+                                  </div>
+                                </div>
+                              </div>
+                              <img src="assets/exhibition/22.jpg" className="img-fluid" alt="Presentation" />
+                            </div>
+                            <div>
+                              <div className="row">
+                                <div className="col-lg-12 ">
+                                  <div className="exhibition-header-box">
+                                    <h3 className="title"><i className="fas fa-caret-right"></i>“International Tolerance Day”, organized by the UNISCO and the Ministry of Endowment and Religious Affairs, Muscat, Oman </h3>
+                                    <h3 className="artist">Participation of Dr. Amal Ezzat, Fine Arts Faculty from 9th to 27th  October 2021</h3>
+                                  </div>
+                                </div>
+                              </div>
+                              <img src="assets/exhibition/33.jpg" className="img-fluid" alt="Presentation" />
+                            </div>
+                            <div>
+                              <div className="row">
+                                <div className="col-lg-12 ">
+                                  <div className="exhibition-header-box">
+                                    <h3 className="title"><i className="fas fa-caret-right"></i>“International Tolerance Day”, organized by the UNISCO and the Ministry of Endowment and Religious Affairs, Muscat, Oman </h3>
+                                    <h3 className="artist">Participation of Dr. Amal Ezzat, Fine Arts Faculty from 9th to 27th  October 2021</h3>
+                                  </div>
+                                </div>
+                              </div>
+                              <img src="assets/exhibition/34.jpg" className="img-fluid" alt="Presentation" />
+                            </div>
+                            <div>
+                              <div className="row">
+                                <div className="col-lg-12 ">
+                                  <div className="exhibition-header-box">
+                                    <h3 className="title"><i className="fas fa-caret-right"></i>“The History of Now” organized at Art and Soul Gallery, Muscat, Oman  </h3>
+                                    <h3 className="artist">Participation of Dr. Amal Ezzat, Fine Arts Faculty from 26th March to 9th April 2022</h3>
+                                  </div>
+                                </div>
+                              </div>
+                              <img src="assets/exhibition/44.jpg" className="img-fluid" alt="Presentation" />
+                            </div>
+                            <div>
+                              <div className="row">
+                                <div className="col-lg-12 ">
+                                  <div className="exhibition-header-box">
+                                    <h3 className="title"><i className="fas fa-caret-right"></i>“The History of Now” organized at Art and Soul Gallery, Muscat, Oman  </h3>
+                                    <h3 className="artist">Participation of Dr. Amal Ezzat, Fine Arts Faculty from 26th March to 9th April 2022</h3>
+                                  </div>
+                                </div>
+                              </div>
+                              <img src="assets/exhibition/45.jpg" className="img-fluid" alt="Presentation" />
+                            </div>
+                            <div>
+                              <div className="row">
+                                <div className="col-lg-12 ">
+                                  <div className="exhibition-header-box">
+                                    <h3 className="title"><i className="fas fa-caret-right"></i>Spring salon” Soul Scape” at Matti Sirvio Art Galleria, Muscat, Oman </h3>
+                                    <h3 className="artist">Participation of Dr. Amal Ezzat, Fine Arts Faculty from 26th  March to 23rd April 2022 </h3>
+                                  </div>
+                                </div>
+                              </div>
+                              <img src="assets/exhibition/55.jpg" className="img-fluid" alt="Presentation" />
+                            </div>
+                            <div>
+                              <div className="row">
+                                <div className="col-lg-12 ">
+                                  <div className="exhibition-header-box">
+                                    <h3 className="title"><i className="fas fa-caret-right"></i>“The Second Fine Arts Faculty Exhibition” organized at SCD in Muscat, Oman </h3>
+                                    <h3 className="artist">Participation of Fine Arts Faculty members from 25th to 30th April 2022</h3>
+                                  </div>
+                                </div>
+                              </div>
+                              <img src="assets/exhibition/66.jpg" className="img-fluid" alt="Presentation" />
+                            </div>
                             <div>
                               <div className="row">
                                 <div className="col-lg-12 ">
@@ -557,6 +629,46 @@ export default function ExhibitionPage({otherapps}) {
 
                             
                           <div className="thumb-gallery-thumbs owl-carousel owl-theme manual thumb-gallery-thumbs">
+                          <div>
+                              <span className="d-block cur-pointer">
+                                <img alt="Presentation" src="assets/exhibition/11.jpg" className="img-fluid" />
+                              </span>
+                            </div>
+                            <div>
+                              <span className="d-block cur-pointer">
+                                <img alt="Presentation" src="assets/exhibition/22.jpg" className="img-fluid" />
+                              </span>
+                            </div>
+                            <div>
+                              <span className="d-block cur-pointer">
+                                <img alt="Presentation" src="assets/exhibition/33.jpg" className="img-fluid" />
+                              </span>
+                            </div>
+                            <div>
+                              <span className="d-block cur-pointer">
+                                <img alt="Presentation" src="assets/exhibition/34.jpg" className="img-fluid" />
+                              </span>
+                            </div>
+                            <div>
+                              <span className="d-block cur-pointer">
+                                <img alt="Presentation" src="assets/exhibition/44.jpg" className="img-fluid" />
+                              </span>
+                            </div>
+                            <div>
+                              <span className="d-block cur-pointer">
+                                <img alt="Presentation" src="assets/exhibition/45.jpg" className="img-fluid" />
+                              </span>
+                            </div>
+                            <div>
+                              <span className="d-block cur-pointer">
+                                <img alt="Presentation" src="assets/exhibition/55.jpg" className="img-fluid" />
+                              </span>
+                            </div>
+                            <div>
+                              <span className="d-block cur-pointer">
+                                <img alt="Presentation" src="assets/exhibition/66.jpg" className="img-fluid" />
+                              </span>
+                            </div>
                             <div>
                               <span className="d-block cur-pointer">
                                 <img alt="Presentation" src="assets/exhibition/1.jpg" className="img-fluid" />
