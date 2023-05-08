@@ -283,7 +283,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                 
                 <div className="col-md-12  col-lg-6  py-lg-4 my-lg-4 mb-4">
                     <div className="internal-heading remove-left-padding" style={{width:"100% !important"}}>
-                        <h1>Faculty Publications & Exhibitions </h1>
+                        <h1>Faculty Publications</h1>
                     </div>
                     <div className="row">
                         <PublicationOwl publication={publication} />
