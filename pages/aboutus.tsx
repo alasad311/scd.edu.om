@@ -110,6 +110,9 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                   <li className="nav-item">
                       <a className="nav-link" href="#joinus" data-bs-toggle="tab">Work at SCD</a>
                   </li>
+                  <li className="nav-item">
+                      <a className="nav-link" href="/assets/download/StrategicPlan202125_230528_124045.pdf" data-bs-toggle="tab">Strategic Plan 2022/25</a>
+                  </li>
                 </ul>
               </div>
             </div>
