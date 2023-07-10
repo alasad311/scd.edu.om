@@ -201,7 +201,7 @@ export default function aptitude() {
 											
 												<li>
 													<i className="fas fa-copy"></i>
-													<h5>  A3 ورقة كانسون ِ</h5>
+													<h5  style={{direction: 'ltr'}}>  A3 ورقة كانسون ِ</h5>
 												</li>
 												
 												<li>
