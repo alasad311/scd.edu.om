@@ -203,7 +203,16 @@ export default function aptitude() {
 													<i className="fas fa-copy"></i>
 													<h5>  A3 ورقة كانسون ِ</h5>
 												</li>
-											
+												
+												<li>
+													<i className="fas fa-pencil-alt"></i>
+													<h5> HB و  2B أقلام رصاص</h5>
+												</li>
+												
+												<li>
+													<i className="fas fa-eraser"></i>
+													<h5> ممحاة ناعمة</h5>
+												</li>
 												
 												<li>
 													<i className="fas fa-edit"></i>
@@ -226,7 +235,6 @@ export default function aptitude() {
 											<ul className="simple-list-sshare">
 												<li>	يتوجب على الطالب الحضور شخصياً قبل نصف ساعة من الاختبار</li>
                         <li>	يجب احضار البطاقة الشخصية أو جواز السفر</li>
-                        
 											</ul>
 										</div>
 									</div>
@@ -262,6 +270,11 @@ export default function aptitude() {
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="mailto:Shams@scd.edu.om">Shams @scd.edu.om</a></div>
                         <div className="col-lg-4 col-md-4 col-xs-4">أ. شمسة الريامية</div>
                       </div>
+                      {/* <div className="row">
+                        <div className="col-lg-4 col-md-4 col-xs-4"><a href="tel:+96824513252">24513252</a></div>
+                        <div className="col-lg-4 col-md-4 col-xs-4"><a href="mailto:b.allamki@scd.edu.om">b.allamki @scd.edu.om</a></div>
+                        <div className="col-lg-4 col-md-4 col-xs-4">أ. باسل اللمكي</div>
+                      </div> */}
                       <div className="row">
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="tel:+96896707755">96707755</a></div>
                         <div className="col-lg-4 col-md-4 col-xs-4">-</div>
