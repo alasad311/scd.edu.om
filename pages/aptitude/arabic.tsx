@@ -206,7 +206,7 @@ export default function aptitude() {
 												
 												<li>
 													<i className="fas fa-pencil-alt"></i>
-													<h5> HB و  2B أقلام رصاص</h5>
+													<h5 style="direction: ltr;"> HB و  2B أقلام رصاص</h5>
 												</li>
 												
 												<li>
