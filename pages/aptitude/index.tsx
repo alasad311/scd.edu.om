@@ -204,17 +204,6 @@ export default function aptitude() {
 													<i className="fas fa-copy"></i>
 													<h5>A3 canson paper (250 gsm)</h5>
 												</li>
-												
-												<li>
-													<i className="fas fa-pencil-alt"></i>
-													<h5>HB, & 2B pencils</h5>
-												</li>
-												
-												<li>
-													<i className="fas fa-eraser"></i>
-													<h5>Soft eraser</h5>
-												</li>
-												
 												<li>
 													<i className="fas fa-edit"></i>
 													<h5>sharpener</h5>
@@ -236,7 +225,7 @@ export default function aptitude() {
 											<ul className="simple-list-sshare">
 												<li>Be present in person 30 minutes prior to the exam</li>
                         <li>Be present 15 minutes prior to the exam</li>
-                        <li>You must adhere to precautionary measures and wear a mask</li>
+                        
 											</ul>
 										</div>
 									</div>
@@ -268,12 +257,6 @@ export default function aptitude() {
                         <div className="col-lg-4 col-md-4 col-xs-4">Ms. Shams Al-Riyami</div>
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="mailto:Shams@scd.edu.om">Shams @scd.edu.om</a></div>
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="tel:+96824513233">24513233</a></div>
-
-                      </div>
-                      <div className="row">
-                        <div className="col-lg-4 col-md-4 col-xs-4">Mr. Basil Al-Lamki</div>
-                        <div className="col-lg-4 col-md-4 col-xs-4"><a href="mailto:b.allamki@scd.edu.om">b.allamki @scd.edu.om</a></div>
-                        <div className="col-lg-4 col-md-4 col-xs-4"><a href="tel:+96824513252">24513252</a></div>
 
                       </div>
                       <div className="row">

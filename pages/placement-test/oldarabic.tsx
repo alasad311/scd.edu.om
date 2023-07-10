@@ -212,7 +212,7 @@ export default function aptitude() {
 											<ul className="simple-list-sshare">
 												<li>	يتوجب على الطالب الحضور شخصياً قبل نصف ساعة من الاختبار</li>
                         <li>	يجب احضار البطاقة الشخصية أو جواز السفر</li>
-                        <li>	يتوجب الالتزام بالإجراءات الاحترازية ولبس الكمامة </li>
+                        
 											</ul>
 										</div>
 									</div>
@@ -248,11 +248,11 @@ export default function aptitude() {
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="mailto:Shams@scd.edu.om">Shams @scd.edu.om</a></div>
                         <div className="col-lg-4 col-md-4 col-xs-4">أ. شمسة الريامية</div>
                       </div>
-                      <div className="row">
+                      {/* <div className="row">
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="tel:+96824513252">24513252</a></div>
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="mailto:b.allamki@scd.edu.om">b.allamki @scd.edu.om</a></div>
                         <div className="col-lg-4 col-md-4 col-xs-4">أ. باسل اللمكي</div>
-                      </div>
+                      </div> */}
                       <div className="row">
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="tel:+96896707755">96707755</a></div>
                         <div className="col-lg-4 col-md-4 col-xs-4">-</div>

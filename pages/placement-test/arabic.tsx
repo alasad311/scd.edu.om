@@ -219,7 +219,7 @@ export default function aptitude() {
 											<ul className="simple-list-sshare">
 												<li>	يتوجب على الطالب الحضور شخصياً قبل نصف ساعة من الاختبار</li>
                         <li>	يجب احضار البطاقة الشخصية أو جواز السفر</li>
-                        <li>	يتوجب الالتزام بالإجراءات الاحترازية ولبس الكمامة </li>
+                        
 											</ul>
 										</div>
 									</div>

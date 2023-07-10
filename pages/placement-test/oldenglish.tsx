@@ -201,7 +201,7 @@ export default function aptitude() {
 											<ul className="simple-list-sshare">
 												<li>Be present in person 30 minutes prior to the exam</li>
                         <li>Be present 15 minutes prior to the exam</li>
-                        <li>You must adhere to precautionary measures and wear a mask</li>
+                        
 											</ul>
 										</div>
 									</div>
@@ -235,12 +235,12 @@ export default function aptitude() {
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="tel:+96824513233">24513233</a></div>
 
                       </div>
-                      <div className="row">
+                      {/* <div className="row">
                         <div className="col-lg-4 col-md-4 col-xs-4">Mr. Basil Al-Lamki</div>
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="mailto:b.allamki@scd.edu.om">b.allamki @scd.edu.om</a></div>
                         <div className="col-lg-4 col-md-4 col-xs-4"><a href="tel:+96824513252">24513252</a></div>
 
-                      </div>
+                      </div> */}
                       <div className="row">
                         <div className="col-lg-4 col-md-4 col-xs-4">Admission and registration mobile </div>
                         <div className="col-lg-4 col-md-4 col-xs-4">-</div>

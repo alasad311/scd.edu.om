@@ -220,7 +220,7 @@ export default function aptitude() {
 											<ul className="simple-list-sshare">
 												<li>Be present in person 30 minutes prior to the exam</li>
                         <li>Be present 15 minutes prior to the exam</li>
-                        <li>You must adhere to precautionary measures and wear a mask</li>
+                        
 											</ul>
 										</div>
 									</div>
