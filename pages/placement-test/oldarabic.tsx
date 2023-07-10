@@ -54,7 +54,7 @@ export default function aptitude() {
                 </div>
                 <div className="ur-caption">
                   <h4 className="ur-title">امتحان تحديد المستوى</h4>
-                  <p className="ur-location"><i className="fas fa-user-graduate mrg-l-5"></i>العام الأكاديمي 2022-2023</p>
+                  <p className="ur-location"><i className="fas fa-user-graduate mrg-l-5"></i>العام الأكاديمي 2023-2024</p>
                   <p className="ur-location"><i className="fas fa-building mrg-l-5"></i>قسم اللغة الانجليزية والعلوم الأساسية والإنسانية </p>
                   <p className="ur-location"><i className="ti-location-pin mrg-l-5"></i>مرتفعات المطار – شارع المطار</p>
                   <span className="ur-designation"><i className="ti-home mrg-l-5"></i>الكلية العلمية للتصميم </span>
