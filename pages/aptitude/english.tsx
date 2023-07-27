@@ -11,9 +11,9 @@ export default function aptitude() {
         <meta name="keywords" content="" />
         <meta name="author" content="Scientific College of Design" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <link rel="icon" href="assets/logo/n_fav_icon.png" />
-        <link rel="stylesheet" href="assets/plugins/css/plugins.css" />
-        <link href="css/style.css" rel="stylesheet" />
+        <link rel="icon" href="/assets/logo/n_fav_icon.png" />
+        <link rel="stylesheet" href="/assets/plugins/css/plugins.css" />
+        <link href="/css/style.css" rel="stylesheet" />
       </Head>
       
       <div className="wrapper"> 
@@ -41,7 +41,7 @@ export default function aptitude() {
             </div>
           </div>   
         </nav>
-        <section className="inner-header-title" style={{backgroundImage:"url(assets/content/programs.jpg)"}}>
+        <section className="inner-header-title" style={{backgroundImage:"url(/assets/content/programs.jpg)"}}>
           <div className="container">
           </div>
         </section>
@@ -51,7 +51,7 @@ export default function aptitude() {
             <div className="ur-detail-wrap top-lay">
               <div className="ur-detail-box">
                 <div className="ur-thumb">
-                  <img src="assets/aptitude/aptitude.png" className="img-responsive" alt="" />
+                  <img src="/assets/aptitude/aptitude.png" className="img-responsive" alt="" />
                 </div>
                 <div className="ur-caption">
                   <h4 className="ur-title">Aptitude Test</h4>
@@ -290,21 +290,21 @@ export default function aptitude() {
 				</div>
 			</section>
       </div>
-      <Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/jquery.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/viewportchecker.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/bootstrap.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/bootsnav.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/select2.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/wysihtml5-0.3.0.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/bootstrap-wysihtml5.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/datedropper.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/dropzone.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/loader.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/owl.carousel.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/slick.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/gmap3.min.js"/>
-			<Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/jquery.easy-autocomplete.min.js"/>
-      <Script strategy="lazyOnload" type="text/javascript" src="assets/plugins/js/counterup.min.js"/>
+      <Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/jquery.min.js"/>
+			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/viewportchecker.js"/>
+			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/bootstrap.min.js"/>
+			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/bootsnav.js"/>
+			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/select2.min.js"/>
+			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/wysihtml5-0.3.0.js"/>
+			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/bootstrap-wysihtml5.js"/>
+			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/datedropper.min.js"/>
+			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/dropzone.js"/>
+			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/loader.js"/>
+			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/owl.carousel.min.js"/>
+			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/slick.min.js"/>
+			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/gmap3.min.js"/>
+			<Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/jquery.easy-autocomplete.min.js"/>
+      <Script strategy="lazyOnload" type="text/javascript" src="/assets/plugins/js/counterup.min.js"/>
     </div>
   )
 }
