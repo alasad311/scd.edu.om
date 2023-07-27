@@ -10,7 +10,7 @@ export default function aptitude() {
         <meta name="keywords" content="" />
         <meta name="author" content="Scientific College of Design" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <link rel="icon" href="assets/logo/n_fav_icon.png" />
+        <link rel="icon" href="/assets/logo/n_fav_icon.png" />
         <link rel="stylesheet" href="/assets/plugins/css/plugins.css" />
         <link href="/css/style.css" rel="stylesheet" />
       </Head>
@@ -35,7 +35,7 @@ export default function aptitude() {
               </ul>
               <ul className="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                 <li><a href="/placement-test/english" className="signin">English</a></li>
-                <li className="left-br"><a href="placement-test/" className="signin">عربى</a></li>
+                <li className="left-br"><a href="/placement-test/" className="signin">عربى</a></li>
               </ul>
             </div>
           </div>   
