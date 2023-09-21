@@ -215,6 +215,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
       <Script strategy="lazyOnload" type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"/>
       <Script strategy="lazyOnload" src="js/simple-text-rotator/jquery.simple-text-rotator.min.js"/>
       <Script strategy="lazyOnload" type="text/javascript" src="/js/alumni.js"/>
+      <Script src="js/custom.js" strategy="lazyOnload"/>
 
     </div>
   )

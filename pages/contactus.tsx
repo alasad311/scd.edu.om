@@ -286,6 +286,7 @@ export default function ContactusPage({otherapps,adminoffice,dept}) {
       <Script strategy="beforeInteractive" src="js/jquery/jquery-3.6.0.min.js"/>
       <Script strategy="lazyOnload" src="js/bootstrap/bootstrap.bundle.js"/>
       <Script strategy="lazyOnload" type="text/javascript" src="/js/contactus.js"/>
+      <Script src="js/custom.js" strategy="lazyOnload"/>
     </div>
   )
 }

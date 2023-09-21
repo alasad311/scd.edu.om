@@ -447,6 +447,7 @@ export default function StudentLifePage({otherapps,services}) {
         <Script strategy="lazyOnload" src="js/simple-text-rotator/jquery.simple-text-rotator.min.js"/>
         <Script strategy="lazyOnload" src="js/spidoche/jquery.spidochetube.min.js"/>
         <Script strategy="lazyOnload" type="text/javascript" src="/js/studentlife.js"/>
+        <Script src="js/custom.js" strategy="lazyOnload"/>
     </div>
   )
 }

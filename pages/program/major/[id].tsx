@@ -730,6 +730,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
             <Script strategy="lazyOnload" type="text/javascript" src="../../js/courses.js"/>
             <Script strategy="lazyOnload" type="text/javascript" src="../../js/artwork.js"/>
             <Script strategy="lazyOnload" type="text/javascript" src="../../js/studnetVideo.js"/>
+            <Script src="../../js/custom.js" strategy="lazyOnload"/>
         </div>
       )
     }
