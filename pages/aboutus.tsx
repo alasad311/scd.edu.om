@@ -673,7 +673,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
         <Script strategy="lazyOnload" type="text/javascript" src="/js/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"/>
         <Script strategy="lazyOnload" type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"/>
         <Script strategy="lazyOnload" src="js/aboutus.js"/>
-        <Script src="js/custom.js" strategy="lazyOnload"/>
+        <Script src="js/header.js" strategy="lazyOnload"/>
     </div>
   )
 }

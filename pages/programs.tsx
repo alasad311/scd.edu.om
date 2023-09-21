@@ -185,7 +185,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
         <Script strategy="lazyOnload" type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"/>
         <Script strategy="lazyOnload" src="js/spidoche/jquery.spidochetube.min.js"/>
         <Script strategy="lazyOnload" type="text/javascript" src="/js/programs.js"/>
-        <Script src="js/custom.js" strategy="lazyOnload"/>
+        <Script src="js/header.js" strategy="lazyOnload"/>
     </div>
   )
 }

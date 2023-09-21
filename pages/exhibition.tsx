@@ -800,7 +800,7 @@ export default function ExhibitionPage({otherapps}) {
       <Script strategy="lazyOnload" src="js/bootstrap/bootstrap.bundle.js"/>
       <Script strategy="lazyOnload" type="text/javascript" src="/js/owl.carousel/dist/owl.carousel.min.js"/>
       <Script strategy="lazyOnload" type="text/javascript" src="/js/exhibition.js"/>
-      <Script src="js/custom.js" strategy="lazyOnload"/>
+      <Script src="js/header.js" strategy="lazyOnload"/>
     </div>
   )
 }
