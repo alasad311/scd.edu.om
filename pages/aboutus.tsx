@@ -102,7 +102,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                       <a className="nav-link" href="#Mission" data-bs-toggle="tab">Mission & Vision</a>
                   </li>
                   <li className="nav-item">
-                      <a className="nav-link" href="#Gradute" data-bs-toggle="tab">Gradute Attributes</a>
+                      <a className="nav-link" href="#Gradute" data-bs-toggle="tab">Graduate Attributes</a>
                   </li>
                   <li className="nav-item">
                       <a className="nav-link" href="#Governance" data-bs-toggle="tab">Governance</a>
@@ -418,7 +418,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
             </div>
             <div className="tab-pane tab-pane-navigation" id="Gradute"  >
                 <div className="internal-heading">
-                    <h1>Gradute Attributes</h1>
+                    <h1>Graduate Attributes</h1>
                 </div>
                 <div className="featured-boxes featured-boxes-flat">
                     <div className="row">
@@ -521,14 +521,14 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                         <div className="row">
                             <div className="col-lg-4 fluid-col-lg-4 col-mb-4" >
                                 <div className="fluid-col">
-                                    <img src="/assets/content/adham.png" className="img-fluid padding-bottom-20" width={1100} height={1200} />
+                                    <img src="/assets/content/khamis.jpg" className="img-fluid padding-bottom-20" width={1100} height={1200} />
                                 </div>
                             </div>
                             <div className="col-lg-8">
                                 
-                                    <p className="bot-content-text remove-top-padding">The Scientific College of Design has made substantial progress in achieving academic excellence. The strength of SCD’s academic and professional offering has placed the college in a unique position as the only specialized art & design institute in Oman. This strength also allows the college to create opportunities for various stakeholders from students, artists, and organizations. We look forward to the college expanding its offering of an in-depth art & design knowledge and practice in Oman and regionally.</p>
+                                    <p className="bot-content-text remove-top-padding">The Scientific College of Design, was founded to be a unique higher education institution in the Sultanate of Oman. Hence, it has been witnessed that it has made substantial progress in achieving excellence amongst its counterparts in the Sultanate of Oman. The strength of SCD's academic and professional offerings has placed the college on the lead as it is also the pioneer in the field of art and design in the country. Having said this, the strength of SCD also allows the college to create great opportunities for various stakeholders from students, artists and organizations. We firmly trust that the college has the capability in expanding its strength of an in-depth art and design knowledge  and practice, not only in the Sultanate of Oman, but regionally too.</p>
     
-                                    <p className="bot-content-text bot-name-text remove-top-padding">HH. Sayyid Dr. Adham Al Said, <br />Board of Trustees Chairman</p>
+                                    <p className="bot-content-text bot-name-text remove-top-padding">HE Dr. Khamis AL Bulushi, <br />Board of Trustees Chairman</p>
                             </div>
                             
                         </div>
