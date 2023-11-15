@@ -113,23 +113,23 @@ export default function aptitude() {
                     <tr>
                       <td>Use of English</td>
                       <td>36</td>
-                      <td>45 marks</td>
+                      <td>36 marks</td>
                       <td rowSpan={2}>30 minutes</td>
                     </tr>
                     <tr>
                       <td>Listening</td>
                       <td>12</td>
-                      <td>15 marks</td>
+                      <td>12 marks</td>
                     </tr>
                     <tr>
                       <td>Reading</td>
                       <td>12</td>
-                      <td>15 marks</td>
+                      <td>12 marks</td>
                     </tr>
                     <tr>
                       <td>Writing </td>
                       <td>1</td>
-                      <td>25 marks</td>
+                      <td>40 marks</td>
                       <td>30 minutes</td>
                     </tr>
                     <tr>

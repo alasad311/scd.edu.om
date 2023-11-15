@@ -113,23 +113,23 @@ export default function aptitude() {
                     <tr>
                       <td>استخدام اللغة الانجليزية</td>
                       <td>36</td>
-                      <td>45</td>
+                      <td>36</td>
                       <td rowSpan={2}>30 دقيقة</td>
                     </tr>
                     <tr>
                       <td>الاستماع</td>
                       <td>12</td>
-                      <td>15</td>
+                      <td>12</td>
                     </tr>
                     <tr>
                       <td>القراءة والاستيعاب</td>
                       <td>12</td>
-                      <td>15</td>
+                      <td>12</td>
                     </tr>
                     <tr>
                       <td>الكتابة </td>
                       <td>1</td>
-                      <td>25</td>
+                      <td>40</td>
                       <td>30 دقيقة</td>
                     </tr>
                     <tr>
