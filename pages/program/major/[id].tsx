@@ -486,7 +486,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               </tr>
                               <tr>
                                 <td>
-                                <strong>Listing</strong>
+                                <strong>listening</strong>
                                 </td>
                                 <td>
                                 12
