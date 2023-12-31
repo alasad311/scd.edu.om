@@ -450,7 +450,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <strong>Component</strong>
                                 </th>
                                 <th>
-                                <strong>Questions</strong>
+                                <strong>Total Questions</strong>
                                 </th>
                                 <th>
                                 <strong>Mark</strong>
@@ -461,7 +461,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               </tr>
                               <tr>
                                 <td>
-                                <strong>A. </strong><strong>English Language</strong>
+                                  <strong>English</strong>
                                 </td>
                                 <td>
                                 </td>
@@ -472,13 +472,27 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               </tr>
                               <tr>
                                 <td>
-                                <strong>Listening</strong>
+                                <strong>Use of English</strong>
                                 </td>
                                 <td>
-                                50
+                                36
                                 </td>
                                 <td>
-                                100
+                                45
+                                </td>
+                                <td>
+                                30 minutes
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                <strong>Listing</strong>
+                                </td>
+                                <td>
+                                12
+                                </td>
+                                <td>
+                                15
                                 </td>
                                 <td>
                                 30 minutes
@@ -489,27 +503,13 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <strong>Reading</strong>
                                 </td>
                                 <td>
-                                50
+                                12
                                 </td>
                                 <td>
-                                100
+                                15
                                 </td>
                                 <td>
-                                55 minutes
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                <strong>Grammar</strong>
-                                </td>
-                                <td>
-                                70
-                                </td>
-                                <td>
-                                70
-                                </td>
-                                <td>
-                                35 minutes
+                                30 minutes
                                 </td>
                               </tr>
                               <tr>
@@ -517,18 +517,24 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <strong>Writing</strong>
                                 </td>
                                 <td>
-                                31
+                                1
                                 </td>
                                 <td>
                                 100
                                 </td>
                                 <td>
-                                [Objective/20 minutes + Essay writing/40 minutes]=60 minutes
+                                30 minutes
                                 </td>
                               </tr>
                               <tr>
+                                <td> <strong>English Language</strong></td>
+                                <td>61</td>
+                                <td>100</td>
+                                <td>60 minutes </td>
+                              </tr>
+                              <tr>
                                 <td>
-                                <strong>B. </strong><strong>Math</strong>
+                                <strong>Math</strong>
                                 </td>
                                 <td>
                                 25
@@ -542,7 +548,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               </tr>
                               <tr>
                                 <td>
-                                <strong>C. </strong><strong>Computing</strong>
+                               <strong>Computing</strong>
                                 </td>
                                 <td>
                                 50
