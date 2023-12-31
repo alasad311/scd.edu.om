@@ -43,7 +43,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
             <div className='col-lg-12'>
               <img src="/assets/content/programs.jpg" width={2000} height={600} className="img-fluid" />
               <div className="row justify-content-center">
-                <div className="sm-30 col-md-7 col-lg-3 mb-4 mb-lg-0">
+                <div className="sm-30 col-md-7 col-lg-4 mb-4 mb-lg-0">
                   <div className="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-primary my-4 show-pointer" >
                     <div className="featured-box">
                       <div className="box-content px-lg-4 px-xl-5 py-lg-5">
@@ -53,7 +53,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
                     </div>
                   </div>
                 </div>
-                <div className="sm-30 col-md-7 col-lg-3 mb-4 mb-lg-0">
+                <div className="sm-30 col-md-7 col-lg-4 mb-4 mb-lg-0">
                   <div className="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-primary my-4 show-pointer undergraduate"  >
                     <div className="featured-box">
                       <div className="box-content px-lg-4 px-xl-5 py-lg-5">
@@ -63,7 +63,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
                     </div>
                   </div>
                 </div>
-                <div className="sm-30 col-md-7 col-lg-3 mb-4 mb-lg-0">
+                <div className="sm-30 col-md-7 col-lg-4 mb-4 mb-lg-0">
                   <div className="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-primary my-4 show-pointer postgraduate" >
                     <div className="featured-box">
                       <div className="box-content px-lg-4 px-xl-5 py-lg-5">
@@ -73,7 +73,7 @@ export default function ProgramPa({majorBA,short,majorMA,otherapp}) {
                     </div>
                   </div>
                 </div>
-                <div className="sm-30 col-md-7 col-lg-3 mb-4 mb-lg-0">
+                <div className="sm-30 col-md-7 col-lg-4 mb-4 mb-lg-0">
                   <div className="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-primary my-4 show-pointer shortcourses" >
                     <div className="featured-box">
                       <div className="box-content px-lg-4 px-xl-5 py-lg-5">
