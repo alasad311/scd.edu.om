@@ -435,9 +435,9 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                           </div>
                           <div className='internal-content-text program-ul remove-top-padding'>
                               <ol>
-                                <li>Placement Tests at SCD are conducted on campus, so students should be available in the college 15 minutes prior to the commencement of the test to collect their Placement Test entry tickets, pass words, and the test instructions from the Admission Office.</li>
-                                <li>Students should bring their Identity Cards to be allowed to take the placement test.</li>
-                                <li>The results of the placement test are announced by the Admission Office within two working days at the latest.</li>
+                                <li>Placement Tests at SCD are conducted on campus, so students should be available in the college 15 minutes prior to the commencement of the test to collect their Placement Test entry tickets, pass words, and the test instructions from the Admission and Registration Departement.</li>
+                                <li>Students should bring their Identity Cards ( Nationa ID / Passport) to be allowed to take the placement test.</li>
+                                <li>The results of the placement test are announced by the Admission and Registration Departement within two working days at the latest.</li>
                               </ol>
                           </div>
                           <div className="internal-heading padding-top-20">
@@ -461,27 +461,15 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                               </tr>
                               <tr>
                                 <td>
-                                  <strong>English</strong>
-                                </td>
-                                <td>
-                                </td>
-                                <td>
-                                </td>
-                                <td>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
                                 <strong>Use of English</strong>
                                 </td>
                                 <td>
                                 36
                                 </td>
                                 <td>
-                                45
+                                36
                                 </td>
                                 <td>
-                                30 minutes
                                 </td>
                               </tr>
                               <tr>
@@ -492,10 +480,10 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 12
                                 </td>
                                 <td>
-                                15
+                                12
                                 </td>
                                 <td>
-                                30 minutes
+                                
                                 </td>
                               </tr>
                               <tr>
@@ -506,7 +494,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 12
                                 </td>
                                 <td>
-                                15
+                                12
                                 </td>
                                 <td>
                                 30 minutes
@@ -520,10 +508,10 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 1
                                 </td>
                                 <td>
-                                100
+                                40
                                 </td>
                                 <td>
-                                30 minutes
+                                
                                 </td>
                               </tr>
                               <tr>
