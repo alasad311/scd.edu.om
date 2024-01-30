@@ -435,9 +435,9 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                           </div>
                           <div className='internal-content-text program-ul remove-top-padding'>
                               <ol>
-                                <li>Placement Tests at SCD are conducted on campus, so students should be available in the college 15 minutes prior to the commencement of the test to collect their Placement Test entry tickets, pass words, and the test instructions from the Admission and Registration Departement.</li>
-                                <li>Students should bring their Identity Cards ( Nationa ID / Passport) to be allowed to take the placement test.</li>
-                                <li>The results of the placement test are announced by the Admission and Registration Departement within two working days at the latest.</li>
+                                <li>Placement Tests at SCD are conducted on campus, so students should be available in the college 15 minutes prior to the commencement of the test to collect their Placement Test entry tickets, pass words, and the test instructions from the Admission and Registration Department.</li>
+                                <li>Students should bring their Identity Cards ( National ID / Passport) to be allowed to take the placement test.</li>
+                                <li>The results of the placement test are announced by the Admission and Registration Department within two working days at the latest.</li>
                               </ol>
                           </div>
                           <div className="internal-heading padding-top-20">
@@ -458,6 +458,12 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <th>
                                 <strong>Duration</strong>
                                 </th>
+                              </tr>
+                              <tr>
+                                <td> <strong>English Language</strong></td>
+                                <td>61</td>
+                                <td>100</td>
+                                <td>60 minutes </td>
                               </tr>
                               <tr>
                                 <td>
@@ -514,12 +520,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 
                                 </td>
                               </tr>
-                              <tr>
-                                <td> <strong>English Language</strong></td>
-                                <td>61</td>
-                                <td>100</td>
-                                <td>60 minutes </td>
-                              </tr>
+                             
                               <tr>
                                 <td>
                                 <strong>Math</strong>
