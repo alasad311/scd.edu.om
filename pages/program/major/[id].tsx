@@ -503,7 +503,6 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 12
                                 </td>
                                 <td>
-                                30 minutes
                                 </td>
                               </tr>
                               <tr>
