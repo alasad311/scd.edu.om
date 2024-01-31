@@ -221,7 +221,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                             {programDetails[0]['major_name'] === "General Foundation Program" &&
                             <span>
                               <div className="internal-heading padding-top-20">
-                                <h1>Certificates of Attainment</h1>
+                                <h1>Certificate of Attainment</h1>
                               </div>
                               <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>
                               A GFP student is not eligible to get a certificate of GFP completion unless he/she fulfills all GFP requirements; that is, passing all GFP courses including Math and IT.
@@ -234,8 +234,8 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <h1>GFP Club</h1>
                               </div>
                               <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>
-                              This club provides a good opportunity for students to use English language in a friendly and comfortable setting outside their classroom. It gives participants the opportunity to take part in many co/extra-curricular activities at their own convenience and choice.
-                                </p>
+                              This club provides a good opportunity for students to strengthen English language, tackle mathematical challenges and enhance computing skills in a friendly and comfortable setting outside their classroom. It gives participants the opportunity to take part in many co/extra-curricular activities at their own convenience and choice.
+                              </p>
                             </span>
                             } 
                           </div>
