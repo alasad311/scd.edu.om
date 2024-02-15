@@ -250,9 +250,14 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                             programYerCounter.map((e) => (
                               <div className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "process-step-ara col-md-6 col-lg-2 mb-5 mb-md-4 appear-animation" : "process-step col-md-6 col-lg-2 mb-5 mb-md-4 appear-animation"}  data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
                                 <div className="process-step-circle" style={{cursor:"pointer"}} id={converter.toWordsOrdinal(e.pp_year)+"Year"}>
-                                  <strong className="process-step-circle-content" dangerouslySetInnerHTML={{__html:programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? " السنة" + "<br /> "+e.pp_year : converter.toWordsOrdinal(e.pp_year)+" <br /> Year"}}>
-                                    
-                                    </strong>
+                                {programDetails[0]['major_name'] === "General Foundation Program" &&
+                                  <strong className="process-step-circle-content"> One Year Program</strong>
+
+                                }
+                                {programDetails[0]['major_name'] != "General Foundation Program" &&
+                                  <strong className="process-step-circle-content" dangerouslySetInnerHTML={{__html:programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? " السنة" + "<br /> "+e.pp_year : converter.toWordsOrdinal(e.pp_year)+" <br /> Year"}}></strong>
+
+                                }
                                 </div>
                                <div className="mb-0 d-block d-md-block d-lg-none">
                                   <div className="row mobile-box-grey text-font" id="mfirstYear">
