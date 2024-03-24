@@ -143,8 +143,8 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
             }
         </div>
       </section>
-      <SectionHomeEvents events={event} dates={date} />
-      <SectionNewsletter links={mag} />
+      {/* <SectionHomeEvents events={event} dates={date} /> */}
+      {/* <SectionNewsletter links={mag} /> */}
       <SectionNewsEvents news={newse} />
       <div id="fb-root"></div>
       <Script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0&appId=740293611559808"></Script>
