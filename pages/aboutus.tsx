@@ -99,7 +99,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                       <a className="nav-link" href="#Accreditation" data-bs-toggle="tab">Accreditation</a>
                   </li>
                   <li className="nav-item">
-                      <a className="nav-link" href="#Mission" data-bs-toggle="tab">Mission & Vision</a>
+                      <a className="nav-link" href="#Mission" data-bs-toggle="tab">Mission, Vision, Values & Objectives </a>
                   </li>
                   <li className="nav-item">
                       <a className="nav-link" href="#Gradute" data-bs-toggle="tab">Graduate Attributes</a>
@@ -366,7 +366,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                                 <div className="box-content p-5">
                                     <div className="row">
                                         <div className="col">
-                                            <h2 className="font-weight-bold text-6 text-color-grey-2 text-font" >Value</h2>
+                                            <h2 className="font-weight-bold text-6 text-color-grey-2 text-font" >Values</h2>
                                             <div className="divider divider-small divider-small-center">
                                                 <hr />
                                             </div>
@@ -429,8 +429,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                                     <p className="mb-2 mt-2 text-2 text-font">
                                         a. Apply acquired knowledge &amp; skill<br />
                                         b. Defend and critique Art and Design projects<br />
-                                        c. Use research to explore theoretical and historical precedent
-
+                                        c. Use research to explore theoretical and historical precedence
                                     </p>
                                 </div>
                             </div>
@@ -472,7 +471,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                         </div>
                     </div>
                 </div>
-                <p className="internal-content-text remove-top-padding">Scientific College of Design, graduate attributes’ domains consist of academic excellence,professionalism, lifelong learning, and ethical responsibility. Therefore, it was critical to setacademic programs which explore a diverse philosophies, techniques, and materials forstudents to investigate the creation of art and design in their respective fields. Faculty areexperienced artists and designers dedicated to provide students with a positive experimentalplatform to analyze design alternatives. As academic excellence is a domain of SCD graduateattributes and an integral part of our mission, it continues to be a main strategy in ouroperational plans. Scientific College of Design uses a holistic approach to academic excellencethrough its academic programs, extracurricular activities, community based projects coursework, workshops, etc.</p>
+                <p className="internal-content-text remove-top-padding">Scientific College of Design, graduate attributes’ domains consist of academic excellence, professionalism, lifelong learning, and ethical responsibility. Therefore, it was critical to set up academic programs, which explore diverse philosophies, techniques, and materials for students to investigate the creation of art and design in their respective fields. Faculty are experienced artists and designers dedicated to providing students with a positive experimental platform to analyse design alternatives. As academic excellence is a domain of SCD graduate attributes and an integral part of our mission, it continues to be a main strategy in our operational plans. Scientific College of Design uses a holistic approach to academic excellence through its academic programs, extracurricular activities, community-based projects coursework, workshops, etc.</p>
             </div>
             <div className="tab-pane tab-pane-navigation" id="Governance">
                 <div className="internal-heading">
@@ -510,7 +509,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                     </div>
                 </div>
 
-                <p className="internal-content-text padding-bottom-20">The Scientific College of Design is formed from eight practitioners and academicians to guarantee professional and diverse governance.  The Board endorses long term strategic and annual operational plans as well as approves all SCD policies and operational budget.  Board members advance the development of SCD through effective leadership and strategic decision making and active oversight. The Board generates its annual report reflecting its activities and progress.</p>
+                <p className="internal-content-text padding-bottom-20">The Scientific College of Design is comprised of nine members to guarantee professional and diverse governance. The Board endorses long-term strategic and annual operational plans as well as approves all SCD policies and annual operational budget. Board members advance the development of SCD through effective leadership and strategic decision making and active oversight. The Board generates its annual report reflecting its activities and progress.</p>
                 <div className="internal-heading">
                     <h1>Board of Trustees Chairman</h1>
                 </div>
@@ -555,7 +554,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                     <div className="col-lg-2">
                     </div>
                 </div>
-                <h5 >Board of Directors <BodAcademicYearText academicyear={bodacademic} /></h5>
+                <h5 >Board of Directors</h5>
                 <hr />
                 <BodsAccordion bods={bods} />
             </div>
