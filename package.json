@@ -9,12 +9,11 @@
     },
     "dependencies": {
         "bootstrap": "^5.0.1",
-        "eslint-config-next": "^14.1.4",
         "get-youtube-id": "^1.0.1",
         "instagram-web-api": "^2.2.2",
         "moment": "^2.29.1",
         "net": "^1.0.2",
-        "next": "^14.1.4",
+        "next": "12",
         "next-useragent": "^2.5.1",
         "number-to-words": "^1.2.4",
         "react": "^18.2.0",
