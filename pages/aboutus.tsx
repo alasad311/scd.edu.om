@@ -125,38 +125,13 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                     <img src="/assets/content/AboutSCDbw.jpg" className="img-fluid" />
                     <img src="/assets/content/AboutSCD.jpg" className="img-fluid" />
                 </div>
-                <p className="internal-content-text">The Scientific College of Design is a private art and design institution of higher learning located in Muscat, Sultanate of Oman. Established by a Ministerial Decree and regulated by the Ministry of Higher Education, the college officially instigated its academic programs and services in October 2004. The college is governed by a board of trustees, guided by the Directorate General of Private Universities and Colleges. The Scientific College of Design is established upon the firm belief in and strong advocacy of the role of the arts as an integral part of our social consciousness, as an agent of progressive change, and as a powerful catalyst in molding the thoughts and actions of our national and global communities.</p>
-                <p className="internal-content-text internal-content-text-adjustment">The college founders uphold the philosophy that design is both an art and a science whereby to create art is to engage in design and that meaningful design is based upon a scientific foundation. As such, the college is rooted in the enduring value of a holistic education that endorses a liberal arts and sciences model of higher education and balances formal design study with a broad exposure to humanities, literature, and the social sciences. The Scientific College of Design is founded upon the principle of academic excellence and cutting edge creativity in art and design benchmarked against the dual criteria of international currency and local relevance.</p>
+                <p className="internal-content-text">The Scientific College of Design is a private art and design institution of higher education located in Muscat, Sultanate of Oman. Established by a ministerial decree a regulated by the Ministry of Higher Education, The College officially initiated its academic programs and services in October 2004. A board of trustees, guided by the Directorate General of Private Universities and Colleges, governs the College.</p>
+                <p className="internal-content-text internal-content-text-adjustment">The Scientific College of Design is established upon the firm belief in the strong advocacy of the role of arts as an integral part of our social consciousness, as an agent of progressive change, and as a powerful catalyst in molding the thoughts and actions of our national and global communities. The college founders uphold the philosophy that design is both an art and a science whereby to create art is to engage in design and that meaningful design is based upon a scientific foundation. As such, the college is rooted in the enduring value of holistic education that endorses a liberal arts and sciences model of higher education and balances formal design study with a broad exposure to humanities, and the social sciences. Founded upon the principle of academic excellence and innovative creativity in art and design benchmarked against the dual criteria of local and international students.</p>
                 <div className="internal-heading">
                     <h1>Growth over the years</h1>
                 </div>
-                <p className="internal-content-text internal-content-text-adjustment">The Scientific College of Design exhibited steady growth over the years in students, faculty, and staff. Flexibility and resilience to have a solid operational base for academic programs was a natural output of efforts. The College graduated more than 2522 alumni since its first batch in 2010.  Expansion and growth are an evident part of SCD success story.</p>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <h4 className="text-center">Student’s intake growth rate</h4>
-                        <div className="circular-bar circular-bar-lg">
-                            <div className="circular-bar-chart" data-percent="78" data-plugin-options="">
-                                <strong>278%</strong>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <h4  className="text-center">Academic Faculty growth rate </h4>
-                        <div className="circular-bar circular-bar-lg">
-                            <div className="circular-bar-chart" data-percent="33" data-plugin-options="">
-                                <strong>633%</strong>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <h4  className="text-center">Faculty engagements growth rate </h4>
-                        <div className="circular-bar circular-bar-lg">
-                            <div className="circular-bar-chart" data-percent="10" data-plugin-options="">
-                                <strong>400%</strong>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <p className="internal-content-text internal-content-text-adjustment">The Scientific College of Design exhibited steady growth over the years in students, faculty, and staff numbers. Flexibility and resilience to have a solid operational base for academic programs was a natural output of efforts. The College graduated more than 3000 alumni since its first batch in 2008. Expansion and growth are an evident part of SCD success story. </p>
+                
                 <br /><br />                    
                 <div className="row">
                     <div className="col-sm-9 col-md-12 col-lg-6 col-6 mx-auto order-2 order-md-1 d-none d-lg-block d-xl-block">
@@ -198,38 +173,54 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                     <div className="col-md-12  col-lg-5  py-lg-4 my-lg-4 mb-4 order-1 order-md-2">
                         <div className="pr-3 pl-md-5 pb-3 pb-sm-0 py-lg-5 my-lg-4 border-left-light border-sm-none">
                         <div className="internal-heading remove-left-padding" style={{width:"100% !important"}}>
-                            <h1>Award Winning Faculty Members </h1>
+                            <h1>Awards and International Recognition </h1>
                         </div>
-                            <p className="mb-2 internal-content-text remove-top-padding" >SCD is recognized for its distinguished specialized institution by its research and artistic output of its constituents.  Faculty participated in conferences in the United Stated, Japan, Italy, Switzerland, Germany, Egypt, United Arab Emirates, and Jordan. </p>
+                            <p className="mb-2 internal-content-text remove-top-padding" >The college received recognition from well-reputed organizations at the national and international levels for its specific creative approaches in the field of art and design. The college is an official member of the Cumulus Association of Art & Design. </p>
                         </div>
                     </div>
                 </div>
                 <div className="row aboutus-section-with-background" >
                 <div className="col-md-12  col-lg-6  py-lg-5 my-lg-5 mb-5" >
                     <div className="internal-heading remove-left-padding" style={{width:"100% !important"}}>
-                        <h1 >National & International Engagements </h1>
+                        <h1 >National & International Collaborations </h1>
                     </div>
                     <div className="row">
                         <div className="col-lg-5 col-sx-12 col-md-12 aboutus-section-ul-with-background" >
-                            <h5><i className="fas fa-angle-right padding-right-10" ></i>Academic MOU</h5>
+                            <h5><i className="fas fa-angle-right padding-right-10" ></i>Academic5</h5>
                             <ul className="mou-with-background">
+                                <li>University of Technology and Applied Sciences - Nizwa</li>
                                 <li>University of Minho</li>
-                                <li>Cairo University</li>
                                 <li>6th October University</li>
                                 <li>Minia University</li>
-                                <li>Higher College of Technology</li>
-                                <li>Mazoon College</li>
-                                <li>Kuwait Institution</li>
+                                <li>Ministry of Higher Education, Research and Innovation</li>
+                                <li>Ajman University</li>
+                                <li>Faculty Of Applied Arts Badr University-Cairo</li>
                             </ul>
                         </div>
                         <div className="col-lg-5 col-sx-12 col-md-12 aboutus-section-ul-without-background" >
-                            <h5><i className="fas fa-angle-right padding-right-10"></i>Non Academic MOU</h5>
+                            <h5><i className="fas fa-angle-right padding-right-10"></i>Others</h5>
                             <ul className="mou-without-background">
+                                <li>Omani Journalists Association</li>
+                                <li>Oman Society of Engineers</li>
+                                <li>Oman Film Society</li>
+                                <li>SME development fund</li>
+                                <li>Authority for SME Development</li>
+                                <li>Oman foodbank- Daymah</li>
+                                <li>Saned project</li>
+                                <li>Taiseer Group</li>
                                 <li>National Museum Oman</li>
-                                <li>Bank Meithaq</li>
-                                <li>Times of Oman</li>
-                                <li>SME Development fund</li>
-                                <li>Taiseer group</li>
+                                <li>Muscat Media Group</li>
+                                <li>Career Counseling</li>
+                                <li>Integrated Systems LLC-Kuwait</li>
+                                <li>Omani Association  for the hearing impaired</li>
+                                <li>Embassy of Italy</li>
+                                <li>The Royal Hospital</li>
+                                <li>Bait Al Zubair Museum</li>
+                                <li>IDP Education</li>
+                                <li>Vertex Business Solutions</li>
+                                <li>ALtawasul Institute for Training</li>
+                                <li>Ttickoneom for Training</li>
+                                <li>General Directorate of Agricultural and Fisheries Marketing</li>
                             </ul>
                         </div>
                     </div>
@@ -247,18 +238,17 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                     <div className="internal-heading remove-left-padding">
                         <h1>National Pride: </h1>
                     </div>
-                    <p className="internal-content-text remove-top-padding">Collaboration with our partners integrates SCD with the community and supports students and alumni to give back to the community.  SCD students lead artistic workshops.The Scientific College of Design has accumulated a network of various professional organizations, institutions, and ministries to serve its stakeholders and the art & design community.  Furthermore it expanded its facilities and increased resources to fulfill its mission and prepare students for creative careers and empower the community at large. </p>
+                    <p className="internal-content-text remove-top-padding">Collaboration with various organizations integrates SCD with the community and supports students and alumni to give back to the community. The Scientific College of Design actively participates in the network professional organizations, institutions, and ministries to serve its stakeholders and the art & design community. The college expanded its facilities and services with adequate resources to fulfil its mission, prepare students for creative careers, and empower the community at large.</p>
                     <div className="row">
                         <div className="col-6 col-md-6 col-sm-12 col-sx-12">
-                            <h5 className="h5-clickable"><i className="fas fa-angle-right padding-right-10"></i>Govermental</h5>
+                            <h5 className="h5-clickable"><i className="fas fa-angle-right padding-right-10"></i>Governmental </h5>
                             <ul className="np display-none">
-                                <li>Ministry Of Health Oman</li>
-                                <li>Ministry of Agriculture and Fishers</li>
-                                <li>Ministry of Manpower</li>
-                                <li>Ministry of water resources</li>
-                                <li>Royal Army</li>
-                                <li>Royal Air Force</li>
-                                <li>Oman national Museum</li>
+                                <li>Ministry of Health Oman</li>
+                                <li>Ministry of Agriculture, Fisheries and Water Resources</li>
+                                <li>Ministry of Labour</li>
+                                <li>Royal Army of Oman</li>
+                                <li>Royal Air Force of Oman</li>
+                                <li>National Museum of Oman</li>
                             </ul>
                         </div>
                         <div className="col-6 col-md-6 col-sm-12 col-sx-12">
@@ -272,8 +262,9 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                                 <li>Oman Science festival</li>
                                 <li>Oman Arab Bank</li>
                                 <li>Oman International Art Fair</li>
-                                <li>Kempinski hotel Muscat</li>
-                                <li>Mansoura University - International</li>
+                                <li>Kempinski Hotel Muscat</li>
+                                <li>Oman Film Society </li>
+                                <li>Oman Society of Engineers  </li>
                             </ul>
                         </div>
                     </div>
@@ -302,24 +293,33 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                     <h1>Our Accreditation Story</h1>
                 </div>
                 <img width={1600} height={800} src="/assets/content/accreditationnew.jpg" className="img-fluid" />
-                <p className="internal-content-text">The Scientific College of Design started its journey for institutional accreditation in 2009 with a Quality Audit which generated a report of commendations, affirmations, and recommendations.  The report was a roadmap for development of procedures, plans, policies, bylaws as well as improvements of management and governance.  Testing the level of improvements, SCD volunteered for a pilot study of Institutional Standards Assessment in 2016.  Again the Institutional Standards Assessment report paved the way for further developments and quality enhancement.  SCD applied for Institutional Standards Assessment during the following academic year and managed to meet all criteria except two.  Policies were initiated and procedures were improved to meet those criteria. The Oman Academic Accreditation Authority granted SCD accreditation status declaring thatScientific College of Design meets all applicable institutional standard in July 2019</p>
+                <p className="internal-content-text">The Scientific College of Design started its journey for institutional accreditation in 2009 with a Quality Audit. The report was a roadmap for the development of procedures, plans, policies, and bylaws. The college participated in the quality projects national pilot studies at the institutional and program level supporting the national regulatory body in testing and finalising the manuals. Following this, SCD applied for an Institutional Standards Assessment by the Oman Authority for Academic Accreditation and Quality Assurance of Education and received Institutional Accreditation in July 2019. </p>
                 <div className="row">
                     <div className="col-lg-6">
-                        <div className="padding-top-20 padding-bottom-20">
-                            <h1 className="green-box">Scientific College of Design meets all applicable institutional standard</h1>
-                        </div>
-                        <p>The Scientific College of Design received the “Institutional Accreditation” certificate from the Oman Academic Accreditation Authority in July 2019 for a period of five years, as SCD met all accreditation requirements of 8 standards and almost 70 criteria, all higher education institutions HEIs in the Sultanate of Oman are subject to the process of institutional and program accreditation, which is compulsory to measure the quality of education and to compare with the accreditation standards and the extent to which they are met. This applies in all countries of the world.</p>
                         <div className="internal-heading-size remove-left-padding" style={{width:"100%"}}>
-                            <h1>SCD Accreditation benefits for stakeholders:</h1>
+                            <h1>International Certifications:</h1>
                         </div>
+                        <p>The college received Program Equivalency from the National Association of Schools of Art and Design (NASAD), United States of America for the following programs:</p>
                         <ul className="margin-left-20 accreditation">
-                            <li>Higher reputation compared to other HEIs in the Sultanate, the region and the world.</li>
-                            <li>Self-confidence for the student community and the academic and administrative members.</li>
-                            <li>SCD earns the trust of all sectors of the government, private and parents.</li>
-                            <li>Add value for graduates when meet employers in the recruitment process and internship.</li>
-                            <li> Helps to get the international recognition.</li>
-                            <li>The entire community at the Scientific College of Design will maintain this reputation and work as a team to improve performance at all levels and to contribute actively in the development, design and achieve the goals of the fourth strategic plan 2021-2025.</li>
+                            <li>Bachelor of Arts - 4 years: Fine Arts; Photography.</li>
+                            <li>Bachelor of Science - 4 years: Animation; Graphic Design (Digital); Interior Design.</li>
+                            <li>Master of Arts - 1 year: Fine Art.</li>
+                            <li>Master of Science - 1 year: Interior Design; Visual Communication.</li>
                         </ul>
+                        <a href='https://nasad.arts-accredit.org/directory-lists/substantial-equivalency-programs/'>More details</a>
+
+                
+                        <p className='margin-top-20'>The college received International Program Certifications from the Accreditation & Quality Assurance Commission for Higher Education Institutions (AQACHEI), Jordan for the following programs:  </p>
+                        <ul className="margin-left-20 accreditation">
+                            <li>Bachelor of Architecture </li>
+                            <li>Bachelor of Science in Interior Design</li>
+                            <li>Bachelor of Science in Graphic Design Digital </li>
+                            <li>Bachelor of Science in Animation </li>
+                            <li>Bachelor of Arts in Fine Arts </li>
+                            <li>Bachelor of Arts in Photography</li>
+                            <li>Bachelor of Applied Arts in Fashion Design </li>
+                        </ul>
+                        <a href='https://nasad.arts-accredit.org/directory-lists/substantial-equivalency-programs/'>More details</a>
                     </div>
                     <div className='col-lg-6'>
                         <img width={932} height={1280} src="/assets/content/cert.jpg" className="img-fluid certificate-image-border" />
