@@ -6,22 +6,9 @@ function NewsEvents({ data }) {
   if (data) {
     return (
       <div className="blog-carousel-01 row"> 
-        {data.map((e) => (
-          <div className="single-blog-grid-item-01 col-lg-6 item" key={e.id}>
-              <div className="thumb">
-                <img width={532} height={401} src={`/assets/newsevents/${e.ne_image}`} className="img-fluid" alt="blog image"  />
-              </div> 
-              <div className="content">
-                  <span className="time">{moment(e.ne_datetime).format('LTS')}</span>
-                  <h3 className="title"><a href="#">{e.ne_title}</a></h3>
-                  <p className="newsBreif"> {e.ne_description} </p>
-                  <span className="time">
-                    <img width={40} height={40} src="/assets/logo/Logo-Center.png" className="newsProfileImage img-fluid" />  
-                    <span className='blog-user-alignment'>SCD News - {moment(e.ne_datetime).format('DD-MMM-YYYY')}</span>
-                    </span>
-              </div>
+          <div className="single-blog-grid-item-01 col-lg-12 item">
+          <div className="fb-page" data-href="https://www.facebook.com/SCD.Art.Design/" data-tabs="timeline, events" data-width="1320" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/SCD.Art.Design/" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SCD.Art.Design/">‎الكلية العلمية للتصميم- The Scientific College of Design‎</a></blockquote></div>
           </div>
-        ))}
       </div>      
     )
   } else {
