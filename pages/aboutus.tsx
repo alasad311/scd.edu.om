@@ -186,7 +186,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                     </div>
                     <div className="row">
                         <div className="col-lg-5 col-sx-12 col-md-12 aboutus-section-ul-with-background" >
-                            <h5><i className="fas fa-angle-right padding-right-10" ></i>Academic5</h5>
+                            <h5><i className="fas fa-angle-right padding-right-10" ></i>Academic</h5>
                             <ul className="mou-with-background">
                                 <li>University of Technology and Applied Sciences - Nizwa</li>
                                 <li>University of Minho</li>
@@ -299,7 +299,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                         <div className="internal-heading-size remove-left-padding" style={{width:"100%"}}>
                             <h1>International Certifications:</h1>
                         </div>
-                        <p>The college received Program Equivalency from the National Association of Schools of Art and Design (NASAD), United States of America for the following programs:</p>
+                        <p  className='margin-top-10'>The college received Program Equivalency from the National Association of Schools of Art and Design (NASAD), United States of America for the following programs:</p>
                         <ul className="margin-left-20 accreditation">
                             <li>Bachelor of Arts - 4 years: Fine Arts; Photography.</li>
                             <li>Bachelor of Science - 4 years: Animation; Graphic Design (Digital); Interior Design.</li>
@@ -309,7 +309,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                         <a href='https://nasad.arts-accredit.org/directory-lists/substantial-equivalency-programs/'>More details</a>
 
                 
-                        <p className='margin-top-20'>The college received International Program Certifications from the Accreditation & Quality Assurance Commission for Higher Education Institutions (AQACHEI), Jordan for the following programs:  </p>
+                        <p className='margin-top-10'>The college received International Program Certifications from the Accreditation & Quality Assurance Commission for Higher Education Institutions (AQACHEI), Jordan for the following programs:  </p>
                         <ul className="margin-left-20 accreditation">
                             <li>Bachelor of Architecture </li>
                             <li>Bachelor of Science in Interior Design</li>
@@ -319,7 +319,6 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                             <li>Bachelor of Arts in Photography</li>
                             <li>Bachelor of Applied Arts in Fashion Design </li>
                         </ul>
-                        <a href='https://nasad.arts-accredit.org/directory-lists/substantial-equivalency-programs/'>More details</a>
                     </div>
                     <div className='col-lg-6'>
                         <img width={932} height={1280} src="/assets/content/cert.jpg" className="img-fluid certificate-image-border" />
