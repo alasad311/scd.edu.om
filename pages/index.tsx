@@ -147,7 +147,8 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
       <SectionHomeEvents events={event} dates={date} />
       <SectionNewsletter links={mag} />
       <SectionNewsEvents news={newse} />
-      
+      <div id="fb-root"></div>
+      <Script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0&appId=740293611559808" nonce="omMBRTNn"></Script>
       <Footer />
       <Script src="js/jquery/jquery-3.6.0.min.js" strategy="beforeInteractive"/>
       <Script src="js/slick/slick.min.js" strategy="lazyOnload"/>

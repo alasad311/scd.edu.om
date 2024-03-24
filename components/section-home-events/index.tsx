@@ -5,22 +5,8 @@ export default function SectionHomeEvents({events,dates}) {
     <section className="event">
         <div className="container">
             <div className="row">
-                <div className="col-lg-6" style={{paddingRight:"31px"}}>
-                    <h2>Events</h2>
-                    <Events data={events} />
-                </div>
-                
                 <div className="col-lg-6" style={{backgroundColor:"#ffffff"}}>
-                    <h2>Important Dates</h2>
-                    <div className="event-date-slide slick-initialized slick-slider slick-dotted" role="toolbar">
-                        <div aria-live="polite" className="slick-list draggable">
-                            <div className="slick-track slick-track-add" role="listbox">
-                                <div className="row slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style={{width: "570px"}}>
-                                    <ImportantDates data={dates} />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="fb-page" data-href="https://www.facebook.com/SCD.Art.Design/" data-tabs="timeline, events" data-width="1320" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/SCD.Art.Design/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SCD.Art.Design/">‎الكلية العلمية للتصميم- The Scientific College of Design‎</a></blockquote></div>
                 </div>
             </div>
         </div>
