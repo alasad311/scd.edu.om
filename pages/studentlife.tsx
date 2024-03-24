@@ -38,10 +38,10 @@ export default function StudentLifePage({otherapps,services}) {
                     <a className="nav-link" href="#studentservices" data-bs-toggle="tab">Student Services</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#healthwellness" data-bs-toggle="tab">Health & Wellness</a>
+                    <a className="nav-link" href="#healthwellness" data-bs-toggle="tab">Student Counselling </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#safety"  data-bs-toggle="tab">Safety</a>
+                    <a className="nav-link" href="#safety"  data-bs-toggle="tab">Health & Safety Regulations </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#housing"  data-bs-toggle="tab">Housing</a>
@@ -68,7 +68,7 @@ export default function StudentLifePage({otherapps,services}) {
                 </div>
                 <img src="/assets/content/internationalstudents.jpg" width={1600} height={613} className="img-fluid" alt="" />
                 <p className="internal-content-text">
-                International students enrolled at the Scientific College of Design represent 7% of the student body.  Twenty one nationalities are represented where the majority belongs to expatriate families living in Oman.  The Scientific College of Design has formal recognition in several countries such as Jordan, Egypt, India as well as other Regional Countries.  The college supports international students in academic and governmental issues such as acquiring student visas, transportation, and housing (females).            
+                International students enrolled at the Scientific College of Design represent 7% of the student body. Twenty one nationalities are represented where the majority belongs to expatriate families living in Oman. The Scientific College of Design has formal recognition in several countries such as Jordan, Egypt, India as well as other Regional Countries. The college supports international students in academic and governmental issues such as acquiring student visas, transportation, and housing (females).            
                 </p>
                 <div className="row">
                   <div className="col-lg-3">
@@ -123,7 +123,7 @@ export default function StudentLifePage({otherapps,services}) {
               {/* Start */}
               <div className="tab-pane tab-pane-navigation" id="healthwellness">
                 <div className="internal-heading margin-bottom-30">
-                    <h1>Health & Wellness</h1>
+                    <h1>Student Counselling </h1>
                 </div>
                 <img src="/assets/content/wellness.jpg" width={1600} height={613} className="img-fluid" alt="" />
                 <p className="internal-content-text grey-box margin-top-20">The Scientific College of Design takes meticulous care of the students mental health. We organize educational talks about dealing with work stress, anxiety, addictions and many more. The Scientific College of Design grant students access to a educational mental health platform. SCD students can now share their thoughts and receive feedback from licensed professionals.                        </p>
@@ -162,25 +162,43 @@ export default function StudentLifePage({otherapps,services}) {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="internal-heading padding-top-20">
-                      <h1>Safety Measures at SCD</h1>
+                      <h1>Safety and Hygiene Measures </h1>
                     </div>
                       <ul className="fa-ul">
-                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Building is planned and equipped with adequate air circulation and ventilation</li>
-                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>All facilities are safe to maintain student wellbeing suchas locks on windows, doors and cabints.</li>
-                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Staircase is checked regularly so as to ensure that they are free from any hurdles and are not damaged.</li>
-                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Elevators are maintained with annual checkup under the contract with a maintenance company.</li>
-                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Any potentially harmful items/material is stored in lockable cabinets.</li>
-                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Rooms used for painting classes are equipped with heavy duty exhaust fans as a safety measure from pungent paint smell.</li>
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Following Muscat Municipality regulations, the college building is equipped with adequate air circulation and ventilation. A biennial inspection visit by the Ministry of Civil Defence and a certificate issued by them guarantee these standards.</li>
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Adhere with the national protocols and have a trained staff in the areas of health safety & environment induction, basic firefighting, risk assessment and basic first aid. </li>
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Maintain a professionally trained and certified in charge personnel in the area of health and safety to adhere with the Ministry of Labour requirements. </li>
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>All classrooms, studios, labs and offices are well equipped to get sufficient light and ventilation. </li>
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Due to local weather conditions, the entire college building (including hostel) are fully air-conditioned. </li>
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Vision panels/see through glasses are fitted in order to look into in case the doors are locked from inside. </li>
+
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>A maintenance contract with a cleaning company to ensure hygiene.  </li>
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>SCD has a contract with a specialized company for annual maintenance of elevators. </li>
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>All potentially harmful equipment, materials are stored in lockable cabinets in the studios and store.  </li>
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>In order to spread awareness, the college posted safety instructions in the woodwork shop, studios, print office, laser cutting room etc.  </li>
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Painting studios are equipped with heavy-duty exhaust fans as a safety measure from pungent paint smell. </li>
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>The college does deep cleaning over the weekend and an annual maintenance of all facilities and buildings.  </li>
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Students and staff must wear protective clothing (lab coats) and necessary equipment while working in the studios and woodwork shop. </li>
+                        <li><span className="fa-li"><i className="fas fa-check-square"></i></span>The college restaurant is outsourced. Maintenance is the sole responsibility of the restaurant manager and to ensure that national protocols are followed the Ministry of Health does an annual visit and issues a certificate.  </li>
                       </ul>
+                      <p><b>Note:</b>Pets are strictly restricted into the college premises. </p>
                   </div>
                   <div className="col-lg-6">
                     <div className="internal-heading padding-top-20">
-                      <h1>First Aid and Medication</h1>
+                      <h1>Medical and First aid facilities  </h1>
                     </div>
+                    <p>The college hired a well-qualified nurse to cater to marginal medical service and first aid. In case of need for further medical attention, the nurse contacts local hospital authorities/ambulance. The clinic hours of operation is from 8:00 am to 3:00 pm to cater to college students, faculty & staff. After these hours, the hostel supervisors take the responsibility of the hostel girls in case of medical attention by contacting a nearby hospital to arrange the needful. Equipment available are: </p>
                     <ul className="fa-ul">
-                      <li><span className="fa-li"><i className="fas fa-check-square"></i></span>SCD clinic is equipped with a nebulizer, blood sugar machine, oxygen O2 cylinder, blood pressure machine, pico light, digital thermometer, stethoscope, wheel chair, mobile screen and examination bed.</li>
-                      <li><span className="fa-li"><i className="fas fa-check-square"></i></span>First Aid and Medication on campus is available from 8:00 am to 3:00 pm under the guidance of a qualified nurse. If needed, she contacts hospital authorities to arrange further medical attention / ambulance.</li>
-                      <li><span className="fa-li"><i className="fas fa-check-square"></i></span>SCD hostel supervisors take responsibility for hostel students after 3:00 pm. If any medical attention is needed they are responsible to contact a nearby hospital and arrange for medical attention / ambulance.</li>
+                      <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Nebulizer</li>
+                      <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Blood sugar machine</li>
+                      <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Oxygen cylinder</li>
+                      <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Blood pressure machine</li>
+                      <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Pico light</li>
+                      <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Digital thermometer</li>
+                      <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Stethoscope</li>
+                      <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Wheel chair</li>
+                      <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Mobile screen</li>
+                      <li><span className="fa-li"><i className="fas fa-check-square"></i></span>Examination bed </li>
                     </ul>
                   </div>
                 </div>
@@ -282,20 +300,7 @@ export default function StudentLifePage({otherapps,services}) {
                       </div>
                     </div>
                   </div>
-                <div className="alert-red">
-                  <strong className="font-20"><i className="fas fa-exclamation-triangle"></i>Covid-19 Specific</strong>
-                  <br />
-                  <p className="color-red remove-bottom-padding">The college must provide the following:</p>
-                  <ul className='color-red-ul'>
-                      <li>High quality remote thermometer to measure the temperature of everyone entering campus</li>
-                      <li>Liquid soap in all toilets, and alcoholic sanitizer with 70% alcohol concentration to be available across campus.</li>
-                      <li>Face masks and gloves as needed</li>
-                      <li>Tissues and all toilets and classrooms</li>
-                      <li>Covered waste bins to be used as a standard</li>
-                      <li>Floor cleaning supplies that adhere to certain specifications of containing alcohol to curb the spread of viruses.</li>
-                      <li>Room to be specifically used as an isolation chamber</li>
-                  </ul>
-                </div>
+                
               </div>
               {/* END */}
               {/* START */}
