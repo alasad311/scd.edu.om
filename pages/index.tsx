@@ -105,6 +105,7 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
         </div>
       </div>
       
+      
       <div className="fixed-right side-form-icons">
         <a href="tel:0096824513222" target="_blank"><i className="fas fa-phone icon" id="open-opening-popup"></i></a>
         <a href="https://goo.gl/maps/92b7Gy7vTMCAh6H46" target="_blank"> <i className="fas fa-map-marker-alt icon" id="open-location-popup"></i></a>
