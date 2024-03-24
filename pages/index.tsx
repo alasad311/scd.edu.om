@@ -8,7 +8,6 @@ import SectionNewsletter from '../components/section-newsletter'
 import SectionNewsEvents from '../components/section-news-events'
 import Footer from '../components/footer'
 import moment from 'moment';
-import Instagram from 'instagram-web-api';
 
 export default function Home({posts,sliders,otherapps,majordata,sessiondata,date,event,mag,newse}) {
   return (
@@ -148,7 +147,7 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
       <SectionNewsletter links={mag} />
       <SectionNewsEvents news={newse} />
       <div id="fb-root"></div>
-      <Script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0&appId=740293611559808" nonce="omMBRTNn"></Script>
+      <Script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0&appId=740293611559808"></Script>
       <Footer />
       <Script src="js/jquery/jquery-3.6.0.min.js" strategy="beforeInteractive"/>
       <Script src="js/slick/slick.min.js" strategy="lazyOnload"/>
