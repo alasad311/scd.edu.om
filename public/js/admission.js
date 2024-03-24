@@ -41,10 +41,10 @@ $(".admission-circles").on('click',function(){
             window.open("/programs", '_blank');
             break;
         case "booktour": 
-            window.location.href   = "#booktour"
+            window.location.href   = "mailto:mpr@scd.edu.om;b.allamki@scd.edu.om"
             break;
         case "callback":
-            $('#formModal').modal('show')
+            window.location.href   = "https://wa.me/0096896707755"
             break;
     }
 

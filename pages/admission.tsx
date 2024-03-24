@@ -76,7 +76,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                     </tr>
                     <tr>
                       <td>Students with special needs (medical assessment)</td>
-                      <td>50</td>
+                      <td>100</td>
                     </tr>
                     <tr>
                       <td>Artists (Detail portfolio is to be submitted)</td>
@@ -104,23 +104,25 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                     <h1 className="col-lg-12 admssion-grey-box">Procedure</h1>
                 </div>
                 <ul>
-                    <li>Complete the appropriate information on the Financial Aid Request form explaining the reasons in detail and submit in person to the Deputy Dean for Student Affairs. </li>
-                    <li>Deputy Dean for Student Affairs is responsible to forward the form with all relevant documents to the Dean who in turn discusses with the Board of Directors according to the dedicated annual budget.</li>
-                    <li>Finally, after getting consent from Board of Directors, the Dean is responsible for conveying the decision taken, to the Deputy Dean for Student Affairs to inform student/parent/guardian. </li>
-                    <li>Decisions taken are final; no appeals will be entertained by the college. </li>
+                    <li>Complete the appropriate information on the Financial Aid Request form explaining the reasons in detail and submit in person to the Deputy Dean. </li>
+                    <li>The Deputy Dean is responsible to forward the form with all relevant documents to the Dean who in turn discusses with the Board of Directors according to the dedicated annual budget.</li>
+                    <li>Finally, after getting consent from the Board of Directors, the Dean is responsible for conveying the decision taken, to the Deputy Dean and Finance Office to inform student/parent/guardian. </li>
+                    <li>Decisions taken are final. The college will not entertain further appeals. </li>
                 </ul>
                 <object data='assets/files/Financial Aid Policy.pdf#toolbar=1' style={{height:"75vh"}} type='application/pdf' width='100%' ></object>
                 <div className="row">
                     <h1 className="col-lg-12 admssion-grey-box">The following rules govern the distribution of scholarship and tuition fee discount</h1>
                 </div>
                 <ul>
-                    <li>Financial Aid will be provided only to those students who have submitted the set of documents as mentioned in Financial Aid request Form</li>
-                    <li>If a student takes more than the total number of required credits for completion of program, the student is accountable for payment of extra credits taken.</li>
+                    <li>Financial Aid disbursement takes place only in the beginning of Fall & Spring semesters</li>
+                    <li>Financial Aid is available only to those students who have submitted the set of documents as indicated in the Financial Aid Request Form.</li>
+                    <li>If a student takes more than the total number of required credits for completion of the program, the student is accountable for payment of extra credits taken.</li>
                     <li>Scholarship/tuition fee discount offered is not transferable.</li>
-                    <li>Scholarship doesn’t cover any repeated courses or withdrawal.</li>
-                    <li>Scholarship doesn’t cover any extra fee such as registration fee, educational material, graduation fee and hostel fee.</li>
-                    <li>Based on student’s academic performance and status, the college reserves the right to confiscate the waiver at any time. </li>
-                    <li>SCD offers 100% scholarship to maximum 10 students per year based on students financial situation. </li>
+                    <li>Scholarship does not cover any repeated courses or withdrawal.</li>
+                    <li>Scholarship does not cover any extra fee such as registration fee, educational material, graduation fee and hostel fee. However, in some cases SCD offers a discount of 50% to 100% against hostel fee. </li>
+                    <li>Based on the student’s academic performance and status, the college reserves the right to withdraw the financial aid at any time. </li>
+                    <li>SCD offers 100% scholarship to a maximum of 10 students per academic year.</li>
+                    <li>SCD offers 50% fees deduction to repeat up to 15 credits to raise AGPA especially for those students who are graduating but with less than 2.0 or less than 2.3 to continue to get Education Diploma Certificate.</li>
                 </ul>
               </div>
               {/* END */}
@@ -133,7 +135,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                     </div>
                   </div>
                   <div className="row">
-                    <h1 className="col-lg-12 admssion-grey-box">What type of student are you?</h1>
+                    <h1 className="col-lg-12 admssion-grey-box">Applying for</h1>
                   </div>
                   <div className="row">
                     <div className="col-lg-3 col-md-12 contact-us-circle" data-target="undergraduate">
@@ -258,8 +260,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                     <section className="call-to-action call-to-action-default mb-5">
                         <div className="col-sm-12 col-lg-12">
                             <div className="call-to-action-content">
-                                <p className="mb-0 internal-content-text">Are looking for a creative career? Are wishing to obtain skills and academic knowledge on how to create effective and professional artwork? Then this is your place. 
-                                    We believe that art and design is a skill to be learned and developed. Therefore we build our academic program to develop and encourage creative thinking, imagination, research and most importantly overcoming challenges while being equipped with problem solving technique.
+                                <p className="mb-0 internal-content-text">Are looking for a creative career? Are you wishing to obtain skills and academic knowledge on how to create effective and professional artwork? Then this is your place. We believe that art and design skills help to learn and develop a professional career. Therefore, we build our academic programs to develop and encourage creative thinking, imagination, research and most importantly overcoming challenges while being equipped with problem-solving techniques.
                                     </p>
                             </div>
                         </div>
@@ -444,14 +445,14 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                           <div className="col-lg-4">
                               <div className="card border-0 border-radius-0 bg-color-primary">
                                   <div className="card-body" >
-                                      <h4 className="card-title mb-1 text-4 font-weight-bold text-light">Fall (Begins in September)</h4>
+                                      <h4 className="card-title mb-1 text-4 font-weight-bold text-light">Fall (Begins in October)</h4>
                                   </div>
                               </div>
                           </div>
                           <div className="col-lg-4">
                               <div className="card border-0 border-radius-0 bg-color-primary">
                                   <div className="card-body" >
-                                      <h4 className="card-title mb-1 text-4 font-weight-bold text-light">Spring (Begins in January)</h4>
+                                      <h4 className="card-title mb-1 text-4 font-weight-bold text-light">Spring (Begins in February)</h4>
                                   </div>
                               </div>
                           </div>
@@ -579,66 +580,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                         <p className="internal-content-text padding-bottom-20 remove-top-padding">Get a real life experience of SCD student life. We offer you a guided tour around SCD campus and faculties. Visit our state of art labs, various studios, theater, student lounge, outdoor sitting area along with answering all your inquires about the suspected major to enroll in.
                       </p>
                       </div>
-              {/* <form onSubmit={handleSubmit(onSubmit)}> */}
-                    <div className="row">
-                      <div className="col-12 col-md-6 col-lg-5">
-                        <div className="form-style">
-                        {/* ${isFValid? 'valid' : 'invalid'} */}
-                          <div className={`form-group required`}>
-                            <input className="form-control"   name="FirstName" id="FirstName"  type="text"  placeholder="First name" />
-                            
-                            <i className="error-icon fas fa-exclamation-triangle"></i>
-                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
-                            
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-12 col-md-6 col-lg-5">
-                        <div className="form-style">
-                          {/* ${isFValid? 'valid' : 'invalid'} */}
-                          <div className={`form-group required`}>
-                            <input className="form-control"   name="LastName" id="LastName"  type="text"  placeholder="Last name" />
-                            
-                            <i className="error-icon fas fa-exclamation-triangle"></i>
-                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
-                            
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-12 col-md-6 col-lg-5">
-                        <div className="form-style">
-                          {/* ${isFValid? 'valid' : 'invalid'} */}
-                          <div className={`form-group required`}>
-                            <input className="form-control"   name="phone" id="phone"  type="text"  placeholder="Phone Number" />
-                            
-                            <i className="error-icon fas fa-exclamation-triangle"></i>
-                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
-                            
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-12 col-md-6 col-lg-5">
-                        <div className="form-style">
-                           {/* ${isFValid? 'valid' : 'invalid'} */}
-                           <div className={`form-group required`}>
-                            <select className="form-control" name="majors">
-                                <option value="">Select Major</option>
-                                  {majordata.map((node) => {
-                                    return <option value={node.id}>{node.major_name}</option>
-                                  })}
-                              </select>
-                            
-                            <i className="error-icon fas fa-exclamation-triangle"></i>
-                            {/* <span className="error-text">{errors.FirstName?.type === 'required' && "First name is required"}{errors.FirstName?.type === 'pattern' && "only alphabits is accepted"}</span> */}
-                            
-                          </div>
-
-                        </div>
-                      </div>
-                      
-                    </div>
-                    <button type="submit" className="main-btn book-session-btn">Book</button>
-                  {/* </form> */}
+                    <a href='mailto:mpr@scd.edu.om;b.allamki@scd.edu.om' type="submit" className="main-btn book-session-btn">Book</a>
                       
                     </div>
                     <div className="col-12 col-md-6 content">
@@ -832,7 +774,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                       </tr>
                       <tr>
                           <td><b>Graduation Fees</b></td>
-                          <td>40 OMR</td>
+                          <td>45 OMR</td>
                           <td>-</td>
                       </tr>
                     </tbody>
