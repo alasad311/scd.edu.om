@@ -209,11 +209,11 @@ export default function StudentLifePage({otherapps,services}) {
                         <div className="box-content p-4 fix-box-height-2">
                           <div className="row">
                             <div className="col">
-                              <h2 className="font-weight-bold text-color-white font-20" >Health and Safety during trips</h2>
+                              <h2 className="font-weight-bold text-color-white font-20" >Awareness Sessions and Evacuation drill </h2>
                               <div className="divider divider-small divider-small-center " >
                                 <hr className="border-white" />
                               </div>
-                              <p className="safety-internal-content">Faculty taking students on educational trips are responsible to take proper measures for students’ health and safety during trips. In the event of any incident faculty member is responsible to provide immediate medical attention from the nearest medical center and report to the college nurse as they reach college to record the incident.</p>
+                              <p className="safety-internal-content">The college nurse gives presentations, sends health and safety emails, invites external speakers to guide students on medical attention and hygiene. Furthermore, to spread the awareness on emergency exits in case of fire/other emergencies, the college Administration & Human Resource Manager organizes an annual Evacuation Drill following the norms stated by the Royal Oman Police. </p>
                             </div>
                           </div>
                         </div>
@@ -224,11 +224,11 @@ export default function StudentLifePage({otherapps,services}) {
                         <div className="box-content p-4 fix-box-height-2">
                           <div className="row">
                             <div className="col">
-                              <h2 className="font-weight-bold text-color-white font-20 ">Risk Assessment</h2>
+                              <h2 className="font-weight-bold text-color-white font-20 ">Health and Safety during trips </h2>
                               <div className="divider divider-small divider-small-center  ">
                                 <hr className="border-white" />
                               </div>
-                              <p className="safety-internal-content">SCD performs Risk assessment every academic year to guarantee that the welfare of all internal stakeholders at the college is secured. All employees need to mention possible risks using risk register and submit it to his/her supervisor. Any risks identified are reported to respective personnel to mitigate them on time.</p>
+                              <p className="safety-internal-content">Faculty taking students on educational trips are responsible to take proper measures for students’ health and safety during trips. In the event of any incident, a faculty member is responsible to provide immediate medical attention from the nearest medical centre/hospital and report to the college nurse as they reach college to record the incident in the SCD Incident Record Form. </p>
                             </div>
                           </div>
                         </div>
@@ -239,11 +239,11 @@ export default function StudentLifePage({otherapps,services}) {
                         <div className="box-content p-4 fix-box-height-2">
                           <div className="row">
                             <div className="col">
-                              <h2 className="font-weight-bold text-color-white font-20">Evacuation drill</h2>
+                              <h2 className="font-weight-bold text-color-white font-20">National Protocol </h2>
                               <div className="divider divider-small divider-small-center  ">
                                 <hr className="border-white" />
                               </div>
-                              <p className="safety-internal-content">Administrative and HR manager plans and organizes an annual evacuation drill with the support of Royal Oman Police. In times of any incident evacuation drill helps to spread awareness of emergency exits for all stakeholders in times of any accident on campus</p>
+                              <p className="safety-internal-content">A biennial inspection by Ministry of Civil Defence and based on inspection results, the college receives a certificate valid for two years or recommendations for changes. However, Civil Defence holds authority to visit college and perform any unexpected inspection to assure that SCD adheres to the national law. Furthermore, following the national requirements, a nationally recognised and approved maintenance company visits the college every 6 months to evaluate facilities and services and inform changes/replacements needed in the form of a report. </p>
                             </div>
                           </div>
                         </div>
@@ -258,11 +258,11 @@ export default function StudentLifePage({otherapps,services}) {
                         <div className="box-content p-4 fix-box-height-2">
                           <div className="row">
                               <div className="col">
-                                <h2 className="font-weight-bold text-color-white font-20">Smoking</h2>
+                                <h2 className="font-weight-bold text-color-white font-20">Record Keeping </h2>
                                 <div className="divider divider-small divider-small-center  ">
                                   <hr className="border-white" />
                                 </div>
-                                <p className="safety-internal-content">SCD desires to offer students and employees a clean and pleasant environment for study and work. Since smoking endangers health and safety, smoking is prohibited in any area of SCD campus. </p>
+                                <p className="safety-internal-content">The college nurse documents all accidents/injuries is in “Incident Record Form” and reports them to the Deputy Dean and Student Affairs Head on a weekly basis.  </p>
                               </div>
                             </div>
                           </div>
@@ -273,11 +273,11 @@ export default function StudentLifePage({otherapps,services}) {
                           <div className="box-content p-4 fix-box-height-2">
                             <div className="row">
                               <div className="col">
-                                <h2 className="font-weight-bold text-color-white font-20">Crises Management</h2>
+                                <h2 className="font-weight-bold text-color-white font-20">Building Maintenance Work Permit </h2>
                                 <div className="divider divider-small divider-small-center ">
                                     <hr className="border-white" />
                                 </div>
-                                <p className="safety-internal-content">SCD announces any impending crisis and uses Ma- zoon College facilities during the crisis. Approved company inspects all facilities and services and informs changes/replacements needed in the form of a report </p>
+                                <p className="safety-internal-content">Building maintenance work permit is for outsourced contractors engaged by SCD who will carry out work on SCD campus. SCD constituents are approximately 1200 plus visitors to the college in its day-to-day activities. Henceforth, specific precautions are required while performing any kind of work at the college. In order to document this, SCD uses Building Maintenance Work Permit form filled by outsourced contractors. SCD does not allow any kind of interference without completing this form and other relevant documentation, if needed. </p>
                               </div>
                             </div>
                           </div>
@@ -288,11 +288,11 @@ export default function StudentLifePage({otherapps,services}) {
                           <div className="box-content p-4 fix-box-height-2">
                             <div className="row">
                               <div className="col">
-                                <h2 className="font-weight-bold text-color-white font-20">Record Keeping</h2>
+                                <h2 className="font-weight-bold text-color-white font-20">Risk Assessment </h2>
                                 <div className="divider divider-small divider-small-center ">
                                     <hr className="border-white" />
                                 </div>
-                                <p className="safety-internal-content">All accidents/injuries are recorded in “Incident Record Form” by the college nurse.</p>
+                                <p className="safety-internal-content">SCD performs Risk assessment annually by applying a Risk Management Plan to guarantee the welfare of all internal stakeholders. Following the plan, all employees must mention possible risks to the supervisor and document them in a Risk Register. Refer to the Risk Management Plan for complete details. </p>
                               </div>
                             </div>
                           </div>
