@@ -313,7 +313,7 @@ export default function StudentLifePage({otherapps,services}) {
                     <div className="col-lg-12">
                       <img src="/assets/content/housing.jpg" className="img-fluid" width={1600} height={613} />
                     </div>
-                    <div className="internal-heading margin-bottom-30">
+                    <div className="internal-heading margin-top-20">
                       <h1>Protocol and Behaviour code </h1>
                     </div>
                     <ul className="margin-left-30 padding-top-20 accreditation">
@@ -339,13 +339,55 @@ export default function StudentLifePage({otherapps,services}) {
                       <li>Use the authorization provided in the Hostel Accommodation Form to take students outside campus. Guardians must appoint authorized individuals and/or bus driver details in the form. Changes or additions to authorized persons require the guardian to visit in person or email hostel@scd.edu.om/WhatsApp 00-968-91777728, specifying whether it's a one-time or permanent change, and include a copy of their ID.</li>
                       <li>Visiting family, relatives, and receiving items must occur only in the hostel supervisor's office.</li>
                     </ul>
-                    <div className="internal-heading margin-bottom-30">
+                    <div className="internal-heading margin-top-20">
                       <h1>Prices and financial obligations </h1>
                     </div>
                     <ul className="margin-left-30 padding-top-20 accreditation">
                       <li>A refundable deposit of 50 OMR is required upon joining.</li>
                       <li>If a resident withdraws after one week of entering the hostel, they are liable for full semester fees.</li>
                       <li>Accommodation fees are due before the end of each semester.</li>
+                    </ul>
+                    <table className='table table-striped'>
+                    <tbody>
+                      <tr>
+                          <th>Room Type</th>
+                          <th>Fall Semester</th>
+                          <th>Spring Semester</th>
+                          <th>Summer Semester</th>
+                      </tr>
+                      <tr>
+                          <td>Single room</td>
+                          <td>500 to 600 OMR</td>
+                          <td>500 to 600 OMR</td>
+                          <td>250 to 300 OMR</td>
+                      </tr>
+                      <tr>
+                          <td>Double  room</td>
+                          <td>250 to 350 OMR</td>
+                          <td>250 to 350 OMR</td>
+                          <td>125 to 200 OMR</td>
+                      </tr>
+                      <tr>
+                          <td>Triple  room</td>
+                          <td>200 to 300 OMR</td>
+                          <td>200 to 300 OMR</td>
+                          <td>100 to 175 OMR</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div className="internal-heading margin-top-20">
+                      <h1>Other Facilities & Services</h1>
+                    </div>
+                    <ul className="margin-left-30 padding-top-20 accreditation">
+                      <li>Two washing machines are available on each floor.</li>
+                      <li>One sitting common area/hall on every floor.</li>
+                      <li>Two kitchens on every floor that are accessible from 7:00 AM to 9:00 PM.</li>
+                      <li>One study room on every floor.</li>
+                      <li>Internet connectivity (Open Wi-Fi and internet connectivity sockets in selected areas)</li>
+                      <li>The college main campus is accessible from 7:00 AM until 6:00 PM.</li>
+                      <li>Every 2 weeks transportation facility to a local mall/park under the supervision of the hostel supervisor.</li>
+                      <li>College restaurant provides meals and snacks and accessible from 8:00 AM to 9:00 PM.</li>
+                      <li>Other entertainment/sports facilities includes treadmill, upright bike, table tennis, table football game (baby foot) and air hockey table.</li>
                     </ul>
                   </div>
                 </div>
