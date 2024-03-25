@@ -47,7 +47,7 @@ export default function StudentLifePage({otherapps,services}) {
                     <a className="nav-link" href="#housing"  data-bs-toggle="tab">Hostel Accommodation</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#dining"  data-bs-toggle="tab">Dining</a>
+                    <a className="nav-link" href="#dining"  data-bs-toggle="tab">Restaurant Services  </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#annualevents"  data-bs-toggle="tab">Annual Events</a>
