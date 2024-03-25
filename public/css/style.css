@@ -13260,6 +13260,6 @@ a.btn.btn-cancel.manage-btn {
     content: "Browse";
 }
 .customherflayout{
-    color: unset !important;
+    color: #545454 !important;
     display: block;
 }
