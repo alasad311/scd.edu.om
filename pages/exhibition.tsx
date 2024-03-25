@@ -87,7 +87,7 @@ export default function ExhibitionPage({otherapps}) {
                     <a className="nav-link active" href="#scdgallery" data-bs-toggle="tab">SCD Gallery</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#latestexhibition" id="https://www.instagram.com/scd_oman/?hl=en" data-bs-toggle="tab">Latest Exhibition</a>
+                    <a className="nav-link" href="https://www.instagram.com/scd_oman/?hl=en" id="" data-bs-toggle="tab">Latest Exhibition</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#exhibitionapplication" id="btn_app" data-bs-toggle="tab">Exhibition Application</a>
