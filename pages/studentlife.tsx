@@ -44,7 +44,7 @@ export default function StudentLifePage({otherapps,services}) {
                     <a className="nav-link" href="#safety"  data-bs-toggle="tab">Health & Safety Regulations </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#housing"  data-bs-toggle="tab">Housing</a>
+                    <a className="nav-link" href="#housing"  data-bs-toggle="tab">Hostel Accommodation</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#dining"  data-bs-toggle="tab">Dining</a>
@@ -206,7 +206,7 @@ export default function StudentLifePage({otherapps,services}) {
                   <div className="row">
                     <div className="col-lg-4">
                       <div className="featured-box featured-box-primary green-background" >
-                        <div className="box-content p-4 fix-box-height-2">
+                        <div className="box-content p-4 ">
                           <div className="row">
                             <div className="col">
                               <h2 className="font-weight-bold text-color-white font-20" >Awareness Sessions and Evacuation drill </h2>
@@ -221,7 +221,7 @@ export default function StudentLifePage({otherapps,services}) {
                     </div>
                     <div className="col-lg-4">
                       <div className="featured-box featured-box-primary green-background">
-                        <div className="box-content p-4 fix-box-height-2">
+                        <div className="box-content p-4 ">
                           <div className="row">
                             <div className="col">
                               <h2 className="font-weight-bold text-color-white font-20 ">Health and Safety during trips </h2>
@@ -236,7 +236,7 @@ export default function StudentLifePage({otherapps,services}) {
                     </div>
                     <div className="col-lg-4">
                       <div className="featured-box featured-box-primary green-background">
-                        <div className="box-content p-4 fix-box-height-2">
+                        <div className="box-content p-4 ">
                           <div className="row">
                             <div className="col">
                               <h2 className="font-weight-bold text-color-white font-20">National Protocol </h2>
@@ -255,7 +255,7 @@ export default function StudentLifePage({otherapps,services}) {
                   <div className="row">
                     <div className="col-lg-4">
                       <div className="featured-box featured-box-primary green-background">
-                        <div className="box-content p-4 fix-box-height-2">
+                        <div className="box-content p-4 ">
                           <div className="row">
                               <div className="col">
                                 <h2 className="font-weight-bold text-color-white font-20">Record Keeping </h2>
@@ -270,7 +270,7 @@ export default function StudentLifePage({otherapps,services}) {
                       </div>
                       <div className="col-lg-4">
                         <div className="featured-box featured-box-primary green-background">
-                          <div className="box-content p-4 fix-box-height-2">
+                          <div className="box-content p-4 ">
                             <div className="row">
                               <div className="col">
                                 <h2 className="font-weight-bold text-color-white font-20">Building Maintenance Work Permit </h2>
@@ -285,7 +285,7 @@ export default function StudentLifePage({otherapps,services}) {
                       </div>
                       <div className="col-lg-4">
                         <div className="featured-box featured-box-primary green-background">
-                          <div className="box-content p-4 fix-box-height-2">
+                          <div className="box-content p-4 ">
                             <div className="row">
                               <div className="col">
                                 <h2 className="font-weight-bold text-color-white font-20">Risk Assessment </h2>
@@ -308,24 +308,44 @@ export default function StudentLifePage({otherapps,services}) {
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="internal-heading padding-top-20">
-                      <h1>Housing</h1>
+                      <h1>Hostel Accommodation</h1>
                     </div>
                     <div className="col-lg-12">
                       <img src="/assets/content/housing.jpg" className="img-fluid" width={1600} height={613} />
                     </div>
+                    <div className="internal-heading margin-bottom-30">
+                      <h1>Protocol and Behaviour code </h1>
+                    </div>
                     <ul className="margin-left-30 padding-top-20 accreditation">
-                      <li>A comfortable and well lit environment for students to read and do their assignments.</li>
-                      <li>Tidy beds with ample storage for clothing &amp; personal belongings.</li>
-                      <li>A live-in nurse with several years of experience and available on call 24X7.</li>
-                      <li>Washing machines and dryers are available for hygiene and convenience.</li>
-                      <li>A large TV room with several local and foreign channels.</li>
-                      <li>A resident Cafeteria that offers cuisine dishes from the Arab Orient.</li>
-                      <li>Two custodians manage the building 24X7 and tend to student needs and welfare.</li>
-                      <li>Refrigerators and water coolers are available on every floor and the refrigerators are periodically checked for perishables.</li>
-                      <li>Hostel Students are allowed daily to access the labs and internet up to 8:00 PM, in order to do research and surf the internet.</li>
-                      <li>Ordering out is an available option and one shopping trip is admitted per week</li>
-                      <li>A non-smoking environment with frequent cleaning visits and rapid facility maintenance.</li>
-                      <li>24×7 Security service, limiting access after business hours.</li>
+                      <li>Respect local customs and traditions regarding dress, language, and the hostel environment.</li>
+                      <li>Treat fellow residents and staff with respect and courtesy.</li>
+                      <li>Refrain from discussing politics, religion, or other sensitive topics.</li>
+                      <li>Strictly prohibit parties, events, or loud music in the hostel.</li>
+                      <li>Hearing-impaired residents may share a room with another hearing-impaired resident or have a single room.</li>
+                      <li>Maintain quiet from 10:00 PM to 7:00 AM.</li>
+                      <li>Limit entry to hostel rooms only to resident students.</li>
+                      <li>Maintain cleanliness and hygiene in common facilities.</li>
+                      <li>Strictly prohibited to cook inside the rooms due to safety concerns.</li>
+                      <li>Common area lights (sitting rooms, hallways, and kitchens) turn off at 10:00 PM.</li>
+                      <li>Obtain a leave permit from the hostel supervisor to leave campus.</li>
+                      <li>Report any maintenance or other issues to the hostel supervisors.</li>
+                      <li>Maintain cleanliness throughout the hostel.</li>
+                      <li>Be present in your designated room for supervisor attendance checks before 9:30 PM.</li>
+                      <li>Do not paste pictures or papers on room walls.</li>
+                      <li>Do not vandalize furniture.</li>
+                      <li>Strictly prohibited to bring artwork and art materials (paintings, colors, clay works, and sculptures) is inside the residence hall.</li>
+                      <li>Dress modestly in hallways and other common areas.</li>
+                      <li>Vacate the hostel during official holidays, emergencies, or maintenance periods.</li>
+                      <li>Use the authorization provided in the Hostel Accommodation Form to take students outside campus. Guardians must appoint authorized individuals and/or bus driver details in the form. Changes or additions to authorized persons require the guardian to visit in person or email hostel@scd.edu.om/WhatsApp 00-968-91777728, specifying whether it's a one-time or permanent change, and include a copy of their ID.</li>
+                      <li>Visiting family, relatives, and receiving items must occur only in the hostel supervisor's office.</li>
+                    </ul>
+                    <div className="internal-heading margin-bottom-30">
+                      <h1>Prices and financial obligations </h1>
+                    </div>
+                    <ul className="margin-left-30 padding-top-20 accreditation">
+                      <li>A refundable deposit of 50 OMR is required upon joining.</li>
+                      <li>If a resident withdraws after one week of entering the hostel, they are liable for full semester fees.</li>
+                      <li>Accommodation fees are due before the end of each semester.</li>
                     </ul>
                   </div>
                 </div>
