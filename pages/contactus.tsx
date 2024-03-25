@@ -93,29 +93,37 @@ export default function ContactusPage({otherapps,adminoffice,dept}) {
                 </div>
               </div>
               <div className="row">
-                <div className="col-lg-3 col-md-12 contact-us-circle" data-target="callback">
-                  <div className="circle">
-                    <span><i className="fas  fa-phone-volume" ></i></span>
-                  </div>
-                  <h5 className="circle-title padding-top-20">Request a Call</h5>
+                <div className="col-lg-3 col-md-12 contact-us-circle">
+                  <a href='https://wa.me/0096896707755' className='customherflayout'>
+                    <div className="circle">
+                      <span><i className="fas  fa-phone-volume" ></i></span>
+                    </div>
+                    <h5 className="circle-title padding-top-20">Request a Call</h5>
+                  </a>
                 </div>
-                <div className="col-lg-3 col-md-3 contact-us-circle" data-target="programs">
-                  <div className="circle">
-                    <span><i className="fas fa-search"></i></span>
-                  </div>
-                  <h5 className="circle-title padding-top-20">Borwser a Program</h5>
+                <div className="col-lg-3 col-md-3 contact-us-circle">
+                  <a href='https://scd.edu.om/programs' className='customherflayout'>
+                    <div className="circle">
+                      <span><i className="fas fa-search"></i></span>
+                    </div>
+                    <h5 className="circle-title padding-top-20">Borwser a Program</h5>
+                  </a>
                 </div>
-                <div className="col-lg-3 col-md-3 contact-us-circle" data-target="booktourc">
-                  <div className="circle">
-                    <span><i className="fas fa-building"></i></span> 
-                  </div>
-                  <h5 className="circle-title padding-top-20">Book a Tour</h5>
+                <div className="col-lg-3 col-md-3 contact-us-circle">
+                  <a href='mailto:mpr@scd.edu.om;b.allamki@scd.edu.om' className='customherflayout'>
+                    <div className="circle">
+                      <span><i className="fas fa-building"></i></span> 
+                    </div>
+                    <h5 className="circle-title padding-top-20">Book a Tour</h5>
+                  </a>
                 </div>
-                <div className="col-lg-3 col-md-3 contact-us-circle" data-target="application">
-                  <div className="circle">
-                    <span><i className="fas fa-bars"></i></span> 
-                  </div>
-                  <h5 className="circle-title padding-top-20">Start Application</h5>
+                <div className="col-lg-3 col-md-3 contact-us-circle">
+                  <a href='https://www.apply.scd.edu.om' className='customherflayout'>
+                    <div className="circle">
+                      <span><i className="fas fa-bars"></i></span> 
+                    </div>
+                    <h5 className="circle-title padding-top-20">Start Application</h5>
+                  </a>
                 </div>
               </div>
 

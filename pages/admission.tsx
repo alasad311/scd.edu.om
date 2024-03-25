@@ -547,23 +547,29 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                           </div>
                       </div>
                       <div className="row justify-center" >
-                        <div className="col-lg-3 col-md-12 contact-us-circle admission-circles" data-target="programs">
-                          <div className="circle">
-                            <span><i className="fas  fa-search" ></i></span>
-                          </div>
-                          <h5 className="circle-title padding-top-20">Borwse Programs</h5>
+                        <div className="col-lg-3 col-md-12 contact-us-circle admission-circles">
+                          <a href='https://scd.edu.om/programs  ' className='customherflayout'>
+                            <div className="circle">
+                              <span><i className="fas  fa-search" ></i></span>
+                            </div>
+                            <h5 className="circle-title padding-top-20">Borwse Programs</h5>
+                          </a>
                         </div>
-                        <div className="col-lg-3 col-md-12 contact-us-circle admission-circles" data-target="booktour">
-                          <div className="circle">
-                            <span><i className="fas  fa-building" ></i></span>
-                          </div>
-                          <h5 className="circle-title padding-top-20">Book a Tour</h5>
+                        <div className="col-lg-3 col-md-12 contact-us-circle admission-circles">
+                          <a href='mailto:mpr@scd.edu.om;b.allamki@scd.edu.om' className='customherflayout'>
+                            <div className="circle">
+                              <span><i className="fas  fa-building" ></i></span>
+                            </div>
+                            <h5 className="circle-title padding-top-20">Book a Tour</h5>
+                          </a>
                         </div>
-                        <div className="col-lg-3 col-md-12 contact-us-circle admission-circles" data-target="callback">
-                          <div className="circle">
-                            <span><i className="fas  fa-phone-volume" ></i></span>
-                          </div>
-                          <h5 className="circle-title padding-top-20">Request a Call</h5>
+                        <div className="col-lg-3 col-md-12 contact-us-circle admission-circles">
+                          <a href='https://wa.me/0096896707755' className='customherflayout'>
+                            <div className="circle">
+                              <span><i className="fas  fa-phone-volume" ></i></span>
+                            </div>
+                            <h5 className="circle-title padding-top-20">Request a Call</h5>
+                          </a>
                         </div>
                       </div>
                   </div>

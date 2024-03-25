@@ -13259,3 +13259,7 @@ a.btn.btn-cancel.manage-btn {
 .custom-file-input:lang(en)~.custom-file-label::after {
     content: "Browse";
 }
+.customherflayout{
+    color: unset !important;
+    display: block;
+}

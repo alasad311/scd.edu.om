@@ -171,11 +171,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                   <div className="col-lg-9">
                     <div className="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
                       <blockquote >
-                        <p className="mb-0"><b>Congratulation, and welcome to SCD Alumni Club</b> your SCD certificate is your ticket to enter the SCD Alumni Club, more than 2650+ graduated from SCD and 
-                            we are happy to be in touch with you all, and we want all of you to be connected with us. 
-                            The Alumni club offers you to build your network, know the achievement accomplished done by your fellow alumni’s and of 
-                            course to have FUN too, Alumni bond is enjoyable, and it helps you to successed and connect with us.
-                            </p>
+                        <p className="mb-0"><b>Congratulations, and welcome to the SCD Alumni Club.</b> SCD certificate is your ticket to enter the SCD Alumni Club, more than 3000+ graduated from SCD and we are happy to be in touch with you all, and we want all of you to stay connected with us. The Alumni Club allows you to build your network, know the achievements accomplished by your fellow alumni and have FUN. The Alumni bond is enjoyable, and it helps you to succeed and connect with us.</p>
                       </blockquote>
                       <div className="testimonial-author padding-top-20 ">
                         <p><strong className="font-weight-extra-bold text-align-right">Haitham Al Azawi</strong><span className="text-align-right">Head of Alumni</span></p>
@@ -184,20 +180,24 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                   </div>
                 </div>
                 <div className="row padding-top-50">
-                  <div className="col-lg-4 col-md-12 alumni-circle" data-target="followus">
-                    <div className="circle">
-                      <span><i className="fas fa-hashtag" ></i></span>
-                    </div>
-                    <h5 className="circle-title padding-top-20">Follow us</h5>
-                  </div>
-                  <div className="col-lg-4 col-md-12 alumni-circle" data-target="stayconnected">
-                    <div className="circle">
-                      <span><i className="fas fa-phone-volume"></i></span>
-                    </div>
-                    <h5 className="circle-title padding-top-20">Stay Connected</h5>
+                  <div className="col-lg-4 col-md-12 alumni-circle">
+                    <a href='https://www.instagram.com/alumniclub_scd/?hl=en' className='customherflayout'>
+                      <div className="circle">
+                        <span><i className="fas fa-hashtag" ></i></span>
+                      </div>
+                      <h5 className="circle-title padding-top-20">Follow us</h5>
+                      </a>
                   </div>
                   <div className="col-lg-4 col-md-12 alumni-circle">
-                    <a href='mailto:alumni@scd.edu.om'>
+                    <a href='tel:0096824513295' className='customherflayout'>
+                      <div className="circle">
+                        <span><i className="fas fa-phone-volume"></i></span>
+                      </div>
+                      <h5 className="circle-title padding-top-20">Stay Connected</h5>
+                      </a>
+                  </div>
+                  <div className="col-lg-4 col-md-12 alumni-circle">
+                    <a href='mailto:alumni@scd.edu.om' className='customherflayout'>
                       <div className="circle">
                         <span><i className="fas fa-envelope"></i></span> 
                       </div>
