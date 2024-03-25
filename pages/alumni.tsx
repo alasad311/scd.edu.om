@@ -32,13 +32,13 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                     <a className="nav-link active" href="#alumniclub" data-bs-toggle="tab">Alumni Club</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#alumniopportunity" data-bs-toggle="tab">Alumni Opportunity</a>
+                    <a className="nav-link" href="#alumniopportunity" data-bs-toggle="tab">Alumni Opportunities </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#awordfromscdalumni" data-bs-toggle="tab">A Word from SCD Alumni</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#upcomingevent" data-bs-toggle="tab">Upcoming Events</a>
+                    <a className="nav-link" href="https://www.instagram.com/alumniclub_scd/?hl=en" data-bs-toggle="tab">Upcoming Events</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#almnioffice"  data-bs-toggle="tab">Alumni Office</a>
@@ -55,7 +55,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                     <div className="internal-heading padding-top-20">
                       <h1>Alumni Club</h1>
                     </div>
-                    <p className="internal-content-text">The Scientific College of Design believes that education does not end with our students obtaining their degree. We are dedicated to maintain a stable connection with our alumni and supporting them even after their graduation ceremony. SCD ensure a strong communication stream is build with all graduates by holding annual activities, events and workshop. These events are initiated to provide SCDians with lifelong learning experience as well as to ensure success in their career path.   </p>
+                    <p className="internal-content-text">The Scientific College of Design believes that education does not end with our students obtaining their degrees. We are dedicated to maintaining a stable connection with our alumni and supporting them even after their graduation ceremony. SCD ensures a strong communication stream is building with all graduates by holding annual activities, events and workshops. These events provide alumni with lifelong learning experiences as well as ensure success in their career path. </p>
                     <div className="row counters with-borders ">
                       <div className="col-lg-4">
                         <div className="counter counter-primary">
@@ -71,7 +71,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                       </div> 
                       <div className="col-lg-4">
                         <div className="counter counter-primary">
-                          <strong>13+</strong>
+                          <strong>16+</strong>
                           <label>No. of Graduation Ceremony</label>
                         </div>
                       </div>
@@ -90,7 +90,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
               {/* END */}
               {/* Start */}
               <div className="tab-pane tab-pane-navigation" id="alumniopportunity">
-                <p className="internal-content-text">SCD alumni are granted various opportunities; The Alumni office holds annual events such as SCD Career Fair. This event allows local and international companies to recruit hardworking talented students and alumni for jobs, internships, and freelance opportunities. As SCD alumni, you are offered an open invitation for SCD event and exhibitions. We are proud to exhibit SCD graduate students work in our gallery and in order to ensure their academic excellence SCD offers advising and coaching session by our Faculty members to guide graduates in their professional life.</p>
+                <p className="internal-content-text">SCD alumni are granted various opportunities; The Alumni office holds annual events such as SCD Career Fair. This event allows local and international companies to recruit hardworking talented students and alumni for jobs, internships, and freelance opportunities. As SCD alumni, you are offered an open invitation to SCD events and exhibitions. We are proud to exhibit SCD graduate students work in our gallery and to ensure their academic excellence SCD offers advising and coaching sessions by our Faculty members to guide graduates in their professional life.</p>
                 <img src="/assets/content/alumniopp.jpg" className="img-fluid padding-bottom-20 maring-top-20" width={1600} height={659} />
                 <div className="row featured-boxes-full featured-boxes-full-scale">
                   <div className="col-lg-3 featured-box-full featured-box-full-primary">
@@ -136,7 +136,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
               </div>
               {/* END */}
               {/* Start */}
-              <div className="tab-pane tab-pane-navigation" id="upcomingevent">
+              {/* <div className="tab-pane tab-pane-navigation" id="upcomingevent">
                 <div className="row">
                   <AlumniLatestEvent eventsdata={latestevent} />
                   <div className="col-lg-6" style={{backgroundColor:"#fff"}} >
@@ -155,7 +155,7 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                     </div>
                  </div>
                 </div>
-              </div>
+              </div> */}
               {/* END */}
               {/* Start */}
               <div className="tab-pane tab-pane-navigation" id="almnioffice">
@@ -196,11 +196,13 @@ export default function AlumniPage({otherapps,president,testimonial,latestevent,
                     </div>
                     <h5 className="circle-title padding-top-20">Stay Connected</h5>
                   </div>
-                  <div className="col-lg-4 col-md-12 alumni-circle" data-target="emailus">
-                    <div className="circle">
-                      <span><i className="fas fa-envelope"></i></span> 
-                    </div>
-                    <h5 className="circle-title padding-top-20">Email Us</h5>
+                  <div className="col-lg-4 col-md-12 alumni-circle">
+                    <a href='mailto:alumni@scd.edu.om'>
+                      <div className="circle">
+                        <span><i className="fas fa-envelope"></i></span> 
+                      </div>
+                      <h5 className="circle-title padding-top-20">Email Us</h5>
+                    </a>
                   </div>
                 </div>
               </div>
