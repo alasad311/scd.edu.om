@@ -146,13 +146,27 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <div className="col-lg-4">
                                   <div className="card border-0 border-radius-0 bg-color-primary">
                                     <div className="card-body" style={{height:"95px"}}>
-                                      <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"} dangerouslySetInnerHTML={{__html:programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "ﻣﻌﺘﻤﺪة ﻣﻦ اﻟﻬﻴﺌﺔ اﻟﻌﻤﺎﻧﻴﺔ ﻟﻼﻋﺘﻤﺎد اﻻﻛﺎدﻳﻤﻲ " : 'Institutionally Accredited by <a class="font-size-18" href="http://www.oaaa.gov.om/ar/Default.aspx">OAAAQA</a> & Overseen by the <a  class="font-size-18" href="https://www.moheri.gov.om">MOHERI</a> in the Sultanate of Oman. Substantial Equivalency of the Bachelor of Science in Interior Design from the National Association of Schools of Art and Design (<a  class="font-size-18" href="https://nasad.arts-accredit.org/directory-lists/substantial-equivalency-programs/#scientific ">NASAD</a>)'}}>
+                                      <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "card-text text-light font-size-18 arabic-font" : "card-text text-light font-size-18"} dangerouslySetInnerHTML={{__html:programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? " " : ''}}>
                                         </p>
                                     </div>
                                   </div>
                                 </div>
                                 }
-                            </div>
+                            </div> 
+                            {programDetails[0]['md_mission'] &&
+                              <div className="row">
+                                <div className='col-lg-12 grey-box'>
+                                  
+                                  {programDetails[0]['major_level'] &&
+                                  <h3 className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "grey-box-title arabic-font" : "grey-box-title"}>{programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "رسالة البرنامج " : "الاعتماد الاكاديمي"}</h3>
+                                  }
+                                  <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"}>
+                                  {programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? 
+                                  `Institutionally Accredited by <a class="font-size-18" href="http://www.oaaa.gov.om/ar/Default.aspx">OAAAQA</a> & Overseen by the <a  class="font-size-18" href="https://www.moheri.gov.om">MOHERI</a> in the Sultanate of Oman. Substantial Equivalency of the Bachelor of Science in Interior Design from the National Association of Schools of Art and Design (<a  class="font-size-18" href="https://nasad.arts-accredit.org/directory-lists/substantial-equivalency-programs/#scientific ">NASAD</a>)` : "ﻣﻌﺘﻤﺪة ﻣﻦ اﻟﻬﻴﺌﺔ اﻟﻌﻤﺎﻧﻴﺔ ﻟﻼﻋﺘﻤﺎد اﻻﻛﺎدﻳﻤﻲ"}
+                                  </p>
+                                </div>
+                              </div>
+                            } 
                             {programDetails[0]['md_mission'] &&
                               <div className="row">
                                 <div className='col-lg-12 grey-box'>
