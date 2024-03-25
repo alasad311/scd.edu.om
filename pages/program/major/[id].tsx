@@ -44,7 +44,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <a className="nav-link" href="#deptFaculty" data-bs-toggle="tab">Department Faculty</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#requirements" data-bs-toggle="tab">Requirement</a>
+                                <a className="nav-link" href="#requirements" data-bs-toggle="tab">Entry Criteria</a>
                             </li>
                             <li className="nav-item ">
                                 <a className="nav-link" href="#fees" data-bs-toggle="tab">Fees</a>
@@ -693,6 +693,16 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                         <h4 className="card-title mb-1 text-4 font-weight-bold text-light">Bank Muscat</h4>
                                         <p className="card-text financial-text text-light" >
                                             0313029205120016
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3">
+                                <div className="card border-0 border-radius-0 bg-color-primary">
+                                    <div className="card-body" >
+                                        <h4 className="card-title mb-1 text-4 font-weight-bold text-light">Sohar International Bank</h4>
+                                        <p className="card-text financial-text text-light" >
+                                        043020017921
                                         </p>
                                     </div>
                                 </div>
