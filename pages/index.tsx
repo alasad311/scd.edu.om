@@ -113,30 +113,7 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
       </div>
       <SectionMajor majors={majordata} />
       
-      <section className="instagram-section section margin-top-0">
-        <div className="container">
-            {posts &&
-              <div className="row">
-              {posts.map(({ node }, i) => {
-                    return (
-                      <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3" key={i}>
-                        <div className="photo-box mouse-pointer" data-url={"https://www.instagram.com/p/"+node.shortcode}>
-                          <div className="image-wrap">
-                              <img src={node.display_url} alt="" />
-                              <div style={{display:"inline",paddingRight:"10px"}}><i className="fas fa-heart" style={{paddingRight:"10px",color:"#9CCA43"}} aria-hidden="true"></i>{node.edge_media_preview_like.count}</div>
-                                    <i className="fas fa-comment" style={{paddingRight:"10px",color:"#9CCA43"}} aria-hidden="true"></i>{node.edge_media_to_comment.count}
-                          </div>
-                          <div className="description">
-                            <div className="date">{moment.unix(node.taken_at_timestamp).format("DD-MMM-YYYY hh:mm A")}</div>
-                          </div>
-                        </div>
-                      </div>
-                    );
-                })}
-            </div>
-            }
-        </div>
-      </section>
+      
       {/* <SectionHomeEvents events={event} dates={date} /> */}
       {/* <SectionNewsletter links={mag} /> */}
       <SectionNewsEvents news={newse} />
