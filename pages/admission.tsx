@@ -35,7 +35,7 @@ export default function AdmissionPage({otherapps,majordata,hod,staff}) {
                     <a className="nav-link" href="#admissionfees" data-bs-toggle="tab">Admission Fees</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#bookatour" data-bs-toggle="tab">Book a Tour</a>
+                    <a className="nav-link" href='mailto:mpr@scd.edu.om;b.allamki@scd.edu.om' data-bs-toggle="tab">Book a Tour</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#financialaid" data-bs-toggle="tab">Financial Aid</a>
