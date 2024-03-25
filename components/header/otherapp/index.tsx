@@ -8,7 +8,6 @@ function OtherApp({ data }) {
                 <a className="nav-link" href={e.link} data-elink={e.name.toLowerCase()}> {e.name}</a>
             </li>
             ))}
-            <li>test</li>
       </ul>
     )
   } else {
