@@ -166,8 +166,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 }
                               </div>
                            
-                              <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? 
-                                 "ﻣﻌﺘﻤﺪة ﻣﻦ اﻟﻬﻴﺌﺔ اﻟﻌﻤﺎﻧﻴﺔ ﻟﻼﻋﺘﻤﺎد اﻻﻛﺎدﻳﻤﻲ" :  'Institutionally Accredited by <a class="font-size-18" href="http://www.oaaa.gov.om/ar/Default.aspx">OAAAQA</a> & Overseen by the <a  class="font-size-18" href="https://www.moheri.gov.om">MOHERI</a> in the Sultanate of Oman. Substantial Equivalency of the Bachelor of Science in Interior Design from the National Association of Schools of Art and Design (<a  class="font-size-18" href="https://nasad.arts-accredit.org/directory-lists/substantial-equivalency-programs/#scientific ">NASAD</a>)'}}>
+                              <p className={programDetails[0]['id'] === 23 || programDetails[0]['id'] === 18 ? "internal-content-text program-ul-ar remove-top-padding arabic-font" : "internal-content-text program-ul remove-top-padding"} dangerouslySetInnerHTML={{__html:programDetails[0]['md_accreditation']}}>
                                   
                                   </p>
                             </span>
