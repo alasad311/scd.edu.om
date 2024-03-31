@@ -78,7 +78,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <a className="nav-link" href="#deptFaculty" data-bs-toggle="tab">Department Faculty</a>
                             </li>
                             <li className={programDetails[0]['id'] === 23 ||  programDetails[0]['id'] === 18 ? "nav-item displaynon" : "nav-item"}>
-                                <a className="nav-link" href="#requirements" data-bs-toggle="tab">Requirement</a>
+                                <a className="nav-link" href="#requirements" data-bs-toggle="tab">Entry Criteria</a>
                             </li>
                             {programDetails[0]['major_name'] != "General Foundation Program" &&
                             <li className={programDetails[0]['id'] === 18 ? "nav-item displaynon" : "nav-item"}>
