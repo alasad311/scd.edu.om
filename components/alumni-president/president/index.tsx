@@ -11,7 +11,10 @@ function Preisdent({ data }) {
         <div className="col-lg-8">
           <div className="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
             <blockquote>
-              <p className="mb-0 internal-content-text" >Hello and welcome SCD graduates to Alumni Club, we are here to meet and bring back the memories between us and the college. I am pleased to communicate with you all and to know all your news, lets activate the club and share all our news and experience to make it more exciting for all of us.
+              <p className="mb-0 internal-content-text" >Distinguished guests,<br /><br />
+Our role as graduates of the Scientific College of Design is not limited to our academic achievements but extends to our active contribution to the realization of Oman Vision 2040.<br />
+This ambitious vision foresees a prosperous future for the Sultanate, built on innovation, economic diversification, and sustainable development.<br />
+As members of the Alumni Club, we stand today on the threshold of a new era, committed to being part of this national vision, contributing our ideas and projects that reflect our authentic Omani identity and aspirations towards the future.
                   </p>
             </blockquote>
             <div className="testimonial-author padding-top-20">
