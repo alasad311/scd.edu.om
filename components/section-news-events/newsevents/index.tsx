@@ -11,6 +11,7 @@ function NewsEvents({ data }) {
           </div>
           <div className="single-blog-grid-item-01 col-lg-6 item">
           <a className="twitter-timeline" data-width="500" data-height="600" href="https://twitter.com/scd_oman?ref_src=twsrc%5Etfw">Tweets by scd_oman</a> 
+          <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script> 
           </div>
       </div>      
     )
