@@ -584,14 +584,13 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                 <div className="container-fluid">
                     <div className="row">
                       <div className="col-lg-12 col-md-12 content">
-                        <div className="text">
+                        <div className="text" style={{textAlign:'center'}}>
                             <div className="internal-heading">
                                 <h1>Teaching and Learning Framework</h1>
                             </div>
-                            <img src='/assets/teaching & learning framework.svg' className="img-fluid" />
+                            <img src='/assets/teaching & learning framework.svg' className="img-fluid" width='700px' style={{marginTop:'50px'}} />
                         </div>
 
-                        <a href='mailto:hr@scd.edu.om;m.alrawahi@scd.edu.om;f.alabri@scd.edu.om' type="submit" className="main-btn book-session-btn">Apply</a>
                       </div>
                    
                     </div>
