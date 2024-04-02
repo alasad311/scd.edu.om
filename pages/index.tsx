@@ -118,7 +118,7 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
       {/* <SectionNewsletter links={mag} /> */}
       <SectionNewsEvents news={newse} />
       <Footer />
-      <Script src="https://cdn.lightwidget.com/widgets/lightwidget.js" strategy="lazyOnload"></Script>
+      <Script src='https://widgets.sociablekit.com/instagram-feed/widget.js' async defer strategy="lazyOnload"></Script>
       <Script src="js/jquery/jquery-3.6.0.min.js" strategy="beforeInteractive"/>
       <Script src="js/slick/slick.min.js" strategy="lazyOnload"/>
       <Script src="js/simple-text-rotator/jquery.simple-text-rotator.min.js" strategy="lazyOnload"/>
