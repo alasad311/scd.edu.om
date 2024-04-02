@@ -102,6 +102,9 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                       <a className="nav-link" href="#Mission" data-bs-toggle="tab">Mission, Vision, Values & Objectives </a>
                   </li>
                   <li className="nav-item">
+                      <a className="nav-link" href="#teachingandlearning" data-bs-toggle="tab">Teaching and Learning Framework</a>
+                  </li>
+                  <li className="nav-item">
                       <a className="nav-link" href="#Gradute" data-bs-toggle="tab">Graduate Attributes</a>
                   </li>
                   <li className="nav-item">
@@ -573,6 +576,24 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                       <div className="col-lg-6 col-md-12 content">
                           <img src="/assets/content/workatSCD.jpg" className="img-fluid" width={600} height={600} />
                     </div>
+                    </div>
+                  </div>
+              </div> 
+            <div className="tab-pane tab-pane-navigation"  id="teachingandlearning">
+                
+                <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-lg-12 col-md-12 content">
+                        <div className="text">
+                            <div className="internal-heading">
+                                <h1>Teaching and Learning Framework</h1>
+                            </div>
+                            <img src='/assets/teaching & learning framework.svg' className="img-fluid" />
+                        </div>
+
+                        <a href='mailto:hr@scd.edu.om;m.alrawahi@scd.edu.om;f.alabri@scd.edu.om' type="submit" className="main-btn book-session-btn">Apply</a>
+                      </div>
+                   
                     </div>
                   </div>
               </div>
