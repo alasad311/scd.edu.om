@@ -7,7 +7,7 @@ function NewsEvents({ data }) {
     return (
       <div className="blog-carousel-01 row"> 
           <div className="single-blog-grid-item-01 col-lg-6 item">
-            <iframe src="//lightwidget.com/widgets/716309d307f75f4682862e0ebd7b72db.html" scrolling="no" allowTransparency={true} className="lightwidget-widget" 
+            <iframe src="http://lightwidget.com/widgets/716309d307f75f4682862e0ebd7b72db.html" scrolling="no" allowTransparency={true} className="lightwidget-widget" 
             style={{width: "100%", border: "0", overflow: "hidden"}}></iframe>
           </div>
           <div className="single-blog-grid-item-01 col-lg-6 item">
