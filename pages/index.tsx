@@ -118,7 +118,7 @@ export default function Home({posts,sliders,otherapps,majordata,sessiondata,date
       {/* <SectionNewsletter links={mag} /> */}
       <SectionNewsEvents news={newse} />
       <div id="fb-root"></div>
-      <Script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0&appId=740293611559808"></Script>
+      <Script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0&appId=740293611559808" strategy="lazyOnload"></Script>
       <Script async src="https://platform.twitter.com/widgets.js" strategy="lazyOnload" charSet='utf-8'></Script>
       <Footer />
       <Script src="js/jquery/jquery-3.6.0.min.js" strategy="beforeInteractive"/>
