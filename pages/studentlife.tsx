@@ -126,7 +126,7 @@ export default function StudentLifePage({otherapps,services}) {
                     <h1>Student Counselling </h1>
                 </div>
                 <img src="/assets/content/wellness.jpg" width={1600} height={613} className="img-fluid" alt="" />
-                <p className="internal-content-text grey-box margin-top-20">يقع الارشاد ضمن مجموعة المهن المساعدة، مثل مهنة الطب والخدمة الاجتماعية وغيرها، حيث يجمع هذه المهن هدف مشترك وهو مساعدة الاخرين لأن يصبحوا أكثر توافقا وفاعلية
+                <p className="internal-content-text grey-box margin-top-20" style={{textAlign:"right", direction:"rtl"}}>يقع الارشاد ضمن مجموعة المهن المساعدة، مثل مهنة الطب والخدمة الاجتماعية وغيرها، حيث يجمع هذه المهن هدف مشترك وهو مساعدة الاخرين لأن يصبحوا أكثر توافقا وفاعلية
 سعت الكلية الى توفير الخدمات الارشادية للطلبة بشكل عام، وللطلبة الذين يعانون من بعض المشكلات التعليمية والنفسية وضغوط الحياة بشكل خاص من خلال المكتب الارشاد النفسي، حيث ان جميع المقابلات مع المرشد النفسي خاصة وسرية تامة ولا يتم مشاركتها مع اي طرف من الكلية
 </p>
 <p className="internal-content-text grey-box margin-top-20">
