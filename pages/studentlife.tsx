@@ -126,34 +126,15 @@ export default function StudentLifePage({otherapps,services}) {
                     <h1>Student Counselling </h1>
                 </div>
                 <img src="/assets/content/wellness.jpg" width={1600} height={613} className="img-fluid" alt="" />
-                <p className="internal-content-text grey-box margin-top-20">The Scientific College of Design takes meticulous care of the students mental health. We organize educational talks about dealing with work stress, anxiety, addictions and many more. The Scientific College of Design grant students access to a educational mental health platform. SCD students can now share their thoughts and receive feedback from licensed professionals.                        </p>
+                <p className="internal-content-text grey-box margin-top-20">يقع الارشاد ضمن مجموعة المهن المساعدة، مثل مهنة الطب والخدمة الاجتماعية وغيرها، حيث يجمع هذه المهن هدف مشترك وهو مساعدة الاخرين لأن يصبحوا أكثر توافقا وفاعلية
+سعت الكلية الى توفير الخدمات الارشادية للطلبة بشكل عام، وللطلبة الذين يعانون من بعض المشكلات التعليمية والنفسية وضغوط الحياة بشكل خاص من خلال المكتب الارشاد النفسي، حيث ان جميع المقابلات مع المرشد النفسي خاصة وسرية تامة ولا يتم مشاركتها مع اي طرف من الكلية
+</p>
+<p className="internal-content-text grey-box margin-top-20">
+Counseling falls within the group of helping professions, such as medicine, social service, and others, as these professions share a common goal, which is to help others become more compatible and effective.
+The college sought to provide counseling services to students in general, and to students who suffer from some educational and psychological problems and life pressures in particular through the counselor office, as all interviews with the counselor are private and completely confidential and are not shared with any party in the college.
 
-                <div className="internal-heading padding-top-20">
-                    <h1>TalkCampus has arrived at Scientific College of Design!</h1>
-                </div>
-                <div className="row">
-                    <div className="col-lg-9">
-                        <p className="internal-content-text font-13">Get instant support for your mental health any time of day and night through the TalkCampus app. Student life can be incredibly tough. At TalkCampus we’re here for the moments when you just need a friend. Talk anonymously to students from universities and colleges around the world going through the exact same struggles you are any time of day or night.</p>
-                        <p className="internal-content-text font-13 remove-top-padding">This is a safe place where you can talk anonymously about anything and get support for your mental health and whatever is on your mind.</p>
-                    </div>
-                    <div className="col-lg-3">
-                        <a href="https://apps.apple.com/gb/app/talkcampus/id1458337209?mt=8">
-                          <img src="/assets/icons/app store.webp" className="img-fluid" width={300} height={88} /></a><br />
-                        <a href="https://play.google.com/store/apps/details?id=com.bearpty.talkcampus&hl=en_GB">
-                          <img src="/assets/icons/google play btn.webp" className="img-fluid" width={300} height={88} /></a>
-                    </div>
-                </div>
-                <div className="internal-heading padding-top-20">
-                    <h1>Download TalkCampus for free today!</h1>
-                </div>
-                <p className="internal-content-text font-13">Once signed up, you’ll be able to:</p>
-                <ul className='margin-left-20 accreditation'>
-                    <li>Talk about the ups and downs of life in a safe and supportive environment that’s just for students like you.</li>
-                    <li>Share your own experiences and support others, It’s amazing how helpful you can be to someone out there, just by being you! </li>
-                    <li>Open up or post anonymously – it’s totally up to you. However you want to talk, we let you do it just that way.</li>
-                    <li>Safely share struggles with anxiety, depression, stress, bipolar, self-harm, anorexia or suicidal feelings. Whatever is going on for you right now we’re here. </li>
-                </ul>
-                <p className="internal-content-text font-13 remove-top-padding">To sign up to TalkCampus, please use your Scientific College of Design email which will unlock the app free of charge. You will be asked to verify your email before posting. You can read the details of our privacy policy here.</p>
+</p>
+
               </div>
               {/* END */}
               {/* Start */}
