@@ -617,7 +617,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                                 </div>
                             </div>
                         </div>
-                        <div className="modal fade " id="pop4" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+                        <div className="modal fade " id="pop2" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
                             <div className="modal-dialog modal-lg ">
                                 <div className="modal-content">
                                 <div className="modal-header">
@@ -640,7 +640,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                                 </div>
                             </div>
                         </div>
-                        <div className="modal fade " id="pop5" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+                        <div className="modal fade " id="pop3" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
                             <div className="modal-dialog modal-lg ">
                                 <div className="modal-content">
                                 <div className="modal-header">
