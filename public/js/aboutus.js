@@ -9,6 +9,21 @@ $(function() {
             $(this).next("ul").addClass("display-none")
         }
     })
+    $("#pop1").click(function(){
+        $('#pop1').modal('show') 
+    });
+    $("#pop2").click(function(){
+        $('#pop2').modal('show') 
+    });
+    $("#pop3").click(function(){
+        $('#pop4').modal('show') 
+    });
+    $("#pop4").click(function(){
+        $('#pop4').modal('show') 
+    });
+    $("#pop5").click(function(){
+        $('#pop5').modal('show') 
+    });
     jQuery(function($) {
         $('.circular-bar-chart').easyPieChart({ 'size': 250, 'barColor': '#9CCA43', 'lineWidth': 30, 'scaleColor': false, 'lineCap': 'butt' });
         $('.owl-carousel').owlCarousel({
