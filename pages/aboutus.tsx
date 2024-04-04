@@ -590,11 +590,11 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                             </div>
                             <img src='/assets/teaching & learning framework.png' className="img-fluid" width='700px' style={{marginTop:'50px'}} useMap="#image-map" />
                             <map name="image-map">
-                                <area target="" alt="#pop1" id="#pop1" href="#" coords="2,347,14,261,52,167,118,90,211,36,319,3,378,61,332,115,246,132,185,177,140,248,115,340,64,291,34,321" shape="poly" data-toggle="modal" data-target="#pop1"/>
-                                <area target="" alt="#pop2" id="#pop2" href="#" coords="351,1,494,34,591,99,679,225,697,319,636,377,584,332,559,225,485,160,397,119,356,114,406,62" shape="poly" data-toggle="modal" data-target="#pop2"/>
-                                <area target="" alt="#pop3" id="#pop3" href="#" coords="583,355,558,464,513,514,444,557,373,585,318,636,377,697,451,683,540,647,616,572,680,461,696,352,644,405" shape="poly" data-toggle="modal" data-target="#pop3"/>
-                                <area target="" alt="#pop4" id="#pop4" href="#" coords="339,584,292,636,351,698,237,677,158,644,92,592,42,519,7,419,2,376,58,319,117,372,132,444,168,505,236,556,286,577" shape="poly" data-toggle="modal" data-target="#pop4"/>
-                                <area target="" alt="#pop5" id="#pop5" href="#" coords="349,349,219" shape="circle"  data-toggle="modal" data-target="#pop5"/>
+                                <area target="" alt="#pop1" id="pop11" href="#" coords="2,347,14,261,52,167,118,90,211,36,319,3,378,61,332,115,246,132,185,177,140,248,115,340,64,291,34,321" shape="poly" data-toggle="modal" data-target="#pop1"/>
+                                <area target="" alt="#pop2" id="pop22" href="#" coords="351,1,494,34,591,99,679,225,697,319,636,377,584,332,559,225,485,160,397,119,356,114,406,62" shape="poly" data-toggle="modal" data-target="#pop2"/>
+                                <area target="" alt="#pop3" id="pop33" href="#" coords="583,355,558,464,513,514,444,557,373,585,318,636,377,697,451,683,540,647,616,572,680,461,696,352,644,405" shape="poly" data-toggle="modal" data-target="#pop3"/>
+                                <area target="" alt="#pop4" id="pop44" href="#" coords="339,584,292,636,351,698,237,677,158,644,92,592,42,519,7,419,2,376,58,319,117,372,132,444,168,505,236,556,286,577" shape="poly" data-toggle="modal" data-target="#pop4"/>
+                                <area target="" alt="#pop5" id="pop55" href="#" coords="349,349,219" shape="circle"  data-toggle="modal" data-target="#pop5"/>
                             </map>
                         </div>
                         <div className="modal fade " id="pop1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">

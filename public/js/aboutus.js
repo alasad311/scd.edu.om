@@ -9,19 +9,19 @@ $(function() {
             $(this).next("ul").addClass("display-none")
         }
     })
-    $("#pop1").click(function(){
+    $("#pop11").click(function(){
         $('#pop1').modal('show') 
     });
-    $("#pop2").click(function(){
+    $("#pop22").click(function(){
         $('#pop2').modal('show') 
     });
-    $("#pop3").click(function(){
+    $("#pop33").click(function(){
         $('#pop4').modal('show') 
     });
-    $("#pop4").click(function(){
+    $("#pop44").click(function(){
         $('#pop4').modal('show') 
     });
-    $("#pop5").click(function(){
+    $("#pop55").click(function(){
         $('#pop5').modal('show') 
     });
     jQuery(function($) {
