@@ -383,10 +383,25 @@ The college sought to provide counseling services to students in general, and to
                     </div>
                       <div className="col-lg-12">
                         <img src="/assets/content/dining.jpg" className="img-fluid" width={1600} height={1066} />
+                        <div className="internal-heading padding-top-20">
+                          <h1>Restaurant</h1>
+                        </div>
+                        <p className="internal-content-text padding-top-20">The College Restaurant staff welcomes students and staff, offering a wide range of fresh food, drinks, and snack items in a well-maintained ambiance. We pay close attention to hygiene procedures, which are essential for the health of our students and staff.</p>
+                        <p className="internal-content-text padding-top-20">Restaurant Hours: 8:00 am – 10:00 pm</p>
 
-                        <p className="internal-content-text padding-top-20">Food is fuel for the mind. The Restaurant nourishes and stimulates the intellect of hundreds of students at SCD. Our restaurant is dedicated to providing a variety of quality fresh foods and exceptional service in a friendly environment. Our restaurant offers a wide variety of wheat & gluten-free, low-fat, and more to accommodate various food preferences and allergies. Fresh foods are brought in from local and regional producers to develop healthy and delicious menu items. The Restaurant is constantly improving its menu and facility. The culinary chefs are mindful about purchasing fruits, vegetables, dairy, and meat products from Omani Organic Farms and other local producers.</p>
-                        <p className="internal-content-text">The College Restaurant offers a blend of Gulf & Middle Eastern courses, prepared with fresh ingredients and served in generous portions. The restaurant offers full breakfast, lunch, and dinner menu, available any time. The restaurant staff is friendly and customer service oriented. Students & staff can also indulge into a delicious choice of ice-cream and other treats all day long. Occasional specials include authentic dishes prepared and served by an expert Chef from Jordan specialized in Middle Eastern & Arabian Gulf recipes. The gourmet specialties include Manssaf (a famous Jordanian dish), Scallops, Stuffed Vegetables, Steaks, Mixed BBQ Grill and other famous Omani gourmets like: Thareed, Harees and Shewah.</p>
-                        <p className="internal-content-text">Restaurant Hours: 8:00 am – 10:00 pm</p>
+                        <div className="internal-heading padding-top-20">
+                          <h1>Café</h1>
+                        </div>
+                        <p className="internal-content-text padding-top-20">We also have a café offering a variety of hot and cold drinks, including coffee and tea, along with a range of desserts such as cookies and cakes. The place is specifically designed for students to enjoy, and it features an entertainment area equipped with fun games, allowing students to relax and have a good time.</p>
+                        <p className="internal-content-text padding-top-20">Café Hours: 8:00 am – 03:00 pm</p>
+
+                        <div className="internal-heading padding-top-20">
+                          <h1>Fast Food Truck</h1>
+                        </div>
+                        <p className="internal-content-text padding-top-20">There is no need for an image because we are not sure that we will have it next academic year.We also provide an outdoor fast food truck that offers diverse meals and juices, such as burgers and French fries.</p>
+                        <p className="internal-content-text padding-top-20">Food truck Hours: 8:00 am – 08:00 pm</p>
+                        
+                        <p className="internal-content-text padding-top-20">Payment options are either by debit/credit card or in cash. </p>
                       </div>
                       
                   </div>
