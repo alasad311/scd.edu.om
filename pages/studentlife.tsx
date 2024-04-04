@@ -388,7 +388,7 @@ The college sought to provide counseling services to students in general, and to
                         </div>
                         <p className="internal-content-text padding-top-20">The College Restaurant staff welcomes students and staff, offering a wide range of fresh food, drinks, and snack items in a well-maintained ambiance. We pay close attention to hygiene procedures, which are essential for the health of our students and staff.</p>
                         <p className="internal-content-text padding-top-20">Restaurant Hours: 8:00 am – 10:00 pm</p>
-
+                        <img src="/assets/content/dining2.jpg" className="img-fluid" width={1600} height={1066} />
                         <div className="internal-heading padding-top-20">
                           <h1>Café</h1>
                         </div>
