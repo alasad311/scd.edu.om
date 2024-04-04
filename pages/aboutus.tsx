@@ -588,7 +588,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                             <div className="internal-heading">
                                 <h1>Teaching and Learning Framework</h1>
                             </div>
-                            <img src='/assets/teaching & learning framework.svg' className="img-fluid" width='700px' style={{marginTop:'50px'}} useMap="#image-map" />
+                            <img src='/assets/teaching & learning framework.png' className="img-fluid" width='700px' style={{marginTop:'50px'}} useMap="#image-map" />
                             <map name="image-map">
                                 <area target="" alt="" title="" href="#pop1" coords="9,1196,198,1011,372,1186,480,1500,565,1624,756,1770,1099,1859,923,2028,1124,2229,774,2176,423,1989,186,1730,46,1453" shape="poly"/>
                                 <area target="" alt="" title="" href="#pop2" coords="7,1117,145,572,306,355,517,193,892,37,1063,45,1215,195,1042,371,703,489,529,662,403,881,370,1092,200,928" shape="poly"/>
