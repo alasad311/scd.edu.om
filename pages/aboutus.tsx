@@ -588,9 +588,132 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                             <div className="internal-heading">
                                 <h1>Teaching and Learning Framework</h1>
                             </div>
-                            <img src='/assets/teaching & learning framework.svg' className="img-fluid" width='700px' style={{marginTop:'50px'}} />
+                            <img src='/assets/teaching & learning framework.svg' className="img-fluid" width='700px' style={{marginTop:'50px'}} useMap="#image-map" />
+                            <map name="image-map">
+                                <area target="" alt="" title="" href="#pop1" coords="9,1196,198,1011,372,1186,480,1500,565,1624,756,1770,1099,1859,923,2028,1124,2229,774,2176,423,1989,186,1730,46,1453" shape="poly"/>
+                                <area target="" alt="" title="" href="#pop2" coords="7,1117,145,572,306,355,517,193,892,37,1063,45,1215,195,1042,371,703,489,529,662,403,881,370,1092,200,928" shape="poly"/>
+                                <area target="" alt="" title="" href="#pop3" coords="1117,8,1726,183,1984,420,2145,678,2222,1025,2029,1210,1852,1052,1785,767,1548,512,1300,392,1134,372,1302,195" shape="poly"/>
+                                <area target="" alt="" title="" href="#pop4" coords="1854,1127,1779,1470,1680,1594,1548,1715,1319,1827,1197,1853,1024,2036,1195,2219,1546,2154,1787,2010,2041,1778,2169,1500,2228,1114,2033,1287" shape="poly" />
+                                <area target="" alt="" title="" href="#pop5" coords="1122,1100,705" shape="circle" />
+                            </map>
                         </div>
-
+                        <div className="modal fade" id="pop1" tabIndex={-1} role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog" role="document">
+                                <div className="modal-content">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLabel">Rigorous Curriculum Design for Tomorrow&rsquo;s Artists and Designers</h5>
+                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div className="modal-body">
+                                <ul>
+                                <li>Align Program learning outcomes with industry standards to prepare students for the job market.</li>
+                                <li>Expose students to industry-practiced software design programs for technological readiness.</li>
+                                <li>Collaborate with academicians, professionals, and alumni to gain insights into career pathways and expectations.</li>
+                                <li>Follow a continuous program assessment process to ensure relevance to emerging practices.</li>
+                                <li>Incorporate hands-on projects within the curriculum to explore new ideas and techniques.</li>
+                                <li>Facilitate internships and industry-led projects to bridge the gap between learning and practice.</li>
+                                </ul>
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div className="modal fade" id="pop2" tabIndex={-1} role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog" role="document">
+                                <div className="modal-content">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLabel">Unleashing Engaging Pedagogical Practices</h5>
+                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div className="modal-body">
+                                <ul>
+                                    <li>Employ evidence-based teaching methods to engage, question and push artistic boundaries.</li>
+                                    <li>Incorporate studio-based learning experiences for hands-on, real-world environments.</li>
+                                    <li>Facilitate project-based group activities that simulate real-world collaboration.</li>
+                                    <li>Provide learning opportunities with field trips and site visits.</li>
+                                    <li>Incorporate a critique and review culture where students present their work and receive feedback.</li>
+                                    <li>Analyze famous art and design projects to connect theoretical learning with practical application.</li>
+                                    <li>Invite professionals, artists, and designers to conduct workshops and share their experiences.</li>
+                                    <li>Promote engagement to foster a student-centered educational experience.</li>
+                                    <li>Leverage digital tools and software programs to enhance design processes and critical thinking skills.</li>
+                                </ul>
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div className="modal fade" id="pop3" tabIndex={-1} role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog" role="document">
+                                <div className="modal-content">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLabel">Empowering Learning with Assessment Strategies and Timely Feedback</h5>
+                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div className="modal-body">
+                                <ul>
+                                    <li>Implement ongoing formative assessments to make instructional adjustments.</li>
+                                    <li>Utilize portfolio assessments as a comprehensive tool to evaluate students' artistic growth.</li>
+                                    <li>Develop clear assessment criteria using rubrics that communicate expectations for each project.</li>
+                                    <li>Organize exhibitions where students present their work to a wider audience.</li>
+                                    <li>Provide guidance on how to incorporate feedback effectively promoting continuous improvement.</li>
+                                </ul>
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div className="modal fade" id="pop4" tabIndex={-1} role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog" role="document">
+                                <div className="modal-content">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLabel">Cultivating a Culture of Life Long Learning</h5>
+                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div className="modal-body">
+                                <ul>
+                                    <li>Provide opportunities for networking and insights for a lifelong career in the creative field.</li>
+                                    <li>Encourage students to participate in exhibitions to stay connected with current trends.</li>
+                                    <li>Foster a mindset of continuous learning to prepare for the ever-changing industry trends.</li>
+                                </ul>
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div className="modal fade" id="pop5" tabIndex={-1} role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal-dialog" role="document">
+                                <div className="modal-content">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLabel">Cultivating a Culture of Life Long Learning</h5>
+                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div className="modal-body">
+                                    <p>Scientific College of Design is guided by these set of values in conducting its daily activities and in planning future activities.&nbsp;&nbsp;</p>
+                                    <p><strong>Excellence</strong></p>
+                                    <p>Commit to academic and service excellence.</p>
+                                    <p><strong>Integrity</strong></p>
+                                    <p>Strive to uphold academic integrity including fairness, trust, respect, honesty, and accountability.</p>
+                                    <p><strong>Ethical and Moral Responsibility</strong></p>
+                                    <p>Foster a community of artists and designers who operate as an extended family with a strong sense of leadership and ethical and moral responsibility.</p>
+                                    <p><strong>Lifelong Learning</strong></p>
+                                    <p>Promote the pursuit of knowledge, understanding, and personal and professional development throughout one&rsquo;s lifetime.</p>
+                                    <p><strong>Transparency</strong></p>
+                                    <p>Maintain a culture of transparency among all SCD stakeholders.</p>
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
                       </div>
                    
                     </div>
