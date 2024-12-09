@@ -612,6 +612,8 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                                     <li>Follow a continuous program assessment process to ensure relevance to emerging practices.</li>
                                     <li>Incorporate hands-on projects within the curriculum to explore new ideas and techniques.</li>
                                     <li>Facilitate internships and industry-led projects to bridge the gap between learning and practice.</li>
+                                    <li>Incorporate visual, kinesthetic and tactile teaching modes to engage hearing impaired (HI) students.</li>
+                                    <li>Employ qualified sign language interpreters for HI classes and events to ensure understanding.</li>
                                     </ul>
                                 </div>
                                 </div>
