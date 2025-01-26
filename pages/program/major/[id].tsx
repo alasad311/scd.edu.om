@@ -77,9 +77,14 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                             <li className="nav-item">
                                 <a className="nav-link" href="#deptFaculty" data-bs-toggle="tab">Department Faculty</a>
                             </li>
+                            {programDetails[0]['major_name'] == "General Foundation Program" &&
+                            <li className={programDetails[0]['id'] === 23 ||  programDetails[0]['id'] === 18 ? "nav-item displaynon" : "nav-item"}>
+                                <a className="nav-link" href="#requirements" data-bs-toggle="tab">Exit Criteria</a>
+                            </li>}
+                            {programDetails[0]['major_name'] != "General Foundation Program" &&
                             <li className={programDetails[0]['id'] === 23 ||  programDetails[0]['id'] === 18 ? "nav-item displaynon" : "nav-item"}>
                                 <a className="nav-link" href="#requirements" data-bs-toggle="tab">Entry Criteria</a>
-                            </li>
+                            </li>}
                             {programDetails[0]['major_name'] != "General Foundation Program" &&
                             <li className={programDetails[0]['id'] === 18 ? "nav-item displaynon" : "nav-item"}>
                                 <a className="nav-link" href="#fees" data-bs-toggle="tab">Fees</a>
@@ -439,7 +444,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                           <div className="internal-heading padding-top-20">
                             <h1>Purpose of Placement Test</h1>
                           </div>
-                          <p className='internal-content-text program-ul remove-top-padding'>Students who apply to study in Scientific College of Design should take placement tests in English Language, Math and Computing. They are used as indicators of a student’s current competence of English Language, Math and Computing and help in placing students into appropriate levels in the General Foundation Program.</p>
+                          <p className='internal-content-text program-ul remove-top-padding'>Students who apply to study in Scientific College of Design should take SCD placement tests in English Language, Math and Computing. They are used as indicators of a student’s current competence of English Language, Math and Computing and help in placing students into appropriate levels in the General Foundation Program or be exempted. Students who provide an IELTS Band 5 or TOEFL 500 for English or ICDL certificate or IC3 certificate or Cambridge IT Test certificate for computing or a General Foundation Program completion certificate from any Higher Education Institution within the Sultanate of Oman  are exempted from taking the Placement Test.</p>
                           <div className="internal-heading padding-top-20">
                             <h1>Test Administration</h1>
                           </div>
@@ -606,9 +611,14 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                   </div>}
                     <div className="tab-pane tab-pane-navigation" id="requirements">
                       <div className="row padding-bottom-50">
+                      {programDetails[0]['major_name'] == "General Foundation Program" &&
+                        <div className="col-lg-12">
+                            <img src={"/assets/content/requirement_2.jpg"} width={1600} height={400} className="img-fluid" />
+                        </div>}
+                        {programDetails[0]['major_name'] != "General Foundation Program" &&
                         <div className="col-lg-12">
                             <img src={"/assets/content/requirement.jpg"} width={1600} height={400} className="img-fluid" />
-                        </div>
+                        </div>}
                       </div>
                         {requirement &&
                           <div className="row">
