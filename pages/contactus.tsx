@@ -118,7 +118,7 @@ export default function ContactusPage({otherapps,adminoffice,dept}) {
                   </a>
                 </div>
                 <div className="col-lg-3 col-md-3 contact-us-circle">
-                  <a href='https://www.apply.scd.edu.om' className='customherflayout'>
+                  <a href='https://apply.scd.edu.om' className='customherflayout'>
                     <div className="circle">
                       <span><i className="fas fa-bars"></i></span> 
                     </div>

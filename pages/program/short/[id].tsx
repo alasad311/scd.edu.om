@@ -50,7 +50,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <a className="nav-link" href="#fees" data-bs-toggle="tab">Fees</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://www.apply.scd.edu.om" >Apply</a>
+                                <a className="nav-link" href="https://apply.scd.edu.om" >Apply</a>
                             </li>
                           </ul>
                         }
@@ -78,7 +78,7 @@ export default function programsDetailsPage({otherapp,programDetails,programYerC
                                 <a className="nav-link" href="#fees" data-bs-toggle="tab">Fees</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://www.apply.scd.edu.om" >Apply</a>
+                                <a className="nav-link" href="https://apply.scd.edu.om" >Apply</a>
                             </li>
                           </ul>
                         }
