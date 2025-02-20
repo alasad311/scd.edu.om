@@ -570,54 +570,69 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                           <h2>Work at SCD</h2>
                           <p className="internal-content-text">The Scientific College of Design provides an opportunity for creative academicians to join the hub of art and design. The college is keen on providing an approachable environment and gladly accepts all its members ideas and initiatives. SCD allows individuals to help shape the future generations creative mindset. Click the below link to know more about our available vacancies.</p>
                         </div>
-                        <p id="isPasted"><strong>Research Assistant / Technical Postdoctoral Researcher</strong>
-                            <br /><strong>Scientific College of Design (For Omani only)</strong></p>
+                        <div className="internal-heading"><h1>Current Vacancies</h1></div>
 
-                        <p><strong>Position Title</strong>: Research Assistant / Technical Postdoctoral Researcher
-                            <br /><strong>Location</strong>: Scientific College of Design, Muscat, Oman
-                            <br /><strong>Position Type</strong>: Full-time
-                            <br />
-                            <br />
-                        </p>
+                        <div className="accordion" id="position1">
+                            <div className="accordion-item">
+                                <h2 className="accordion-header" id="headingOne">
+                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                                </h2>
+                                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#position1">
+                                <div className="accordion-body">
+                                    <p id="isPasted"><strong>Research Assistant / Technical Postdoctoral Researcher</strong>
+                                        <br /><strong>Scientific College of Design (For Omani only)</strong></p>
 
-                        <p><strong>Overview</strong>:
-                            <br />The Scientific College of Design in Oman invites applications for a Research Assistant / Technical Postdoctoral Researcher position. We are seeking a highly motivated Omani researcher to contribute to innovative research in design technologies, digital design, sustainable architecture, etc. The successful candidate will work closely with our research team to advance knowledge and applications in design and technology, while gaining invaluable experience in a dynamic academic setting.</p>
+                                    <p><strong>Position Title</strong>: Research Assistant / Technical Postdoctoral Researcher
+                                        <br /><strong>Location</strong>: Scientific College of Design, Muscat, Oman
+                                        <br /><strong>Position Type</strong>: Full-time
+                                        <br />
+                                        <br />
+                                    </p>
 
-                        <p><strong>Key Responsibilities</strong>:</p>
+                                    <p><strong>Overview</strong>:
+                                        <br />The Scientific College of Design in Oman invites applications for a Research Assistant / Technical Postdoctoral Researcher position. We are seeking a highly motivated Omani researcher to contribute to innovative research in design technologies, digital design, sustainable architecture, etc. The successful candidate will work closely with our research team to advance knowledge and applications in design and technology, while gaining invaluable experience in a dynamic academic setting.</p>
 
-                        <ul itemType='disc'>
-                            <li>Lead and support research projects at the college.</li>
-                            <li>Design, conduct, and analyze experiments and studies, utilizing both traditional and advanced methodologies.</li>
-                            <li>Collaborate with faculty and students in the development of research proposals, grant applications, and academic publications.</li>
-                            <li>Implement and manage technical tasks related to research, including simulations, prototyping, and testing.</li>
-                            <li>Present research findings at academic conferences and in peer-reviewed publications.</li>
-                            <li>Assist with administrative and operational duties related to research.</li>
-                        </ul>
+                                    <p><strong>Key Responsibilities</strong>:</p>
 
-                        <p><strong>Requirements</strong>:</p>
+                                    <ul itemType='disc'>
+                                        <li>Lead and support research projects at the college.</li>
+                                        <li>Design, conduct, and analyze experiments and studies, utilizing both traditional and advanced methodologies.</li>
+                                        <li>Collaborate with faculty and students in the development of research proposals, grant applications, and academic publications.</li>
+                                        <li>Implement and manage technical tasks related to research, including simulations, prototyping, and testing.</li>
+                                        <li>Present research findings at academic conferences and in peer-reviewed publications.</li>
+                                        <li>Assist with administrative and operational duties related to research.</li>
+                                    </ul>
 
-                        <p>&middot; Must be an Omani citizen.</p>
+                                    <p><strong>Requirements</strong>:</p>
 
-                        <ul itemType='disc'>
-                            <li>PhD/Master/ Bachelor degree in Design, Architecture, Engineering, Computational Design, Arts or Relevant field or equivalent experience.</li>
-                            <li>Strong background in technical research, experimental design, and data analysis.</li>
-                            <li>Strong communication skills in both written and spoken English and Arabic.</li>
-                            <li>Ability to work independently as well as collaboratively in a research environment.</li>
-                            <li>design and research in a higher education setting.</li>
-                        </ul>
+                                    <p>&middot; Must be an Omani citizen.</p>
 
-                        <p><strong>How to Apply</strong>:
-                            <br />Interested candidates should submit the following documents to <a href="mailto:hr@scd.edu.om" rel="noreferrer" target="_blank">hr@scd.edu.om</a> :</p>
+                                    <ul itemType='disc'>
+                                        <li>PhD/Master/ Bachelor degree in Design, Architecture, Engineering, Computational Design, Arts or Relevant field or equivalent experience.</li>
+                                        <li>Strong background in technical research, experimental design, and data analysis.</li>
+                                        <li>Strong communication skills in both written and spoken English and Arabic.</li>
+                                        <li>Ability to work independently as well as collaboratively in a research environment.</li>
+                                        <li>design and research in a higher education setting.</li>
+                                    </ul>
 
-                        <ul itemType='disc'>
-                            <li>Updated CV with a list of publications (if applicable).</li>
-                            <li>A cover letter explaining relevant research experience and motivation for applying.</li>
-                            <li>Contact details for at least two academic or professional references.</li>
-                        </ul>
+                                    <p><strong>How to Apply</strong>:
+                                        <br />Interested candidates should submit the following documents to <a href="mailto:hr@scd.edu.om" rel="noreferrer" target="_blank">hr@scd.edu.om</a> :</p>
 
-                        <p><strong>Application Deadline</strong>: 15<sup>th</sup> March 2025</p>
+                                    <ul itemType='disc'>
+                                        <li>Updated CV with a list of publications (if applicable).</li>
+                                        <li>A cover letter explaining relevant research experience and motivation for applying.</li>
+                                        <li>Contact details for at least two academic or professional references.</li>
+                                    </ul>
 
-                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSfA9TF-gRgNHmVtk8jSg3qXoVwAoRaWO3Cm1qc1oi3aRVJRZg/viewform?usp=pp_url&entry.1078004677=Research+Assistant+/+Technical+Postdoctoral+Researcher' type="submit" className="main-btn book-session-btn">Apply</a>
+                                    <p><strong>Application Deadline</strong>: 15<sup>th</sup> March 2025</p>
+
+                                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSfA9TF-gRgNHmVtk8jSg3qXoVwAoRaWO3Cm1qc1oi3aRVJRZg/viewform?usp=pp_url&entry.1078004677=Research+Assistant+/+Technical+Postdoctoral+Researcher' type="submit" className="main-btn book-session-btn">Apply</a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
                       </div>
                       <div className="col-lg-6 col-md-12 content">
                           <img src="/assets/content/workatSCD.jpg" className="img-fluid" width={600} height={600} />
