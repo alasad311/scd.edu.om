@@ -575,10 +575,10 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                         <div className="accordion" id="position1">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingOne">
-                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Research Assistant / Technical Postdoctoral Researcher  5th March 2025
+                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Research Assistant / Technical Postdoctoral Researcher  5th March 2025
                                 </button>
                                 </h2>
-                                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#position1">
+                                <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#position1">
                                 <div className="accordion-body">
                                     <p id="isPasted"><strong>Research Assistant / Technical Postdoctoral Researcher</strong>
                                         <br /><strong>Scientific College of Design (For Omani only)</strong></p>
