@@ -570,38 +570,53 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                           <h2>Work at SCD</h2>
                           <p className="internal-content-text">The Scientific College of Design provides an opportunity for creative academicians to join the hub of art and design. The college is keen on providing an approachable environment and gladly accepts all its members ideas and initiatives. SCD allows individuals to help shape the future generations creative mindset. Click the below link to know more about our available vacancies.</p>
                         </div>
-                        <div>
-                            <p class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin:0cm 0cm 8pt;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;"><strong>Research Assistant / Technical Postdoctoral Researcher</strong></span><br /><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;"><strong>Scientific College of Design (For Omani only)</strong></span></p>
-                            <p class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin:0cm 0cm 8pt;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;"><strong>Position Title</strong>: Research Assistant / Technical Postdoctoral Researcher</span><br><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;"><strong>Location</strong>: Scientific College of Design, Muscat, Oman</span><br><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;"><strong>Position Type</strong>: Full-time</span><br><br>&nbsp;</p>
-                            <p class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin:0cm 0cm 8pt;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;"><strong>Overview</strong>:</span><br><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">The Scientific College of Design in Oman invites applications for a Research Assistant / Technical Postdoctoral Researcher position. We are seeking a highly motivated Omani researcher to contribute to innovative research in design technologies, digital design, sustainable architecture, etc. The successful candidate will work closely with our research team to advance knowledge and applications in design and technology, while gaining invaluable experience in a dynamic academic setting.</span></p>
-                            <p class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin:0cm 0cm 8pt;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;"><strong>Key Responsibilities</strong>:</span></p>
-                            <ul style="list-style-type:disc;margin-bottom:0cm;" type="disc">
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Lead and support research projects at the college.</span></li>
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Design, conduct, and analyze experiments and studies, utilizing both traditional and advanced methodologies.</span></li>
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Collaborate with faculty and students in the development of research proposals, grant applications, and academic publications.</span></li>
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Implement and manage technical tasks related to research, including simulations, prototyping, and testing.</span></li>
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Present research findings at academic conferences and in peer-reviewed publications.</span></li>
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Assist with administrative and operational duties related to research.</span></li>
-                            </ul>
-                            <p class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin:0cm 0cm 8pt;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;"><strong>Requirements</strong>:</span></p>
-                            <p style="font-family:Calibri,sans-serif;font-size:11pt;line-height:15.6933px;margin:0cm 0cm 8pt 36pt;"><span style="font-family:Symbol;font-size:10pt;"><span style="line-height:14.2667px;">·</span></span><span style="font-family:&quot;Times New Roman&quot;;font-size:7pt;"><span style="font-feature-settings:normal;font-kerning:auto;font-size-adjust:none;font-stretch:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-variant-numeric:normal;line-height:normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span dir="LTR"></span><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;"><span style="line-height:17.12px;">Must be an Omani citizen.</span></span></p>
-                            <ul style="list-style-type:disc;margin-bottom:0cm;" type="disc">
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">PhD/Master/ Bachelor degree in Design, Architecture, Engineering, Computational Design, Arts or Relevant field or equivalent experience.</span></li>
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Strong background in technical research, experimental design, and data analysis.</span></li>
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Strong communication skills in both written and spoken English and Arabic.</span></li>
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Ability to work independently as well as collaboratively in a research environment.</span></li>
-                            </ul>
-                            <ul style="list-style-type:disc;margin-bottom:0cm;" type="disc">
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">design and research in a higher education setting.</span></li>
-                            </ul>
-                            <p class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin:0cm 0cm 8pt;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;"><strong>How to Apply</strong>:</span><br><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Interested candidates should submit the following documents to&nbsp;</span><a style="color:rgb(5,99,193);" href="mailto:hr@scd.edu.om" rel="noreferrer" target="_blank"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">hr@scd.edu.om</span></a><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">&nbsp;:</span></p>
-                            <ul style="list-style-type:disc;margin-bottom:0cm;" type="disc">
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Updated CV with a list of publications (if applicable).</span></li>
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">A cover letter explaining relevant research experience and motivation for applying.</span></li>
-                                <li class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin-bottom:8pt;margin-right:0cm;margin-top:0cm;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;">Contact details for at least two academic or professional references.</span></li>
-                            </ul>
-                            <p class="MsoNormal" style="font-family:Calibri,sans-serif;font-size:11pt;line-height:normal;margin:0cm 0cm 8pt;"><span style="font-family:&quot;Times New Roman&quot;,serif;font-size:12pt;"><strong>Application Deadline</strong>: 15<sup>th</sup>&nbsp;March 2025</span></p>
-                        </div>
+                        <p id="isPasted"><strong>Research Assistant / Technical Postdoctoral Researcher</strong>
+                            <br /><strong>Scientific College of Design (For Omani only)</strong></p>
+
+                        <p><strong>Position Title</strong>: Research Assistant / Technical Postdoctoral Researcher
+                            <br /><strong>Location</strong>: Scientific College of Design, Muscat, Oman
+                            <br /><strong>Position Type</strong>: Full-time
+                            <br />
+                            <br />
+                        </p>
+
+                        <p><strong>Overview</strong>:
+                            <br />The Scientific College of Design in Oman invites applications for a Research Assistant / Technical Postdoctoral Researcher position. We are seeking a highly motivated Omani researcher to contribute to innovative research in design technologies, digital design, sustainable architecture, etc. The successful candidate will work closely with our research team to advance knowledge and applications in design and technology, while gaining invaluable experience in a dynamic academic setting.</p>
+
+                        <p><strong>Key Responsibilities</strong>:</p>
+
+                        <ul itemType='disc'>
+                            <li>Lead and support research projects at the college.</li>
+                            <li>Design, conduct, and analyze experiments and studies, utilizing both traditional and advanced methodologies.</li>
+                            <li>Collaborate with faculty and students in the development of research proposals, grant applications, and academic publications.</li>
+                            <li>Implement and manage technical tasks related to research, including simulations, prototyping, and testing.</li>
+                            <li>Present research findings at academic conferences and in peer-reviewed publications.</li>
+                            <li>Assist with administrative and operational duties related to research.</li>
+                        </ul>
+
+                        <p><strong>Requirements</strong>:</p>
+
+                        <p>&middot; Must be an Omani citizen.</p>
+
+                        <ul itemType='disc'>
+                            <li>PhD/Master/ Bachelor degree in Design, Architecture, Engineering, Computational Design, Arts or Relevant field or equivalent experience.</li>
+                            <li>Strong background in technical research, experimental design, and data analysis.</li>
+                            <li>Strong communication skills in both written and spoken English and Arabic.</li>
+                            <li>Ability to work independently as well as collaboratively in a research environment.</li>
+                            <li>design and research in a higher education setting.</li>
+                        </ul>
+
+                        <p><strong>How to Apply</strong>:
+                            <br />Interested candidates should submit the following documents to <a href="mailto:hr@scd.edu.om" rel="noreferrer" target="_blank">hr@scd.edu.om</a> :</p>
+
+                        <ul itemType='disc'>
+                            <li>Updated CV with a list of publications (if applicable).</li>
+                            <li>A cover letter explaining relevant research experience and motivation for applying.</li>
+                            <li>Contact details for at least two academic or professional references.</li>
+                        </ul>
+
+                        <p><strong>Application Deadline</strong>: 15<sup>th</sup> March 2025</p>
+
                         <a href='https://docs.google.com/forms/d/e/1FAIpQLSfA9TF-gRgNHmVtk8jSg3qXoVwAoRaWO3Cm1qc1oi3aRVJRZg/viewform?usp=pp_url&entry.1078004677=Research+Assistant+/+Technical+Postdoctoral+Researcher' type="submit" className="main-btn book-session-btn">Apply</a>
                       </div>
                       <div className="col-lg-6 col-md-12 content">
