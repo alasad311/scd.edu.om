@@ -575,12 +575,12 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                         <div className="accordion" id="position1">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingOne">
-                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Research Assistant / Technical Postdoctoral Researcher   Closing 15th March 2025
+                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Research Assistant / Technical Researcher   Closing 15th July 2025
                                 </button>
                                 </h2>
                                 <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#position1">
                                 <div className="accordion-body">
-                                    <p id="isPasted"><strong>Research Assistant / Technical Postdoctoral Researcher</strong>
+                                    <p id="isPasted"><strong>Research Assistant / Technical Researcher</strong>
                                         <br /><strong>Scientific College of Design (For Omani only)</strong></p>
 
                                     <p><strong>Position Title</strong>: Research Assistant / Technical Postdoctoral Researcher
@@ -627,7 +627,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
 
                                     <p><strong>Application Deadline</strong>: 15<sup>th</sup> March 2025</p>
 
-                                    <a href='https://docs.google.com/forms/d/e/1FAIpQLSfA9TF-gRgNHmVtk8jSg3qXoVwAoRaWO3Cm1qc1oi3aRVJRZg/viewform?usp=pp_url&entry.1078004677=Research+Assistant+/+Technical+Postdoctoral+Researcher' type="submit" className="main-btn book-session-btn">Apply</a>
+                                    {/* <a href='https://docs.google.com/forms/d/e/1FAIpQLSfA9TF-gRgNHmVtk8jSg3qXoVwAoRaWO3Cm1qc1oi3aRVJRZg/viewform?usp=pp_url&entry.1078004677=Research+Assistant+/+Technical+Postdoctoral+Researcher' type="submit" className="main-btn book-session-btn">Apply</a> */}
                                 </div>
                                 </div>
                             </div>
