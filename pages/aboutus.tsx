@@ -625,7 +625,7 @@ export default function AboutusPage({otherapps,publication,botacademic,bots,boda
                                         <li>Contact details for at least two academic or professional references.</li>
                                     </ul>
 
-                                    <p><strong>Application Deadline</strong>: 15<sup>th</sup> March 2025</p>
+                                    <p><strong>Application Deadline</strong>: 15<sup>th</sup> July 2025</p>
 
                                     {/* <a href='https://docs.google.com/forms/d/e/1FAIpQLSfA9TF-gRgNHmVtk8jSg3qXoVwAoRaWO3Cm1qc1oi3aRVJRZg/viewform?usp=pp_url&entry.1078004677=Research+Assistant+/+Technical+Postdoctoral+Researcher' type="submit" className="main-btn book-session-btn">Apply</a> */}
                                 </div>
